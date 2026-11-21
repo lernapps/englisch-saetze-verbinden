@@ -24,7 +24,7 @@ blocks:
           - text: Ein ganzer Satz, zum Beispiel „football is fun.“
             correct: true
             info: Hinter I think kommt, was Ellie glaubt. Das ist ein ganzer Satz mit Subjekt und Verb.
-          - text: Nur ein Wort, zum Beispiel „fun“.
+          - text: Nur ein Wort, zum Beispiel „fun“
             correct: false
             info: Ein einzelnes Wort ist kein Satz. Hinter I think braucht der Streifen ein Subjekt und ein Verb.
           - text: "Ein Streifen mit Grund, zum Beispiel „because it is fun“."
