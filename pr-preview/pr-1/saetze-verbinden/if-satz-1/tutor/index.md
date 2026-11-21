@@ -51,28 +51,21 @@ Nächste Woche ist Elternabend. Mr Hill schreibt einen Zettel für die Tür. Pet
 
 - Aufgabe `if-start` (unten)
 
-**Das kannst du danach:** Du sagst, was passiert, wenn etwas eintritt. Du weißt, welche Zeitform in welchen Streifen gehört.
+**Das kannst du danach:** Du sagst, was passiert, wenn etwas eintritt. Du weißt, welche Zeitform zu welchem Streifen passt.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
 - if | wenn / falls
-- weather | Wetter
 - outside | draußen
 - come | kommen
 - help | helfen
 - win | gewinnen
 - call | anrufen
 - answer | antworten
+- wait | warten
 - tomorrow | morgen
-- rain | regnen
-- stay at home | zu Hause bleiben
-- go | gehen
-- play | spielen
-- early | früh
-- sunny | sonnig
-- cold | kalt
-- wear | tragen
-- jacket | Jacke
+- lunch | Mittagessen
+- warm | warm
 
 ### Die Weiche bei if
 
@@ -140,7 +133,7 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ If Amir comes, we will win – Im Streifen mit if steht das simple present (comes), im anderen will plus Verb (will win).
   - ✗ If Amir will come, we will win – Im Streifen mit if steht kein will. Dort braucht es das simple present.
-  - ✗ If Amir comes, we win will – Das Verb steht direkt hinter will. Es heißt will go.
+  - ✗ If Amir comes, we will wins – Nach will bleibt das Verb gleich, ohne -s. Es heißt will win.
 - Lösung: If Amir comes, we will win
 - Erklärung: Die Weiche stellt das simple present zum if-Streifen und will plus Verb zum anderen Streifen.
 - Link: [../?via=tutor#if-weiche](../?via=tutor#if-weiche)
@@ -152,13 +145,17 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Wenn es morgen regnet, bleiben wir zu Hause. → If it rains tomorrow, we will stay at home.
-     - If it will rain tomorrow, we will stay at home.: Welche Zeitform steht im Streifen mit if?
+     - If it will rain tomorrow, we will stay at home.: Welche Zeitform gehört in den if-Teil?
+     - If it rains tomorrow, we stays at home.: Bei we steht kein -s.
 2. Wenn Amir morgen hilft, gewinnen wir. → If Amir helps tomorrow, we will win.
-     - If Amir will help tomorrow, we will win.: Der if-Streifen hat kein will.
+     - If Amir will help tomorrow, we will win.: Dort, wo die Bedingung steht, braucht es kein will.
+     - If Amir helps tomorrow, we wins.: Bei we steht kein -s.
 3. Wenn es morgen sonnig ist, gehen wir nach draußen. → If it is sunny tomorrow, we will go outside.
-     - If it will be sunny tomorrow, we will go outside.: Der if-Streifen hat kein will.
+     - If it will be sunny tomorrow, we will go outside.: Im if-Teil bleibt das Verb im simple present.
+     - If it is sunny tomorrow, we goes outside.: Bei we steht kein -s.
 4. Ich antworte, wenn Sophie morgen anruft. → I will answer if Sophie calls tomorrow.
-     - I will answer if Sophie will call tomorrow.: Der if-Streifen hat kein will.
+     - I answers if Sophie calls tomorrow.: Bei I steht kein -s.
+     - I will answer if Sophie will call tomorrow.: Das will gehört in den anderen Streifen.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#if-formen](../?via=tutor#if-formen)
 
@@ -176,14 +173,14 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. it rains tomorrow · we stay at home · if → If it rains tomorrow, we will stay at home. (auch richtig: If it rains tomorrow, we'll stay at home.; We will stay at home if it rains tomorrow.; We'll stay at home if it rains tomorrow.)
-     - If it will rain tomorrow, we will stay at home.: Welche Zeitform steht im Streifen mit if?
-     - If it rains tomorrow we stay at home.: Im anderen Streifen brauchst du will.
+1. Ellie is late · we wait for her · if → If Ellie is late, we will wait for her. (auch richtig: If Ellie is late, we'll wait for her.; We will wait for her if Ellie is late.; We'll wait for her if Ellie is late.)
+     - If Ellie will be late, we will wait for her.: Welche Zeitform gehört in den if-Teil?
+     - If Ellie is late we wait for her.: Im anderen Streifen brauchst du will.
 2. Amir comes · we go outside · if → If Amir comes, we will go outside. (auch richtig: If Amir comes, we'll go outside.; We will go outside if Amir comes.; We'll go outside if Amir comes.)
-     - If Amir will come we will go outside.: Der if-Streifen hat kein will.
+     - If Amir will come we will go outside.: Die Bedingung steht im simple present.
      - If Amir comes we will to go outside.: Nach will steht kein to.
 3. you help me · I help you · if → If you help me, I will help you. (auch richtig: If you help me, I'll help you.; I will help you if you help me.; I'll help you if you help me.)
-     - If you will help me I will help you.: Der if-Streifen hat kein will.
+     - If you will help me I will help you.: Bei if kommt kein will.
      - If you help me, I helps you.: Bei I steht kein -s.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#if-bilden](../?via=tutor#if-bilden)
@@ -195,7 +192,9 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Wenn Peter morgen kommt, hilft er uns. → If Peter comes tomorrow, he will help us. (auch richtig: If Peter comes tomorrow, he'll help us.; Peter will help us if he comes tomorrow.)
+     - If Peter will come tomorrow, he will help us.: Der Streifen mit if hat das simple present.
 2. Wenn ich morgen anrufe, antwortest du. → If I call tomorrow, you will answer. (auch richtig: If I call tomorrow, you'll answer.; You will answer if I call tomorrow.; You'll answer if I call tomorrow.)
+     - If I call tomorrow, you answer.: Im anderen Streifen brauchst du will.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#if-uebersetzen](../?via=tutor#if-uebersetzen)
 
@@ -205,9 +204,9 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → If Sophie comes tomorrow, we will go outside. (auch richtig: We will go outside if Sophie comes tomorrow.)
-2. Audio → If it is cold, you will wear a jacket. (auch richtig: You will wear a jacket if it is cold.)
-3. Audio → If Peter helps us, we will win, Sophie.
+1. Audio → If the bus is late, we will walk to school. (auch richtig: We will walk to school if the bus is late.)
+2. Audio → If Amir is hungry, we will make a sandwich. (auch richtig: We will make a sandwich if Amir is hungry.)
+3. Audio → If Sophie is tired, she will go to bed early. (auch richtig: Sophie will go to bed early if she is tired.)
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#if-hoeren](../?via=tutor#if-hoeren)
@@ -217,9 +216,9 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → If it is sunny, we will play outside.
-2. Audio → If you come early, I will help you, Amir.
-3. Audio → If you call me, I will answer you.
+1. Audio → If it is warm, we will play outside.
+2. Audio → If you are late, I will wait for you.
+3. Audio → If it is sunny, I will have lunch outside, Ellie.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort will betonst du kaum.
 - Link: [../?via=tutor#if-nachsprechen](../?via=tutor#if-nachsprechen)
 

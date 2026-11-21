@@ -57,26 +57,18 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
 - boy | Junge
 - girl | Mädchen
+- man | Mann
 - friend | Freund / Freundin
 - teacher | Lehrer / Lehrerin
 - mother | Mutter
-- bike | Fahrrad
-- bus | Bus
-- dog | Hund
-- book | Buch
-- jacket | Jacke
 - sit | sitzen
-- yellow | gelb
-- nice | nett
+- next to | neben
 - live | wohnen
 - teach | unterrichten
-- next to | neben
 - funny | lustig
+- nice | nett
 - small | klein
-- red | rot
-- blue | blau
-- green | grün
-- purple | lila
+- red / blue / green / yellow / purple | rot / blau / grün / gelb / lila
 
 ### Die Karte ersetzt das Pronomen
 
@@ -144,7 +136,7 @@ Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür.
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Mr Hill ist der Lehrer, der Englisch unterrichtet. → Mr Hill is the teacher who teaches English. (auch richtig: who | that)
-     - Mr Hill is the teacher which teaches English.: Eine Lehrerin ist eine Person.
+     - Mr Hill is the teacher which teaches English.: Ein Lehrer ist eine Person.
      - Mr Hill is the teacher whose teaches English.: Whose zeigt, wem etwas gehört.
 2. Ich habe eine Jacke, die rot ist. → I have a jacket which is red. (auch richtig: which | that)
      - I have a jacket who is red.: Eine Jacke ist eine Sache.
@@ -183,7 +175,9 @@ Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür.
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Ich habe einen Bruder, der Fußball spielt. → I have a brother who plays football. (auch richtig: I have a brother that plays football.)
+     - I have a brother which plays football.: Ein Bruder ist eine Person.
 2. Amir ist der Junge, dessen Fahrrad grün ist. → Amir is the boy whose bike is green. (auch richtig: Amir is the boy whose bicycle is green.)
+     - Amir is the boy who's bike is green.: Who's heißt who is. Wem gehört das Fahrrad?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#relativ-uebersetzen](../?via=tutor#relativ-uebersetzen)
 
@@ -195,7 +189,7 @@ Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür.
 - Einträge (Vorgabe → Lösung):
 1. Audio → I have a friend who lives in Millbrook. (auch richtig: I have a friend that lives in Millbrook.)
 2. Audio → Peter has a jacket which is yellow. (auch richtig: Peter has a jacket that is yellow.)
-3. Audio → Sophie is the girl whose bike is purple.
+3. Audio → Peter has a friend whose jacket is purple.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#relativ-hoeren](../?via=tutor#relativ-hoeren)
@@ -205,9 +199,9 @@ Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür.
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Amir is the boy who sits next to Sophie.
+1. Audio → Mr Hill is the man who teaches us English.
 2. Audio → We have a teacher who is nice.
-3. Audio → This is the book which is funny.
+3. Audio → I have a sister who sings every day.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Die Karte betonst du kaum.
 - Link: [../?via=tutor#relativ-nachsprechen](../?via=tutor#relativ-nachsprechen)
 
@@ -219,6 +213,6 @@ Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür.
   - P1 (Inhalt) Der erste Satz beschreibt eine Person mit who, der zweite eine Sache mit which oder that. Quelle: [/saetze-verbinden/relativsaetze/#neu](../../../saetze-verbinden/relativsaetze/#neu)
   - P2 (Inhalt) Die Karte ersetzt das Pronomen, es bleibt kein he, she oder it stehen. Quelle: [/saetze-verbinden/relativsaetze/#neu](../../../saetze-verbinden/relativsaetze/#neu)
   - P3 (Form) Es sind ganze Sätze mit Punkt am Ende.
-- Musterantwort: Amir is the boy who sits next to Sophie. I have a jacket which is green.
+- Musterantwort: Ellie is the girl who sits next to Amir. I have a jacket which is green.
 - So hilfst du: Die App zeigt die Punkte erst nach der Antwort; das Kind hakt selbst ab, welche seine Antwort enthält, und „es fehlen P2, P4“ nennt die anderen. Fehlt dir die Antwort, bitte das Kind, sie einzufügen oder das Foto seines Blatts anzuhängen. Prüf Punkt für Punkt, auch die abgehakten, und sag zuerst, was gelungen ist. Zu einem fehlenden Punkt stell eine Frage, die dorthin führt, und nenn seine Quelle. Verrate die Musterantwort nicht, bevor das Kind es noch einmal versucht hat. Zu einem Punkt der Form zeig an einem Satz des Kindes, wie es besser geht.
 - Link: [../?via=tutor#relativ-wand](../?via=tutor#relativ-wand)

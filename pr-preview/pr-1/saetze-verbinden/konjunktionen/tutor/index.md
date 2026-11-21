@@ -53,6 +53,8 @@ An der **Satzstreifen-Wand** hängen heute zwei **Streifen**, auf jedem steht ei
 
 **Das kannst du danach:** Du machst aus zwei kurzen Sätzen einen langen, mit and, but, or, because, so oder when. Du weißt, welche Karte wozu passt.
 
+Einfache Wörter wie read, play oder go kennst du schon. Diese Wörter sind neu auf dem Poster.
+
 Klassenzimmer-Poster · Neue Wörter:
 - Ausdruck | Bedeutung
 - tired | müde
@@ -65,24 +67,16 @@ Klassenzimmer-Poster · Neue Wörter:
 - stay at home | zu Hause bleiben
 - like | mögen
 - football | Fußball
-- doesn't | nicht (= does not)
-- smile | lächeln
-- Germany | Deutschland
-- England | England
-- every day | jeden Tag
+- tennis | Tennis
 - tea | Tee
 - milk | Milch
-- fish | Fisch
-- tennis | Tennis
-- pizza | Pizza
 - bike | Fahrrad
 - brother | Bruder
 - sister | Schwester
 - dog | Hund
 - rabbit | Kaninchen
-- Saturday | Samstag
-- Sunday | Sonntag
-- Friday | Freitag
+- every day | jeden Tag
+- doesn't | nicht (= does not)
 
 ### Die Verbindungskarten
 
@@ -102,41 +96,6 @@ Klassenzimmer-Poster · Verbindungskarten:
 **Merke: Merke**
 
 **Hinter because steht der Grund, hinter so die Folge.** Beide Sätze sagen dasselbe. Nur die Streifen tauschen die Plätze, und die Karte wechselt von because zu so: „We open the window because it is hot.“ ist dasselbe wie „It is hot so we open the window.“ Because und so stehen nie zusammen in einem Satz.
-
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- eat | essen
-- live | wohnen
-- have / has | haben
-- from | aus
-- can | können
-- does not | nicht (bei he, she, it)
-- read | lesen
-- book | Buch
-- draw | zeichnen
-- picture | Bild
-- play | spielen
-- small | klein
-- fast | schnell
-- run | rennen
-- bus | Bus
-- take | nehmen
-- walk | zu Fuß gehen
-- go | gehen
-- home | nach Hause, zu Hause
-- bed | Bett
-- see | sehen
-- birthday | Geburtstag
-- cold | kalt
-- hot | heiß
-- wear | tragen
-- jacket | Jacke
-- open | öffnen
-- window | Fenster
-- sing | singen
-- happy | froh
-- drink | trinken
-- water | Wasser
 
 ### Übung
 
@@ -191,9 +150,9 @@ An der Satzstreifen-Wand hängen jetzt lange Sätze. Ellie hängt einen neuen St
 1. Es regnet jeden Tag, deshalb bleiben wir zu Hause. → It rains every day so we stay at home.
      - It rains every day because we stay at home.: Ist der Regen der Grund oder die Folge?
      - It rains every day and we stay at home.: Das Zuhausebleiben folgt aus dem Regen.
-2. Sophie mag Pizza, aber sie mag keinen Fisch. → Sophie likes pizza but she does not like fish.
-     - Sophie likes pizza and she does not like fish.: Sagen die zwei Streifen dasselbe oder etwas ganz anderes?
-     - Sophie likes pizza because she does not like fish.: Ist das ein Grund für den ersten Streifen?
+2. Sophie mag Tee, aber sie mag keine Milch. → Sophie likes tea but she does not like milk.
+     - Sophie likes tea and she does not like milk.: Sagen die zwei Streifen dasselbe oder etwas ganz anderes?
+     - Sophie likes tea because she does not like milk.: Ist das ein Grund für den ersten Streifen?
 3. Peter ist froh, weil heute Samstag ist. → Peter is happy because it is Saturday.
      - Peter is happy so it is Saturday.: Grund oder Folge?
      - Peter is happy and it is Saturday.: Was ist hier der Grund und was die Folge?
@@ -242,8 +201,8 @@ An der Satzstreifen-Wand hängen jetzt lange Sätze. Ellie hängt einen neuen St
 - Einträge (Vorgabe → Lösung):
 1. Ihr ist kalt, deshalb trägt Ellie eine Jacke. → Ellie is cold so she wears a jacket. (auch richtig: Ellie's cold so she wears a jacket.; Ellie wears a jacket because she is cold.; Ellie wears a jacket because she's cold.; Ellie is cold so she is wearing a jacket.)
      - Ellie is cold because she wears a jacket.: Noch nicht ganz. Ist die Jacke der Grund oder die Folge?
-2. Amir mag Tee, aber er mag keine Milch. → Amir likes tea but he does not like milk. (auch richtig: Amir likes tea but he doesn't like milk.; Amir likes tea but not milk.)
-     - Amir likes tea so he does not like milk.: Noch nicht ganz. Grund und Folge oder ein Gegensatz?
+2. Amir mag Fußball, aber er mag kein Tennis. → Amir likes football but he does not like tennis. (auch richtig: Amir likes football but he doesn't like tennis.; Amir likes football but not tennis.)
+     - Amir likes football so he does not like tennis.: Noch nicht ganz. Grund und Folge oder ein Gegensatz?
 3. Peter singt, wenn er froh ist. → Peter sings when he is happy. (auch richtig: Peter sings when he's happy.; When he is happy Peter sings.; When he's happy Peter sings.)
      - Peter sings and he is happy.: Noch nicht ganz. Wann singt Peter?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.

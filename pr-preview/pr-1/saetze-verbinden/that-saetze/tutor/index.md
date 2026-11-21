@@ -66,6 +66,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - nice | nett
 - English | Englisch
 - warm | warm
+- happy | froh
 - today | heute
 - tired | müde
 - hungry | hungrig
@@ -171,8 +172,11 @@ Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Ich glaube, dass Englisch leicht ist. → I think that English is easy. (auch richtig: I think English is easy.)
+     - I think that English easy is.: Im Englischen kommt das Verb nicht ans Ende.
 2. Wir wissen, dass du müde bist. → We know that you are tired. (auch richtig: We know that you're tired.; We know you are tired.; We know you're tired.)
+     - We know that you tired.: Hinter that braucht der Streifen ein Verb.
 3. Sophie hofft, dass Millbrook nett ist. → Sophie hopes that Millbrook is nice. (auch richtig: Sophie hopes Millbrook is nice.)
+     - Sophie hope that Millbrook is nice.: Bei Sophie braucht das Verb ein s.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#that-uebersetzen](../?via=tutor#that-uebersetzen)
 
@@ -184,7 +188,7 @@ Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter
 - Einträge (Vorgabe → Lösung):
 1. Audio → I think that you are right, Amir. (auch richtig: I think that you're right, Amir.; I think you are right, Amir.; I think you're right, Amir.)
 2. Audio → Ellie knows that Peter is hungry. (auch richtig: Ellie knows Peter is hungry.)
-3. Audio → Mr Hill says that English is easy. (auch richtig: Mr Hill says English is easy.)
+3. Audio → They know that Sophie is right. (auch richtig: They know Sophie is right.)
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#that-hoeren](../?via=tutor#that-hoeren)
@@ -194,9 +198,9 @@ Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I hope that Sophie is happy.
-2. Audio → We know that you are tired, Ellie.
-3. Audio → Amir thinks that English is difficult.
+1. Audio → Mr Hill hopes that we are happy.
+2. Audio → Peter says that football is fun, Sophie.
+3. Audio → I think that it is warm in Millbrook.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort that betonst du kaum.
 - Link: [../?via=tutor#that-nachsprechen](../?via=tutor#that-nachsprechen)
 
