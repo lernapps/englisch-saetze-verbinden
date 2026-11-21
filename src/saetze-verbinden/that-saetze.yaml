@@ -148,8 +148,6 @@ blocks:
           - cue: I think · Amir is happy
             target: I think (that |)(Amir is|Amir's) happy.
             mistakes:
-              - answer: I think that, Amir is happy.
-                message: Vor und hinter that steht kein Komma.
               - answer: I think that Amir happy.
                 message: Der zweite Streifen ist ein ganzer Satz. Dir fehlt das Verb.
           - cue: Ellie knows · the test is difficult
