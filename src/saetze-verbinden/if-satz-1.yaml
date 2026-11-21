@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Nächste Woche ist Elternabend in der Millbrook School. Mr Hill will einen Zettel für die Tür schreiben. Peter fragt: „What if it rains?“ Das heißt: Was ist, wenn es regnet? Ellie hat die Streifen „It rains.“ und „We stay in.“ aufgehängt. **Stay in** heißt drinnen bleiben.
+          Nächste Woche ist Elternabend. Mr Hill schreibt einen Zettel für die Tür. Peter fragt: „What if it rains?“ Das heißt: Was ist, wenn es regnet? Ellie hat die Streifen „It rains.“ und „We stay in.“ aufgehängt. **Stay in** heißt drinnen bleiben.
       - type: single-choice
         id: if-start
         text: Welche Karte macht aus „It rains.“ und „We stay in.“ einen Satz, der sagt, was unter einer Bedingung passiert?
@@ -35,7 +35,7 @@ blocks:
           - title: Lernlandkarte Englisch · If-Sätze Typ 1
             url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
       - type: text
-        text: "**Das kannst du danach:** Du sagst, was unter einer Bedingung wahrscheinlich passiert. Du weißt, welche Zeitformen die Weiche bei if zusammenstellt."
+        text: "**Das kannst du danach:** Du sagst, was passiert, wenn etwas eintritt. Du weißt, welche Zeitform in welchen Streifen gehört."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -63,7 +63,7 @@ blocks:
     title: Die Weiche bei if
     blocks:
       - type: text
-        text: "Die Karte **if** hängt zwei Streifen aneinander. Der eine sagt die **Bedingung**, der andere, was dann wahrscheinlich passiert. Die **Weiche** zeigt, welche Zeitform in welchen Streifen gehört. Im Streifen mit if steht das **simple present**. Im anderen Streifen steht **will plus Verb**."
+        text: "Die Karte **if** hängt zwei Streifen aneinander. Der eine sagt die **Bedingung**, der andere, was dann wahrscheinlich passiert. Eine **Weiche** am Bahngleis stellt, auf welches Gleis der Zug fährt. Hier stellt sie, welche Zeitform in welchen Streifen gehört. Im Streifen mit if steht das **simple present**. Im anderen Streifen steht **will plus Verb**."
       - type: figure
         image: images/satzstreifen-if-satz-1.svg
         alt: "Zwei Zeilen mit Streifen. Oben: eine orange Karte „if“, ein Streifen „you come“ mit dem Hinweis simple present und ein Streifen „I will be happy.“ mit dem Hinweis will plus Verb. Unten dieselben Streifen mit getauschten Plätzen: „I will be happy“, die Karte „if“, „you come.“"
@@ -184,7 +184,7 @@ blocks:
         form: { case: hint, punctuation: hint, apostrophe: ok }
         items:
           - source: Wenn Peter morgen kommt, hilft er uns.
-            target: (If Peter comes tomorrow, he will help us.|If Peter comes tomorrow, he'll help us.|Peter will help us if he comes tomorrow..)
+            target: (If Peter comes tomorrow, he will help us.|If Peter comes tomorrow, he'll help us.|Peter will help us if he comes tomorrow.)
           - source: Wenn ich morgen anrufe, antwortest du.
             target: (If I call tomorrow, you will answer.|If I call tomorrow, you'll answer.|You will answer if I call tomorrow.|You'll answer if I call tomorrow.)
       - type: language-task

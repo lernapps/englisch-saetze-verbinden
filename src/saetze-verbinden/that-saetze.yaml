@@ -60,7 +60,7 @@ blocks:
     title: Die Karte that darf fehlen
     blocks:
       - type: text
-        text: "Nach think, know, say und hope kommt ein zweiter Streifen. Er sagt, **was** jemand glaubt, weiß, sagt oder hofft. Die Karte dazwischen heißt **that**. Sie ist gestrichelt, denn man darf sie weglassen."
+        text: "Nach think, know, say und hope kommt ein zweiter Streifen. Er sagt, **was** jemand glaubt, weiß, sagt oder hofft. Die Karte dazwischen heißt **that**. Sie verbindet die Streifen wie die Karten der Seite davor. Sie ist gestrichelt, denn man darf sie weglassen."
       - type: figure
         image: images/satzstreifen-that-saetze.svg
         alt: "Zwei gleiche Sätze untereinander. Oben: ein Streifen „Ellie thinks“, eine gestrichelte Karte „that“ und ein Streifen „football is fun.“ Unten dieselben zwei Streifen ohne Karte."
@@ -212,4 +212,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Amir hängt einen Streifen auf: „The boy“. Doch welcher Junge? Peter fragt, wer gemeint ist. Auf der nächsten Seite lernst du, wie ein zweiter Streifen eine Person oder Sache genauer beschreibt."
+        text: "Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter fragt, wer gemeint ist. Auf der nächsten Seite lernst du, wie ein zweiter Streifen eine Person oder Sache genauer beschreibt."

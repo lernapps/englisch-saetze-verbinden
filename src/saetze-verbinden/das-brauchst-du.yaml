@@ -9,7 +9,7 @@ blocks:
     title: Das solltest du schon können
     blocks:
       - type: text
-        text: "Kannst du das schon? Du brauchst drei Dinge. **Ich kann die Personalpronomen als Subjekt (I, he, they) und als Objekt (me, him, them) richtig verwenden.** **Ich kann im simple present über Gewohnheiten und Tatsachen sprechen und das -s bei he, she, it anhängen.** **Ich kann mit dem will-future Vermutungen, Vorhersagen und spontane Entschlüsse ausdrücken.** Gleich bekommt jeder Satz einen Streifen, und die Streifen brauchen alle drei."
+        text: "Kannst du das schon? Du brauchst drei Dinge aus früheren Seiten. Erstens die **Personalpronomen** (I, he, they). Zweitens das **simple present** mit dem -s bei he, she und it. Drittens das **will-future**, also will plus Verb. Ein Satz hat ein **Subjekt** (wer?) und ein **Verb** (was passiert?). Die Tabelle ist ein Stück vom Klassenzimmer-Poster: Es sammelt Wörter und Formen."
       - type: table
         caption: Klassenzimmer-Poster · Wiederholung
         header: [Baustein, Beispiel]
@@ -18,16 +18,16 @@ blocks:
           - [simple present mit -s, Ellie plays football.]
           - [will plus Verb, We will win tomorrow.]
       - type: text
-        text: Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte zu den [Personalpronomen](https://lernapps.net/apps/map/englisch/c/personalpronomen/), zum [simple present](https://lernapps.net/apps/map/englisch/c/simple-present/) und zum [will-future](https://lernapps.net/apps/map/englisch/c/will-future/).
+        text: "Nicht sicher? Hier kannst du es nachlesen: [Personalpronomen](https://lernapps.net/apps/map/englisch/c/personalpronomen/), [simple present](https://lernapps.net/apps/map/englisch/c/simple-present/) und [will-future](https://lernapps.net/apps/map/englisch/c/will-future/)."
   - type: section
     id: wand
     title: Die Satzstreifen-Wand
     blocks:
       - type: text
-        text: "Mr Hill hängt in der Millbrook School ein Brett an die Rückwand des Klassenzimmers: die **Satzstreifen-Wand**. **Sophie** (11) kommt aus Deutschland und wohnt bei den Parkers, **Ellie** (11) ist ihre Gastschwester, **Peter** (9) Ellies kleiner Bruder, **Amir** (11) ein Freund. Auf jeden Streifen kommt ein ganzer Satz. Mit bunten Karten verbinden die Kinder die Streifen."
+        text: "Mr Hill hängt in der Millbrook School ein Brett an die Rückwand des Klassenzimmers: die **Satzstreifen-Wand**. **Sophie** (11) kommt aus Deutschland und wohnt bei den Parkers, **Ellie** (11) ist ihre Gastschwester, **Peter** (9) Ellies kleiner Bruder, der auch in die Millbrook School geht, **Amir** (11) ein Freund. **Mr Hill** ist ihr Englischlehrer. Auf jeden Streifen kommt ein ganzer Satz. Mit bunten Karten verbinden die Kinder die Streifen."
       - type: figure
         image: images/satzstreifen-streifen.svg
-        alt: Drei weiße Streifen untereinander. Auf dem ersten steht „I play football every day.“, auf dem zweiten „Ellie plays football on Saturday.“ und auf dem dritten „We will win tomorrow.“ Rechts daneben stehen kleine Hinweise zum Subjekt.
+        alt: "Drei weiße Streifen untereinander. Auf dem ersten steht „I play football every day.“, auf dem zweiten „Ellie plays football on Saturday.“ und auf dem dritten „We will win tomorrow.“ Rechts daneben stehen kleine Hinweise: ich, sie mit -s und will."
         caption: Ein Satz, ein Streifen. Jeder Streifen hat ein Subjekt und ein Verb.
         source: eigene Zeichnung
         licence: CC-BY-4.0
