@@ -66,6 +66,11 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - tomorrow | morgen
 - lunch | Mittagessen
 - warm | warm
+- cold | kalt
+- wear | tragen
+- walk | zu Fuß gehen
+- make | machen
+- bed | Bett
 
 ### Die Weiche bei if
 
@@ -133,9 +138,9 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ If Amir comes, we will win – Im Streifen mit if steht das simple present (comes), im anderen will plus Verb (will win).
   - ✗ If Amir will come, we will win – Im Streifen mit if steht kein will. Dort braucht es das simple present.
-  - ✗ If Amir comes, we will wins – Nach will bleibt das Verb gleich, ohne -s. Es heißt will win.
+  - ✗ If Amir comes, we will wins – Nach will bleibt das Verb gleich.
 - Lösung: If Amir comes, we will win
-- Erklärung: Die Weiche stellt das simple present zum if-Streifen und will plus Verb zum anderen Streifen.
+- Erklärung: Die Weiche stellt das simple present zum if-Streifen.
 - Link: [../?via=tutor#if-weiche](../?via=tutor#if-weiche)
 
 ### Aufgabe if-formen
@@ -164,7 +169,7 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Aufgabe: Ordne die Wörter zu einem Satz: Wenn es kalt ist, tragen wir Jacken.
 - Antwortformat: die Einträge in die richtige Reihenfolge bringen (die App zeigt sie gemischt)
 - Lösung: 1. If, 2. it, 3. is, 4. cold, 5. we, 6. will, 7. wear, 8. jackets
-- Erklärung: Der if-Streifen steht vorn im simple present, dahinter folgt will plus Verb.
+- Erklärung: Der if-Streifen steht vorn im simple present.
 - Link: [../?via=tutor#if-ordnen](../?via=tutor#if-ordnen)
 
 ### Aufgabe if-bilden
@@ -173,14 +178,19 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Ellie is late · we wait for her · if → If Ellie is late, we will wait for her. (auch richtig: If Ellie is late, we'll wait for her.; We will wait for her if Ellie is late.; We'll wait for her if Ellie is late.)
+1. Ellie is late · we wait for her · if → If Ellie is late, we will wait for her. (auch richtig: If Ellie is late, we'll wait for her.; If Ellie's late, we will wait for her.; If Ellie's late, we'll wait for her.; We will wait for her if Ellie is late.; We'll wait for her if Ellie is late.; We will wait for Ellie if she is late.; We'll wait for Ellie if she is late.)
      - If Ellie will be late, we will wait for her.: Welche Zeitform gehört in den if-Teil?
      - If Ellie is late we wait for her.: Im anderen Streifen brauchst du will.
+     - If Ellie is late, we wait for her.: Hier fehlt will.
+     - If Ellie will be late we will wait for her.: Kein will im if-Teil.
 2. Amir comes · we go outside · if → If Amir comes, we will go outside. (auch richtig: If Amir comes, we'll go outside.; We will go outside if Amir comes.; We'll go outside if Amir comes.)
      - If Amir will come we will go outside.: Die Bedingung steht im simple present.
+     - If Amir will come, we will go outside.: Kein will im if-Teil.
      - If Amir comes we will to go outside.: Nach will steht kein to.
+     - If Amir comes, we will to go outside.: Kein to nach will.
 3. you help me · I help you · if → If you help me, I will help you. (auch richtig: If you help me, I'll help you.; I will help you if you help me.; I'll help you if you help me.)
      - If you will help me I will help you.: Bei if kommt kein will.
+     - If you will help me, I will help you.: Kein will im if-Teil.
      - If you help me, I helps you.: Bei I steht kein -s.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#if-bilden](../?via=tutor#if-bilden)

@@ -76,6 +76,10 @@ Klassenzimmer-Poster · Neue Wörter:
 - dog | Hund
 - rabbit | Kaninchen
 - every day | jeden Tag
+- happy | froh
+- sing | singen
+- smile | lächeln
+- Saturday | Samstag
 - doesn't | nicht (= does not)
 
 ### Die Verbindungskarten
@@ -199,8 +203,8 @@ An der Satzstreifen-Wand hängen jetzt lange Sätze. Ellie hängt einen neuen St
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Ihr ist kalt, deshalb trägt Ellie eine Jacke. → Ellie is cold so she wears a jacket. (auch richtig: Ellie's cold so she wears a jacket.; Ellie wears a jacket because she is cold.; Ellie wears a jacket because she's cold.; Ellie is cold so she is wearing a jacket.)
-     - Ellie is cold because she wears a jacket.: Noch nicht ganz. Ist die Jacke der Grund oder die Folge?
+1. Es ist spät, deshalb gehen wir nach Hause. → It is late so we go home. (auch richtig: It's late so we go home.; We go home because it is late.; We go home because it's late.; It is late so we are going home.)
+     - It is late because we go home.: Noch nicht ganz. Ist das Nachhausegehen der Grund oder die Folge?
 2. Amir mag Fußball, aber er mag kein Tennis. → Amir likes football but he does not like tennis. (auch richtig: Amir likes football but he doesn't like tennis.; Amir likes football but not tennis.)
      - Amir likes football so he does not like tennis.: Noch nicht ganz. Grund und Folge oder ein Gegensatz?
 3. Peter singt, wenn er froh ist. → Peter sings when he is happy. (auch richtig: Peter sings when he's happy.; When he is happy Peter sings.; When he's happy Peter sings.)
@@ -227,7 +231,7 @@ An der Satzstreifen-Wand hängen jetzt lange Sätze. Ellie hängt einen neuen St
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → We stay at home because it is Sunday.
-2. Audio → You can drink tea or you can drink water.
+2. Audio → You can have tea or you can have milk.
 3. Audio → Amir has a brother but Peter has a sister.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Die Karte in der Mitte betonst du kaum.
 - Link: [../?via=tutor#konjunktionen-nachsprechen](../?via=tutor#konjunktionen-nachsprechen)

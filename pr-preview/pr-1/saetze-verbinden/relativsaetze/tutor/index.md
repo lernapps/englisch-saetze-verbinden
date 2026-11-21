@@ -65,6 +65,9 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - next to | neben
 - live | wohnen
 - teach | unterrichten
+- sing | singen
+- jacket | Jacke
+- bus | Bus
 - funny | lustig
 - nice | nett
 - small | klein
