@@ -2,7 +2,7 @@
 title: "Zwei Streifen, eine Karte: and, but, or, because, so, when"
 description: "Mr Hill hängt in Millbrook die Satzstreifen-Wand auf. Du lernst, mit and, but, or, because, so und when zwei Sätze zu einem zu verbinden."
 competencies: [konjunktionen]
-scope: Die Seite führt die Satzstreifen und die Verbindungskarten ein. Ein Satzstreifen ist ein ganzer Satz mit Subjekt und Verb. Eine Verbindungskarte hängt zwei Streifen zu einem längeren Satz zusammen und sagt, wie sie zusammengehören. And fügt etwas hinzu, but zeigt einen Gegensatz, or lässt wählen, because nennt den Grund, so nennt die Folge und when sagt, wann etwas passiert. Vor because steht der Grund, vor so die Folge. Die Streifen bleiben ganze Sätze mit eigenem Subjekt. Kommas und andere Satzzeichen sind hier nicht Thema und zählen nicht als Fehler. Der Satz darf auch mit der Karte beginnen, zum Beispiel When it is sunny we play football. Nicht hier, weil es spätere Seiten sind. That-Sätze, Relativsätze und if-Sätze. Nicht hier, weil es spätere Kapitel sind. Although und whereas.
+scope: Die Seite führt die Satzstreifen und die Verbindungskarten ein. Ein Satzstreifen ist ein ganzer Satz mit Subjekt und Verb. Eine Verbindungskarte hängt zwei Streifen zu einem längeren Satz zusammen und sagt, wie sie zusammengehören. And fügt etwas hinzu, but zeigt einen Gegensatz, or lässt wählen, because nennt den Grund, so nennt die Folge und when sagt, wann etwas passiert. Vor because steht der Grund, vor so die Folge. Die Streifen bleiben ganze Sätze mit eigenem Subjekt. Kommas und andere Satzzeichen sind hier nicht Thema und zählen nicht als Fehler. Nicht hier, weil es spätere Seiten sind. That-Sätze, Relativsätze und if-Sätze. Nicht hier, weil es spätere Kapitel sind. Although und whereas.
 blocks:
   - type: section
     id: einstieg
@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-konjunktionen.svg
         alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Peter likes football.“ und „Amir likes football.“ Darunter hängen drei Karten: and, but und because. Sophie fragt in einer Sprechblase: „Which card fits?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Peter und Amir haben die weißen Streifen geschrieben. Die bunten Pillen sind Verbindungskarten, es gibt sechs. Sophie fragt."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Peter und Amir haben die weißen Streifen geschrieben. Die bunten Karten sind Verbindungskarten, es gibt sechs. Sophie fragt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -115,7 +115,7 @@ blocks:
           - [take, nehmen]
           - [walk, zu Fuß gehen]
           - [go, gehen]
-          - [home, nach Hause]
+          - [home, "nach Hause, zu Hause"]
           - [bed, Bett]
           - [see, sehen]
           - [birthday, Geburtstag]
@@ -162,34 +162,44 @@ blocks:
         items:
           - source: Es regnet jeden Tag, deshalb bleiben wir zu Hause.
             target: It rains every day [so] we stay at home.
-            distractors: [[because, but]]
+            distractors: [[because, and]]
             mistakes:
               - answer: It rains every day because we stay at home.
-                message: Ist der Regen der Grund oder die Folge? Welche Karte nennt die Folge?
+                message: Ist der Regen der Grund oder die Folge?
+              - answer: It rains every day and we stay at home.
+                message: Das Zuhausebleiben folgt aus dem Regen.
           - source: Sophie mag Pizza, aber sie mag keinen Fisch.
             target: Sophie likes pizza [but] she does not like fish.
             distractors: [[and, because]]
             mistakes:
               - answer: Sophie likes pizza and she does not like fish.
                 message: Sagen die zwei Streifen dasselbe oder etwas ganz anderes?
+              - answer: Sophie likes pizza because she does not like fish.
+                message: Ist das ein Grund?
           - source: Peter ist froh, weil heute Samstag ist.
             target: Peter is happy [because] it is Saturday.
-            distractors: [[so, but]]
+            distractors: [[so, and]]
             mistakes:
               - answer: Peter is happy so it is Saturday.
-                message: Ist der Samstag der Grund für die gute Laune oder die Folge?
+                message: Grund oder Folge?
+              - answer: Peter is happy and it is Saturday.
+                message: Der Samstag ist hier mehr als etwas, das dazukommt.
           - source: Wir können Fußball oder Tennis spielen.
             target: We can play football [or] we can play tennis.
-            distractors: [[and, because]]
+            distractors: [[and, but]]
             mistakes:
               - answer: We can play football and we can play tennis.
-                message: Spielen wir beides oder suchen wir aus? Welche Karte lässt wählen?
+                message: Spielen wir beides oder suchen wir aus?
+              - answer: We can play football but we can play tennis.
+                message: Gegensatz oder zwei Möglichkeiten?
           - source: Mr Hill ist froh, wenn wir singen.
             target: Mr Hill is happy [when] we sing.
-            distractors: [[so, but]]
+            distractors: [[and, because]]
             mistakes:
-              - answer: Mr Hill is happy so we sing.
+              - answer: Mr Hill is happy and we sing.
                 message: Welche Karte sagt, wann Mr Hill froh ist?
+              - answer: Mr Hill is happy because we sing.
+                message: Der deutsche Satz sagt wenn, nicht weil.
       - type: ordering
         id: konjunktionen-ordnen
         text: "Ordne die Wörter zu einem Satz: Peter ist froh, weil er ein Fahrrad hat."
@@ -209,14 +219,14 @@ blocks:
       - type: language-task
         id: konjunktionen-bilden
         languages: { source: de, target: en }
-        task: Verbinde die zwei Streifen mit der Karte. Die Karte steht hinter den zwei Streifen, du setzt sie dazwischen. Schreibe den ganzen Satz.
+        task: Verbinde die zwei Streifen mit der Karte. Setze die Karte zwischen die zwei Streifen. Schreibe den ganzen Satz.
         form: { case: hint, punctuation: hint, apostrophe: ok }
         items:
           - cue: Amir is hungry · he eats a sandwich · so
             target: (Amir is|Amir's) hungry so he eats a sandwich.
             mistakes:
               - answer: He eats a sandwich so Amir is hungry.
-                message: Die Streifen stehen falsch herum. Der Streifen vor so ist der Grund.
+                message: Die Streifen stehen falsch herum. Vor so steht der Grund.
               - answer: Amir is hungry so eats a sandwich.
                 message: Hinter der Karte kommt wieder ein Subjekt. Wer isst?
           - cue: Sophie is from Germany · she lives in England · but
@@ -226,13 +236,11 @@ blocks:
                 message: Bei she, he und it braucht das Verb ein s.
           - cue: Ellie goes home · it is late · because
             target: Ellie goes home because (it is|it's) late.
-            accepted: [Because (it is|it's) late Ellie goes home.]
             mistakes:
               - answer: It is late because Ellie goes home.
-                message: Die Streifen stehen falsch herum. Hinter because steht der Grund.
+                message: Die Streifen stehen falsch herum.
           - cue: we play football · it is sunny · when
             target: We play football when (it is|it's) sunny.
-            accepted: [When (it is|it's) sunny we play football.]
             mistakes:
               - answer: We play football when it sunny.
                 message: Hinter when kommt ein ganzer Streifen. Dir fehlt das Verb.
@@ -242,23 +250,24 @@ blocks:
         task: Übersetze den Satz. Welche Karte passt zu dem, was der deutsche Satz sagt?
         form: { case: hint, punctuation: hint, apostrophe: ok }
         items:
-          - source: Ellie hat kalt, deshalb trägt sie eine Jacke.
+          - source: Ellie friert, deshalb trägt sie eine Jacke.
             target: (Ellie is|Ellie's) cold so she wears a jacket.
-            accepted: [Ellie wears a jacket because (she is|she's) cold.]
+            accepted:
+              [Ellie wears a jacket because (she is|she's) cold., (Ellie is|Ellie's) freezing so she wears a jacket.]
             mistakes:
               - answer: Ellie is cold because she wears a jacket.
-                message: Noch nicht ganz. Ist die Jacke der Grund oder die Folge der Kälte?
+                message: Noch nicht ganz. Ist die Jacke der Grund oder die Folge?
           - source: Amir mag Tee, aber er mag keine Milch.
             target: Amir likes tea but he (does not|doesn't) like milk.
             mistakes:
               - answer: Amir likes tea so he does not like milk.
-                message: Noch nicht ganz. Sind die Streifen Grund und Folge oder ein Gegensatz?
+                message: Noch nicht ganz. Grund und Folge oder ein Gegensatz?
           - source: Peter singt, wenn er froh ist.
             target: Peter sings when (he is|he's) happy.
             accepted: [When (he is|he's) happy Peter sings.]
             mistakes:
               - answer: Peter sings and he is happy.
-                message: Noch nicht ganz. Der zweite Streifen sagt, wann Peter singt.
+                message: Noch nicht ganz. Wann singt Peter?
       - type: language-task
         id: konjunktionen-hoeren
         languages: { source: de, target: en }

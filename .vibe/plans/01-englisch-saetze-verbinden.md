@@ -208,9 +208,10 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Pattern page konjunktionen: src/app.yaml, chapter.yaml, satzstreifen-konjunktionen.svg und szene-konjunktionen.svg, die ganze Seite (einstieg, neu, mindestens fünf Übungen, anwenden, weiter), 6 Hörtexte mit regen_audio.py; Wörter gegen A1/A2; lernapps check; committen
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
+      Creator: Ja, die anderen vier Seiten dürfen nach diesem Muster folgen, wenn die Auflagen aus dem unabhängigen Check zuerst auf konjunktionen und danach auf allen Seiten gleich umgesetzt werden (feedback-applied-everywhere). Auflagen A bis H (Nachprüfung, Ellie hat kalt, Distraktoren mit eigenen Meldungen, home, Pillen, accepted, pycache, höchstens eine kurze Wörtertabelle).
 - [ ] Seite das-brauchst-du (recap: personalpronomen, simple-present, will-future, kompakt, ohne Übung) mit Satzstreifen-Wand als Einstieg; committen
 - [ ] Seite that-saetze: Figur und Szene, Übungen (that-Karte, ordnen, schreiben, Diktat, Nachsprechen), anwenden; 6 Hörtexte; committen
 - [ ] Seite relativsaetze: Relativ-Figur und Szene, who, which, that, whose geübt, Übungen, anwenden; 6 Hörtexte; committen
