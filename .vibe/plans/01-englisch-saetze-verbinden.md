@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -99,9 +99,10 @@ Kinder der Klasse 5-6 verbinden auf Satzstreifen kurze englische Sätze mit and,
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Ja, Plan-Phase. Kapitel 1 saetze-verbinden mit Sammel-Wiederholung, konjunktionen → that-saetze → relativsaetze → if-satz-1 passt. Satzstreifen-Idee trägt. Zwei Sätze zu neuer Szene/Ort in der Plan-Meldung; or, when, so, whose trotzdem üben; Wörter A1/A2, Namen am Satzende zweisilbig.
 
 ### Answers
 
@@ -127,15 +128,15 @@ Kinder der Klasse 5-6 verbinden auf Satzstreifen kurze englische Sätze mit and,
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
@@ -149,6 +150,35 @@ checks and what it cannot; how a later agent adds a chapter. It becomes the cont
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+
+- Strang-App `englisch/grammatik`, Format 2, Sprache `[de]`, ein Kapitel `saetze-verbinden`, Seiten `das-brauchst-du` (recap, ohne Übung), `konjunktionen`, `that-saetze`, `relativsaetze`, `if-satz-1`. Keine Komponente (`prefer-built-in-block`: zuordnen, ordnen, Lücke, Auswahl, schreiben, Diktat und Nachsprechen decken alles ab; ein Ziehen von Streifen wäre ein Wunsch für ein Inkrement). Keine Datendateien: jede Tatsache steht einmal in ihrer Seite.
+- Geschichte und Orte (Antwort auf den Hinweis des Orchestrators): Kein neuer Ort. Mr Hill hängt im Klassenzimmer von Millbrook School an die Rückwand ein Brett, die „Satzstreifen-Wand“: Papierstreifen mit je einem Satz und bunte Verbindungskarten (and, but, because, …). Sie wird in einer Woche im November benutzt, die vier Seiten sind vier Tage dieser Woche. Wer: Mr Hill, Sophie, Ellie, Peter, Amir. Am Ende (Seite 4, `anwenden`) schreiben die Kinder den Zettel für den Elternabend an der Klassenzimmertür (ein Zettel, kein neuer Ort). Nicht benutzt: Zeitstrahl-Wandbild (#472), Schulfest und Lagerraum (#475), „Our Millbrook“-Ausstellung im Schulflur (#476), Schilder im Flur und Café (#480). Neue Figur: keine.
+- Aufbau jeder Seite (gleiche Abschnitts-IDs): `einstieg` (Szene als Bild, kurze Aufgabe mit Einzelauswahl und Begründung, „Das kannst du danach“, Tabelle „Klassenzimmer-Poster · Neue Wörter“), `neu` (Streifen-Figur, Verbindungskarte, Merke-Kasten, Poster-Tabelle), `uebung` (mindestens vier, leicht → schwer), `anwenden` (`open-task` oder `speaking-task`), `weiter` (nächster Schritt; Seite 4 mit Rückblick auf alle Karten). Höchstens 350 Wörter Text; Tabellen heißen „Klassenzimmer-Poster · …“ und „Schulkalender · …“ wie in #472.
+- Wörter: Quelle Grundwortschatz A1/A2 (`https://lernapps.net/apps/map/englisch/grundwortschatz/`); jedes Wort steht vor der Übung auf der Seite mit Bedeutung; ein Wort außerhalb der Liste wird erklärt und im Inhaltsführer gelistet. Namen am Satzende zweisilbig (Sophie, Ellie, Peter, Amir).
+- Muster (Name · Kompetenz · Form):
+  - Streifen verbinden · konjunktionen, that-saetze · `language-task` mode `choice` (Karte als Lücke zwischen zwei Streifen, `distractors`); als Auswahl nur echte Lernerfehler.
+  - Beziehung zuordnen · konjunktionen · `matching` Situation ↔ Karte (and = dazu, but = Gegensatz, or = Auswahl, because = Grund, so = Folge, when = Zeit).
+  - Streifen ordnen · alle · `ordering` der Wörter eines langen Satzes (Stellung von because, that, who, if).
+  - Streifen schreiben · alle · `language-task` mode `write` mit `cue` (zum Beispiel `Ellie is tired · she went to bed early · so`), `mistakes` je typischem Fehler, gleichwertige Antworten mit `(a|b)`.
+  - Relativ-Karte wählen · relativsaetze · mode `choice` who/which/that/whose; `matching` Nomen ↔ Karte (Person, Sache, gehört dazu).
+  - Weiche stellen · if-satz-1 · `ordering` und `choice`: if + simple present, will im anderen Streifen; der Fehler „If it will rain“ bekommt eine eigene Meldung.
+  - Entscheiden mit Begründung · `single-choice` mit `info` je Option.
+  - Hören und schreiben · `language-task` mit `audio` (Diktat, drei ganze Sätze je Seite); Nachsprechen · `speaking-task` (drei Sätze je Seite); zusammen 24 Hörtexte in `audio-texte.json`, keine Wiederholung zwischen Seiten.
+  - Anwenden · `open-task`: Seite 1 zwei eigene Streifen zu einem Satz verbinden, Seite 2 „I think …“ über ein Schulfach, Seite 3 eine Person und eine Sache näher beschreiben, Seite 4 der Zettel für die Tür mit if.
+- Figuren und was die Kinder daran tun (`explainer-representation-explained`):
+  - Satzstreifen-Familie `src/images/satzstreifen-<seite>.svg` (eigene Zeichnung, `CC-BY-4.0`, gleiche Zeichen auf jeder Seite): Ein Satzstreifen ist ein cremefarbenes Rechteck (#f4efe2) mit dem Satz. Die Verbindungskarte ist eine kleine bunte Karte zwischen zwei Streifen (and #138d75, but #c0392b, or #8e44ad, because #2c6fd8, so #d35400, when #7f8c8d); die that-Karte ist gestrichelt, weil sie fehlen darf. Die Kinder lesen daran ab, welche Beziehung die Karte zwischen den Streifen herstellt und was vor oder nach der Karte stehen muss; in Aufgaben zeigt die Figur nur die Legende, nie das Ergebnis.
+  - Relativ-Figur: Der zweite Streifen verliert sein Nomen (the girl → who) und schiebt sich mit einem Pfeil hinter das Nomen des ersten Streifens. Die Kinder sehen, dass die Relativkarte das Nomen ersetzt und der Streifen in den Satz hineinrückt.
+  - Weiche (if-satz-1): ein Gleis, das sich in zwei Gleise teilt; auf dem Gleis „wirklich“ steht links der if-Streifen im simple present, rechts der andere Streifen mit will. Die Kinder wählen die Zeitform je Streifen; Zusatzgleise (unwirklich jetzt und früher) sind erst Kapitel 3.
+  - Szenen `src/images/szene-<seite>.svg` mit den Figuren als `<g id>` kopiert aus `millbrook-klassenzimmer.svg` von hello-millbrook; Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`; `alt` verrät nie die Lösung; Beschriftung innerhalb des `viewBox`, Schrift mindestens 16 im 480er viewBox; Skizzen in `.vibe/sketches/`.
+- Voraussetzungen, die die App nicht übt: `personalpronomen`, `simple-present`, `will-future` (stehen aus #471 und #472); sie bekommen eine Sammel-Wiederholung `das-brauchst-du` am Kapitelanfang (kompakt: Pronomen-Tabelle, simple present mit -s, will + Verb), sonst keine Wiederholung und kein Link nötig.
+- Engagement je Seite (Eröffnung · Wechsel · Belohnung · Geschichte):
+  - das-brauchst-du: Poster-Tabellen, keine Übung; Geschichte: Mr Hill zeigt das neue Brett. Nächster Schritt: die erste Verbindungskarte.
+  - konjunktionen: Eröffnung: zwei Streifen und drei Karten zur Wahl; Wechsel: ansehen, zuordnen, ordnen, schreiben, hören; Belohnung: ein langer Satz aus zwei Streifen; Geschichte: Peter und Amir planen den Nachmittag.
+  - that-saetze: Eröffnung: Ellie sagt „I think …“, welcher Streifen hängt dran; Belohnung: Gedanken mit that anschließen, auch ohne that; Geschichte: Sophie und Mr Hill über Meinungen.
+  - relativsaetze: Eröffnung: „Which girl?“, ohne nähere Angabe passt keiner der Streifen; Belohnung: Personen und Sachen näher bestimmen; Geschichte: Amir sucht ein Heft.
+  - if-satz-1: Eröffnung: Wetter und Pausenplan, eine Weiche; Belohnung: der Zettel für die Klassenzimmertür; Rückblick auf alle Karten; Geschichte: Planung für den Elternabend.
+- Hinweise: `or`, `when`, `so` (konjunktionen) und `whose` (relativsaetze) werden geübt, auch wenn die Baustein-Titel sie nicht nennen. Komma nur dort geübt, wo es zur Regel gehört (if-Streifen am Satzanfang), sonst `punctuation: hint`.
+- Ein späterer Agent erweitert das Kapitel oder fügt ein Kapitel an (Inkrement): neue Karte oder neue Operation am Streifen, das Poster wächst, Wörter gegen den Grundwortschatz, Hörtexte in `audio-texte.json`; Vorgehen im Inhaltsführer, Abschnitt „Adding a chapter or round“.
 
 ## Code
 
@@ -173,11 +203,17 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Pattern page konjunktionen: src/app.yaml, chapter.yaml, satzstreifen-konjunktionen.svg und szene-konjunktionen.svg, die ganze Seite (einstieg, neu, mindestens fünf Übungen, anwenden, weiter), 6 Hörtexte mit regen_audio.py; Wörter gegen A1/A2; lernapps check; committen
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Seite das-brauchst-du (recap: personalpronomen, simple-present, will-future, kompakt, ohne Übung) mit Satzstreifen-Wand als Einstieg; committen
+- [ ] Seite that-saetze: Figur und Szene, Übungen (that-Karte, ordnen, schreiben, Diktat, Nachsprechen), anwenden; 6 Hörtexte; committen
+- [ ] Seite relativsaetze: Relativ-Figur und Szene, who, which, that, whose geübt, Übungen, anwenden; 6 Hörtexte; committen
+- [ ] Seite if-satz-1: Weiche-Figur und Szene, Übungen, anwenden (Zettel für die Klassenzimmertür), Rückblick auf alle Karten; 6 Hörtexte; committen
+- [ ] Poster-Tabellen und Wörter über alle Seiten prüfen (nur A1/A2, sonst erklärt und im Inhaltsführer gelistet), Medienübersicht, Audio anhören lassen; committen
+<!-- tasks: pages (5 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.

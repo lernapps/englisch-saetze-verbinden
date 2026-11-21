@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" role="img" font-family="sans-serif" font-size="16"><rect width="480" height="220" fill="#f4efe2"/><title>Skizze Seite konjunktionen: zwei Streifen, eine Verbindungskarte</title>
+<rect x="20" y="30" width="200" height="36" rx="4" fill="#fff" stroke="#333"/><text x="28" y="54">Ellie is tired.</text>
+<rect x="260" y="30" width="200" height="36" rx="4" fill="#fff" stroke="#333"/><text x="268" y="54">She went to bed.</text>
+<rect x="200" y="90" width="80" height="30" rx="15" fill="#d35400"/><text x="240" y="111" text-anchor="middle" fill="#fff">so</text>
+<text x="20" y="160">Legende: so = Folge, because = Grund, and = dazu</text><text x="20" y="190">Aufgabe: Welche Karte passt zwischen die Streifen?</text></svg>
