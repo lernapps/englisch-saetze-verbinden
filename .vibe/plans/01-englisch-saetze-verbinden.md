@@ -215,7 +215,7 @@ page, which a link. -->
       Creator: Ja, die anderen vier Seiten dürfen nach diesem Muster folgen, wenn die Auflagen aus dem unabhängigen Check zuerst auf konjunktionen und danach auf allen Seiten gleich umgesetzt werden (feedback-applied-everywhere). Auflagen A bis H (Nachprüfung, Ellie hat kalt, Distraktoren mit eigenen Meldungen, home, Pillen, accepted, pycache, höchstens eine kurze Wörtertabelle).
 - [x] Seite das-brauchst-du (recap: personalpronomen, simple-present, will-future, kompakt, ohne Übung) mit Satzstreifen-Wand als Einstieg; committen
 - [x] Seite that-saetze: Figur und Szene, Übungen (that-Karte, ordnen, schreiben, Diktat, Nachsprechen), anwenden; 6 Hörtexte; committen
-- [ ] Seite relativsaetze: Relativ-Figur und Szene, who, which, that, whose geübt, Übungen, anwenden; 6 Hörtexte; committen
+- [x] Seite relativsaetze: Relativ-Figur und Szene, who, which, that, whose geübt, Übungen, anwenden; 6 Hörtexte; committen
 - [ ] Seite if-satz-1: Weiche-Figur und Szene, Übungen, anwenden (Zettel für die Klassenzimmertür), Rückblick auf alle Karten; 6 Hörtexte; committen
 - [ ] Poster-Tabellen und Wörter über alle Seiten prüfen (nur A1/A2, sonst erklärt und im Inhaltsführer gelistet), Medienübersicht, Audio anhören lassen; committen
 <!-- tasks: pages (5 added): the other pages or screens, after the pattern -->

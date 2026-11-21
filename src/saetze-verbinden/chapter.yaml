@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Sätze verbinden
 summary: Mr Hill hängt in Millbrook eine Satzstreifen-Wand auf. Du lernst, zwei Streifen mit einer Verbindungskarte zu einem Satz zu verbinden.
-pages: [das-brauchst-du, konjunktionen, that-saetze]
+pages: [das-brauchst-du, konjunktionen, that-saetze, relativsaetze]
