@@ -1,0 +1,242 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was passiert, wenn …? Die Weiche bei if"
+description: "Mr Hill fragt: What if it rains? Du lernst, mit if zu sagen, was unter einer Bedingung passiert, und welche Zeitformen dabei zusammenpassen."
+competencies: [if-satz-1]
+scope: Die Seite führt den if-Satz Typ 1 ein. Die Karte if hängt einen Streifen mit einer Bedingung an einen Streifen mit einer wahrscheinlichen Folge. Die Weiche sagt, welche Zeitformen zusammenpassen. Im Streifen mit if steht das simple present, im anderen Streifen will plus Verb (If it rains, we will stay at home). Im if-Streifen steht kein will (nicht If it will rain). Die Streifen dürfen die Plätze tauschen. Steht der if-Streifen vorn, gehört im geschriebenen Englisch ein Komma dahinter; die Seite zählt fehlende Kommas nicht als Fehler. Am Ende steht ein Rückblick auf alle Karten des Kapitels. Nicht hier, weil es spätere Kapitel sind. If-Sätze für Unwirkliches (would), if-Sätze über die Vergangenheit, I wish und Befehle mit if.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was ist, wenn es regnet?
+    blocks:
+      - type: figure
+        image: images/szene-if-satz-1.svg
+        alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „It rains.“ und „We stay in.“ Darunter hängen drei Karten: if, so und because. Peter fragt in einer Sprechblase: „What if it rains?“ Neben Peter stehen Sophie, Ellie und Amir. Rechts steht Mr Hill."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Nächste Woche ist Elternabend. Mr Hill will einen Zettel für die Klassenzimmertür schreiben. Peter fragt."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Nächste Woche ist Elternabend in der Millbrook School. Mr Hill will einen Zettel für die Tür schreiben und fragt: „What if it rains?“ Das heißt: Was ist, wenn es regnet? Ellie hat die Streifen „It rains.“ und „We stay in.“ aufgehängt. **Stay in** heißt drinnen bleiben.
+      - type: single-choice
+        id: if-start
+        text: Welche Karte macht aus „It rains.“ und „We stay in.“ einen Satz, der sagt, was unter einer Bedingung passiert?
+        options:
+          - text: if, wenn etwas vielleicht passiert
+            correct: true
+            info: Ob es regnet, weiß niemand. Mit if sagst du, was dann passiert.
+          - text: because, wenn der zweite Streifen einen Grund nennt
+            correct: false
+            info: Wir bleiben nicht drinnen, weil es schon regnet. Wir wissen noch gar nicht, ob es regnet.
+          - text: so, wenn der zweite Streifen die Folge nennt
+            correct: false
+            info: So passt, wenn der Regen schon da ist. Hier ist offen, ob es regnet.
+        explanation: Mit if sagst du, was passiert, wenn etwas eintritt.
+        links:
+          - title: Lernlandkarte Englisch · If-Sätze Typ 1
+            url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst, was unter einer Bedingung wahrscheinlich passiert. Du weißt, welche Zeitformen die Weiche bei if zusammenstellt."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [if, wenn / falls]
+          - [weather, Wetter]
+          - [outside, draußen]
+          - [come, kommen]
+          - [help, helfen]
+          - [win, gewinnen]
+          - [call, anrufen]
+          - [answer, antworten]
+          - [tomorrow, morgen]
+          - [rain, regnen]
+          - [stay at home, zu Hause bleiben]
+          - [sunny, sonnig]
+          - [cold, kalt]
+          - [wear, tragen]
+          - [jacket, Jacke]
+  - type: section
+    id: neu
+    title: Die Weiche bei if
+    blocks:
+      - type: text
+        text: "Die Karte **if** hängt zwei Streifen aneinander. Der eine sagt die **Bedingung**, der andere, was dann wahrscheinlich passiert. Die **Weiche** zeigt, welche Zeitform in welchen Streifen gehört. Im Streifen mit if steht das **simple present**. Im anderen Streifen steht **will plus Verb**."
+      - type: figure
+        image: images/satzstreifen-if-satz-1.svg
+        alt: "Zwei Zeilen mit Streifen. Oben: eine orange Karte „if“, ein Streifen „you come“ mit dem Hinweis simple present und ein Streifen „I will be happy.“ mit dem Hinweis will plus Verb. Unten dieselben Streifen mit getauschten Plätzen: „I will be happy“, die Karte „if“, „you come.“"
+        caption: Der Streifen mit if hat das simple present, der andere will plus Verb. Die Streifen dürfen die Plätze tauschen.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die Weiche bei if
+        header: [Streifen, Zeitform, Beispiel]
+        rows:
+          - [mit if, simple present, if Sophie comes]
+          - [der andere, will + Verb, we will go outside]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Im Streifen mit if steht kein will.** Es heißt „If you wait, I will come.“ und nicht „If you will wait“. Wenn der if-Streifen vorn steht, setzt du im geschriebenen Englisch ein Komma dahinter. Steht er hinten, brauchst du keins.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: if-weiche
+        text: Welcher Satz stellt die Weiche richtig?
+        options:
+          - text: If it is sunny, we will go outside
+            correct: true
+            info: Im Streifen mit if steht das simple present (is), im anderen will plus Verb (will go).
+          - text: If it will be sunny, we will go outside
+            correct: false
+            info: Im Streifen mit if steht kein will. Dort braucht es das simple present.
+          - text: If it is sunny, we go outside will
+            correct: false
+            info: Das Verb steht direkt hinter will. Es heißt will go.
+        explanation: Die Weiche stellt das simple present zum if-Streifen und will plus Verb zum anderen Streifen.
+        links:
+          - title: Lernlandkarte Englisch · If-Sätze Typ 1
+            url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
+      - type: language-task
+        id: if-formen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Form passt in die Lücke? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Wenn es regnet, bleiben wir zu Hause.
+            target: If it [rains] we [will stay] at home.
+            distractors: [[will rain, rained], [stay, stayed]]
+            mistakes:
+              - answer: If it will rain we will stay at home.
+                message: Welche Zeitform steht im Streifen mit if?
+              - answer: If it rains we stay at home.
+                message: Der andere Streifen sagt, was dann passiert. Dort fehlt will.
+          - source: Wenn Amir hilft, gewinnen wir.
+            target: If Amir [helps] we [will win].
+            distractors: [[will help, helped], [win, won]]
+            mistakes:
+              - answer: If Amir will help we will win.
+                message: Der if-Streifen hat kein will.
+          - source: Wenn es sonnig ist, gehen wir nach draußen.
+            target: If it [is] sunny we [will go] outside.
+            distractors: [[will be, was], [go, went]]
+            mistakes:
+              - answer: If it will be sunny we will go outside.
+                message: Der if-Streifen hat kein will.
+          - source: Ich antworte, wenn Sophie anruft.
+            target: I [will answer] if Sophie [calls].
+            distractors: [[answer, answered], [will call, called]]
+            mistakes:
+              - answer: I will answer if Sophie will call.
+                message: Der if-Streifen hat kein will.
+      - type: ordering
+        id: if-ordnen
+        text: "Ordne die Wörter zu einem Satz: Wenn es kalt ist, tragen wir Jacken."
+        items:
+          - If
+          - it
+          - is
+          - cold
+          - we
+          - will
+          - wear
+          - jackets
+        explanation: Der if-Streifen steht vorn im simple present, dahinter folgt will plus Verb.
+        links:
+          - title: Lernlandkarte Englisch · If-Sätze Typ 1
+            url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
+      - type: language-task
+        id: if-bilden
+        languages: { source: de, target: en }
+        task: Verbinde die zwei Streifen mit if. Im anderen Streifen steht will. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: hint, apostrophe: ok }
+        items:
+          - cue: it rains tomorrow · we stay at home · if
+            target: (If it rains tomorrow we will stay at home.|If it rains tomorrow we'll stay at home.|We will stay at home if it rains tomorrow.|We'll stay at home if it rains tomorrow.)
+            mistakes:
+              - answer: If it will rain tomorrow we will stay at home.
+                message: Welche Zeitform steht im Streifen mit if?
+              - answer: If it rains tomorrow we stay at home.
+                message: Im anderen Streifen brauchst du will.
+          - cue: Amir comes · we go outside · if
+            target: (If Amir comes we will go outside.|If Amir comes we'll go outside.|We will go outside if Amir comes.|We'll go outside if Amir comes.)
+            mistakes:
+              - answer: If Amir will come we will go outside.
+                message: Der if-Streifen hat kein will.
+              - answer: If Amir comes we will to go outside.
+                message: Nach will steht kein to.
+          - cue: you help me · I help you · if
+            target: (If you help me I will help you.|If you help me I'll help you.|I will help you if you help me.|I'll help you if you help me.)
+            mistakes:
+              - answer: If you will help me I will help you.
+                message: Der if-Streifen hat kein will.
+              - answer: If you help me I helps you.
+                message: Nach will bleibt das Verb gleich.
+      - type: language-task
+        id: if-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        form: { case: hint, punctuation: hint, apostrophe: ok }
+        items:
+          - source: Wenn Peter kommt, hilft er uns.
+            target: (If Peter comes he will help us.|If Peter comes he'll help us.|Peter will help us if he comes.|Peter'll help us if he comes.)
+          - source: Wenn ich anrufe, antwortest du.
+            target: (If I call you will answer.|If I call you'll answer.|You will answer if I call.|You'll answer if I call.)
+      - type: language-task
+        id: if-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: if-sophie-comes-tomorrow-we-will-go-outside.mp3
+            target: (If Sophie comes tomorrow we will go outside.|We will go outside if Sophie comes tomorrow.)
+          - audio: if-it-is-cold-you-will-wear-a-jacket.mp3
+            target: (If it is cold you will wear a jacket.|You will wear a jacket if it is cold.)
+          - audio: if-peter-helps-us-we-will-win-sophie.mp3
+            target: If Peter helps us we will win, Sophie.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: if-nachsprechen
+        language: en
+        items:
+          - audio: if-it-is-sunny-we-will-play-outside.mp3
+            text: If it is sunny we will play outside.
+          - audio: if-you-come-early-i-will-help-you-amir.mp3
+            text: If you come early I will help you, Amir.
+          - audio: if-you-call-me-i-will-answer-you.mp3
+            text: If you call me I will answer you.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort will betonst du kaum.
+      - type: open-task
+        id: if-zettel
+        task: "Schreibe den Zettel für die Tür zum Elternabend. Schreibe zwei englische Sätze mit if: einen für den Fall, dass es regnet, und einen für den Fall, dass die Sonne scheint. Sage, was dann passiert."
+        points:
+          - text: Beide Sätze haben einen Streifen mit if im simple present und einen anderen Streifen mit will plus Verb.
+            source: /saetze-verbinden/if-satz-1/#neu
+          - text: Im Streifen mit if steht kein will.
+            source: /saetze-verbinden/if-satz-1/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          If it rains, we will stay in the classroom. If it is sunny, we will wait outside.
+  - type: section
+    id: weiter
+    title: Rückblick auf die Satzstreifen-Wand
+    blocks:
+      - type: text
+        text: "Der Zettel hängt an der Tür, und die Satzstreifen-Wand ist voll. Du hast fünf Arten gelernt, Streifen zu verbinden. Die Tabelle zeigt sie alle."
+      - type: table
+        caption: Klassenzimmer-Poster · Alle Karten der Wand
+        header: [Karte, Was sie tut]
+        rows:
+          - [and / but / or, "fügt etwas dazu, zeigt einen Gegensatz oder lässt wählen"]
+          - [because / so / when, "nennt den Grund, nennt die Folge oder sagt wann"]
+          - [that, "schließt einen Gedanken an und darf fehlen"]
+          - [who / which / that / whose, "beschreibt eine Person oder Sache genauer"]
+          - [if, "nennt eine Bedingung (if-Streifen im simple present, der andere mit will)"]

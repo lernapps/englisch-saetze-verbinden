@@ -77,20 +77,23 @@ blocks:
     id: uebung
     title: Übung
     blocks:
-      - type: matching
-        id: that-zuordnen
-        text: Welcher Streifen passt zu welchem deutschen Satzanfang?
-        pairs:
-          - left: Ich glaube, dass …
-            right: I think that
-          - left: Ich weiß, dass …
-            right: I know that
-          - left: Sie sagt, dass …
-            right: She says that
-          - left: Wir hoffen, dass …
-            right: We hope that
-        distractors: [I like that]
-        explanation: Diese vier Streifen öffnen einen that-Satz. I like that bedeutet etwas anderes.
+      - type: multiple-choice
+        id: that-streifen
+        text: Welche Streifen können hinter „I think“ hängen? Wähle alle richtigen.
+        options:
+          - text: English is easy
+            correct: true
+            info: Das ist ein ganzer Satz mit Subjekt und Verb. Er sagt, was du glaubst.
+          - text: Peter is hungry
+            correct: true
+            info: Auch das ist ein ganzer Satz mit Subjekt und Verb.
+          - text: easy
+            correct: false
+            info: Ein einzelnes Wort ist kein Satz. Es fehlen Subjekt und Verb.
+          - text: tired and hungry
+            correct: false
+            info: Hier fehlen Subjekt und Verb. Es ist kein ganzer Streifen.
+        explanation: Hinter I think steht ein ganzer Satz. Die Karte that darf davor stehen oder fehlen.
         links:
           - title: Lernlandkarte Englisch · That-Sätze
             url: https://lernapps.net/apps/map/englisch/c/that-saetze/
@@ -125,20 +128,6 @@ blocks:
                 message: When sagt, wann etwas passiert. Hier geht es um das Gesagte.
               - answer: Ellie says or English is fun.
                 message: Or lässt wählen. Hier gibt es nichts zu wählen.
-      - type: ordering
-        id: that-ordnen
-        text: "Ordne die Wörter zu einem Satz: Sophie sagt, dass Peter hungrig ist."
-        items:
-          - Sophie
-          - says
-          - that
-          - Peter
-          - is
-          - hungry
-        explanation: Hinter that bleibt die Reihenfolge wie in einem normalen Satz, mit dem Verb direkt nach dem Subjekt.
-        links:
-          - title: Lernlandkarte Englisch · That-Sätze
-            url: https://lernapps.net/apps/map/englisch/c/that-saetze/
       - type: language-task
         id: that-bilden
         languages: { source: de, target: en }

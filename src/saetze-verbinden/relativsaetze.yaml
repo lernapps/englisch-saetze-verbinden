@@ -53,7 +53,6 @@ blocks:
           - [sit, sitzen]
           - [live, wohnen]
           - [teach, unterrichten]
-          - [fish, Fisch]
           - [next to, neben]
           - [funny, lustig]
           - [small, klein]
@@ -146,21 +145,6 @@ blocks:
                 message: Ein Bus ist eine Sache.
               - answer: This is the bus whose goes to school.
                 message: Der zweite Streifen sagt nicht, wem etwas gehört.
-      - type: ordering
-        id: relativ-ordnen
-        text: "Ordne die Wörter zu einem Satz: Das ist der Hund, der Fisch mag."
-        items:
-          - This
-          - is
-          - the
-          - dog
-          - which
-          - likes
-          - fish
-        explanation: Which steht direkt hinter dem Hund. Das Pronomen it fällt weg.
-        links:
-          - title: Lernlandkarte Englisch · Notwendige Relativsätze
-            url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
       - type: language-task
         id: relativ-bilden
         languages: { source: de, target: en }
