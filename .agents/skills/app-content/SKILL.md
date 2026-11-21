@@ -76,7 +76,7 @@ Karte `https://lernapps.net/apps/map/englisch.json` und die Baustein-Seiten `htt
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen.
 3. Satzstreifen-Figur um die neuen Karten oder Operationen erweitern (Kapitel 2: Relativkarte darf fehlen, Klammern aus Kommas, although/whereas; Kapitel 3: Weiche mit zwei weiteren Stellungen; Kapitel 4: Sprechblase wird Streifen) und das Poster um die Zeilen der Seite.
-4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 in `selfAssessment` (Skill `lernapps-explainer-self-assessment`).
+4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt (Kapitel 1: je Seite die Übungen „Karte wählen“ und „Übersetzen“, weil sie einen deutschen Satz als Start haben und ohne die Seite verständlich sind).
 5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, 6 je Seite: je 3 für Diktat und Nachsprechen), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
