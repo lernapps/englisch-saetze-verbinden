@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -140,8 +140,9 @@ Kinder der Klasse 5-6 verbinden auf Satzstreifen kurze englische Sätze mit and,
       learners see after each. Keep the files in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, so bauen. Bedingungen: competencies mit Karten-Ids, Recap ohne; je Seite mindestens zwei Übungen mit eigener Fehlermeldung je typischem Fehler; Satzstreifen-Wand-Absatz im Inhaltsführer als Szene (Wo, Wer, Wann); vor Musterseite Lerner-Check mit Sub-Agent (Klasse 5/6) und Sprachprüfung.
 
 ### Content method
 
