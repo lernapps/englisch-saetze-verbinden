@@ -87,7 +87,7 @@ blocks:
           - [and, und (es kommt etwas dazu), Sophie reads a book and Ellie draws a picture.]
           - [but, aber (ein Gegensatz), Peter is small but he runs fast.]
           - [or, oder (du kannst wählen), You can take the bus or you can walk.]
-          - [because, weil (der Grund), Ellie is happy because it is her birthday.]
+          - [because, weil (der Grund), Amir is tired because he runs every day.]
           - [so, deshalb (die Folge), The bus is late so we walk.]
           - [when, wenn (wann es passiert), I read a book when it rains.]
       - type: note
@@ -178,7 +178,7 @@ blocks:
               - answer: Sophie likes pizza and she does not like fish.
                 message: Sagen die zwei Streifen dasselbe oder etwas ganz anderes?
               - answer: Sophie likes pizza because she does not like fish.
-                message: Sagt der zweite Streifen, warum Sophie keinen Fisch mag?
+                message: Ist das ein Grund für den ersten Streifen?
           - source: Peter ist froh, weil heute Samstag ist.
             target: Peter is happy [because] it is Saturday.
             distractors: [[so, and]]
@@ -186,13 +186,13 @@ blocks:
               - answer: Peter is happy so it is Saturday.
                 message: Grund oder Folge?
               - answer: Peter is happy and it is Saturday.
-                message: Der Samstag erklärt, warum Peter froh ist.
+                message: Was ist hier der Grund und was die Folge?
           - source: Wir können Fußball oder Tennis spielen.
             target: We can play football [or] we can play tennis.
             distractors: [[and, but]]
             mistakes:
               - answer: We can play football and we can play tennis.
-                message: Spielen wir beides oder suchen wir aus?
+                message: Spielen wir beides oder wählen wir?
               - answer: We can play football but we can play tennis.
                 message: Gegensatz oder zwei Möglichkeiten?
           - source: Mr Hill ist froh, wenn wir singen.
@@ -202,10 +202,10 @@ blocks:
               - answer: Mr Hill is happy and we sing.
                 message: Welche Karte sagt, wann Mr Hill froh ist?
               - answer: Mr Hill is happy because we sing.
-                message: Der deutsche Satz sagt wenn, nicht weil.
+                message: Wann oder warum ist Mr Hill froh?
       - type: ordering
         id: konjunktionen-ordnen
-        text: "Ordne die Wörter zu einem Satz: Peter ist froh, weil er ein Fahrrad hat."
+        text: "Ordne die Wörter zu einem Satz: Peter ist froh, weil er ein Fahrrad hat. Der Satz beginnt mit Peter."
         items:
           - Peter
           - is
@@ -233,20 +233,24 @@ blocks:
               - answer: Amir is hungry so eats a sandwich.
                 message: Hinter der Karte kommt wieder ein Subjekt. Wer isst?
           - cue: Sophie is from Germany · she lives in England · but
-            target: (Sophie is from Germany but she lives in England.|Sophie is from Germany but lives in England.|Sophie is from Germany but she is living in England.)
+            target: (Sophie is from Germany but she lives in England.|Sophie's from Germany but she lives in England.)
             mistakes:
               - answer: Sophie is from Germany but she live in England.
                 message: Bei she, he und it braucht das Verb ein s.
           - cue: Ellie goes home · it is late · because
-            target: (Ellie goes home because it is late.|Ellie goes home because it's late.|Because it is late Ellie goes home.|Because it's late Ellie goes home.)
+            target: (Ellie goes home because it is late.|Ellie goes home because it's late.)
             mistakes:
               - answer: It is late because Ellie goes home.
                 message: Die Streifen stehen falsch herum.
+              - answer: Because it is late Ellie goes home.
+                message: Richtig, aber setze die Karte dazwischen.
           - cue: we play football · it is sunny · when
-            target: (We play football when it is sunny.|We play football when it's sunny.|When it is sunny we play football.|When it's sunny we play football.)
+            target: (We play football when it is sunny.|We play football when it's sunny.)
             mistakes:
               - answer: We play football when it sunny.
-                message: Hinter when kommt ein ganzer Streifen. Dir fehlt das Verb.
+                message: Hinter when fehlt das Verb.
+              - answer: When it is sunny we play football.
+                message: Richtig, aber setze die Karte dazwischen.
       - type: language-task
         id: konjunktionen-uebersetzen
         languages: { source: de, target: en }

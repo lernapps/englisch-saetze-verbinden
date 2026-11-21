@@ -27,7 +27,7 @@ blocks:
           - text: Nur ein Wort, zum Beispiel „fun“
             correct: false
             info: Ein einzelnes Wort ist kein Satz. Hinter I think braucht der Streifen ein Subjekt und ein Verb.
-          - text: "Ein Streifen mit Grund, zum Beispiel „because it is fun“."
+          - text: "Ein Streifen mit Grund, zum Beispiel „because it is fun“"
             correct: false
             info: Because nennt einen Grund. Hier geht es darum, was Ellie glaubt, nicht warum.
         explanation: Hinter I think steht ein ganzer Satz.
@@ -72,7 +72,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Kein Komma vor that, und der zweite Streifen bleibt ein normaler Satz.** Im Deutschen steht vor „dass“ ein Komma und das Verb ganz hinten. Im Englischen nicht: „We hope (that) it is warm.“ heißt Wir hoffen, dass es warm ist.
+              **Kein Komma vor that, und der zweite Streifen bleibt ein normaler Satz.** Im Deutschen steht vor „dass“ ein Komma und das Verb ganz hinten. Im Englischen nicht: „She says (that) you are nice.“ heißt Sie sagt, dass du nett bist.
   - type: section
     id: uebung
     title: Übung
@@ -144,10 +144,10 @@ blocks:
             mistakes:
               - answer: Ellie knows that the test difficult.
                 message: Hinter that braucht der Streifen ein Verb.
-              - answer: Ellie knows that is the film good.
+              - answer: Ellie knows that is the test difficult.
                 message: Das Verb steht hinter dem Subjekt, nicht davor.
           - cue: Mr Hill says · you are right
-            target: Mr Hill says (that |)you are right.
+            target: Mr Hill says (that |)(you are|you're) right.
             mistakes:
               - answer: Mr Hill says that you right are.
                 message: Im Englischen kommt das Verb nicht ans Ende.
@@ -165,7 +165,7 @@ blocks:
           - source: Ich glaube, dass Englisch leicht ist.
             target: I think (that |)English is easy.
           - source: Wir wissen, dass du müde bist.
-            target: We know (that |)you are tired.
+            target: We know (that |)(you are|you're) tired.
           - source: Sophie hofft, dass Millbrook nett ist.
             target: Sophie hopes (that |)Millbrook is nice.
       - type: language-task
@@ -175,7 +175,7 @@ blocks:
         form: { case: hint, punctuation: hint }
         items:
           - audio: i-think-that-you-are-right-amir.mp3
-            target: I think (that |)you are right, Amir.
+            target: I think (that |)(you are|you're) right, Amir.
           - audio: ellie-knows-that-peter-is-hungry.mp3
             target: Ellie knows (that |)Peter is hungry.
           - audio: mr-hill-says-that-english-is-easy.mp3

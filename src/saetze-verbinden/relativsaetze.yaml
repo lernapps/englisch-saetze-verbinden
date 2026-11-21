@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-relativsaetze.svg
         alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Amir is the boy.“ und „He sits next to Sophie.“ Darunter hängen drei Karten: who, which und whose. Peter fragt in einer Sprechblase: „Which boy?“ Neben Peter stehen Sophie, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Amir hat „Amir is the boy.“ aufgehängt, Sophie den zweiten Streifen. Peter fragt."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Amir hat „Amir is the boy.“ aufgehängt, Ellie den zweiten Streifen. Peter fragt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -51,6 +51,8 @@ blocks:
           - [book, Buch]
           - [jacket, Jacke]
           - [sit, sitzen]
+          - [yellow, gelb]
+          - [nice, nett]
           - [live, wohnen]
           - [teach, unterrichten]
           - [next to, neben]
@@ -78,7 +80,7 @@ blocks:
         rows:
           - [who, Person, Ellie is the girl who has a red jacket.]
           - [which, Sache, I have a book which is funny.]
-          - [that, Person oder Sache, Amir has a dog that is small.]
+          - [that, Person oder Sache, Amir has a bike that is small.]
           - [whose, wem etwas gehört, This is the boy whose bike is blue.]
       - type: note
         title: Merke
@@ -94,11 +96,11 @@ blocks:
         id: relativ-zuordnen
         text: Welche Relativkarte passt?
         pairs:
-          - left: Es geht um eine Person.
+          - left: Nur eine Person (keine Sachen).
             right: who
-          - left: Es geht um eine Sache.
+          - left: Nur eine Sache (keine Personen).
             right: which
-          - left: Es geht um eine Person oder eine Sache.
+          - left: Person oder Sache, beides geht.
             right: that
           - left: Es geht darum, wem etwas gehört.
             right: whose
@@ -220,7 +222,7 @@ blocks:
           - text: Es sind ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
-          Amir is the boy who sits next to Sophie. I have a bag which is green.
+          Amir is the boy who sits next to Sophie. I have a jacket which is green.
   - type: section
     id: weiter
     title: Wie es weitergeht
