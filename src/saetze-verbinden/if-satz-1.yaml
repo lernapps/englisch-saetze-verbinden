@@ -51,6 +51,11 @@ blocks:
           - [tomorrow, morgen]
           - [lunch, Mittagessen]
           - [warm, warm]
+          - [cold, kalt]
+          - [wear, tragen]
+          - [walk, zu Fuß gehen]
+          - [make, machen]
+          - [bed, Bett]
   - type: section
     id: neu
     title: Die Weiche bei if
@@ -91,8 +96,8 @@ blocks:
             info: Im Streifen mit if steht kein will. Dort braucht es das simple present.
           - text: If Amir comes, we will wins
             correct: false
-            info: Nach will bleibt das Verb gleich, ohne -s. Es heißt will win.
-        explanation: Die Weiche stellt das simple present zum if-Streifen und will plus Verb zum anderen Streifen.
+            info: Nach will bleibt das Verb gleich.
+        explanation: Die Weiche stellt das simple present zum if-Streifen.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 1
             url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
@@ -147,7 +152,7 @@ blocks:
           - will
           - wear
           - jackets
-        explanation: Der if-Streifen steht vorn im simple present, dahinter folgt will plus Verb.
+        explanation: Der if-Streifen steht vorn im simple present.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 1
             url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
@@ -158,24 +163,34 @@ blocks:
         form: { case: hint, punctuation: hint, apostrophe: ok }
         items:
           - cue: Ellie is late · we wait for her · if
-            target: (If Ellie is late, we will wait for her.|If Ellie is late, we'll wait for her.|We will wait for her if Ellie is late.|We'll wait for her if Ellie is late.)
+            target: (If Ellie is late, we will wait for her.|If Ellie is late, we'll wait for her.|If Ellie's late, we will wait for her.|If Ellie's late, we'll wait for her.|We will wait for her if Ellie is late.|We'll wait for her if Ellie is late.|We will wait for Ellie if she is late.|We'll wait for Ellie if she is late.)
             mistakes:
               - answer: If Ellie will be late, we will wait for her.
                 message: Welche Zeitform gehört in den if-Teil?
               - answer: If Ellie is late we wait for her.
                 message: Im anderen Streifen brauchst du will.
+              - answer: If Ellie is late, we wait for her.
+                message: Hier fehlt will.
+              - answer: If Ellie will be late we will wait for her.
+                message: Kein will im if-Teil.
           - cue: Amir comes · we go outside · if
             target: (If Amir comes, we will go outside.|If Amir comes, we'll go outside.|We will go outside if Amir comes.|We'll go outside if Amir comes.)
             mistakes:
               - answer: If Amir will come we will go outside.
                 message: Die Bedingung steht im simple present.
+              - answer: If Amir will come, we will go outside.
+                message: Kein will im if-Teil.
               - answer: If Amir comes we will to go outside.
                 message: Nach will steht kein to.
+              - answer: If Amir comes, we will to go outside.
+                message: Kein to nach will.
           - cue: you help me · I help you · if
             target: (If you help me, I will help you.|If you help me, I'll help you.|I will help you if you help me.|I'll help you if you help me.)
             mistakes:
               - answer: If you will help me I will help you.
                 message: Bei if kommt kein will.
+              - answer: If you will help me, I will help you.
+                message: Kein will im if-Teil.
               - answer: If you help me, I helps you.
                 message: Bei I steht kein -s.
       - type: language-task

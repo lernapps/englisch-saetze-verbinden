@@ -61,6 +61,10 @@ blocks:
           - [dog, Hund]
           - [rabbit, Kaninchen]
           - [every day, jeden Tag]
+          - [happy, froh]
+          - [sing, singen]
+          - [smile, lächeln]
+          - [Saturday, Samstag]
           - [doesn't, "nicht (= does not)"]
   - type: section
     id: neu
@@ -215,11 +219,11 @@ blocks:
         task: Übersetze den Satz. Welche Karte passt zu dem, was der deutsche Satz sagt?
         form: { case: hint, punctuation: hint, apostrophe: ok }
         items:
-          - source: Ihr ist kalt, deshalb trägt Ellie eine Jacke.
-            target: (Ellie is cold so she wears a jacket.|Ellie's cold so she wears a jacket.|Ellie wears a jacket because she is cold.|Ellie wears a jacket because she's cold.|Ellie is cold so she is wearing a jacket.)
+          - source: Es ist spät, deshalb gehen wir nach Hause.
+            target: (It is late so we go home.|It's late so we go home.|We go home because it is late.|We go home because it's late.|It is late so we are going home.)
             mistakes:
-              - answer: Ellie is cold because she wears a jacket.
-                message: Noch nicht ganz. Ist die Jacke der Grund oder die Folge?
+              - answer: It is late because we go home.
+                message: Noch nicht ganz. Ist das Nachhausegehen der Grund oder die Folge?
           - source: Amir mag Fußball, aber er mag kein Tennis.
             target: (Amir likes football but he does not like tennis.|Amir likes football but he doesn't like tennis.|Amir likes football but not tennis.)
             mistakes:
@@ -252,8 +256,8 @@ blocks:
         items:
           - audio: we-stay-at-home-because-it-is-sunday.mp3
             text: We stay at home because it is Sunday.
-          - audio: you-can-drink-tea-or-you-can-drink-water.mp3
-            text: You can drink tea or you can drink water.
+          - audio: you-can-have-tea-or-you-can-have-milk.mp3
+            text: You can have tea or you can have milk.
           - audio: amir-has-a-brother-but-peter-has-a-sister.mp3
             text: Amir has a brother but Peter has a sister.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Die Karte in der Mitte betonst du kaum.
