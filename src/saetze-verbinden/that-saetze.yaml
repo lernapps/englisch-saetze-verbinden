@@ -51,6 +51,7 @@ blocks:
           - [nice, nett]
           - [English, Englisch]
           - [warm, warm]
+          - [happy, froh]
           - [today, heute]
           - [tired, müde]
           - [hungry, hungrig]
@@ -164,10 +165,19 @@ blocks:
         items:
           - source: Ich glaube, dass Englisch leicht ist.
             target: I think (that |)English is easy.
+            mistakes:
+              - answer: I think that English easy is.
+                message: Im Englischen kommt das Verb nicht ans Ende.
           - source: Wir wissen, dass du müde bist.
             target: We know (that |)(you are|you're) tired.
+            mistakes:
+              - answer: We know that you tired.
+                message: Hinter that braucht der Streifen ein Verb.
           - source: Sophie hofft, dass Millbrook nett ist.
             target: Sophie hopes (that |)Millbrook is nice.
+            mistakes:
+              - answer: Sophie hope that Millbrook is nice.
+                message: Bei Sophie braucht das Verb ein s.
       - type: language-task
         id: that-hoeren
         languages: { source: de, target: en }
@@ -178,8 +188,8 @@ blocks:
             target: I think (that |)(you are|you're) right, Amir.
           - audio: ellie-knows-that-peter-is-hungry.mp3
             target: Ellie knows (that |)Peter is hungry.
-          - audio: mr-hill-says-that-english-is-easy.mp3
-            target: Mr Hill says (that |)English is easy.
+          - audio: they-know-that-sophie-is-right.mp3
+            target: They know (that |)Sophie is right.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -188,12 +198,12 @@ blocks:
         id: that-nachsprechen
         language: en
         items:
-          - audio: i-hope-that-sophie-is-happy.mp3
-            text: I hope that Sophie is happy.
-          - audio: we-know-that-you-are-tired-ellie.mp3
-            text: We know that you are tired, Ellie.
-          - audio: amir-thinks-that-english-is-difficult.mp3
-            text: Amir thinks that English is difficult.
+          - audio: mr-hill-hopes-that-we-are-happy.mp3
+            text: Mr Hill hopes that we are happy.
+          - audio: peter-says-that-football-is-fun-sophie.mp3
+            text: Peter says that football is fun, Sophie.
+          - audio: i-think-that-it-is-warm-in-millbrook.mp3
+            text: I think that it is warm in Millbrook.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort that betonst du kaum.
       - type: open-task
         id: that-wand

@@ -35,29 +35,22 @@ blocks:
           - title: Lernlandkarte Englisch · If-Sätze Typ 1
             url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
       - type: text
-        text: "**Das kannst du danach:** Du sagst, was passiert, wenn etwas eintritt. Du weißt, welche Zeitform in welchen Streifen gehört."
+        text: "**Das kannst du danach:** Du sagst, was passiert, wenn etwas eintritt. Du weißt, welche Zeitform zu welchem Streifen passt."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
           - [if, wenn / falls]
-          - [weather, Wetter]
           - [outside, draußen]
           - [come, kommen]
           - [help, helfen]
           - [win, gewinnen]
           - [call, anrufen]
           - [answer, antworten]
+          - [wait, warten]
           - [tomorrow, morgen]
-          - [rain, regnen]
-          - [stay at home, zu Hause bleiben]
-          - [go, gehen]
-          - [play, spielen]
-          - [early, früh]
-          - [sunny, sonnig]
-          - [cold, kalt]
-          - [wear, tragen]
-          - [jacket, Jacke]
+          - [lunch, Mittagessen]
+          - [warm, warm]
   - type: section
     id: neu
     title: Die Weiche bei if
@@ -96,9 +89,9 @@ blocks:
           - text: If Amir will come, we will win
             correct: false
             info: Im Streifen mit if steht kein will. Dort braucht es das simple present.
-          - text: If Amir comes, we win will
+          - text: If Amir comes, we will wins
             correct: false
-            info: Das Verb steht direkt hinter will. Es heißt will go.
+            info: Nach will bleibt das Verb gleich, ohne -s. Es heißt will win.
         explanation: Die Weiche stellt das simple present zum if-Streifen und will plus Verb zum anderen Streifen.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 1
@@ -112,28 +105,36 @@ blocks:
         items:
           - source: Wenn es morgen regnet, bleiben wir zu Hause.
             target: If it [rains] tomorrow, we [will stay] at home.
-            distractors: [[will rain, rained], [stays, stayed]]
+            distractors: [[will rain], [stays]]
             mistakes:
               - answer: If it will rain tomorrow, we will stay at home.
-                message: Welche Zeitform steht im Streifen mit if?
+                message: Welche Zeitform gehört in den if-Teil?
+              - answer: If it rains tomorrow, we stays at home.
+                message: Bei we steht kein -s.
           - source: Wenn Amir morgen hilft, gewinnen wir.
             target: If Amir [helps] tomorrow, we [will win].
-            distractors: [[will help, helped], [wins, won]]
+            distractors: [[will help], [wins]]
             mistakes:
               - answer: If Amir will help tomorrow, we will win.
-                message: Der if-Streifen hat kein will.
+                message: Dort, wo die Bedingung steht, braucht es kein will.
+              - answer: If Amir helps tomorrow, we wins.
+                message: Bei we steht kein -s.
           - source: Wenn es morgen sonnig ist, gehen wir nach draußen.
             target: If it [is] sunny tomorrow, we [will go] outside.
-            distractors: [[will be, was], [goes, went]]
+            distractors: [[will be], [goes]]
             mistakes:
               - answer: If it will be sunny tomorrow, we will go outside.
-                message: Der if-Streifen hat kein will.
+                message: Im if-Teil bleibt das Verb im simple present.
+              - answer: If it is sunny tomorrow, we goes outside.
+                message: Bei we steht kein -s.
           - source: Ich antworte, wenn Sophie morgen anruft.
             target: I [will answer] if Sophie [calls] tomorrow.
-            distractors: [[answers, answered], [will call, called]]
+            distractors: [[answers], [will call]]
             mistakes:
+              - answer: I answers if Sophie calls tomorrow.
+                message: Bei I steht kein -s.
               - answer: I will answer if Sophie will call tomorrow.
-                message: Der if-Streifen hat kein will.
+                message: Das will gehört in den anderen Streifen.
       - type: ordering
         id: if-ordnen
         text: "Ordne die Wörter zu einem Satz: Wenn es kalt ist, tragen wir Jacken."
@@ -156,25 +157,25 @@ blocks:
         task: Verbinde die zwei Streifen mit if. Im anderen Streifen steht will. Schreibe den ganzen Satz.
         form: { case: hint, punctuation: hint, apostrophe: ok }
         items:
-          - cue: it rains tomorrow · we stay at home · if
-            target: (If it rains tomorrow, we will stay at home.|If it rains tomorrow, we'll stay at home.|We will stay at home if it rains tomorrow.|We'll stay at home if it rains tomorrow.)
+          - cue: Ellie is late · we wait for her · if
+            target: (If Ellie is late, we will wait for her.|If Ellie is late, we'll wait for her.|We will wait for her if Ellie is late.|We'll wait for her if Ellie is late.)
             mistakes:
-              - answer: If it will rain tomorrow, we will stay at home.
-                message: Welche Zeitform steht im Streifen mit if?
-              - answer: If it rains tomorrow we stay at home.
+              - answer: If Ellie will be late, we will wait for her.
+                message: Welche Zeitform gehört in den if-Teil?
+              - answer: If Ellie is late we wait for her.
                 message: Im anderen Streifen brauchst du will.
           - cue: Amir comes · we go outside · if
             target: (If Amir comes, we will go outside.|If Amir comes, we'll go outside.|We will go outside if Amir comes.|We'll go outside if Amir comes.)
             mistakes:
               - answer: If Amir will come we will go outside.
-                message: Der if-Streifen hat kein will.
+                message: Die Bedingung steht im simple present.
               - answer: If Amir comes we will to go outside.
                 message: Nach will steht kein to.
           - cue: you help me · I help you · if
             target: (If you help me, I will help you.|If you help me, I'll help you.|I will help you if you help me.|I'll help you if you help me.)
             mistakes:
               - answer: If you will help me I will help you.
-                message: Der if-Streifen hat kein will.
+                message: Bei if kommt kein will.
               - answer: If you help me, I helps you.
                 message: Bei I steht kein -s.
       - type: language-task
@@ -185,20 +186,26 @@ blocks:
         items:
           - source: Wenn Peter morgen kommt, hilft er uns.
             target: (If Peter comes tomorrow, he will help us.|If Peter comes tomorrow, he'll help us.|Peter will help us if he comes tomorrow.)
+            mistakes:
+              - answer: If Peter will come tomorrow, he will help us.
+                message: Der Streifen mit if hat das simple present.
           - source: Wenn ich morgen anrufe, antwortest du.
             target: (If I call tomorrow, you will answer.|If I call tomorrow, you'll answer.|You will answer if I call tomorrow.|You'll answer if I call tomorrow.)
+            mistakes:
+              - answer: If I call tomorrow, you answer.
+                message: Im anderen Streifen brauchst du will.
       - type: language-task
         id: if-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: if-sophie-comes-tomorrow-we-will-go-outside.mp3
-            target: (If Sophie comes tomorrow, we will go outside.|We will go outside if Sophie comes tomorrow.)
-          - audio: if-it-is-cold-you-will-wear-a-jacket.mp3
-            target: (If it is cold, you will wear a jacket.|You will wear a jacket if it is cold.)
-          - audio: if-peter-helps-us-we-will-win-sophie.mp3
-            target: If Peter helps us, we will win, Sophie.
+          - audio: if-the-bus-is-late-we-will-walk-to-school.mp3
+            target: (If the bus is late, we will walk to school.|We will walk to school if the bus is late.)
+          - audio: if-amir-is-hungry-we-will-make-a-sandwich.mp3
+            target: (If Amir is hungry, we will make a sandwich.|We will make a sandwich if Amir is hungry.)
+          - audio: if-sophie-is-tired-she-will-go-to-bed-early.mp3
+            target: (If Sophie is tired, she will go to bed early.|Sophie will go to bed early if she is tired.)
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -207,12 +214,12 @@ blocks:
         id: if-nachsprechen
         language: en
         items:
-          - audio: if-it-is-sunny-we-will-play-outside.mp3
-            text: If it is sunny, we will play outside.
-          - audio: if-you-come-early-i-will-help-you-amir.mp3
-            text: If you come early, I will help you, Amir.
-          - audio: if-you-call-me-i-will-answer-you.mp3
-            text: If you call me, I will answer you.
+          - audio: if-it-is-warm-we-will-play-outside.mp3
+            text: If it is warm, we will play outside.
+          - audio: if-you-are-late-i-will-wait-for-you.mp3
+            text: If you are late, I will wait for you.
+          - audio: if-it-is-sunny-i-will-have-lunch-outside-ellie.mp3
+            text: If it is sunny, I will have lunch outside, Ellie.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort will betonst du kaum.
       - type: open-task
         id: if-zettel

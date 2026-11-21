@@ -36,6 +36,8 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
       - type: text
         text: "**Das kannst du danach:** Du machst aus zwei kurzen Sätzen einen langen, mit and, but, or, because, so oder when. Du weißt, welche Karte wozu passt."
+      - type: text
+        text: Einfache Wörter wie read, play oder go kennst du schon. Diese Wörter sind neu auf dem Poster.
       - type: table
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Ausdruck, Bedeutung]
@@ -50,24 +52,16 @@ blocks:
           - [stay at home, zu Hause bleiben]
           - [like, mögen]
           - [football, Fußball]
-          - [doesn't, "nicht (= does not)"]
-          - [smile, lächeln]
-          - [Germany, Deutschland]
-          - [England, England]
-          - [every day, jeden Tag]
+          - [tennis, Tennis]
           - [tea, Tee]
           - [milk, Milch]
-          - [fish, Fisch]
-          - [tennis, Tennis]
-          - [pizza, Pizza]
           - [bike, Fahrrad]
           - [brother, Bruder]
           - [sister, Schwester]
           - [dog, Hund]
           - [rabbit, Kaninchen]
-          - [Saturday, Samstag]
-          - [Sunday, Sonntag]
-          - [Friday, Freitag]
+          - [every day, jeden Tag]
+          - [doesn't, "nicht (= does not)"]
   - type: section
     id: neu
     title: Die Verbindungskarten
@@ -96,42 +90,6 @@ blocks:
           - type: text
             text: |
               **Hinter because steht der Grund, hinter so die Folge.** Beide Sätze sagen dasselbe. Nur die Streifen tauschen die Plätze, und die Karte wechselt von because zu so: „We open the window because it is hot.“ ist dasselbe wie „It is hot so we open the window.“ Because und so stehen nie zusammen in einem Satz.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [eat, essen]
-          - [live, wohnen]
-          - [have / has, haben]
-          - [from, aus]
-          - [can, können]
-          - [does not, "nicht (bei he, she, it)"]
-          - [read, lesen]
-          - [book, Buch]
-          - [draw, zeichnen]
-          - [picture, Bild]
-          - [play, spielen]
-          - [small, klein]
-          - [fast, schnell]
-          - [run, rennen]
-          - [bus, Bus]
-          - [take, nehmen]
-          - [walk, zu Fuß gehen]
-          - [go, gehen]
-          - [home, "nach Hause, zu Hause"]
-          - [bed, Bett]
-          - [see, sehen]
-          - [birthday, Geburtstag]
-          - [cold, kalt]
-          - [hot, heiß]
-          - [wear, tragen]
-          - [jacket, Jacke]
-          - [open, öffnen]
-          - [window, Fenster]
-          - [sing, singen]
-          - [happy, froh]
-          - [drink, trinken]
-          - [water, Wasser]
   - type: section
     id: uebung
     title: Übung
@@ -171,13 +129,13 @@ blocks:
                 message: Ist der Regen der Grund oder die Folge?
               - answer: It rains every day and we stay at home.
                 message: Das Zuhausebleiben folgt aus dem Regen.
-          - source: Sophie mag Pizza, aber sie mag keinen Fisch.
-            target: Sophie likes pizza [but] she does not like fish.
+          - source: Sophie mag Tee, aber sie mag keine Milch.
+            target: Sophie likes tea [but] she does not like milk.
             distractors: [[and, because]]
             mistakes:
-              - answer: Sophie likes pizza and she does not like fish.
+              - answer: Sophie likes tea and she does not like milk.
                 message: Sagen die zwei Streifen dasselbe oder etwas ganz anderes?
-              - answer: Sophie likes pizza because she does not like fish.
+              - answer: Sophie likes tea because she does not like milk.
                 message: Ist das ein Grund für den ersten Streifen?
           - source: Peter ist froh, weil heute Samstag ist.
             target: Peter is happy [because] it is Saturday.
@@ -262,10 +220,10 @@ blocks:
             mistakes:
               - answer: Ellie is cold because she wears a jacket.
                 message: Noch nicht ganz. Ist die Jacke der Grund oder die Folge?
-          - source: Amir mag Tee, aber er mag keine Milch.
-            target: (Amir likes tea but he does not like milk.|Amir likes tea but he doesn't like milk.|Amir likes tea but not milk.)
+          - source: Amir mag Fußball, aber er mag kein Tennis.
+            target: (Amir likes football but he does not like tennis.|Amir likes football but he doesn't like tennis.|Amir likes football but not tennis.)
             mistakes:
-              - answer: Amir likes tea so he does not like milk.
+              - answer: Amir likes football so he does not like tennis.
                 message: Noch nicht ganz. Grund und Folge oder ein Gegensatz?
           - source: Peter singt, wenn er froh ist.
             target: (Peter sings when he is happy.|Peter sings when he's happy.|When he is happy Peter sings.|When he's happy Peter sings.)
