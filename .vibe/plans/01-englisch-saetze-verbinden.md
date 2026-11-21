@@ -34,6 +34,7 @@ Kinder der Klasse 5-6 verbinden auf Satzstreifen kurze englische Sätze mit and,
 - Am Kapitelanfang eine Sammel-Wiederholung `recap: [englisch/personalpronomen, englisch/simple-present, englisch/will-future]` ohne Übung, weil `if-satz-1` simple present und will braucht und die Streifen Pronomen verwenden (Karte, bestätigt).
 - Geschichte (guess): Mr Hill hängt eine „Satzstreifen-Wand“ ins Klassenzimmer; Sophie, Ellie, Peter und Amir hängen Streifen und Verbindungskarten auf und schreiben am Ende den Aushang für den Elternabend. Keine neue Figur, kein neuer Ort.
 - Begriffe: Satzstreifen, Verbindungskarte, Weiche (für if), „Ausdruck“ (bestätigt).
+- `scope` in `src/app.yaml` und auf jeder Seite (auch der Wiederholungsseite): ja, weil jede Seite eine `open-task` hat, deren Antworten der Tutor nach dem Scope beurteilt; wie in #472.
 
 ## Notes
 
@@ -197,14 +198,14 @@ page, which a link. -->
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Pattern page konjunktionen: src/app.yaml, chapter.yaml, satzstreifen-konjunktionen.svg und szene-konjunktionen.svg, die ganze Seite (einstieg, neu, mindestens fünf Übungen, anwenden, weiter), 6 Hörtexte mit regen_audio.py; Wörter gegen A1/A2; lernapps check; committen
+- [x] Pattern page konjunktionen: src/app.yaml, chapter.yaml, satzstreifen-konjunktionen.svg und szene-konjunktionen.svg, die ganze Seite (einstieg, neu, mindestens fünf Übungen, anwenden, weiter), 6 Hörtexte mit regen_audio.py; Wörter gegen A1/A2; lernapps check; committen
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A

@@ -1,10 +1,16 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
-# The strand of the learning map the app stays in, <subject>/<strand> (e.g. mathematik/stochastik); then each page
-# names its competencies. none: the app is on no strand, and no page names competencies. A unit app across the strands
-# of a subject whose map allows it names subject: <subject> (e.g. franzoesisch) instead of strand.
-strand: none
-title: Platzhalter
-intro: Dieses Kapitel hält den Platz frei, bis der geplante Inhalt da ist.
+strand: englisch/grammatik
+title: Sätze verbinden mit Satzstreifen
+intro: In der Millbrook School hängt Mr Hill eine Satzstreifen-Wand an die Rückwand des Klassenzimmers. Sophie (11, aus Deutschland), Ellie (11), ihr Bruder Peter (9) und Amir (11) hängen Streifen und Verbindungskarten daran. Du lernst, kurze englische Sätze zu längeren zu verbinden, mit and, but, because und that, mit who, which und that eine Person oder Sache genauer zu beschreiben und mit if zu sagen, was unter einer Bedingung passiert.
 languages: [de]
-chapters: [thema]
+scope:
+  text: Die App erklärt für Kinder im ersten und zweiten Lernjahr, wie man kurze englische Sätze verbindet. Jeder Satz ist ein Satzstreifen, jede Verbindungsart eine Karte. Gelernt werden die Konjunktionen and, but, or, because, so und when, that-Sätze nach I think und Ellie says, notwendige Relativsätze mit who, which, that und whose und if-Sätze, bei denen if im simple present steht und im anderen Satz will. Beispiele stammen aus dem Alltag von Sophie, Ellie, Peter und Amir.
+  out:
+    - Die Zeitformen selbst (steht im Explainer „Zeiten auf dem Zeitstrahl“)
+    - Fragen im einfachen Satz (steht im Explainer „Sätze bauen“)
+    - Infinitiv und Gerundium (steht im Explainer „Verbketten“)
+    - Verbindungswörter für Erzählung und Argumentation
+    - Relativsätze ohne Relativpronomen, nicht notwendige Relativsätze, although und whereas
+    - If-Sätze für Unwirkliches, I wish, indirekte Rede und indirekte Fragen
+chapters: [saetze-verbinden]
