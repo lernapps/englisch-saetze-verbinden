@@ -98,6 +98,6 @@ Aus #470 und #472 übernommen:
 - Eine Auswahl-Übung (`mode: choice`) braucht einen deutschen Satz (`source`) als Start.
 - Wörter, die eine Übung braucht, aber nur im Fließtext erklärt sind (like, football), stehen zusätzlich in einer Tabelle.
 - Beispiele der Tabellen und Lösungen der Übungen sind nicht dieselben Sätze, sonst schreiben die Kinder nur ab.
-- Je Seite höchstens eine kurze Wörtertabelle (Vorgabe der Ersteller:in nach dem Lerner-Check).
+- Je Seite höchstens eine kurze Wörtertabelle (Vorgabe der Orchestrator-Session in der Rolle der Ersteller:in nach dem Lerner-Check).
 - Diktat und Nachsprechen wiederholen keine Sätze der Seite (auch nicht mit getauschtem Namen oder Farbe): eigenes Muster, andere Wörter.
 - Jede Seite hat eine andere Menge an Übungsarten (`explainer-page-variety`).
