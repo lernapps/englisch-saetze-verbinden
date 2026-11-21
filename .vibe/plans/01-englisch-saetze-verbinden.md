@@ -2,7 +2,7 @@
 # Read by the hooks, the review, the evals. Schema: @lernapps/tooling/guidance/plan-front-matter.v1.schema.json
 # Written by `lernapps plan` and the hooks. Never change a key or a value by hand.
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
-archetype: null
+archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
 phase: explore
 # prePushFailures: failed pre-push runs, written by the hook.
@@ -25,15 +25,40 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ## Goal
 
-<!-- 1–2 sentences: what learners do, what they learn. -->
+Kinder der Klasse 5-6 verbinden auf Satzstreifen kurze englische Sätze mit and, but, or, because, when und so, schließen mit that Gedanken an, bestimmen mit who, which, that und whose eine Person oder Sache näher und sagen mit if, was unter einer Bedingung passiert. Gebaut wird nur Kapitel 1 „Sätze verbinden“; die Kapitel 2 bis 5 kommen später als Inkremente.
 
 ## Key decisions
 
-<!-- One line each: decision and reason. Archetype first. Your own choice without the creator: mark "(guess)". -->
+- Archetyp `explainer`, Strang-App `englisch/grammatik` (Format 2): Die Kinder brauchen Erklärung mit Satzstreifen-Figuren, Tabellen und Übungen je Seite; nichts davon ist ein Spiel oder ein Zeitdruck-Training. Bestätigt von der Ersteller:in.
+- Eine Seite je Baustein, Reihenfolge nach `requires`: konjunktionen → that-saetze und relativsaetze → if-satz-1 zuletzt (bestätigt).
+- Am Kapitelanfang eine Sammel-Wiederholung `recap: [englisch/personalpronomen, englisch/simple-present, englisch/will-future]` ohne Übung, weil `if-satz-1` simple present und will braucht und die Streifen Pronomen verwenden (Karte, bestätigt).
+- Geschichte (guess): Mr Hill hängt eine „Satzstreifen-Wand“ ins Klassenzimmer; Sophie, Ellie, Peter und Amir hängen Streifen und Verbindungskarten auf und schreiben am Ende den Aushang für den Elternabend. Keine neue Figur, kein neuer Ort.
+- Begriffe: Satzstreifen, Verbindungskarte, Weiche (für if), „Ausdruck“ (bestätigt).
 
 ## Notes
 
-<!-- Strand or subject, competencies by chapter (ids), didactic approach, scope, sources and licences, open questions. -->
+- Fach Englisch, Strang `grammatik`, Karte `https://lernapps.net/apps/map/englisch.json`, Fokus `competency`. Auftrag: Issue lernapps/apps#481 (Kopie in `/tmp/auftraege/orchestrierung/issues/481.md`), Konventionen Epic #489. Der Inhalt kommt vom Auftrag; die Ersteller:in bringt kein weiteres Material.
+- Kapitel 1 „Sätze verbinden“ (Stufe 5-6), alle vier Bausteine sind Lücken der Karte (`practisedBy` leer):
+  - `konjunktionen` (Schritt 1, öffnet 12): Ich kann Sätze mit and, but, or, because, when und so verbinden.
+  - `that-saetze` (Schritt 2, öffnet 8, braucht konjunktionen): that-Satz (I think that …).
+  - `relativsaetze` (Schritt 1, öffnet 9): notwendige Relativsätze mit who, which, that und whose.
+  - `if-satz-1` (Schritt 3, öffnet 3, braucht will-future und simple-present): if + simple present, will im anderen Streifen.
+  - Wiederholung `personalpronomen`, `simple-present`, `will-future` (Sammel-Wiederholung, kompakt, ohne Übung). Vorbild: `das-brauchst-du` in #472 (englisch-zeiten).
+- Didaktik: Jeder Satz ist ein Satzstreifen. Eine Verbindungskarte hängt zwei Streifen aneinander (and, but, or, because, when, so, that). Beim Relativsatz ersetzt die Karte who/which/that ein Nomen des zweiten Streifens und schiebt den Streifen in den ersten; whose ersetzt das Possessivwort. Die Weiche bei if zeigt, welche Zeitformen zusammenpassen; in Stufe 5-6 nur die erste Stellung (wirklich: if + simple present, will).
+- Übungsarten (Fremdsprachen-Muster): zuordnen (matching), ordnen (ordering: Streifen und Karten in Reihenfolge), Lücke und Auswahl (language-task gap/choice), Form schreiben mit Cue (write), Hören und Schreiben, Nachsprechen, am Ende ein open-task (Aushang). Jede Übung mit eigener Rückmeldung je typischem Fehler.
+- Hürden (aus Issue und Reihe): and/but verwechseln, because/so vertauschen (Grund und Folge), that nach think/say auslassen oder nach that das Komma setzen, who für Sachen und which für Personen, whose mit who’s verwechseln, if + will im if-Streifen („If it will rain“), Komma nach dem if-Streifen am Satzanfang.
+- Nicht hier: Zeitformen (#472), Fragen im einfachen Satz (#473), Infinitiv und Gerundium (#480), Verbindungswörter für Erzählung und Argumentation (#479, #487); contact clauses, nicht notwendige Relativsätze, although und whereas (Kapitel 2), If-Sätze Typ 2 und 3, I wish (Kapitel 3), indirekte Rede (Kapitel 4), Verkürzen und Betonen (Kapitel 5).
+- Wörter: A1/A2 aus dem Grundwortschatz; Zeiten und Figuren wie in #472.
+- Audio: Stimme bf_emma, ganze Sätze, Namen am Satzende zweisilbig, `regen_audio.py`.
+- Quellen, geöffnet am 2026-11-21: Lernlandkarte `englisch.json` und die vier Baustein-Seiten `https://lernapps.net/apps/map/englisch/c/<id>/` (alle Quelle KMK, Bildungsstandards für die erste Fremdsprache, i.d.F. vom 22.06.2023; Lücken, Stufe 5-6); Wikipedia „English relative clauses“ (Fakten: who, which, that, whose; that nur in notwendigen Relativsätzen und ohne Komma; who für Personen) und „Conditional sentence“ (Fakten zur Bedingung, CC BY-SA, nur Fakten, keine Sätze); Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (Wörter der Übungen). Nicht geprüft: „English conjunctions“ (Seite 404 auf Wikipedia), kein Lehrplan nötig (Karte gibt die Reihenfolge), kein Klexikon-Artikel gelesen. Beispielsätze sind eigene aus dem Alltag der Figuren. Vorbilder zum Aufbau: Pull-Requests der Repositories englisch-zeiten, englisch-pronomen, englisch-verbketten (Branch work).
+- Karte lückenhaft? Kein Fehler gefunden; `konjunktionen` heißt „and, but, because“, die Ich-kann-Aussage nennt aber auch or, when, so, und `relativsaetze` nennt whose. Die Seiten üben alles, was die Ich-kann-Sätze nennen (Hinweis für `map-review`, kein Fehler).
+- Seiten und Kapitel (ein Kapitel `saetze-verbinden`, „Sätze verbinden“): `das-brauchst-du` (recap: englisch/personalpronomen, englisch/simple-present, englisch/will-future, ohne Übung) → `konjunktionen` (konjunktionen) → `that-saetze` (that-saetze) → `relativsaetze` (relativsaetze) → `if-satz-1` (if-satz-1, Kapitelende mit Rückblick). Die Reihenfolge `relativsaetze` vor `that-saetze` wäre ebenfalls erlaubt (beide Schritt 1/2); gewählt wie im Issue. Von außen braucht Kapitel 1 nur simple-present, will-future und personalpronomen (siehe Recap); keine Seite steht vor einer Voraussetzung (`ahead` nicht nötig).
+- Pro Baustein, wie die Kinder dort ankommen und welchen Irrtum die Rückmeldung fängt:
+  - konjunktionen: Sie hängen zwei Streifen mit je einer Verbindungskarte zusammen und sehen, welche Karte welche Beziehung zeigt (und = dazu, but = Gegensatz, or = Auswahl, because = Grund, so = Folge, when = Zeit). Irrtum: because und so vertauscht (Grund vor Folge), but statt and, Komma-Regel nicht nötig, Satzstreifen ohne Subjekt.
+  - that-saetze: Sie schieben einen fertigen Streifen hinter I think / I know / Ellie says und sehen, dass that wegfallen darf. Irrtum: that mit Komma, that vor Fragen, Streifen ohne Verb, Wortstellung wie im Deutschen (Verb ans Ende).
+  - relativsaetze: Sie ersetzen im zweiten Streifen das Nomen (Pronomen) durch who/which/that und schieben ihn hinter das Nomen des ersten. Irrtum: who für Sachen, which für Personen, Pronomen bleibt stehen („the girl who she…“), whose und who’s verwechselt, Komma wie im Deutschen.
+  - if-satz-1: Sie stellen die Weiche: if-Streifen im simple present, anderer Streifen mit will. Irrtum: „If it will rain“, beide Streifen mit will, Komma-Gewohnheit, Reihenfolge der Streifen.
+- Scope: in: and, but, or, because, when, so (Hauptsätze verbinden, when auch als Zeitwort), that-Sätze nach think, know, say, hope, see, notwendige Relativsätze mit who, which, that, whose, if-Sätze Typ 1 (if + simple present, will; auch if am Satzanfang mit Komma). Datenbereich: nur diese Karten, keine stille Auswahl: alle Verbindungswörter der Ich-kann-Sätze kommen vor. Sprache: Deutsch, Beispiele Englisch (britisch). Out: siehe „Nicht hier“.
 
 ## Explore
 
@@ -49,28 +74,30 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 - [x] Load skill `lernapps-app`. Tell the creator in two sentences what a lernapps app is and where it will live: at
       their own address, free and public, and once listed as a copy on lernapps.net. Say that the technical part
       (GitHub) comes at the end and that you do it.
-- [ ] Interview: ask the topics "Goal" and "Learners" of "Answers".
-- [ ] Load skill `lernapps-map-assignment` and read the learning map of the subject as it says. The creator brings
+- [x] Interview: ask the topics "Goal" and "Learners" of "Answers".
+- [x] Load skill `lernapps-map-assignment` and read the learning map of the subject as it says. The creator brings
       the content themselves (material, a word list, the pages): note under "Notes" which competencies of the map it
       covers. Else write the skill's assignment, with its story; the creator's yes answers the topics Content and
       Amount. A subject without a map: skip this task and say so.
-- [ ] Load skill `lernapps-exercise-patterns` and read its reference for the subject. Note under "Notes" how learners
+- [x] Load skill `lernapps-exercise-patterns` and read its reference for the subject. Note under "Notes" how learners
       will practise what the goal names.
-- [ ] Choose the archetype as skill `lernapps-app` says: read the README of each archetype in question, then tell the
+- [x] Choose the archetype as skill `lernapps-app` says: read the README of each archetype in question, then tell the
       creator in plain words what the chosen one can and cannot do. Write the archetype and its reason under "Key
       decisions".
-- [ ] Run `npx --no -- lernapps skills --archetype <name>` with the chosen archetype. It installs the archetype's
+- [x] Run `npx --no -- lernapps skills --archetype <name>` with the chosen archetype. It installs the archetype's
       skills and adds the archetype's tasks to this plan.
-<!-- archetype: explore -->
-- [ ] Interview: ask every other topic of "Answers", in order. Leave out only a topic that an answer of the creator
+- [x] Load skill `lernapps-explainer-design`. An explainer has the look of the runtime: write "fixed by the
+      archetype" under the topic "Look and feel" of "Answers".
+- [x] Interview: ask every other topic of "Answers", in order. Leave out only a topic that an answer of the creator
       already covers, and note which answer. A topic nobody answered is asked once before you write an assumption
       with "(guess)".
-- [ ] Load skill `lernapps-content-research` and research as it says. Write under "Notes": the strand or subject, the
+- [x] Load skill `lernapps-content-research` and research as it says. Write under "Notes": the strand or subject, the
       competencies by chapter with their ids, the sources you opened.
-<!-- archetype: explore-structure -->
-- [ ] Write under "Notes", one line per competency: how learners get there (they derive it, they do not only read it
+- [x] Write under "Notes" which competency goes on which page and which pages form a chapter, as "Map the content" of
+      skill `lernapps-explainer-design` says. Per page, name the prerequisites the app does not practise.
+- [x] Write under "Notes", one line per competency: how learners get there (they derive it, they do not only read it
       off), and which misconception the feedback catches.
-- [ ] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
+- [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
 - [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
@@ -80,17 +107,16 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 <!-- The interview: per topic the creator's answer, in their words. Keep the topics. -->
 
-- Goal: what learners do in the app, what they learn.
-- Learners: subject, school year, prior knowledge.
-- Model and focus: an app of the catalog (https://lernapps.net/apps/llms.txt) as model; what matters most (exercises,
-  visualisations, game feel).
-- Hurdles: misconceptions and mistakes of the learners; the creator's examples and experiments.
-- Content: who writes it (creator, you, from sources); own material (worksheets, tests).
-- Amount: how much content in the first version; what comes later.
-- Languages: German only, or German and English. Never English only.
-- Look and feel: calm like a worksheet, or like a game (colours, praise, effects); dark mode.
-- Terms: the creator's words for the main things in the app, used everywhere.
-- Finding the app: what teachers and parents would search for.
+- Goal: „Ja, deine Lesart passt zum Issue (and/but/because/when/so, that-Sätze, notwendige Relativsätze mit who/which/that/whose, if-Sätze Typ 1 mit if + simple present und will im anderen Streifen).“
+- Learners: „Ja, Englisch Klasse 5-6, kennen Hello, Millbrook!, Personalpronomen und Zeiten aus #472; die bekannten Figuren.“
+- Model and focus: „Vorbilder sind die fertigen Pull-Requests `englisch-pronomen`, `englisch-zeiten`, `englisch-verbketten`.“
+- Hurdles: „Hürden aus dem Issue und den Seiten der Reihe (and/but, because/so, that auslassen, who/which, if + will).“
+- Content: „Inhalt schreibst du aus dem Issue.“ Kein eigenes Material der Ersteller:in.
+- Amount: „nur Kapitel 1, die Kapitel 2 bis 5 später als Inkremente.“
+- Languages: „Sprache Deutsch mit englischen Beispielen.“
+- Look and feel: „Aussehen von der Runtime vorgegeben.“ (fixed by the archetype)
+- Terms: „Begriffe „Ausdruck“, Satzstreifen, Verbindungskarte, Weiche.“
+- Finding the app: „Suchbegriffe (guess).“ Meine Annahme (guess): Sätze verbinden Englisch, and but because, that-Satz, Relativsatz who which, if-Satz Typ 1, Klasse 5 6.
 
 ## Plan
 
@@ -101,10 +127,11 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-<archetype>-design` says, and write the result under
+- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
 - [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-<!-- archetype: plan -->
+- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+      opening task, the change of activity, the reward, the story.
 - [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
@@ -119,7 +146,9 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 <!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
 checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
-<!-- archetype: content-method -->
+<!-- An explainer: per figure, model and component its learning action in two to four sentences
+(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
+page, which a link. -->
 
 ## Code
 
@@ -134,11 +163,16 @@ checks and what it cannot; how a later agent adds a chapter. It becomes the cont
 ### Tasks
 
 - [ ] Load skill `lernapps-cli`. Create the app as its section "Create" says:
-      `npx --no -- lernapps create --archetype <archetype>`.
+      `npx --no -- lernapps create --archetype explainer`.
 - [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-<archetype>`.
-<!-- archetype: code-start -->
+- [ ] Load skill `lernapps-explainer`.
+- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+      `.agents/skills/lernapps-explainer/references/blocks.md` and
+      `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
+      `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
+- [ ] Decide whether the app needs `scope`, as "`scope`" in
+      `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 <!-- tasks: pattern: the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
@@ -161,7 +195,8 @@ checks and what it cannot; how a later agent adds a chapter. It becomes the cont
 
 ### Tasks
 
-<!-- archetype: commit-start -->
+- [ ] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
+      decisions" why the app has none. Commit.
 - [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
 - [ ] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
