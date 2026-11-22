@@ -1,0 +1,265 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Mr Fox sagte, dass …: die Zeit rückt eine Stufe zurück"
+description: "Sophie interviewt für die Schülerzeitung einen neuen Lehrer und schreibt dann auf, was er gesagt hat. Du lernst, die Zeit dabei eine Stufe zurückzusetzen."
+competencies: [backshift]
+scope: "Die Seite führt die indirekte Rede mit Zeitverschiebung ein (backshift). Ist das Sagen vorbei, rückt das Verb eine Stufe zurück: am, is und are werden was oder were, will wird would, can wird could, das present perfect und das simple past werden das past perfect (had plus 3. Form). Die Pronomen wechseln wie auf der Seite davor. Auch Wörter wie here und today ändern sich (here wird there, today wird that day). Gilt das Gesagte noch, darf die Zeitverschiebung entfallen. Die Seite arbeitet mit einem erfundenen Interview in der Schülerzeitung Millbrook News mit dem neuen Sportlehrer Mr Fox und einem kurzen Bericht darüber, die Zeilen sind nummeriert. Nicht hier, weil es spätere Seiten sind. Bitten und Befehle mit told oder asked und to, und Fragen in der indirekten Rede."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wann bleibt das Verb stehen?
+    blocks:
+      - type: text
+        text: "Sophie schreibt für die Schülerzeitung „Millbrook News“. Sie hat Mr Fox interviewt, den neuen Sportlehrer. Du liest gleich das Interview und ihren Bericht darüber. Davor eine Frage zur letzten Seite."
+      - type: single-choice
+        id: backshift-start
+        text: "Ellie schreibt: „Mr Hill says that he likes the picture.“ Warum bleibt likes im simple present?"
+        options:
+          - text: Weil er es jetzt sagt und es noch gilt
+            correct: true
+            info: Das Sagen ist nicht vorbei.
+          - text: Weil nach says immer das simple present steht
+            correct: false
+            info: Das Verb folgt dem Inhalt, nicht says.
+          - text: Weil that die Zeit festhält
+            correct: false
+            info: That hängt nur an.
+        explanation: Wer jetzt etwas sagt, dessen Verb bleibt.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
+      - type: text
+        text: "**Das kannst du danach:** Du gibst weiter, was jemand früher gesagt hat, und setzt die Zeit richtig eine Stufe zurück."
+  - type: section
+    id: lesen
+    title: Interview und Bericht
+    blocks:
+      - type: text
+        text: "Mr Fox ist erfunden, wie die ganze Schülerzeitung. Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Verben im Interview (am, will, can) und dann auf dieselben Stellen im Bericht."
+      - type: table
+        caption: Millbrook News · Interview mit Mr Fox
+        header: [Nr, Wer, Text]
+        rows:
+          - ["1", Sophie, "Mr Fox, do you like Millbrook?"]
+          - ["2", Mr Fox, "Yes, I am very happy here. The children are friendly."]
+          - ["3", Sophie, "Where did you work before?"]
+          - ["4", Mr Fox, "I worked at a big school in London. I have played football for ten years."]
+          - ["5", Sophie, "What will you do here?"]
+          - ["6", Mr Fox, "I will start a football club. Everybody can come."]
+          - ["7", Sophie, "When is the first training?"]
+          - ["8", Mr Fox, "The first training is on Thursday."]
+      - type: table
+        caption: Randglossar · Interview
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [newspaper, Zeitung]
+          - [friendly, freundlich]
+          - [club, Verein / AG]
+          - [training, Training]
+      - type: table
+        caption: Millbrook News · Sophies Bericht
+        header: [Nr, Text]
+        rows:
+          - ["9", "Last Monday I talked to Mr Fox, our new sports teacher."]
+          - ["10", "He said that he was very happy at Millbrook and that the children were friendly."]
+          - ["11", "He said that he had worked at a big school in London."]
+          - ["12", "He said that he had played football for ten years."]
+          - ["13", "He said that he would start a football club and that everybody could come."]
+          - ["14", "He also said that the first training was on Thursday."]
+  - type: section
+    id: neu
+    title: Eine Stufe zurück
+    blocks:
+      - type: text
+        text: "Schau in den Bericht. In Zeile 2 sagt Mr Fox: „I am very happy.“ In Zeile 10 steht: „he was very happy“. Sophie schreibt später. Das Sagen ist vorbei, darum rückt die Zeit **eine Stufe zurück**. Das heißt **Zeitverschiebung** (englisch **backshift**). Die Karte heißt jetzt **said that**."
+      - type: figure
+        image: images/satzstreifen-backshift.svg
+        alt: "Eine Zeitleiste mit drei Kästen. Rechts steht „jetzt“ mit am, is, will, can, in der Mitte „früher“ mit was, would, could und links „noch früher“ mit had plus 3. Form. Zwei grünblaue Pfeile gehen von rechts nach links, auf dem ersten steht die Karte said that."
+        caption: "Jeder Pfeil geht eine Stufe nach links. Die Karte said that gehört zum ersten Pfeil."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Eine Stufe zurück
+        header: [Gesagt, Später erzählt, "Was ändert sich?"]
+        rows:
+          - ["“The lesson is long.”", "She said that the lesson was long.", "is → was"]
+          - ["“We will win.”", "He said that they would win.", "will → would"]
+          - ["“I can swim.”", "She said that she could swim.", "can → could"]
+          - ["“I have lost my pen.”", "He said that he had lost his pen.", "have lost → had lost"]
+          - ["“I am here today.”", "He said that he was there that day.", "here → there, today → that day"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Ist das Sagen vorbei, rückt das Verb eine Stufe zurück.** Gilt das Gesagte noch heute, darfst du das Verb auch lassen: Amir said that he lives in Millbrook.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: true-false
+        id: backshift-verstehen
+        text: Mr Fox sagt im Interview, dass das erste Training am Mittwoch ist.
+        answer: false
+        explanation: Das Training ist am Donnerstag.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/backshift/
+      - type: number
+        id: backshift-beleg
+        text: In welcher Zeile steht, dass Mr Fox schon in London gearbeitet hatte? Gib die Nummer ein.
+        answer: 11
+        tolerance: 0
+        explanation: In Zeile 11 steht „had worked“.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/backshift/
+      - type: matching
+        id: backshift-zuordnen
+        text: Welche Form wird aus welcher? Ordne zu.
+        pairs:
+          - left: am / is
+            right: was
+          - left: will
+            right: would
+          - left: can
+            right: could
+          - left: have seen
+            right: had seen
+        explanation: Jede Form rückt eine Stufe zurück.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/backshift/
+      - type: language-task
+        id: backshift-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Wörter passen? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Sophie sagte, dass sie müde war.
+            target: Sophie said that she [was] tired.
+            distractors: [[is, were]]
+            mistakes:
+              - answer: Sophie said that she is tired.
+                message: Das Sagen ist vorbei, also was.
+              - answer: Sophie said that she were tired.
+                message: Zu she passt was.
+          - source: Peter sagte, dass er gewinnen würde.
+            target: Peter said that he [would] [win].
+            distractors: [[will], [wins]]
+            mistakes:
+              - answer: Peter said that he will win.
+                message: Will wird zu would.
+              - answer: Peter said that he would wins.
+                message: Nach would bleibt das Verb gleich.
+          - source: Amir sagte, dass er das Lied gehört hatte.
+            target: Amir said that he [had] [heard] the song.
+            distractors: [[has, did], [hear]]
+            mistakes:
+              - answer: Amir said that he has heard the song.
+                message: Aus has wird had.
+              - answer: Amir said that he had hear the song.
+                message: Nach had steht die 3. Form.
+      - type: ordering
+        id: backshift-ordnen
+        text: "Ordne die Wörter zu einem Satz: Ellie sagte, dass sie das Papier mitbringen würde."
+        items:
+          - Ellie
+          - said
+          - that
+          - she
+          - would
+          - bring
+          - the
+          - paper
+        explanation: Name, said, that, dann would plus Verb.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/backshift/
+      - type: language-task
+        id: backshift-bilden
+        languages: { source: de, target: en }
+        task: Sophie schreibt später. Mache aus der Sprechblase einen Streifen mit said. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "Ellie: “The bus is late.”"
+            target: Ellie said (that |)the bus was late.
+            mistakes:
+              - answer: Ellie said that the bus is late.
+                message: Das Sagen ist vorbei, also was.
+          - cue: "Amir: “I will call Sophie.”"
+            target: Amir said (that |)he would call Sophie.
+            mistakes:
+              - answer: Amir said that he will call Sophie.
+                message: Will wird zu would.
+              - answer: Amir said that I would call Sophie.
+                message: Amir spricht von sich, also he.
+          - cue: "Peter: “I have finished my homework.”"
+            target: Peter said (that |)he had finished his homework.
+            mistakes:
+              - answer: Peter said that he has finished his homework.
+                message: Aus have wird had.
+              - answer: Peter said that he finished his homework.
+                message: Hier brauchst du had und die 3. Form.
+      - type: language-task
+        id: backshift-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        hint: Das past perfect heißt had plus 3. Form.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Mr Fox sagte, dass er das Buch gelesen hatte.
+            target: Mr Fox said (that |)he had read the book.
+            mistakes:
+              - answer: Mr Fox said that he has read the book.
+                message: Aus has wird had.
+          - source: Peter sagte, dass er kochen konnte.
+            target: Peter said (that |)he could cook.
+            mistakes:
+              - answer: Peter said that he can cook.
+                message: Aus can wird could.
+      - type: language-task
+        id: backshift-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: amir-said-that-he-had-forgotten-his-bag.mp3
+            target: Amir said that he had forgotten his bag.
+          - audio: sophie-said-that-she-would-call-us-later.mp3
+            target: Sophie said that she would call us later.
+          - audio: mr-hill-said-that-the-test-would-be-easy.mp3
+            target: Mr Hill said that the test would be easy.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: backshift-nachsprechen
+        language: en
+        items:
+          - audio: peter-said-that-he-had-never-been-to-london.mp3
+            text: Peter said that he had never been to London.
+          - audio: mrs-parker-said-that-she-could-not-find-her-glasses.mp3
+            text: Mrs Parker said that she could not find her glasses.
+          - audio: ellie-said-that-she-liked-the-new-teacher.mp3
+            text: Ellie said that she liked the new teacher.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: backshift-meinung
+        task: "Sophie ergänzt ihren Bericht. Gib mit said that weiter, was Mr Fox über den Club gesagt hat, und sage in einem Satz, ob dir die Idee gefällt."
+        points:
+          - text: Der Bericht gibt mit said that weiter, was Mr Fox über den Club gesagt hat.
+            source: /weitersagen/backshift/#lesen
+          - text: Die Verben rücken eine Stufe zurück, zum Beispiel will wird would.
+            source: /weitersagen/backshift/#neu
+          - text: Ein Satz sagt die eigene Meinung zum Club.
+            kind: form
+        solution: |
+          Mr Fox said that he would start a football club. He said that girls and boys could join. I think that the club is a great idea.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie hat den Bericht fertig. Mr Hill bittet nun die Kinder, den Zettel für den Elternabend zu schreiben. Dabei sagen alle einander, was zu tun ist: „Wait!“, „Please help!“, „Don’t run!“. Wie gibst du das weiter? Das siehst du auf der nächsten Seite."
