@@ -34,24 +34,24 @@ blocks:
     title: Der Chat der Gruppe
     blocks:
       - type: text
-        text: Die drei schreiben über ein Buch, das Sophie Amir geliehen hat. Jede Nachricht hat eine Nummer. Mit der Nummer kannst du später sagen, wo etwas steht.
+        text: Die drei schreiben über ein Buch, das Sophie an Amir verliehen hat. Jede Nachricht hat eine Nummer. Mit der Nummer kannst du später sagen, wo etwas steht.
       - type: table
-        caption: Chat "Class 8B" · Nachrichten 1 bis 4
+        caption: Chat Year 8B · Nachrichten 1 bis 4
         header: [Nr, Wer, Nachricht]
         rows:
           - ["1", Sophie, "Did you finish the book I lent you, Amir?"]
-          - ["2", Amir, "Yes! It is the best book I have read this year."]
+          - ["2", Amir, "Yes! It's the best book I've read this year."]
           - ["3", Ellie, "Which book? The one about the girl who sails around the world?"]
           - ["4", Sophie, "No, the one Mr Hill recommended on Monday."]
       - type: table
         caption: Randglossar · Nachrichten 1 bis 4
         header: [Ausdruck, Bedeutung]
         rows:
-          - [lend / lent, leihen / geliehen]
+          - [lend / lent, verleihen / verliehen]
           - [sail, segeln]
           - [recommend, empfehlen]
       - type: table
-        caption: Chat "Class 8B" · Nachrichten 5 bis 8
+        caption: Chat Year 8B · Nachrichten 5 bis 8
         header: [Nr, Wer, Nachricht]
         rows:
           - [
@@ -60,38 +60,39 @@ blocks:
               "The main character is a boy who lives in a lighthouse. The story he tells in chapter two is amazing.",
             ]
           - ["6", Ellie, "I want to read it too. Can I borrow the copy you have?"]
-          - ["7", Amir, "Sure! But the film they made about it is not very good."]
-          - ["8", Sophie, "I know. The actor they chose is too old."]
+          - ["7", Amir, "Sure! But the film they made isn't very good."]
+          - ["8", Sophie, "I know. The actor they chose is too old for the part."]
       - type: table
         caption: Randglossar · Nachrichten 5 bis 8
         header: [Ausdruck, Bedeutung]
         rows:
           - [main character, Hauptfigur]
           - [lighthouse, Leuchtturm]
-          - [chapter, Kapitel]
-          - [amazing, großartig]
+          - [copy, Exemplar]
+          - [borrow, sich ausleihen]
           - [actor, Schauspieler / Schauspielerin]
-          - [borrow, ausleihen]
+          - [chose / choose, wählte / wählen]
       - type: table
-        caption: Chat "Class 8B" · Nachrichten 9 bis 12
+        caption: Chat Year 8B · Nachrichten 9 bis 12
         header: [Nr, Wer, Nachricht]
         rows:
-          - ["9", Ellie, "Then I will only read the book. The pictures I imagine are better than any film."]
-          - ["10", Sophie, "Same! The friends I have in England all say that."]
-          - ["11", Amir, "Let us meet on Saturday. The café we found last week is open."]
-          - ["12", Ellie, "Great! I will bring the book I borrowed from the library."]
+          - ["9", Ellie, "Then I'll only read the book. The film I see in my head is better than any real one."]
+          - ["10", Sophie, "Same! The people I know here all say the same."]
+          - ["11", Amir, "Let's meet on Saturday. The café we found last week is open then."]
+          - ["12", Ellie, "Great! I'll bring the snacks I bought at the shop."]
       - type: table
         caption: Randglossar · Nachrichten 9 bis 12
         header: [Ausdruck, Bedeutung]
         rows:
-          - [imagine, sich vorstellen]
-          - [library, Bücherei]
+          - [for the part, für die Rolle]
+          - [Same!, Geht mir genauso!]
+          - [snacks, kleine Sachen zum Essen]
   - type: section
     id: neu
     title: Objekt oder Subjekt?
     blocks:
       - type: text
-        text: "Schau in den Chat. In Nachricht 2 steht „the best book I have read“, ohne that und ohne which. Der zweite Streifen „I have read it“ hatte ein **Objekt**, das Wort it. Die Relativkarte hat it ersetzt. Weil dahinter schon ein Subjekt steht (I), versteht man den Satz auch ohne Karte. Das ist ein **Relativsatz ohne Relativpronomen**, auch **contact clause** genannt."
+        text: "Schau in den Chat. In Nachricht 2 steht „the best book I have read“, ohne that und ohne which. Der zweite Streifen „I have read it“ hat ein **Objekt**, das Wort it. Die Relativkarte hat it ersetzt. Weil hinter der Karte schon ein Subjekt steht (I), versteht man den Satz auch ohne Karte. Das ist ein **Relativsatz ohne Relativkarte** (Fachwort: Relativpronomen), auch **Kontaktsatz** oder englisch **contact clause** genannt."
       - type: figure
         image: images/satzstreifen-contact-clauses.svg
         alt: "Zwei Beispiele untereinander. Oben: ein Streifen „This is the song“, eine gestrichelte Karte „(that)“ in Klammern und ein Streifen „I like.“ Darunter der Hinweis, dass die Karte das Objekt it ersetzt. Unten: ein Streifen „This is the girl“, eine feste Karte „who“ und ein Streifen „sits there.“ Darunter der Hinweis, dass die Karte das Subjekt she ersetzt."
@@ -100,7 +101,7 @@ blocks:
         licence: CC-BY-4.0
       - type: table
         caption: Klassenzimmer-Poster · Karte weglassen?
-        header: [Streifen, Das Pronomen war, Die Karte]
+        header: [Streifen, Die Karte ersetzt, Die Karte]
         rows:
           - [The film (that) we saw, Objekt (we saw it), darf fehlen]
           - [The girl who sits there, Subjekt (she sits), muss bleiben]
@@ -110,7 +111,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Steht hinter der Karte schon ein Subjekt, darf die Karte fehlen.** Es heißt „the shoes I bought“, aber „the boy who bought shoes“. Nach dem Verb bleibt nichts stehen: nicht „the shoes I bought them“.
+              **Steht hinter der Karte schon ein Subjekt, darf die Karte fehlen.** Es heißt „the book I read“, aber „the boy who sings“. Das ersetzte Wort steht nicht noch einmal da: nicht „the book I read it“. **Whose** bleibt immer: „the boy whose phone is new“.
   - type: section
     id: uebung
     title: Übung
@@ -119,12 +120,12 @@ blocks:
         id: contact-verstehen
         text: Was sagt Amir in Nachricht 7 über den Film?
         options:
-          - text: Der Film ist nicht sehr gut.
+          - text: Der Film zum Buch ist nicht sehr gut.
             correct: true
-            info: „Not very good“ heißt nicht sehr gut.
+            info: "Amir schreibt: „isn’t very good“."
           - text: Der Film ist besser als das Buch.
             correct: false
-            info: Das sagt Ellie in Nachricht 9 über ihre Vorstellung.
+            info: Das sagt niemand. Ellie findet in Nachricht 9 das Buch besser.
           - text: Der Film ist noch nicht fertig.
             correct: false
             info: Davon steht nichts im Chat. Amir sagt „they made“.
@@ -134,10 +135,10 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/contact-clauses/
       - type: number
         id: contact-beleg
-        text: In welcher Nachricht sagt jemand, dass er oder sie das Buch aus der Bücherei mitbringt? Gib die Nummer ein.
+        text: In welcher Nachricht sagt jemand, dass er oder sie etwas zu essen mitbringt? Gib die Nummer ein.
         answer: 12
         tolerance: 0
-        explanation: In Nachricht 12 bringt Ellie das Buch mit.
+        explanation: In Nachricht 12 bringt Ellie Snacks mit.
         links:
           - title: Lernlandkarte Englisch · Contact clauses
             url: https://lernapps.net/apps/map/englisch/c/contact-clauses/
@@ -164,21 +165,22 @@ blocks:
       - type: language-task
         id: contact-bilden
         languages: { source: de, target: en }
-        task: Hänge die zwei Streifen aneinander. Wenn die Karte fehlen darf, lass sie weg. Das Pronomen fällt weg.
+        task: Hänge die zwei Streifen aneinander. Du darfst die Karte weglassen, wenn es geht. Das Pronomen fällt weg.
+        hint: Welches Wort ersetzt die Karte? Dieses Wort schreibst du nicht noch einmal.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Here is the jacket · Ellie bought it
-            target: Here is the jacket (that |which |)Ellie bought.
+            target: (Here is|Here's) the jacket (that |which |)Ellie bought.
             mistakes:
               - answer: Here is the jacket Ellie bought it.
                 message: Am Ende bleibt kein it stehen.
               - answer: Here is the jacket who Ellie bought.
-                message: Eine Jacke ist eine Sache.
+                message: Who passt nur zu Personen.
           - cue: This is the boy · he won the race
             target: This is the boy (who|that) won the race.
             mistakes:
               - answer: This is the boy won the race.
-                message: Die Karte ersetzt das Subjekt he.
+                message: He ist das Subjekt des zweiten Streifens. Dann muss die Karte stehen.
           - cue: She likes the poster · I made it
             target: She likes the poster (that |which |)I made.
             mistakes:
@@ -188,26 +190,27 @@ blocks:
         id: contact-uebersetzen
         languages: { source: de, target: en }
         task: Übersetze den Satz. Du darfst die Karte weglassen, wenn es geht.
+        hint: Im Deutschen steht das Perfekt. Im Englischen geht das simple past und das present perfect.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Die Tasche, die ich gekauft habe, ist grün.
-            target: The bag (that |which |)I bought is green.
+            target: The bag (that |which |)(I bought|I have bought|I've bought) is green.
             mistakes:
               - answer: The bag I bought it is green.
-                message: Hinter dem Relativsatz folgt nur is.
+                message: "Das it gehört nicht dazu: the bag steht schon vorn."
           - source: Die Leute, die wir getroffen haben, waren nett.
-            target: The people (who |that |)we met were (nice|kind|friendly).
+            target: The people (who |that |)(we met|we have met|we've met) were (nice|kind|friendly).
             mistakes:
               - answer: The people who we met them were nice.
-                message: Die Karte ersetzt them.
+                message: Them steht nicht noch einmal da.
       - type: language-task
         id: contact-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: the-song-you-sent-me-is-my-favourite.mp3
-            target: The song (that |which |)you sent me is my favourite.
+          - audio: the-video-you-sent-me-is-really-funny.mp3
+            target: The video (that |which |)you sent me is really funny.
           - audio: i-lost-the-key-my-mother-gave-me.mp3
             target: I lost the key (that |which |)my mother gave me.
           - audio: the-teacher-i-like-best-is-mr-hill.mp3
@@ -226,21 +229,21 @@ blocks:
             text: Where is the ticket I bought yesterday?
           - audio: the-cake-we-ate-on-sunday-was-great.mp3
             text: The cake we ate on Sunday was great.
-        hint: Hör den Satz zuerst. Sprich dann langsam nach. Zwischen den beiden Teilen machst du keine Pause.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Mach zwischen dem Nomen und dem Relativsatz keine Pause.
       - type: open-task
         id: contact-meinung
-        task: "Schreibe eine Nachricht an die Gruppe. Sage deine Meinung: Ist ein Buch oft besser als der Film dazu? Nenne ein Buch oder einen Film und benutze mindestens einen Relativsatz ohne who, which oder that."
+        task: "Schreibe eine Nachricht an die Gruppe. Sage deine Meinung: Ist ein Buch oft besser als der Film dazu? Nenne ein Buch oder einen Film und benutze mindestens einen Relativsatz ohne Relativkarte."
         points:
           - text: Die Nachricht sagt eine Meinung und nennt ein Buch oder einen Film.
             source: /relativsaetze-2/contact-clauses/#lesen
-          - text: Mindestens ein Relativsatz kommt ohne Relativkarte aus, zum Beispiel the film I saw.
+          - text: Mindestens ein Relativsatz kommt ohne Relativkarte aus, zum Beispiel the song we heard.
             source: /relativsaetze-2/contact-clauses/#neu
-          - text: Hinter dem Relativsatz bleibt kein Pronomen stehen.
+          - text: Im Relativsatz steht das ersetzte Pronomen nicht noch einmal.
             source: /relativsaetze-2/contact-clauses/#neu
           - text: Es sind ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
-          I think the book is better than the film. The film I saw last year was too long.
+          I think the book is better than the film. The film about the lighthouse boy is not as good as the book I read.
   - type: section
     id: weiter
     title: Wie es weitergeht

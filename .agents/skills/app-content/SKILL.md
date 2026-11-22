@@ -128,3 +128,7 @@ Die Kapitel `relativsaetze-2` (Relativsätze genauer), `was-waere-wenn` (Was wä
 - Das Lesestück ist ein eigener Text, erfundene Schule und Personen, keine echten Fakten (sonst mit Quelle unter „Sources“). Die Hör- und Nachsprechsätze stehen nicht im Lesestück.
 - `contact-clauses` (Seite 1 von Kapitel 2) ist die Musterseite: Chat „Class 8B“ mit zwölf Nachrichten, `satzstreifen-contact-clauses.svg` (gestrichelte Karte „(that)“ in Klammern darf fehlen, `who` als Subjekt-Ersatz bleibt), Poster „Karte weglassen?“.
 - Wiederholung am Kapitelanfang (`das-brauchst-du`, `recap`) nur, wo ein Baustein von außerhalb gebraucht wird: Kapitel 3 simple-past und past-perfect, Kapitel 4 past-perfect, infinitivkonstruktionen und imperativ; kompakt, ohne Übung, mit Link zur Karte.
+
+Hörliste Kapitel 2, `contact-clauses` (`regen_audio.py` mit `valley_cut`; Dateien in `src/audio/`):
+- einsilbig am Ende: „I lost the key my mother gave me.“ (`i-lost-the-key-my-mother-gave-me.mp3`), „The teacher I like best is Mr Hill.“ (`the-teacher-i-like-best-is-mr-hill.mp3`), „The cake we ate on Sunday was great.“ (`the-cake-we-ate-on-sunday-was-great.mp3`, Fehllaut-Schnitt 45 ms)
+- zwei- oder mehrsilbig am Ende (Risiko angeschnittener Silbe): „The video you sent me is really funny.“, „The woman we asked was very helpful.“, „Where is the ticket I bought yesterday?“
