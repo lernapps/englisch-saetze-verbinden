@@ -1,0 +1,232 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Welcher Junge? who, which, that und whose"
+description: "Peter fragt: Which boy? Du lernst, mit who, which, that und whose eine Person oder Sache genauer zu beschreiben."
+competencies: [relativsaetze]
+scope: Die Seite führt den notwendigen Relativsatz ein. Ein zweiter Streifen sagt genauer, welche Person oder Sache gemeint ist. Die Relativkarte ersetzt das Pronomen des zweiten Streifens (she, he, it, his, her) und der Streifen steht direkt hinter dem Wort, das er beschreibt. Who steht für Personen, which für Sachen und Tiere, that für beides, whose zeigt, wem etwas gehört. Whose ist nicht who's, denn who's heißt who is. Das Pronomen fällt weg (the girl who has, nicht the girl who she has). Die Relativkarte steht hier immer für das Subjekt des zweiten Streifens oder für ein besitzanzeigendes Wort. Nicht hier, weil es spätere Kapitel sind. Relativsätze ohne Relativpronomen, nicht notwendige Relativsätze mit Kommas, Relativsätze mit Präposition und satzbezogenes which.
+blocks:
+  - type: section
+    id: einstieg
+    title: Welcher Junge?
+    blocks:
+      - type: figure
+        image: images/szene-relativsaetze.svg
+        alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Amir is the boy.“ und „He sits next to Sophie.“ Darunter hängen drei Karten: who, which und whose. Peter fragt in einer Sprechblase: „Which boy?“ Von links stehen Sophie, Amir, Peter und Ellie. Rechts steht Mr Hill."
+        caption: "Von links: Sophie (Zöpfe), Amir (Brille), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Mr Hill (graue Haare). Amir hat „Amir is the boy.“ aufgehängt, Ellie den zweiten Streifen. Peter fragt."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Amir hat den Streifen „Amir is the boy.“ aufgehängt. Das heißt: Amir ist der Junge. Peter fragt: „Which boy?“ Welcher Junge? Der Streifen sagt nicht, welcher Junge gemeint ist. Ellie hat einen zweiten Streifen: „He sits next to Sophie.“ Er sitzt neben Sophie.
+      - type: single-choice
+        id: relativ-start
+        text: Welcher Streifen sagt genauer, welcher Junge gemeint ist?
+        options:
+          - text: He sits next to Sophie
+            correct: true
+            info: Der Streifen sagt etwas über den Jungen. So erfährt Peter, welcher Junge gemeint ist.
+          - text: We play football
+            correct: false
+            info: Dieser Streifen sagt nichts über den Jungen. Er sagt, was wir tun.
+          - text: It is red
+            correct: false
+            info: It steht für eine Sache. Der Streifen sagt nichts über einen Jungen.
+        explanation: Ein zweiter Streifen kann sagen, welche Person gemeint ist.
+        links:
+          - title: Lernlandkarte Englisch · Notwendige Relativsätze
+            url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst genauer, welche Person oder Sache du meinst. Dazu hängst du mit who, which, that oder whose einen zweiten Streifen an."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [boy, Junge]
+          - [girl, Mädchen]
+          - [man, Mann]
+          - [friend, Freund / Freundin]
+          - [teacher, Lehrer / Lehrerin]
+          - [mother, Mutter]
+          - [sit, sitzen]
+          - [next to, neben]
+          - [live, wohnen]
+          - [teach, unterrichten]
+          - [sing, singen]
+          - [jacket, Jacke]
+          - [bus, Bus]
+          - [funny, lustig]
+          - [nice, nett]
+          - [small, klein]
+          - [red / blue / green / yellow / purple, rot / blau / grün / gelb / lila]
+  - type: section
+    id: neu
+    title: Die Karte ersetzt das Pronomen
+    blocks:
+      - type: text
+        text: "Ein **Relativsatz** ist ein zweiter Streifen, der ein Nomen (zum Beispiel girl oder bike) genauer beschreibt. Die Karte dazwischen heißt **Relativkarte**. Sie ersetzt das Pronomen im zweiten Streifen: aus „She has a red jacket“ wird „who has a red jacket“. Der Streifen rückt direkt hinter das Nomen."
+      - type: figure
+        image: images/satzstreifen-relativsaetze.svg
+        alt: "Oben ein Streifen „Ellie is the girl.“ Darunter eine grüne Karte „who“ und ein Streifen „has a red jacket.“ mit dem Hinweis „She → who“. Ein Pfeil zeigt nach unten auf einen langen Streifen „Ellie is the girl who has a red jacket.“"
+        caption: Who ersetzt she. Der zweite Streifen rückt hinter the girl.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Relativkarten
+        header: [Karte, Wofür, Beispiel]
+        rows:
+          - [who, Person, Ellie is the girl who has a red jacket.]
+          - [which, Sache, I have a book which is funny.]
+          - [that, Person oder Sache, Peter has a dog that is small.]
+          - [whose, wem etwas gehört, This is the boy whose bike is blue.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Die Karte ersetzt das Pronomen, es bleibt nicht stehen.** Es heißt „the girl who sings“, nicht „the girl who she sings“. Vor who, which, that und whose steht kein Komma. Hier darf die Karte nicht fehlen, anders als das that bei „I think that …“. Und **whose** ist nicht **who’s**: Who’s heißt who is.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: relativ-zuordnen
+        text: Welche Relativkarte passt?
+        pairs:
+          - left: Nur eine Person (keine Sachen).
+            right: who
+          - left: Nur eine Sache (keine Personen).
+            right: which
+          - left: Person oder Sache, beides geht.
+            right: that
+          - left: Es geht darum, wem etwas gehört.
+            right: whose
+        explanation: Jede Karte hat ihre Aufgabe. Nur that passt zu Personen und zu Sachen.
+        links:
+          - title: Lernlandkarte Englisch · Notwendige Relativsätze
+            url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
+      - type: language-task
+        id: relativ-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Relativkarte passt in die Lücke? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Mr Hill ist der Lehrer, der Englisch unterrichtet.
+            target: Mr Hill is the teacher [who|that] teaches English.
+            distractors: [[which, whose]]
+            mistakes:
+              - answer: Mr Hill is the teacher which teaches English.
+                message: Ein Lehrer ist eine Person.
+              - answer: Mr Hill is the teacher whose teaches English.
+                message: Whose zeigt, wem etwas gehört.
+          - source: Ich habe eine Jacke, die rot ist.
+            target: I have a jacket [which|that] is red.
+            distractors: [[who, whose]]
+            mistakes:
+              - answer: I have a jacket who is red.
+                message: Eine Jacke ist eine Sache.
+              - answer: I have a jacket whose is red.
+                message: Der zweite Streifen sagt nicht, wem etwas gehört.
+          - source: Peter ist der Junge, dessen Hund klein ist.
+            target: Peter is the boy [whose] dog is small.
+            distractors: [[who, who's]]
+            mistakes:
+              - answer: Peter is the boy who dog is small.
+                message: Der Hund gehört dem Jungen.
+              - answer: Peter is the boy who's dog is small.
+                message: Who's heißt who is.
+          - source: Das ist der Bus, der zur Schule fährt.
+            target: This is the bus [which|that] goes to school.
+            distractors: [[who, whose]]
+            mistakes:
+              - answer: This is the bus who goes to school.
+                message: Ein Bus ist eine Sache.
+              - answer: This is the bus whose goes to school.
+                message: Der zweite Streifen sagt nicht, wem etwas gehört.
+      - type: language-task
+        id: relativ-bilden
+        languages: { source: de, target: en }
+        task: Verbinde die zwei Streifen mit der Relativkarte. Das Pronomen fällt weg. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter has a friend · he plays football · who
+            target: Peter has a friend (who|that) plays football.
+            mistakes:
+              - answer: Peter has a friend who he plays football.
+                message: Who ersetzt he. Es bleibt kein he stehen.
+              - answer: Peter has a friend which plays football.
+                message: Ein Freund ist eine Person.
+          - cue: I have a bike · it is blue · which
+            target: I have a bike (which|that) is blue.
+            mistakes:
+              - answer: I have a bike which it is blue.
+                message: Which ersetzt it. Es bleibt kein it stehen.
+              - answer: I have a bike who is blue.
+                message: Ein Fahrrad ist eine Sache.
+          - cue: Ellie has a friend · her mother is a teacher · whose
+            target: Ellie has a friend whose mother is a teacher.
+            mistakes:
+              - answer: Ellie has a friend whose her mother is a teacher.
+                message: Whose ersetzt her. Es bleibt kein her stehen.
+              - answer: Ellie has a friend who's mother is a teacher.
+                message: Who's heißt who is. Wem gehört die Mutter?
+      - type: language-task
+        id: relativ-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Ich habe einen Bruder, der Fußball spielt.
+            target: I have a brother (who|that) plays football.
+            mistakes:
+              - answer: I have a brother which plays football.
+                message: Ein Bruder ist eine Person.
+          - source: Amir ist der Junge, dessen Fahrrad grün ist.
+            target: Amir is the boy whose (bike|bicycle) is green.
+            mistakes:
+              - answer: Amir is the boy who's bike is green.
+                message: Who's heißt who is. Wem gehört das Fahrrad?
+      - type: language-task
+        id: relativ-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: i-have-a-friend-who-lives-in-millbrook.mp3
+            target: I have a friend (who|that) lives in Millbrook.
+          - audio: peter-has-a-jacket-which-is-yellow.mp3
+            target: Peter has a jacket (which|that) is yellow.
+          - audio: peter-has-a-friend-whose-jacket-is-purple.mp3
+            target: Peter has a friend whose jacket is purple.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: relativ-nachsprechen
+        language: en
+        items:
+          - audio: mr-hill-is-the-man-who-teaches-us-english.mp3
+            text: Mr Hill is the man who teaches us English.
+          - audio: we-have-a-teacher-who-is-nice.mp3
+            text: We have a teacher who is nice.
+          - audio: i-have-a-sister-who-sings-every-day.mp3
+            text: I have a sister who sings every day.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Die Karte betonst du kaum.
+      - type: open-task
+        id: relativ-wand
+        task: "Schreibe zwei englische Sätze für die Satzstreifen-Wand. Beschreibe eine Person aus deiner Klasse mit who und eine Sache, die du hast, mit which oder that."
+        points:
+          - text: Der erste Satz beschreibt eine Person mit who, der zweite eine Sache mit which oder that.
+            source: /saetze-verbinden/relativsaetze/#neu
+          - text: Die Karte ersetzt das Pronomen, es bleibt kein he, she oder it stehen.
+            source: /saetze-verbinden/relativsaetze/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Ellie is the girl who sits next to Amir. I have a jacket which is green.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür. Ellie hängt dafür zwei neue Streifen auf: „It rains.“ und „We stay in.“ Auf der nächsten Seite lernst du, mit welcher Karte man sie verbindet."

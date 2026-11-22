@@ -1,0 +1,281 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Zwei Streifen, eine Karte: and, but, or, because, so, when"
+description: "Mr Hill hängt in Millbrook die Satzstreifen-Wand auf. Du lernst, mit and, but, or, because, so und when zwei Sätze zu einem zu verbinden."
+competencies: [konjunktionen]
+scope: Die Seite führt die Satzstreifen und die Verbindungskarten ein. Ein Satzstreifen ist ein ganzer Satz mit Subjekt und Verb. Eine Verbindungskarte hängt zwei Streifen zu einem längeren Satz zusammen und sagt, wie sie zusammengehören. And fügt etwas hinzu, but zeigt einen Gegensatz, or lässt wählen, because nennt den Grund, so nennt die Folge und when sagt, wann etwas passiert. Vor because steht der Grund, vor so die Folge. Die Streifen bleiben ganze Sätze mit eigenem Subjekt. Kommas und andere Satzzeichen sind hier nicht Thema und zählen nicht als Fehler. Nicht hier, weil es spätere Seiten sind. That-Sätze, Relativsätze und if-Sätze. Nicht hier, weil es spätere Kapitel sind. Although und whereas.
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Streifen und eine Karte
+    blocks:
+      - type: figure
+        image: images/szene-konjunktionen.svg
+        alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Peter likes football.“ und „Amir likes football.“ Darunter hängen drei Karten: and, but und because. Sophie fragt in einer Sprechblase: „Which card fits?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Peter und Amir haben die weißen Streifen geschrieben. Die bunten Karten sind Verbindungskarten. Sophie fragt."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          An der **Satzstreifen-Wand** hängen heute zwei **Streifen**, auf jedem steht ein ganzer Satz. Peter hat geschrieben: „Peter likes football.“ Amir hat geschrieben: „Amir likes football.“ Like heißt mögen, football heißt Fußball. Sophie fragt: „Which card fits?“ Das heißt: Welche Karte passt? Darunter hängen bunte **Verbindungskarten**. Eine Karte soll die zwei Streifen zu einem Satz verbinden.
+      - type: single-choice
+        id: konjunktionen-start
+        text: Welche Karte verbindet die zwei Streifen zu einem Satz?
+        options:
+          - text: "and, wenn etwas dazukommt"
+            correct: true
+            info: Peter mag Fußball und Amir mag auch Fußball. Der zweite Streifen fügt etwas hinzu. Dafür steht and.
+          - text: "but, wenn der zweite Streifen etwas ganz anderes sagt"
+            correct: false
+            info: Beide Streifen sagen dasselbe. Ein Gegensatz würde zu but passen, zum Beispiel „Peter likes football, but Amir likes tennis.“
+          - text: "because, wenn der zweite Streifen einen Grund nennt"
+            correct: false
+            info: Dass Amir Fußball mag, ist kein Grund dafür, dass Peter Fußball mag. Because passt nur, wenn der zweite Streifen erklärt, warum der erste stimmt.
+        explanation: Mit and kommt etwas dazu.
+        links:
+          - title: Lernlandkarte Englisch · Konjunktionen and, but, because
+            url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
+      - type: text
+        text: "**Das kannst du danach:** Du machst aus zwei kurzen Sätzen einen langen, mit and, but, or, because, so oder when. Du weißt, welche Karte wozu passt."
+      - type: text
+        text: Einfache Wörter wie read, play oder go kennst du schon. Diese Wörter sind neu auf dem Poster.
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [tired, müde]
+          - [hungry, hungrig]
+          - [sandwich, belegtes Brot]
+          - [early, früh]
+          - [late, spät]
+          - [sunny, sonnig]
+          - [rain, regnen]
+          - [stay at home, zu Hause bleiben]
+          - [like, mögen]
+          - [football, Fußball]
+          - [tennis, Tennis]
+          - [tea, Tee]
+          - [milk, Milch]
+          - [bike, Fahrrad]
+          - [brother, Bruder]
+          - [sister, Schwester]
+          - [dog, Hund]
+          - [rabbit, Kaninchen]
+          - [every day, jeden Tag]
+          - [happy, froh]
+          - [sing, singen]
+          - [smile, lächeln]
+          - [Saturday, Samstag]
+          - [doesn't, "nicht (= does not)"]
+  - type: section
+    id: neu
+    title: Die Verbindungskarten
+    blocks:
+      - type: text
+        text: "Ein **Streifen** ist ein ganzer Satz mit einem Subjekt und einem Verb. Eine **Verbindungskarte** hängt zwei Streifen aneinander. Jede Karte sagt, wie die zwei Streifen zusammengehören. Die Streifen bleiben ganze Sätze: Hinter der Karte kommt wieder ein Subjekt. Denke an das -s: Bei he, she und it endet das Verb auf -s, zum Beispiel reads, sees und goes."
+      - type: figure
+        image: images/satzstreifen-konjunktionen.svg
+        alt: "Oben ein Satz aus drei Teilen: ein weißer Streifen „Ellie is tired.“, eine orange Karte „so“ und ein weißer Streifen „she goes to bed early.“ Darunter sechs bunte Karten mit ihrer Bedeutung: and und, but aber, or oder, because weil, so deshalb, when wenn."
+        caption: "Streifen, Karte, Streifen: „Ellie is tired“ heißt Ellie ist müde, „she goes to bed early“ heißt sie geht früh ins Bett. Jede Karte hat ihre Farbe. Unter jeder Karte steht, was sie bedeutet."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Verbindungskarten
+        header: [Karte, Bedeutung, Beispiel]
+        rows:
+          - [and, und (es kommt etwas dazu), Sophie reads a book and Ellie draws a picture.]
+          - [but, aber (ein Gegensatz), Peter is small but he runs fast.]
+          - [or, oder (du kannst wählen), You can take the bus or you can walk.]
+          - [because, weil (der Grund), Amir is tired because he runs every day.]
+          - [so, deshalb (die Folge), The bus is late so we walk.]
+          - [when, wenn (wann es passiert), I read a book when it rains.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Hinter because steht der Grund, hinter so die Folge.** Beide Sätze sagen dasselbe. Nur die Streifen tauschen die Plätze, und die Karte wechselt von because zu so: „We open the window because it is hot.“ ist dasselbe wie „It is hot so we open the window.“ Because und so stehen nie zusammen in einem Satz.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: konjunktionen-zuordnen
+        text: Welche Karte passt zu welchem Gedanken?
+        pairs:
+          - left: Es kommt etwas dazu.
+            right: and
+          - left: Der zweite Streifen sagt etwas ganz anderes.
+            right: but
+          - left: Du kannst zwischen zwei Dingen wählen.
+            right: or
+          - left: Der zweite Streifen nennt den Grund.
+            right: because
+          - left: Der zweite Streifen nennt die Folge.
+            right: so
+          - left: Der zweite Streifen sagt, wann etwas passiert.
+            right: when
+        explanation: Jede Karte sagt, wie die zwei Streifen zusammengehören.
+        links:
+          - title: Lernlandkarte Englisch · Konjunktionen and, but, because
+            url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
+      - type: language-task
+        id: konjunktionen-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Karte passt in die Lücke? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Es regnet jeden Tag, deshalb bleiben wir zu Hause.
+            target: It rains every day [so] we stay at home.
+            distractors: [[because, and]]
+            mistakes:
+              - answer: It rains every day because we stay at home.
+                message: Ist der Regen der Grund oder die Folge?
+              - answer: It rains every day and we stay at home.
+                message: Das Zuhausebleiben folgt aus dem Regen.
+          - source: Sophie mag Tee, aber sie mag keine Milch.
+            target: Sophie likes tea [but] she does not like milk.
+            distractors: [[and, because]]
+            mistakes:
+              - answer: Sophie likes tea and she does not like milk.
+                message: Sagen die zwei Streifen dasselbe oder etwas ganz anderes?
+              - answer: Sophie likes tea because she does not like milk.
+                message: Ist das ein Grund für den ersten Streifen?
+          - source: Peter ist froh, weil heute Samstag ist.
+            target: Peter is happy [because] it is Saturday.
+            distractors: [[so, and]]
+            mistakes:
+              - answer: Peter is happy so it is Saturday.
+                message: Grund oder Folge?
+              - answer: Peter is happy and it is Saturday.
+                message: Was ist hier der Grund und was die Folge?
+          - source: Wir können Fußball oder Tennis spielen.
+            target: We can play football [or] we can play tennis.
+            distractors: [[and, but]]
+            mistakes:
+              - answer: We can play football and we can play tennis.
+                message: Spielen wir beides oder wählen wir?
+              - answer: We can play football but we can play tennis.
+                message: Gegensatz oder zwei Möglichkeiten?
+          - source: Mr Hill ist froh, wenn wir singen.
+            target: Mr Hill is happy [when] we sing.
+            distractors: [[and, because]]
+            mistakes:
+              - answer: Mr Hill is happy and we sing.
+                message: Welche Karte sagt, wann Mr Hill froh ist?
+              - answer: Mr Hill is happy because we sing.
+                message: Wann oder warum ist Mr Hill froh?
+      - type: ordering
+        id: konjunktionen-ordnen
+        text: "Ordne die Wörter zu einem Satz: Peter ist froh, weil er ein Fahrrad hat. Der Satz beginnt mit Peter."
+        items:
+          - Peter
+          - is
+          - happy
+          - because
+          - he
+          - has
+          - a
+          - bike
+        explanation: Der Grund kommt hinter because.
+        links:
+          - title: Lernlandkarte Englisch · Konjunktionen and, but, because
+            url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
+      - type: language-task
+        id: konjunktionen-bilden
+        languages: { source: de, target: en }
+        task: Verbinde die zwei Streifen mit der Karte. Setze die Karte zwischen die zwei Streifen. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: Amir is hungry · he eats a sandwich · so
+            target: (Amir is hungry so he eats a sandwich.|Amir's hungry so he eats a sandwich.|Amir is hungry so he is eating a sandwich.)
+            mistakes:
+              - answer: He eats a sandwich so Amir is hungry.
+                message: Die Streifen stehen falsch herum. Vor so steht der Grund.
+              - answer: Amir is hungry so eats a sandwich.
+                message: Hinter der Karte kommt wieder ein Subjekt. Wer isst?
+          - cue: Sophie is from Germany · she lives in England · but
+            target: (Sophie is from Germany but she lives in England.|Sophie's from Germany but she lives in England.)
+            mistakes:
+              - answer: Sophie is from Germany but she live in England.
+                message: Bei she, he und it braucht das Verb ein s.
+          - cue: Ellie goes home · it is late · because
+            target: (Ellie goes home because it is late.|Ellie goes home because it's late.)
+            mistakes:
+              - answer: It is late because Ellie goes home.
+                message: Die Streifen stehen falsch herum.
+              - answer: Because it is late Ellie goes home.
+                message: Richtig, aber setze die Karte dazwischen.
+          - cue: we play football · it is sunny · when
+            target: (We play football when it is sunny.|We play football when it's sunny.)
+            mistakes:
+              - answer: We play football when it sunny.
+                message: Hinter when fehlt das Verb.
+              - answer: When it is sunny we play football.
+                message: Richtig, aber setze die Karte dazwischen.
+      - type: language-task
+        id: konjunktionen-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz. Welche Karte passt zu dem, was der deutsche Satz sagt?
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Es ist spät, deshalb gehen wir nach Hause.
+            target: (It is late so we go home.|It's late so we go home.|We go home because it is late.|We go home because it's late.|It is late so we are going home.)
+            mistakes:
+              - answer: It is late because we go home.
+                message: Noch nicht ganz. Ist das Nachhausegehen der Grund oder die Folge?
+          - source: Amir mag Fußball, aber er mag kein Tennis.
+            target: (Amir likes football but he does not like tennis.|Amir likes football but he doesn't like tennis.|Amir likes football but not tennis.)
+            mistakes:
+              - answer: Amir likes football so he does not like tennis.
+                message: Noch nicht ganz. Grund und Folge oder ein Gegensatz?
+          - source: Peter singt, wenn er froh ist.
+            target: (Peter sings when he is happy.|Peter sings when he's happy.|When he is happy Peter sings.|When he's happy Peter sings.)
+            mistakes:
+              - answer: Peter sings and he is happy.
+                message: Noch nicht ganz. Wann singt Peter?
+      - type: language-task
+        id: konjunktionen-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: peter-has-a-dog-and-ellie-has-a-rabbit.mp3
+            target: Peter has a dog and Ellie has a rabbit.
+          - audio: sophie-is-tired-but-she-is-happy.mp3
+            target: Sophie is tired but she is happy.
+          - audio: amir-smiles-when-he-sees-sophie.mp3
+            target: Amir smiles when he sees Sophie.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: konjunktionen-nachsprechen
+        language: en
+        items:
+          - audio: we-stay-at-home-because-it-is-sunday.mp3
+            text: We stay at home because it is Sunday.
+          - audio: you-can-have-tea-or-you-can-have-milk.mp3
+            text: You can have tea or you can have milk.
+          - audio: amir-has-a-brother-but-peter-has-a-sister.mp3
+            text: Amir has a brother but Peter has a sister.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Die Karte in der Mitte betonst du kaum.
+      - type: open-task
+        id: konjunktionen-wand
+        task: "Schreibe zwei englische Sätze über dich oder deine Klasse. Jeder Satz hat zwei Teile, die du mit einer Karte verbindest: and, but, or, because, so oder when."
+        points:
+          - text: Jeder Satz hat zwei Teile und eine Verbindungskarte dazwischen.
+            source: /saetze-verbinden/konjunktionen/#neu
+          - text: "Die Karte passt: Sie sagt dazu, Gegensatz, Wahl, Grund, Folge oder Zeit."
+            source: /saetze-verbinden/konjunktionen/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I like football but I do not like tennis. I am happy because it is Friday.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "An der Satzstreifen-Wand hängen jetzt lange Sätze. Ellie hängt einen neuen Streifen auf, der mit „I think“ beginnt. Dahinter fehlt noch etwas. Auf der nächsten Seite lernst du, was hinter „I think“ kommt."

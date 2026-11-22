@@ -1,0 +1,225 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was ich denke: der that-Satz"
+description: "Ellie hängt den Streifen I think an die Wand. Du lernst, mit that Gedanken und Aussagen anzuschließen, und wann that fehlen darf."
+competencies: [that-saetze]
+scope: Die Seite führt den that-Satz ein. Nach Verben wie think, know, say und hope steht ein zweiter Streifen, der ein ganzer Satz mit Subjekt und Verb ist. Die Karte that ist gestrichelt, weil sie fehlen darf (I think that football is fun und I think football is fun sind gleich richtig). Anders als im Deutschen steht vor that kein Komma, und das Verb bleibt an der zweiten Stelle des Streifens. Nicht hier, weil es spätere Seiten oder Kapitel sind. Indirekte Rede mit Zeitverschiebung, Relativsätze und if-Sätze.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was kommt hinter I think?
+    blocks:
+      - type: figure
+        image: images/szene-that-saetze.svg
+        alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „I think“ und „football is fun.“ Darunter hängen drei Karten: eine gestrichelte Karte „that“, eine rote „but“ und eine blaue „because“. Sophie fragt in einer Sprechblase: „What comes next?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Ellie hat „I think“ aufgehängt, Peter den langen Streifen. Sophie fragt."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Ellie hat den Streifen „I think“ aufgehängt. Das heißt: Ich glaube. Sophie fragt: „What comes next?“ Was kommt als Nächstes? Peter hat den Streifen „football is fun.“ dazugehängt. Football heißt Fußball, fun heißt Spaß.
+      - type: single-choice
+        id: that-start
+        text: Welcher Streifen kann hinter „I think“ hängen?
+        options:
+          - text: Ein ganzer Satz, zum Beispiel „football is fun.“
+            correct: true
+            info: Hinter I think kommt, was Ellie glaubt. Das ist ein ganzer Satz mit Subjekt und Verb.
+          - text: Nur ein Wort, zum Beispiel „fun“
+            correct: false
+            info: Ein einzelnes Wort ist kein Satz. Hinter I think braucht der Streifen ein Subjekt und ein Verb.
+          - text: "Ein Streifen mit Grund, zum Beispiel „because it is fun“"
+            correct: false
+            info: Because nennt einen Grund. Hier geht es darum, was Ellie glaubt, nicht warum.
+        explanation: Hinter I think steht ein ganzer Satz.
+        links:
+          - title: Lernlandkarte Englisch · That-Sätze
+            url: https://lernapps.net/apps/map/englisch/c/that-saetze/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst, was du glaubst, weißt oder hoffst, und was andere sagen. Du weißt, wann die Karte that fehlen darf."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [think, glauben / denken]
+          - [know, wissen]
+          - [say, sagen]
+          - [hope, hoffen]
+          - [fun, Spaß]
+          - [easy, leicht]
+          - [difficult, schwierig]
+          - [right, richtig]
+          - [nice, nett]
+          - [English, Englisch]
+          - [warm, warm]
+          - [happy, froh]
+          - [today, heute]
+          - [tired, müde]
+          - [hungry, hungrig]
+          - [test, Test]
+  - type: section
+    id: neu
+    title: Die Karte that darf fehlen
+    blocks:
+      - type: text
+        text: "Nach think, know, say und hope kommt ein zweiter Streifen. Er sagt, **was** jemand glaubt, weiß, sagt oder hofft. Die Karte dazwischen heißt **that**. Sie verbindet die Streifen wie die Karten der Seite davor. Sie ist gestrichelt, denn man darf sie weglassen."
+      - type: figure
+        image: images/satzstreifen-that-saetze.svg
+        alt: "Zwei gleiche Sätze untereinander. Oben: ein Streifen „Ellie thinks“, eine gestrichelte Karte „that“ und ein Streifen „football is fun.“ Unten dieselben zwei Streifen ohne Karte."
+        caption: Oben mit that, unten ohne. Beide Sätze sind richtig. Die gestrichelte Karte darf fehlen.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Kein Komma vor that, und der zweite Streifen bleibt ein normaler Satz.** Im Deutschen steht vor „dass“ ein Komma und das Verb ganz hinten. Im Englischen nicht: „She says (that) you are nice.“ heißt Sie sagt, dass du nett bist.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: multiple-choice
+        id: that-streifen
+        text: Welche Streifen können hinter „I think“ hängen? Wähle alle richtigen.
+        options:
+          - text: English is easy
+            correct: true
+            info: Das ist ein ganzer Satz mit Subjekt und Verb. Er sagt, was du glaubst.
+          - text: Peter is hungry
+            correct: true
+            info: Auch das ist ein ganzer Satz mit Subjekt und Verb.
+          - text: easy
+            correct: false
+            info: Ein einzelnes Wort ist kein Satz. Es fehlen Subjekt und Verb.
+          - text: tired and hungry
+            correct: false
+            info: Hier fehlen Subjekt und Verb. Es ist kein ganzer Streifen.
+        explanation: Hinter I think steht ein ganzer Satz. Die Karte that darf davor stehen oder fehlen.
+        links:
+          - title: Lernlandkarte Englisch · That-Sätze
+            url: https://lernapps.net/apps/map/englisch/c/that-saetze/
+      - type: language-task
+        id: that-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Karte passt in die Lücke? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Ich glaube, dass Peter müde ist.
+            target: I think [that] Peter is tired.
+            distractors: [[because, and]]
+            mistakes:
+              - answer: I think because Peter is tired.
+                message: Because nennt einen Grund. Hier sagst du, was du glaubst.
+              - answer: I think and Peter is tired.
+                message: And fügt etwas dazu. Welche Karte schließt den Gedanken an?
+          - source: Amir weiß, dass der Test leicht ist.
+            target: Amir knows [that] the test is easy.
+            distractors: [[so, but]]
+            mistakes:
+              - answer: Amir knows so the test is easy.
+                message: So nennt eine Folge. Hier sagst du, was Amir weiß.
+              - answer: Amir knows but the test is easy.
+                message: But zeigt einen Gegensatz. Hier gibt es keinen.
+          - source: Ellie sagt, dass Englisch Spaß macht.
+            target: Ellie says [that] English is fun.
+            distractors: [[when, or]]
+            mistakes:
+              - answer: Ellie says when English is fun.
+                message: When sagt, wann etwas passiert. Hier geht es um das Gesagte.
+              - answer: Ellie says or English is fun.
+                message: Or lässt wählen. Hier gibt es nichts zu wählen.
+      - type: language-task
+        id: that-bilden
+        languages: { source: de, target: en }
+        task: Hänge die zwei Streifen aneinander. Du darfst that schreiben oder weglassen.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: I think · Amir is happy
+            target: I think (that |)(Amir is|Amir's) happy.
+            mistakes:
+              - answer: I think that Amir happy.
+                message: Der zweite Streifen ist ein ganzer Satz. Dir fehlt das Verb.
+          - cue: Ellie knows · the test is difficult
+            target: Ellie knows (that |)the test is difficult.
+            mistakes:
+              - answer: Ellie knows that the test difficult.
+                message: Hinter that braucht der Streifen ein Verb.
+              - answer: Ellie knows that is the test difficult.
+                message: Das Verb steht hinter dem Subjekt, nicht davor.
+          - cue: Mr Hill says · you are right
+            target: Mr Hill says (that |)(you are|you're) right.
+            mistakes:
+              - answer: Mr Hill says that you right are.
+                message: Im Englischen kommt das Verb nicht ans Ende.
+          - cue: Peter hopes · it is warm today
+            target: Peter hopes (that |)(it is|it's) warm today.
+            mistakes:
+              - answer: Peter hope that it is warm today.
+                message: Bei Peter braucht das Verb ein s.
+      - type: language-task
+        id: that-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz. Du darfst that weglassen.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Ich glaube, dass Englisch leicht ist.
+            target: I think (that |)English is easy.
+            mistakes:
+              - answer: I think that English easy is.
+                message: Im Englischen kommt das Verb nicht ans Ende.
+          - source: Wir wissen, dass du müde bist.
+            target: We know (that |)(you are|you're) tired.
+            mistakes:
+              - answer: We know that you tired.
+                message: Hinter that braucht der Streifen ein Verb.
+          - source: Sophie hofft, dass Millbrook nett ist.
+            target: Sophie hopes (that |)Millbrook is nice.
+            mistakes:
+              - answer: Sophie hope that Millbrook is nice.
+                message: Bei Sophie braucht das Verb ein s.
+      - type: language-task
+        id: that-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: i-think-that-you-are-right.mp3
+            target: I think (that |)(you are|you're) right.
+          - audio: ellie-knows-that-peter-is-hungry.mp3
+            target: Ellie knows (that |)Peter is hungry.
+          - audio: they-know-that-sophie-is-right.mp3
+            target: They know (that |)Sophie is right.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: that-nachsprechen
+        language: en
+        items:
+          - audio: mr-hill-hopes-that-we-are-happy.mp3
+            text: Mr Hill hopes that we are happy.
+          - audio: sophie-says-that-english-is-difficult.mp3
+            text: Sophie says that English is difficult.
+          - audio: i-think-that-it-is-warm-in-millbrook.mp3
+            text: I think that it is warm in Millbrook.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort that betonst du kaum.
+      - type: open-task
+        id: that-wand
+        task: "Schreibe zwei englische Sätze für die Satzstreifen-Wand. Der erste beginnt mit I think und sagt, was du über Englisch denkst. Der zweite beginnt mit I know und sagt, was du über dich weißt."
+        points:
+          - text: Beide Sätze haben hinter think und know einen ganzen Streifen mit Subjekt und Verb.
+            source: /saetze-verbinden/that-saetze/#neu
+          - text: Vor that steht kein Komma, und that darf fehlen.
+            source: /saetze-verbinden/that-saetze/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I think that English is fun. I know that I am a good friend.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter fragt, wer gemeint ist. Auf der nächsten Seite lernst du, wie ein zweiter Streifen eine Person oder Sache genauer beschreibt."

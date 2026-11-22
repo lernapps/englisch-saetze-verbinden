@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+strand: englisch/grammatik
+title: Sätze verbinden mit Satzstreifen
+intro: In der Millbrook School hängt Mr Hill eine Satzstreifen-Wand an die Rückwand des Klassenzimmers. Sophie (11, aus Deutschland), Ellie (11), ihr Bruder Peter (9) und Amir (11) hängen Streifen und Verbindungskarten daran. Du lernst, kurze englische Sätze zu längeren Sätzen zu verbinden, mit and, but, or, because, so, when und that, mit who, which, that und whose eine Person oder Sache genauer zu beschreiben und mit if zu sagen, was unter einer Bedingung passiert.
+languages: [de]
+scope:
+  text: Die App erklärt für Kinder im ersten und zweiten Lernjahr, wie man kurze englische Sätze verbindet. Jeder Satz ist ein Satzstreifen, jede Verbindungsart eine Karte. Gelernt werden die Konjunktionen and, but, or, because, so und when, that-Sätze nach I think und Ellie says, notwendige Relativsätze mit who, which, that und whose und if-Sätze, bei denen if im simple present steht und im anderen Satz will. Beispiele stammen aus dem Alltag von Sophie, Ellie, Peter und Amir.
+  out:
+    - Die Zeitformen selbst (steht im Explainer „Zeiten auf dem Zeitstrahl“)
+    - Fragen im einfachen Satz (steht im Explainer „Sätze bauen“)
+    - Infinitiv und Gerundium (steht im Explainer „Verbketten“)
+    - Verbindungswörter für Erzählung und Argumentation
+    - Relativsätze ohne Relativpronomen, nicht notwendige Relativsätze, although und whereas
+    - If-Sätze für Unwirkliches, I wish, indirekte Rede und indirekte Fragen
+chapters: [saetze-verbinden]

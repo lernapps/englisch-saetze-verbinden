@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Sätze verbinden
+summary: Mr Hill hängt in Millbrook eine Satzstreifen-Wand auf. Du lernst, zwei Streifen mit einer Verbindungskarte zu einem Satz zu verbinden.
+pages: [das-brauchst-du, konjunktionen, that-saetze, relativsaetze, if-satz-1]
+selfAssessment:
+  pages:
+    - exercises:
+        - /saetze-verbinden/konjunktionen/#konjunktionen-karte
+        - /saetze-verbinden/konjunktionen/#konjunktionen-uebersetzen
+    - exercises:
+        - /saetze-verbinden/that-saetze/#that-karte
+        - /saetze-verbinden/that-saetze/#that-uebersetzen
+    - exercises:
+        - /saetze-verbinden/relativsaetze/#relativ-karte
+        - /saetze-verbinden/relativsaetze/#relativ-uebersetzen
+    - exercises:
+        - /saetze-verbinden/if-satz-1/#if-formen
+        - /saetze-verbinden/if-satz-1/#if-uebersetzen
