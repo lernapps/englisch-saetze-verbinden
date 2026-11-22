@@ -272,7 +272,7 @@ Commit, Checkpoint „Veröffentlichen“ erreicht, nicht veröffentlicht (Auftr
 
 ### Creator turns after the plan
 
-Drei Rückmeldungen nach der Bestätigung des Plans, zwei von der Orchestrator-Session (in der Rolle der Ersteller:in), eine von der Ersteller:in selbst: (1) Orchestrator-Session: Prüfung der Musterseite mit Auflagen A bis H (Distraktoren, Tabellen, Zeilenfehler); (2) Orchestrator-Session: Prüfung der fertigen App mit sieben Auflagen (Wiederholung von Sätzen in Diktat und Nachsprechen, Wörtertabellen, Meldungen, Retrospektive); (3) Ersteller:in selbst: Freigabe, `gh-pages` anzulegen (der Branch bestand schon).
+Eine Nachricht der Ersteller:in (Mensch) nach der Bestätigung des Plans: die Freigabe, `gh-pages` anzulegen (der Branch bestand schon). Außerdem drei Prüfungen und Rückmeldungen der Orchestrator-Session (in der Rolle der Ersteller:in): Musterseite mit Auflagen A bis H, fertige App mit sieben Auflagen (Wiederholung von Sätzen in Diktat und Nachsprechen, Wörtertabellen, Meldungen, Retrospektive), Rückmeldung zu den Hörsätzen (keine Namen nur wegen des Klangs, Hörliste).
 
 ### Where I had to guess
 
@@ -282,4 +282,5 @@ Drei Rückmeldungen nach der Bestätigung des Plans, zwei von der Orchestrator-S
 - Komma-Fehler (that mit Komma, Komma vor who) lassen sich mit der Einstellung `punctuation: hint` nicht als Fehler melden: im Text erklärt, nicht geprüft.
 - Meldungen zu falschen Karten im Modus `choice` zeigt die Vorlage nicht an: trotzdem geschrieben (für den Tutor).
 - Stufe der Wortwahl: bike, purple, rabbit, cat und test sind A2, sonst A1.
+- Hörsätze: Namen am Satzende hatte ich für den Klang angehängt (drei Sätze); auf Rückmeldung entfernt, einsilbig endende Sätze stehen in der Hörliste des Inhaltsführers.
 - `gh-pages` existierte schon, mein Push des leeren Startcommits entfiel; die Pages-Einstellung konnte ich nicht lesen.

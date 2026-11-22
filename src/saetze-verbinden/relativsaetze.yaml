@@ -108,7 +108,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Welche Relativkarte passt in die Lücke? Lies zuerst den deutschen Satz.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Mr Hill ist der Lehrer, der Englisch unterrichtet.
             target: Mr Hill is the teacher [who|that] teaches English.
@@ -146,7 +146,7 @@ blocks:
         id: relativ-bilden
         languages: { source: de, target: en }
         task: Verbinde die zwei Streifen mit der Relativkarte. Das Pronomen fällt weg. Schreibe den ganzen Satz.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Peter has a friend · he plays football · who
             target: Peter has a friend (who|that) plays football.
@@ -173,7 +173,7 @@ blocks:
         id: relativ-uebersetzen
         languages: { source: de, target: en }
         task: Übersetze den Satz.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Ich habe einen Bruder, der Fußball spielt.
             target: I have a brother (who|that) plays football.
@@ -189,7 +189,7 @@ blocks:
         id: relativ-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: i-have-a-friend-who-lives-in-millbrook.mp3
             target: I have a friend (who|that) lives in Millbrook.

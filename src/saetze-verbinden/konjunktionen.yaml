@@ -123,7 +123,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Welche Karte passt in die Lücke? Lies zuerst den deutschen Satz.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Es regnet jeden Tag, deshalb bleiben wir zu Hause.
             target: It rains every day [so] we stay at home.
@@ -185,7 +185,7 @@ blocks:
         id: konjunktionen-bilden
         languages: { source: de, target: en }
         task: Verbinde die zwei Streifen mit der Karte. Setze die Karte zwischen die zwei Streifen. Schreibe den ganzen Satz.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Amir is hungry · he eats a sandwich · so
             target: (Amir is hungry so he eats a sandwich.|Amir's hungry so he eats a sandwich.|Amir is hungry so he is eating a sandwich.)
@@ -217,7 +217,7 @@ blocks:
         id: konjunktionen-uebersetzen
         languages: { source: de, target: en }
         task: Übersetze den Satz. Welche Karte passt zu dem, was der deutsche Satz sagt?
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Es ist spät, deshalb gehen wir nach Hause.
             target: (It is late so we go home.|It's late so we go home.|We go home because it is late.|We go home because it's late.|It is late so we are going home.)
@@ -238,7 +238,7 @@ blocks:
         id: konjunktionen-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: peter-has-a-dog-and-ellie-has-a-rabbit.mp3
             target: Peter has a dog and Ellie has a rabbit.

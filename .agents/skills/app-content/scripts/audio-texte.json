@@ -4,7 +4,6 @@
   "src/audio/we-stay-at-home-because-it-is-sunday.mp3": "We stay at home because it is Sunday.",
   "src/audio/amir-has-a-brother-but-peter-has-a-sister.mp3": "Amir has a brother but Peter has a sister.",
   "src/audio/sophie-is-tired-but-she-is-happy.mp3": "Sophie is tired but she is happy.",
-  "src/audio/i-think-that-you-are-right-amir.mp3": "I think that you are right, Amir.",
   "src/audio/ellie-knows-that-peter-is-hungry.mp3": "Ellie knows that Peter is hungry.",
   "src/audio/i-have-a-friend-who-lives-in-millbrook.mp3": "I have a friend who lives in Millbrook.",
   "src/audio/peter-has-a-jacket-which-is-yellow.mp3": "Peter has a jacket which is yellow.",
@@ -14,13 +13,14 @@
   "src/audio/i-have-a-sister-who-sings-every-day.mp3": "I have a sister who sings every day.",
   "src/audio/they-know-that-sophie-is-right.mp3": "They know that Sophie is right.",
   "src/audio/mr-hill-hopes-that-we-are-happy.mp3": "Mr Hill hopes that we are happy.",
-  "src/audio/peter-says-that-football-is-fun-sophie.mp3": "Peter says that football is fun, Sophie.",
   "src/audio/i-think-that-it-is-warm-in-millbrook.mp3": "I think that it is warm in Millbrook.",
   "src/audio/if-the-bus-is-late-we-will-walk-to-school.mp3": "If the bus is late, we will walk to school.",
   "src/audio/if-amir-is-hungry-we-will-make-a-sandwich.mp3": "If Amir is hungry, we will make a sandwich.",
   "src/audio/if-sophie-is-tired-she-will-go-to-bed-early.mp3": "If Sophie is tired, she will go to bed early.",
   "src/audio/if-it-is-warm-we-will-play-outside.mp3": "If it is warm, we will play outside.",
   "src/audio/if-you-are-late-i-will-wait-for-you.mp3": "If you are late, I will wait for you.",
-  "src/audio/if-it-is-sunny-i-will-have-lunch-outside-ellie.mp3": "If it is sunny, I will have lunch outside, Ellie.",
-  "src/audio/you-can-have-tea-or-you-can-have-milk.mp3": "You can have tea or you can have milk."
+  "src/audio/you-can-have-tea-or-you-can-have-milk.mp3": "You can have tea or you can have milk.",
+  "src/audio/i-think-that-you-are-right.mp3": "I think that you are right.",
+  "src/audio/sophie-says-that-english-is-difficult.mp3": "Sophie says that English is difficult.",
+  "src/audio/if-it-is-sunny-i-will-have-lunch-outside.mp3": "If it is sunny, I will have lunch outside."
 }

@@ -77,7 +77,7 @@ Karte `https://lernapps.net/apps/map/englisch.json` und die Baustein-Seiten `htt
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen.
 3. Satzstreifen-Figur um die neuen Karten oder Operationen erweitern (Kapitel 2: Relativkarte darf fehlen, Klammern aus Kommas, although/whereas; Kapitel 3: Weiche mit zwei weiteren Stellungen; Kapitel 4: Sprechblase wird Streifen) und das Poster um die Zeilen der Seite.
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt (Kapitel 1: je Seite die Übungen „Karte wählen“ und „Übersetzen“, weil sie einen deutschen Satz als Start haben und ohne die Seite verständlich sind).
-5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, 6 je Seite: je 3 für Diktat und Nachsprechen), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
+5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, 6 je Seite: je 3 für Diktat und Nachsprechen), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten und nicht wörtlich auf derselben Seite wiederholen; keinen Namen nur wegen des Klangs anhängen; einsilbig endende Sätze in die Hörliste eintragen.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
@@ -88,7 +88,7 @@ Aus #470 und #472 übernommen:
 - Englische Aufgaben enthalten kein deutsches Wort.
 - Mit `(a|b)` gleichwertige richtige Antworten zulassen; `case: wrong` nur dort, wo die Seite Großschreibung unterrichtet.
 - Auswahlaufgaben zur Großschreibung zeigen alle Optionen gleich geschrieben.
-- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
+- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), kein Name nur wegen des Klangs am Satzende: ein Hörsatz bleibt der natürliche Satz, ein Name steht nur als Anrede, wenn der Satz ihn braucht; Sätze, die auf ein einsilbiges Wort enden, stehen in der Hörliste.
 - Bilder: Beschriftungen innerhalb des `viewBox`; Bildunterschrift nennt, wer wer ist; das `alt` verrät nie die Lösung.
 - Die Antwort einer Frage steht nie im Absatz direkt darüber; das Merke-Kasten nennt andere Wörter als die Übungen, sonst schreiben die Kinder nur ab.
 - Als Auswahl nur echte Lernerfehler, keine Unwörter.
@@ -101,3 +101,12 @@ Aus #470 und #472 übernommen:
 - Je Seite höchstens eine kurze Wörtertabelle (Vorgabe der Orchestrator-Session in der Rolle der Ersteller:in nach dem Lerner-Check).
 - Diktat und Nachsprechen wiederholen keine Sätze der Seite (auch nicht mit getauschtem Namen oder Farbe): eigenes Muster, andere Wörter.
 - Jede Seite hat eine andere Menge an Übungsarten (`explainer-page-variety`).
+
+## Hörliste
+
+Hörsätze, die auf ein einsilbiges Wort enden (nach dem Erzeugen mit `regen_audio.py` gezielt anhören, ob am Ende ein Fehllaut bleibt):
+
+- `konjunktionen`: „You can have tea or you can have milk.“ (`you-can-have-tea-or-you-can-have-milk.mp3`)
+- `that-saetze`: „I think that you are right.“ (`i-think-that-you-are-right.mp3`), „They know that Sophie is right.“ (`they-know-that-sophie-is-right.mp3`)
+- `relativsaetze`: „We have a teacher who is nice.“ (`we-have-a-teacher-who-is-nice.mp3`), „I have a sister who sings every day.“ (`i-have-a-sister-who-sings-every-day.mp3`)
+- `if-satz-1`: „If the bus is late, we will walk to school.“ (`if-the-bus-is-late-we-will-walk-to-school.mp3`), „If you are late, I will wait for you.“ (`if-you-are-late-i-will-wait-for-you.mp3`)

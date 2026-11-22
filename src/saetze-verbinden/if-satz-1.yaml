@@ -106,7 +106,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Welche Form passt in die Lücke? Lies zuerst den deutschen Satz.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Wenn es morgen regnet, bleiben wir zu Hause.
             target: If it [rains] tomorrow, we [will stay] at home.
@@ -160,7 +160,7 @@ blocks:
         id: if-bilden
         languages: { source: de, target: en }
         task: Verbinde die zwei Streifen mit if. Im anderen Streifen steht will. Schreibe den ganzen Satz.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Ellie is late · we wait for her · if
             target: (If Ellie is late, we will wait for her.|If Ellie is late, we'll wait for her.|If Ellie's late, we will wait for her.|If Ellie's late, we'll wait for her.|We will wait for her if Ellie is late.|We'll wait for her if Ellie is late.|We will wait for Ellie if she is late.|We'll wait for Ellie if she is late.)
@@ -197,7 +197,7 @@ blocks:
         id: if-uebersetzen
         languages: { source: de, target: en }
         task: Übersetze den Satz.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Wenn Peter morgen kommt, hilft er uns.
             target: (If Peter comes tomorrow, he will help us.|If Peter comes tomorrow, he'll help us.|Peter will help us if he comes tomorrow.)
@@ -213,7 +213,7 @@ blocks:
         id: if-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: if-the-bus-is-late-we-will-walk-to-school.mp3
             target: (If the bus is late, we will walk to school.|We will walk to school if the bus is late.)
@@ -233,8 +233,8 @@ blocks:
             text: If it is warm, we will play outside.
           - audio: if-you-are-late-i-will-wait-for-you.mp3
             text: If you are late, I will wait for you.
-          - audio: if-it-is-sunny-i-will-have-lunch-outside-ellie.mp3
-            text: If it is sunny, I will have lunch outside, Ellie.
+          - audio: if-it-is-sunny-i-will-have-lunch-outside.mp3
+            text: If it is sunny, I will have lunch outside.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort will betonst du kaum.
       - type: open-task
         id: if-zettel

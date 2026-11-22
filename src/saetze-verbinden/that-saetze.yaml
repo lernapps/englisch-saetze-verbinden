@@ -103,7 +103,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Welche Karte passt in die Lücke? Lies zuerst den deutschen Satz.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Ich glaube, dass Peter müde ist.
             target: I think [that] Peter is tired.
@@ -133,7 +133,7 @@ blocks:
         id: that-bilden
         languages: { source: de, target: en }
         task: Hänge die zwei Streifen aneinander. Du darfst that schreiben oder weglassen.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: I think · Amir is happy
             target: I think (that |)(Amir is|Amir's) happy.
@@ -161,7 +161,7 @@ blocks:
         id: that-uebersetzen
         languages: { source: de, target: en }
         task: Übersetze den Satz. Du darfst that weglassen.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Ich glaube, dass Englisch leicht ist.
             target: I think (that |)English is easy.
@@ -182,10 +182,10 @@ blocks:
         id: that-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - audio: i-think-that-you-are-right-amir.mp3
-            target: I think (that |)(you are|you're) right, Amir.
+          - audio: i-think-that-you-are-right.mp3
+            target: I think (that |)(you are|you're) right.
           - audio: ellie-knows-that-peter-is-hungry.mp3
             target: Ellie knows (that |)Peter is hungry.
           - audio: they-know-that-sophie-is-right.mp3
@@ -200,8 +200,8 @@ blocks:
         items:
           - audio: mr-hill-hopes-that-we-are-happy.mp3
             text: Mr Hill hopes that we are happy.
-          - audio: peter-says-that-football-is-fun-sophie.mp3
-            text: Peter says that football is fun, Sophie.
+          - audio: sophie-says-that-english-is-difficult.mp3
+            text: Sophie says that English is difficult.
           - audio: i-think-that-it-is-warm-in-millbrook.mp3
             text: I think that it is warm in Millbrook.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort that betonst du kaum.
