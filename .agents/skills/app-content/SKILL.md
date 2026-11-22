@@ -118,3 +118,13 @@ Geschnitten mit der Regel `valley_cut` (Fehllaut nach dem letzten Wort, `regen_a
 - „Sophie says that English is difficult.“ (`sophie-says-that-english-is-difficult.mp3`): 25 ms; endet dreisilbig, hier gezielt hören, ob „-cult“ ganz da ist
 
 Hörsätze, die zwei- oder mehrsilbig enden (Risiko, dass eine Silbe angeschnitten wird; nicht geschnitten, außer rabbit und difficult oben): `konjunktionen` Sophie, Sunday, sister, happy; `that-saetze` hungry, happy, Millbrook; `relativsaetze` Millbrook, yellow, purple, English; `if-satz-1` sandwich, early, outside (zwei Sätze).
+
+## Stufe 7-8: Seiten mit Lesestück (Inkrement 02, Kapitel 2 bis 4)
+
+Die Kapitel `relativsaetze-2` (Relativsätze genauer), `was-waere-wenn` (Was wäre, wenn …?) und `weitersagen` (Weitersagen, was jemand sagt) gehören zur Stufe 7-8. Sophie ist jetzt 13 bis 14, Ellie und Amir sind 13, Peter 11; Aussehen und Orte wie in Kapitel 1 (Millbrook School, Satzstreifen-Wand). Die Seiten sind Lesestück-Seiten (Konventionen Abschnitt 8):
+
+- Abschnitte in dieser Reihenfolge: `einstieg` (Vorwissen-Frage als Einzelauswahl mit drei Optionen, „Das kannst du danach“), `lesen` (Lesestück 150 bis 300 Wörter, in Abschnitten; ein Chat ist eine Tabelle Nr · Wer · Nachricht, jede Nachricht nummeriert; nach jedem Abschnitt eine Tabelle „Randglossar“ mit höchstens sechs Wörtern), `neu` (Satzstreifen-Figur, Poster-Tabelle, Merke; „Schau in den Chat“ führt zur Regel), `uebung`, `anwenden`, `weiter`.
+- Aufgaben in drei Stufen: Verstehen (`single-choice` oder `true-false` über den Text), Belegen (`number`: „In welcher Nachricht …?“, Antwort ist die Nummer), Meinung (`open-task` in `anwenden`); dazu die Grammatik-Übungen wie in Kapitel 1 (`multiple-choice`, `language-task` write und Übersetzen, `matching`, `ordering`, Diktat, Nachsprechen). Höchstens etwa 25 Items je Seite. Die Länge des Lesestücks zählt nicht zu den 350 Wörtern Erklärtext (die Tabellen werden nicht gezählt).
+- Das Lesestück ist ein eigener Text, erfundene Schule und Personen, keine echten Fakten (sonst mit Quelle unter „Sources“). Die Hör- und Nachsprechsätze stehen nicht im Lesestück.
+- `contact-clauses` (Seite 1 von Kapitel 2) ist die Musterseite: Chat „Class 8B“ mit zwölf Nachrichten, `satzstreifen-contact-clauses.svg` (gestrichelte Karte „(that)“ in Klammern darf fehlen, `who` als Subjekt-Ersatz bleibt), Poster „Karte weglassen?“.
+- Wiederholung am Kapitelanfang (`das-brauchst-du`, `recap`) nur, wo ein Baustein von außerhalb gebraucht wird: Kapitel 3 simple-past und past-perfect, Kapitel 4 past-perfect, infinitivkonstruktionen und imperativ; kompakt, ohne Übung, mit Link zur Karte.

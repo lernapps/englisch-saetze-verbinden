@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -108,8 +108,9 @@ Jugendliche der Klasse 7-8 können Relativsätze genauer bilden (ohne Relativpro
 - [x] (skipped: keine neue Komponente und keine interaktive Übung; der Seitenaufbau steht in .vibe/sketches/lesestueck-seite.md) Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, Plan und Inhaltsmethode bestätigt. Sophie 13 bis 14, Aussehen wie in Kapitel 1, kein Neuzeichnen. indirekte-aufforderungen darf ein Dialog beim Zettel für die Klassenzimmertür sein. Weiter mit der Musterseite contact-clauses.
 
 ### Content method
 
@@ -137,15 +138,15 @@ cannot. Something new goes into the guide in the slice that adds it. -->
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Musterseite relativsaetze-2/contact-clauses (Kapitel relativsaetze-2, Seite 1, ich allein, zuerst): chapter.yaml, app.yaml (scope und chapters), recap das-brauchst-du, Lesestück (Chat, 150-300 Wörter), Aufgaben, 6 Hörtexte, Inhaltsführer um das Lesestück-Muster erweitern; check, Commit
 - [ ] relativsaetze-2/relativsaetze-nicht-notwendig (Tagebucheintrag): Sub-Agent A, nach der Musterseite, eigener Worktree, nur src/relativsaetze-2/relativsaetze-nicht-notwendig.yaml, Bilder und Audio dieser Seite
