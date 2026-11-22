@@ -150,14 +150,14 @@ cannot. Something new goes into the guide in the slice that adds it. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Musterseite relativsaetze-2/contact-clauses (Kapitel relativsaetze-2, Seite 1, ich allein, zuerst): chapter.yaml, app.yaml (scope und chapters), recap das-brauchst-du, Lesestück (Chat, 150-300 Wörter), Aufgaben, 6 Hörtexte, Inhaltsführer um das Lesestück-Muster erweitern; check, Commit
-- [ ] relativsaetze-2/relativsaetze-nicht-notwendig (Tagebucheintrag): Sub-Agent A, nach der Musterseite, eigener Worktree, nur src/relativsaetze-2/relativsaetze-nicht-notwendig.yaml, Bilder und Audio dieser Seite
-- [ ] relativsaetze-2/konjunktionen-although (Schulzeitungs-Artikel): Sub-Agent A, nach der Musterseite, nur src/relativsaetze-2/konjunktionen-although.yaml, Bilder und Audio dieser Seite
-- [ ] was-waere-wenn/das-brauchst-du, if-satz-2 (Chat): Sub-Agent B, nach der Musterseite, nur src/was-waere-wenn/*.yaml dieser Seiten, Bilder und Audio
-- [ ] was-waere-wenn/if-satz-3 (Blog oder Geschichtenauszug) und i-wish (Blog-Eintrag): Sub-Agent B, nach der Musterseite, nur src/was-waere-wenn/*.yaml, Bilder und Audio
-- [ ] weitersagen/das-brauchst-du, reported-speech (Chat und Bericht): Sub-Agent C, nach der Musterseite, nur src/weitersagen/*.yaml, Bilder und Audio
-- [ ] weitersagen/backshift (Interview in der Schulzeitung) und indirekte-aufforderungen (Dialog oder Chat): Sub-Agent C, nach der Musterseite, nur src/weitersagen/*.yaml, Bilder und Audio
-- [ ] Ich führe die Branches der Sub-Agenten zusammen, trage chapter.yaml und app.yaml ein, prüfe Hörsätze und Wörter über alle Seiten per Skript (keine Dubletten, nichts doppelt), lernapps check
+- [x] Musterseite relativsaetze-2/contact-clauses (Kapitel relativsaetze-2, Seite 1, ich allein, zuerst): chapter.yaml, app.yaml (scope und chapters), recap das-brauchst-du, Lesestück (Chat, 150-300 Wörter), Aufgaben, 6 Hörtexte, Inhaltsführer um das Lesestück-Muster erweitern; check, Commit
+- [x] relativsaetze-2/relativsaetze-nicht-notwendig (Tagebucheintrag): Sub-Agent A, nach der Musterseite, eigener Worktree, nur src/relativsaetze-2/relativsaetze-nicht-notwendig.yaml, Bilder und Audio dieser Seite
+- [x] relativsaetze-2/konjunktionen-although (Schulzeitungs-Artikel): Sub-Agent A, nach der Musterseite, nur src/relativsaetze-2/konjunktionen-although.yaml, Bilder und Audio dieser Seite
+- [x] was-waere-wenn/das-brauchst-du, if-satz-2 (Chat): Sub-Agent B, nach der Musterseite, nur src/was-waere-wenn/*.yaml dieser Seiten, Bilder und Audio
+- [x] was-waere-wenn/if-satz-3 (Blog oder Geschichtenauszug) und i-wish (Blog-Eintrag): Sub-Agent B, nach der Musterseite, nur src/was-waere-wenn/*.yaml, Bilder und Audio
+- [x] weitersagen/das-brauchst-du, reported-speech (Chat und Bericht): Sub-Agent C, nach der Musterseite, nur src/weitersagen/*.yaml, Bilder und Audio
+- [x] weitersagen/backshift (Interview in der Schulzeitung) und indirekte-aufforderungen (Dialog oder Chat): Sub-Agent C, nach der Musterseite, nur src/weitersagen/*.yaml, Bilder und Audio
+- [x] Ich führe die Branches der Sub-Agenten zusammen, trage chapter.yaml und app.yaml ein, prüfe Hörsätze und Wörter über alle Seiten per Skript (keine Dubletten, nichts doppelt), lernapps check
 <!-- tasks: slices (8 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
