@@ -147,7 +147,7 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 
 - Aufgabe: Welche Form passt in die Lücke? Lies zuerst den deutschen Satz.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Wenn es morgen regnet, bleiben wir zu Hause. → If it rains tomorrow, we will stay at home.
      - If it will rain tomorrow, we will stay at home.: Welche Zeitform gehört in den if-Teil?
@@ -176,7 +176,7 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 
 - Aufgabe: Verbinde die zwei Streifen mit if. Im anderen Streifen steht will. Schreibe den ganzen Satz.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ellie is late · we wait for her · if → If Ellie is late, we will wait for her. (auch richtig: If Ellie is late, we'll wait for her.; If Ellie's late, we will wait for her.; If Ellie's late, we'll wait for her.; We will wait for her if Ellie is late.; We'll wait for her if Ellie is late.; We will wait for Ellie if she is late.; We'll wait for Ellie if she is late.)
      - If Ellie will be late, we will wait for her.: Welche Zeitform gehört in den if-Teil?
@@ -199,7 +199,7 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 
 - Aufgabe: Übersetze den Satz.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Wenn Peter morgen kommt, hilft er uns. → If Peter comes tomorrow, he will help us. (auch richtig: If Peter comes tomorrow, he'll help us.; Peter will help us if he comes tomorrow.)
      - If Peter will come tomorrow, he will help us.: Der Streifen mit if hat das simple present.
@@ -212,7 +212,7 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → If the bus is late, we will walk to school. (auch richtig: We will walk to school if the bus is late.)
 2. Audio → If Amir is hungry, we will make a sandwich. (auch richtig: We will make a sandwich if Amir is hungry.)
@@ -228,7 +228,7 @@ Klassenzimmer-Poster · Alle Karten der Wand:
 - Sätze:
 1. Audio → If it is warm, we will play outside.
 2. Audio → If you are late, I will wait for you.
-3. Audio → If it is sunny, I will have lunch outside, Ellie.
+3. Audio → If it is sunny, I will have lunch outside.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort will betonst du kaum.
 - Link: [../?via=tutor#if-nachsprechen](../?via=tutor#if-nachsprechen)
 

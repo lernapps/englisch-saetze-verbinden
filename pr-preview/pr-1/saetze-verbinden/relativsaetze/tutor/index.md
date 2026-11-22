@@ -136,7 +136,7 @@ Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür.
 
 - Aufgabe: Welche Relativkarte passt in die Lücke? Lies zuerst den deutschen Satz.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Mr Hill ist der Lehrer, der Englisch unterrichtet. → Mr Hill is the teacher who teaches English. (auch richtig: who | that)
      - Mr Hill is the teacher which teaches English.: Ein Lehrer ist eine Person.
@@ -157,7 +157,7 @@ Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür.
 
 - Aufgabe: Verbinde die zwei Streifen mit der Relativkarte. Das Pronomen fällt weg. Schreibe den ganzen Satz.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter has a friend · he plays football · who → Peter has a friend who plays football. (auch richtig: Peter has a friend that plays football.)
      - Peter has a friend who he plays football.: Who ersetzt he. Es bleibt kein he stehen.
@@ -175,7 +175,7 @@ Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür.
 
 - Aufgabe: Übersetze den Satz.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich habe einen Bruder, der Fußball spielt. → I have a brother who plays football. (auch richtig: I have a brother that plays football.)
      - I have a brother which plays football.: Ein Bruder ist eine Person.
@@ -188,7 +188,7 @@ Nächste Woche ist Elternabend, und Mr Hill schreibt einen Zettel für die Tür.
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → I have a friend who lives in Millbrook. (auch richtig: I have a friend that lives in Millbrook.)
 2. Audio → Peter has a jacket which is yellow. (auch richtig: Peter has a jacket that is yellow.)

@@ -149,7 +149,7 @@ An der Satzstreifen-Wand hängen jetzt lange Sätze. Ellie hängt einen neuen St
 
 - Aufgabe: Welche Karte passt in die Lücke? Lies zuerst den deutschen Satz.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Es regnet jeden Tag, deshalb bleiben wir zu Hause. → It rains every day so we stay at home.
      - It rains every day because we stay at home.: Ist der Regen der Grund oder die Folge?
@@ -181,7 +181,7 @@ An der Satzstreifen-Wand hängen jetzt lange Sätze. Ellie hängt einen neuen St
 
 - Aufgabe: Verbinde die zwei Streifen mit der Karte. Setze die Karte zwischen die zwei Streifen. Schreibe den ganzen Satz.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Amir is hungry · he eats a sandwich · so → Amir is hungry so he eats a sandwich. (auch richtig: Amir's hungry so he eats a sandwich.; Amir is hungry so he is eating a sandwich.)
      - He eats a sandwich so Amir is hungry.: Die Streifen stehen falsch herum. Vor so steht der Grund.
@@ -201,7 +201,7 @@ An der Satzstreifen-Wand hängen jetzt lange Sätze. Ellie hängt einen neuen St
 
 - Aufgabe: Übersetze den Satz. Welche Karte passt zu dem, was der deutsche Satz sagt?
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Es ist spät, deshalb gehen wir nach Hause. → It is late so we go home. (auch richtig: It's late so we go home.; We go home because it is late.; We go home because it's late.; It is late so we are going home.)
      - It is late because we go home.: Noch nicht ganz. Ist das Nachhausegehen der Grund oder die Folge?
@@ -216,7 +216,7 @@ An der Satzstreifen-Wand hängen jetzt lange Sätze. Ellie hängt einen neuen St
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Peter has a dog and Ellie has a rabbit.
 2. Audio → Sophie is tired but she is happy.

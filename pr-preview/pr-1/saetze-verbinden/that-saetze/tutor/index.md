@@ -133,7 +133,7 @@ Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter
 
 - Aufgabe: Welche Karte passt in die Lücke? Lies zuerst den deutschen Satz.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich glaube, dass Peter müde ist. → I think that Peter is tired.
      - I think because Peter is tired.: Because nennt einen Grund. Hier sagst du, was du glaubst.
@@ -151,7 +151,7 @@ Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter
 
 - Aufgabe: Hänge die zwei Streifen aneinander. Du darfst that schreiben oder weglassen.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. I think · Amir is happy → I think that Amir is happy. (auch richtig: I think that Amir's happy.; I think Amir is happy.; I think Amir's happy.)
      - I think that Amir happy.: Der zweite Streifen ist ein ganzer Satz. Dir fehlt das Verb.
@@ -169,7 +169,7 @@ Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter
 
 - Aufgabe: Übersetze den Satz. Du darfst that weglassen.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich glaube, dass Englisch leicht ist. → I think that English is easy. (auch richtig: I think English is easy.)
      - I think that English easy is.: Im Englischen kommt das Verb nicht ans Ende.
@@ -184,9 +184,9 @@ Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → I think that you are right, Amir. (auch richtig: I think that you're right, Amir.; I think you are right, Amir.; I think you're right, Amir.)
+1. Audio → I think that you are right. (auch richtig: I think that you're right.; I think you are right.; I think you're right.)
 2. Audio → Ellie knows that Peter is hungry. (auch richtig: Ellie knows Peter is hungry.)
 3. Audio → They know that Sophie is right. (auch richtig: They know Sophie is right.)
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
@@ -199,7 +199,7 @@ Amir hängt einen Streifen auf: „Amir is the boy.“ Doch welcher Junge? Peter
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Mr Hill hopes that we are happy.
-2. Audio → Peter says that football is fun, Sophie.
+2. Audio → Sophie says that English is difficult.
 3. Audio → I think that it is warm in Millbrook.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort that betonst du kaum.
 - Link: [../?via=tutor#that-nachsprechen](../?via=tutor#that-nachsprechen)
