@@ -19,7 +19,7 @@ blocks:
             info: "Aus „She lives in London“ wird „who lives in London“. Who ersetzt das Pronomen she, das Subjekt, also das Wort, das etwas tut."
           - text: her, ein Besitzwort
             correct: false
-            info: Her gehört zu whose. Hier geht es um die Person selbst.
+            info: Her gehört zu whose.
           - text: London, einen Ort
             correct: false
             info: London bleibt stehen. Die Karte ersetzt nur das Pronomen.
@@ -124,11 +124,11 @@ blocks:
             info: "Amir schreibt: „isn’t very good“."
           - text: Der Film ist besser als das Buch.
             correct: false
-            info: Das sagt niemand. Ellie findet in Nachricht 9 das Buch besser.
+            info: Das sagt niemand im Chat.
           - text: Der Film ist noch nicht fertig.
             correct: false
-            info: Davon steht nichts im Chat. Amir sagt „they made“.
-        explanation: Amir sagt, dass der Film nach dem Buch nicht sehr gut ist.
+            info: Davon steht nichts im Chat.
+        explanation: Der Film ist nicht sehr gut.
         links:
           - title: Lernlandkarte Englisch · Contact clauses
             url: https://lernapps.net/apps/map/englisch/c/contact-clauses/
@@ -166,7 +166,7 @@ blocks:
         id: contact-bilden
         languages: { source: de, target: en }
         task: Hänge die zwei Streifen aneinander. Du darfst die Karte weglassen, wenn es geht. Muss sie stehen, schreibe sie selbst. Das Pronomen fällt weg.
-        hint: Welches Wort ersetzt die Karte? Schreibe es nicht noch einmal.
+        hint: Welches Wort ersetzt die Karte?
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Here is the hat · Ellie bought it
