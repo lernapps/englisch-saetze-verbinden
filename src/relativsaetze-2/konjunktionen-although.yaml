@@ -228,8 +228,6 @@ blocks:
                 message: Hinter so that braucht der Streifen can, could, will oder would.
               - answer: I save my money so that I can to buy a bike.
                 message: Hinter can steht das Verb ohne to.
-              - answer: I save my money that I can buy a bike.
-                message: Das einzelne that heißt hier nicht „damit“. Du brauchst so that.
       - type: language-task
         id: alt-uebersetzen
         languages: { source: de, target: en }

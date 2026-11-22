@@ -43,13 +43,13 @@ blocks:
           - ["2", Amir, "Does he want it today?"]
           - ["3", Sophie, "No. He says that we can bring it on Monday."]
           - ["4", Ellie, "Peter is next to me. He says, “I have a good idea!”"]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 1 bis 4
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [notice, Zettel / Aushang]
-          - [picture, Bild]
-          - [idea, Idee]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "notice", source: "Zettel / Aushang" }
+          - { target: "picture", source: "Bild" }
+          - { target: "idea", source: "Idee" }
       - type: table
         caption: Chat Year 8B · Nachrichten 5 bis 8
         header: [Nr, Wer, Nachricht]
@@ -58,12 +58,12 @@ blocks:
           - ["6", Ellie, "Peter says that his idea is a picture of our classroom."]
           - ["7", Sophie, "Nice! Mr Hill says that he likes pictures. He says that the parents like them too."]
           - ["8", Ellie, "Peter says that you can draw it, Amir."]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 5 bis 8
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [classroom, Klassenzimmer]
-          - [draw, zeichnen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "classroom", source: "Klassenzimmer" }
+          - { target: "draw", source: "zeichnen" }
       - type: table
         caption: Chat Year 8B · Nachrichten 9 bis 12
         header: [Nr, Wer, Nachricht]
@@ -72,13 +72,13 @@ blocks:
           - ["10", Sophie, "Yes. Mr Hill says that I can take paper from his desk."]
           - ["11", Ellie, "Peter says that he and I will bring the colours."]
           - ["12", Amir, "Great! See you on Monday."]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 9 bis 12
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [pencil, Bleistift]
-          - [desk, Schreibtisch / Pult]
-          - [colours, Farben / Buntstifte]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "pencil", source: "Bleistift" }
+          - { target: "desk", source: "Schreibtisch / Pult" }
+          - { target: "colours", source: "Farben / Buntstifte" }
   - type: section
     id: neu
     title: Aus der Sprechblase wird ein Streifen

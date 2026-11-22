@@ -204,8 +204,6 @@ blocks:
                 message: Im Streifen mit if steht kein would have, sondern had plus 3. Form.
               - answer: If Peter took the bus, he would have been on time.
                 message: Für die Vergangenheit braucht der if-Streifen das past perfect, had taken.
-              - answer: If Peter had taken the bus, he would be on time.
-                message: Im anderen Streifen steht would have plus 3. Form.
           - cue: it snows · we stay at home · if
             target: If it had snowed, (we would|we'd) have stayed at home.
             examples:
@@ -215,8 +213,6 @@ blocks:
                 message: Im Streifen mit if steht kein would have.
               - answer: If it had snowed, we would have stay at home.
                 message: Nach would have steht die 3. Form, stayed.
-              - answer: If it snowed, we would have stayed at home.
-                message: Im if-Streifen braucht es had plus 3. Form.
           - cue: Sophie sees the dog · she says hello · if
             target: If Sophie had seen the dog, (she would|she'd) have said hello.
             examples:
@@ -226,8 +222,6 @@ blocks:
                 message: Nach had steht die 3. Form von see, also seen.
               - answer: If Sophie had seen the dog, she would have say hello.
                 message: Nach would have steht die 3. Form, said.
-              - answer: If Sophie had seen the dog, she would said hello.
-                message: Im anderen Streifen fehlt have.
       - type: language-task
         id: if3-uebersetzen
         languages: { source: de, target: en }

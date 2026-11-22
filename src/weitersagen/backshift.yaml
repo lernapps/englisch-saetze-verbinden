@@ -1,15 +1,15 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
-title: "Mr Fox sagte, dass …: die Zeit rückt eine Stufe zurück"
-description: "Sophie interviewt für die Schülerzeitung einen neuen Lehrer und schreibt dann auf, was er gesagt hat. Du lernst, die Zeit dabei eine Stufe zurückzusetzen."
+title: "Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück"
+description: "Sophie interviewt für die Schülerzeitung Mr Hill und schreibt dann auf, was er gesagt hat. Du lernst, die Zeit dabei eine Stufe zurückzusetzen."
 competencies: [backshift]
-scope: "Die Seite führt die indirekte Rede mit Zeitverschiebung ein (backshift). Ist das Sagen vorbei, rückt das Verb eine Stufe zurück: am, is und are werden was oder were, will wird would, can wird could, das present perfect und das simple past werden das past perfect (had plus 3. Form). Die Pronomen wechseln wie auf der Seite davor. Auch Wörter wie here und today ändern sich (here wird there, today wird that day). Gilt das Gesagte noch, darf die Zeitverschiebung entfallen. Die Seite arbeitet mit einem erfundenen Interview in der Schülerzeitung Millbrook News mit dem neuen Sportlehrer Mr Fox und einem kurzen Bericht darüber, die Zeilen sind nummeriert. Nicht hier, weil es spätere Seiten sind. Bitten und Befehle mit told oder asked und to, und Fragen in der indirekten Rede."
+scope: "Die Seite führt die indirekte Rede mit Zeitverschiebung ein (backshift). Ist das Sagen vorbei, rückt das Verb eine Stufe zurück: am, is und are werden was oder were, will wird would, can wird could, das present perfect und das simple past werden das past perfect (had plus 3. Form). Die Pronomen wechseln wie auf der Seite davor. Auch Wörter wie here und today ändern sich (here wird there, today wird that day). Gilt das Gesagte noch, darf die Zeitverschiebung entfallen. Die Seite arbeitet mit einem erfundenen Interview in der Schülerzeitung Millbrook News mit dem Englischlehrer Mr Hill und einem kurzen Bericht darüber, die Zeilen sind nummeriert. Nicht hier, weil es spätere Seiten sind. Bitten und Befehle mit told oder asked und to, und Fragen in der indirekten Rede."
 blocks:
   - type: section
     id: einstieg
     title: Wann bleibt das Verb stehen?
     blocks:
       - type: text
-        text: "Sophie schreibt für die Schülerzeitung „Millbrook News“. Sie hat Mr Fox interviewt, den neuen Sportlehrer. Du liest gleich das Interview und ihren Bericht darüber. Davor eine Frage zur letzten Seite."
+        text: "Sophie schreibt für die Schülerzeitung „Millbrook News“. Sie hat Mr Hill interviewt, unseren Englischlehrer. Du liest gleich das Interview und ihren Bericht darüber. Davor eine Frage zur letzten Seite."
       - type: single-choice
         id: backshift-start
         text: "Ellie schreibt: „Mr Hill says that he likes the picture.“ Warum bleibt likes im simple present?"
@@ -34,32 +34,32 @@ blocks:
     title: Interview und Bericht
     blocks:
       - type: text
-        text: "Mr Fox ist erfunden, wie die ganze Schülerzeitung. Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Verben im Interview (am, will, can) und dann auf dieselben Stellen im Bericht."
+        text: "Die Schülerzeitung „Millbrook News“ ist erfunden. Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Verben im Interview (am, will, can) und dann auf dieselben Stellen im Bericht."
       - type: table
-        caption: Millbrook News · Interview mit Mr Fox
+        caption: Millbrook News · Interview mit Mr Hill
         header: [Nr, Wer, Text]
         rows:
-          - ["1", Sophie, "Mr Fox, do you like Millbrook?"]
-          - ["2", Mr Fox, "Yes, I am very happy here. The children are friendly."]
+          - ["1", Sophie, "Mr Hill, do you like Millbrook?"]
+          - ["2", Mr Hill, "Yes, I am very happy here. The children are friendly."]
           - ["3", Sophie, "Where did you work before?"]
-          - ["4", Mr Fox, "I worked at a big school in London. I have played football for ten years."]
+          - ["4", Mr Hill, "I worked at a big school in London. I have played football for ten years."]
           - ["5", Sophie, "What will you do here?"]
-          - ["6", Mr Fox, "I will start a football club. Everybody can come."]
+          - ["6", Mr Hill, "I will start a football club. Everybody can come."]
           - ["7", Sophie, "When is the first training?"]
-          - ["8", Mr Fox, "The first training is on Thursday."]
-      - type: table
+          - ["8", Mr Hill, "The first training is on Thursday."]
+      - type: vocabulary
         caption: Randglossar · Interview
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [newspaper, Zeitung]
-          - [friendly, freundlich]
-          - [club, Verein / AG]
-          - [training, Training]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "newspaper", source: "Zeitung" }
+          - { target: "friendly", source: "freundlich" }
+          - { target: "club", source: "Verein / AG" }
+          - { target: "training", source: "Training" }
       - type: table
         caption: Millbrook News · Sophies Bericht
         header: [Nr, Text]
         rows:
-          - ["9", "Last Monday I talked to Mr Fox, our new sports teacher."]
+          - ["9", "Last Monday I talked to Mr Hill, our English teacher."]
           - ["10", "He said that he was very happy at Millbrook and that the children were friendly."]
           - ["11", "He said that he had worked at a big school in London."]
           - ["12", "He said that he had played football for ten years."]
@@ -70,7 +70,7 @@ blocks:
     title: Eine Stufe zurück
     blocks:
       - type: text
-        text: "Schau in den Bericht. In Zeile 2 sagt Mr Fox: „I am very happy.“ In Zeile 10 steht: „he was very happy“. Sophie schreibt später. Das Sagen ist vorbei, darum rückt die Zeit **eine Stufe zurück**. Das heißt **Zeitverschiebung** (englisch **backshift**). Die Karte heißt jetzt **said that**."
+        text: "Schau in den Bericht. In Zeile 2 sagt Mr Hill: „I am very happy.“ In Zeile 10 steht: „he was very happy“. Sophie schreibt später. Das Sagen ist vorbei, darum rückt die Zeit **eine Stufe zurück**. Das heißt **Zeitverschiebung** (englisch **backshift**). Die Karte heißt jetzt **said that**."
       - type: figure
         image: images/satzstreifen-backshift.svg
         alt: "Eine Zeitleiste mit drei Kästen. Rechts steht „jetzt“ mit am, is, will, can, in der Mitte „früher“ mit was, would, could und links „noch früher“ mit had plus 3. Form. Zwei grünblaue Pfeile gehen von rechts nach links, auf dem ersten steht die Karte said that."
@@ -98,7 +98,7 @@ blocks:
     blocks:
       - type: true-false
         id: backshift-verstehen
-        text: Mr Fox sagt im Interview, dass das erste Training am Mittwoch ist.
+        text: Mr Hill sagt im Interview, dass das erste Training am Mittwoch ist.
         answer: false
         explanation: Das Training ist am Donnerstag.
         links:
@@ -106,7 +106,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/backshift/
       - type: number
         id: backshift-beleg
-        text: In welcher Zeile steht, dass Mr Fox schon in London gearbeitet hatte? Gib die Nummer ein.
+        text: In welcher Zeile steht, dass Mr Hill schon in London gearbeitet hatte? Gib die Nummer ein.
         answer: 11
         tolerance: 0
         explanation: In Zeile 11 steht „had worked“.
@@ -208,10 +208,10 @@ blocks:
         hint: Das past perfect heißt had plus 3. Form.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - source: Mr Fox sagte, dass er das Buch gelesen hatte.
-            target: Mr Fox said (that |)he had read the book.
+          - source: Mr Hill sagte, dass er das Buch gelesen hatte.
+            target: Mr Hill said (that |)he had read the book.
             mistakes:
-              - answer: Mr Fox said that he has read the book.
+              - answer: Mr Hill said that he has read the book.
                 message: Aus has wird had.
           - source: Peter sagte, dass er kochen konnte.
             target: Peter said (that |)he could cook.
@@ -247,16 +247,16 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: backshift-meinung
-        task: "Sophie ergänzt ihren Bericht. Gib mit said that weiter, was Mr Fox über den Club gesagt hat, und sage in einem Satz, ob dir die Idee gefällt."
+        task: "Sophie ergänzt ihren Bericht. Gib mit said that weiter, was Mr Hill über den Club gesagt hat, und sage in einem Satz, ob dir die Idee gefällt."
         points:
-          - text: Der Bericht gibt mit said that weiter, was Mr Fox über den Club gesagt hat.
+          - text: Der Bericht gibt mit said that weiter, was Mr Hill über den Club gesagt hat.
             source: /weitersagen/backshift/#lesen
           - text: Die Verben rücken eine Stufe zurück, zum Beispiel will wird would.
             source: /weitersagen/backshift/#neu
           - text: Ein Satz sagt die eigene Meinung zum Club.
             kind: form
         solution: |
-          Mr Fox said that he would start a football club. He said that girls and boys could join. I think that the club is a great idea.
+          Mr Hill said that he would start a football club. He said that girls and boys could join. I think that the club is a great idea.
   - type: section
     id: weiter
     title: Wie es weitergeht

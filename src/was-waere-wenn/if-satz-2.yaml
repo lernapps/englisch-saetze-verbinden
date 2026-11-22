@@ -165,10 +165,6 @@ blocks:
                 message: Im Streifen mit if steht kein would. Dort braucht es das simple past.
               - answer: If Ellie has a car, she would take us to school.
                 message: Wer sich etwas nur denkt, nimmt im if-Streifen das simple past und nicht das simple present.
-              - answer: If Ellie had a car, she will take us to school.
-                message: Im anderen Streifen steht would, nicht will.
-              - answer: If Ellie had a car, she took us to school.
-                message: Nach der Weiche steht im anderen Streifen would plus Grundform.
           - source: Wenn ich du wäre, würde ich ein Foto machen.
             target: If I [were|was] you, I [would take] a photo.
             distractors: [[am, would be], [will take, took]]
@@ -177,8 +173,6 @@ blocks:
                 message: Bei einem Rat braucht der if-Streifen were oder was, nicht am.
               - answer: If I would be you, I would take a photo.
                 message: Im Streifen mit if steht kein would.
-              - answer: If I were you, I will take a photo.
-                message: Im anderen Streifen steht would, nicht will.
           - source: Wenn es heute nicht regnete, würden wir draußen spielen.
             target: If it [didn't rain|did not rain] today, we [would play] outside.
             distractors: [[doesn't rain, wouldn't rain], [will play, played]]
@@ -187,8 +181,6 @@ blocks:
                 message: Hier ist das Gedachte gemeint. Im if-Streifen steht das simple past, hier didn't rain.
               - answer: If it wouldn't rain today, we would play outside.
                 message: Im Streifen mit if steht kein would, auch nicht in der Verneinung.
-              - answer: If it didn't rain today, we played outside.
-                message: Im anderen Streifen steht would plus Grundform.
           - source: Ich würde dir helfen, wenn ich Zeit hätte.
             target: I [would help] you if I [had] time.
             distractors: [[will help, helped], [have, would have]]
@@ -197,8 +189,6 @@ blocks:
                 message: Im anderen Streifen steht would, nicht will.
               - answer: I would help you if I would have time.
                 message: Im Streifen mit if steht kein would.
-              - answer: I would help you if I have time.
-                message: Für Gedachtes braucht der if-Streifen das simple past.
       - type: ordering
         id: if2-ordnen
         text: "Ordne die Wörter zu einem Satz: Wenn Ellie ein Pferd hätte, würde sie reiten."
@@ -232,8 +222,6 @@ blocks:
                 message: Im Streifen mit if steht kein would.
               - answer: If I have a guitar, I would play songs for you.
                 message: Hier ist das Gedachte gemeint. Im if-Streifen steht das simple past, had.
-              - answer: If I had a guitar, I will play songs for you.
-                message: Im anderen Streifen steht would, nicht will.
           - cue: Peter is older · he goes to school by bus · if
             target: If Peter (was|were) older, (he would|he'd) go to school by bus.
             examples:
@@ -244,8 +232,6 @@ blocks:
                 message: Im Streifen mit if steht kein would.
               - answer: If Peter is older, he would go to school by bus.
                 message: Im if-Streifen steht das simple past, also was oder were.
-              - answer: If Peter was older, he would goes to school by bus.
-                message: Nach would steht die Grundform, ohne -s.
           - cue: Mr Hill gives us no homework · everyone is happy · if
             target: If Mr Hill (gave us no|did not give us any|didn't give us any) homework, (everyone|everybody) would be happy.
             examples:
@@ -259,8 +245,6 @@ blocks:
                 message: Im Streifen mit if steht kein would.
               - answer: If Mr Hill gives us no homework, everyone would be happy.
                 message: Im if-Streifen steht das simple past, gave.
-              - answer: If Mr Hill gave us no homework, everyone will be happy.
-                message: Im anderen Streifen steht would, nicht will.
       - type: language-task
         id: if2-uebersetzen
         languages: { source: de, target: en }

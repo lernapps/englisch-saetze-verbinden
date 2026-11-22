@@ -190,8 +190,6 @@ blocks:
                 message: Zwischen Kommas steht nie that. Bei einer Person nimmst du who.
               - answer: Mrs Parker, who she is very kind, is a good cook.
                 message: Das Pronomen she fällt weg, denn who ersetzt es.
-              - answer: Mrs Parker who is very kind is a good cook.
-                message: Den Streifen kann man herausnehmen. Darum steht er zwischen zwei Kommas.
           - cue: The library is next to the park · It closes at five · which
             target: The library, which closes at five, is next to the park(.|)
             mistakes:
@@ -199,10 +197,6 @@ blocks:
                 message: Who passt nur zu Personen. Für eine Sache nimmst du which.
               - answer: The library, that closes at five, is next to the park.
                 message: Zwischen Kommas steht nie that.
-              - answer: The library, which it closes at five, is next to the park.
-                message: Das Pronomen it fällt weg, denn which ersetzt es.
-              - answer: The library which closes at five is next to the park.
-                message: Den Streifen kann man herausnehmen. Darum steht er zwischen zwei Kommas.
           - cue: Amir is in my class · His mother works at the market · whose
             target: Amir, whose mother works at the market, is in my class(.|)
             mistakes:
@@ -210,8 +204,6 @@ blocks:
                 message: Für his mother nimmst du whose. Das Wort his fällt weg.
               - answer: Amir, who's mother works at the market, is in my class.
                 message: Who's heißt who is. Das Besitzwort ist whose.
-              - answer: Amir whose mother works at the market is in my class.
-                message: Den Streifen kann man herausnehmen. Darum steht er zwischen zwei Kommas.
       - type: language-task
         id: nn-uebersetzen
         languages: { source: de, target: en }
@@ -226,8 +218,6 @@ blocks:
                 message: Ein Garten ist eine Sache. Nimm which.
               - answer: Our garden, that is very big, has an apple tree.
                 message: Zwischen Kommas steht nie that.
-              - answer: Our garden which is very big has an apple tree.
-                message: Den Streifen kann man herausnehmen. Darum steht er zwischen zwei Kommas.
           - source: Die Leute, die auf dem Markt arbeiten, sind freundlich.
             target: The people (who|that) work at the market are (friendly|nice|kind)(.|)
             mistakes:
@@ -235,8 +225,6 @@ blocks:
                 message: Der Streifen sagt, welche Leute gemeint sind, ohne ihn ist es unklar. Er ist notwendig und hat keine Kommas.
               - answer: The people which work at the market are friendly.
                 message: Which gilt für Sachen. Bei Leuten nimmst du who oder that.
-              - answer: The people who they work at the market are friendly.
-                message: Das Pronomen they fällt weg, denn who ersetzt es.
       - type: language-task
         id: nn-hoeren
         languages: { source: de, target: en }

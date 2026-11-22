@@ -44,13 +44,13 @@ blocks:
           - ["3", Amir, "Sure. Ellie, don't stand in the door. People want to come in."]
           - ["4", Ellie, "Sorry! Mr Hill, which pen can I use?"]
           - ["5", Mr Hill, "Use the blue pen, Ellie. Don't use the red pen."]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 1 bis 5
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [notice, Zettel / Aushang]
-          - [title, Titel / Überschrift]
-          - [hold, halten]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "notice", source: "Zettel / Aushang" }
+          - { target: "title", source: "Titel / Überschrift" }
+          - { target: "hold", source: "halten" }
       - type: table
         caption: An der Tür · Nachrichten 6 bis 10
         header: [Nr, Wer, Nachricht]
@@ -60,12 +60,12 @@ blocks:
           - ["8", Amir, "Mr Hill, can I draw a picture next to the title?"]
           - ["9", Mr Hill, "Yes, draw a small school."]
           - ["10", Sophie, "Great. Amir, please don't move the paper!"]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 6 bis 10
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [ruler, Lineal]
-          - [move, bewegen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "ruler", source: "Lineal" }
+          - { target: "move", source: "bewegen" }
       - type: table
         caption: Später · Nachrichten 11 bis 14
         header: [Nr, Wer, Nachricht]
