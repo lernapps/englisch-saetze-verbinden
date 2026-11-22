@@ -16,14 +16,14 @@ blocks:
         options:
           - text: but
             correct: true
-            info: But zeigt einen Gegensatz, zum Beispiel „Ellie is small but she runs fast“.
+            info: But zeigt einen Gegensatz.
           - text: because
             correct: false
-            info: Because nennt einen Grund. Der zweite Streifen sagt hier nicht, warum etwas so ist.
+            info: Sagt der zweite Streifen, warum?
           - text: when
             correct: false
-            info: When sagt, wann etwas passiert. Hier geht es nicht um die Zeit, sondern um einen Gegensatz.
-        explanation: Die Karte but zeigt, dass der zweite Streifen etwas Unerwartetes sagt.
+            info: Geht es hier um die Zeit?
+        explanation: But zeigt etwas Unerwartetes.
         links:
           - title: Lernlandkarte Englisch · Konjunktionen and, but, because
             url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
@@ -134,14 +134,14 @@ blocks:
         options:
           - text: Die Klasse sammelt Blätter für den Kunstraum
             correct: true
-            info: In Absatz 1 steht „so that they can collect leaves for the art room“.
+            info: Absatz 1 sagt „so that they can collect leaves“.
           - text: Die Klasse malt Plakate für die Woche
             correct: false
-            info: Die Plakate macht Year 7. Das steht in Absatz 2.
+            info: Wer macht die Plakate?
           - text: Die Klasse übt Lieder für das Konzert
             correct: false
-            info: Lieder übt die Musikgruppe, und das steht in Absatz 3.
-        explanation: Year 8 geht in den Park, um Blätter für den Kunstraum zu sammeln.
+            info: Wer übt die Lieder?
+        explanation: Year 8 sammelt Blätter für den Kunstraum.
         links:
           - title: Lernlandkarte Englisch · Konjunktionen although und whereas
             url: https://lernapps.net/apps/map/englisch/c/konjunktionen-although/
@@ -149,9 +149,9 @@ blocks:
         id: alt-beleg
         text: In welchem Absatz steht, dass der Saal ziemlich klein ist? Gib die Nummer ein.
         answer: 3
-        hint: Lies noch einmal den Teil über das Konzert.
+        hint: Lies den Teil über das Konzert.
         tolerance: 0
-        explanation: In Absatz 3 steht, dass der Saal ziemlich klein ist.
+        explanation: Das steht in Absatz 3.
         links:
           - title: Lernlandkarte Englisch · Konjunktionen although und whereas
             url: https://lernapps.net/apps/map/englisch/c/konjunktionen-although/
@@ -159,7 +159,7 @@ blocks:
         id: alt-karte
         languages: { source: de, target: en }
         mode: choice
-        task: Welche Karte passt in die Lücke? Lies zuerst den deutschen Satz.
+        task: Welche Karte passt in die Lücke?
         form: { case: hint, punctuation: ok }
         items:
           - source: Obwohl es spät ist, spielen wir noch.
@@ -167,28 +167,28 @@ blocks:
             distractors: [[Because, When]]
             mistakes:
               - answer: Because it is late, we are still playing.
-                message: Because nennt einen Grund. Der zweite Streifen ist aber das Unerwartete.
+                message: Ist „spät“ der Grund?
               - answer: When it is late, we are still playing.
-                message: When sagt, wann etwas passiert. Hier geht es um einen Gegensatz.
+                message: Geht es hier um die Zeit?
           - source: Ellie liebt Musik, während Peter Sport liebt.
             target: Ellie loves music [while|whereas] Peter loves sport.
             distractors: [[when, because]]
             mistakes:
               - answer: Ellie loves music when Peter loves sport.
-                message: When ist keine Übersetzung von „während“ im Vergleich. Du brauchst while oder whereas.
+                message: Zwei Dinge werden verglichen.
               - answer: Ellie loves music because Peter loves sport.
-                message: Der zweite Streifen ist kein Grund, sondern ein Vergleich.
+                message: Ist Peters Sport der Grund?
           - source: Wir nehmen Schirme mit, damit wir nicht nass werden.
             target: We take umbrellas [so that] we will not get wet.
             distractors: [[because, although]]
             mistakes:
               - answer: We take umbrellas because we will not get wet.
-                message: Because nennt einen Grund. Hier geht es um die Absicht, wozu man etwas tut.
+                message: Sagt der Satz einen Grund oder eine Absicht?
               - answer: We take umbrellas although we will not get wet.
-                message: Although ist ein Gegensatz. Passt das zum deutschen Satz?
+                message: Ist das ein Gegensatz?
       - type: ordering
         id: alt-ordnen
-        text: "Ordne die Wörter zu einem Satz: Obwohl der Bus spät war, kamen wir pünktlich an. Der Satz beginnt mit Although."
+        text: "Ordne die Wörter zu einem Satz: Obwohl der Bus spät war, kamen wir pünktlich an."
         items:
           - Although
           - the bus
@@ -196,59 +196,49 @@ blocks:
           - we
           - arrived
           - on time.
-        explanation: Hinter although steht ein ganzer Streifen, dann das Komma und der andere Streifen.
+        explanation: Erst although mit ganzem Streifen, dann Komma.
         links:
           - title: Lernlandkarte Englisch · Konjunktionen although und whereas
             url: https://lernapps.net/apps/map/englisch/c/konjunktionen-although/
       - type: language-task
         id: alt-bilden
         languages: { source: de, target: en }
-        task: Verbinde die zwei Streifen mit der Karte aus dem Hinweis. Du darfst die Streifen tauschen.
-        hint: Hinter der Karte steht ein ganzer Streifen mit Subjekt und Verb.
+        task: Verbinde die zwei Streifen mit der Karte. Du darfst tauschen.
+        hint: Hinter der Karte steht ein ganzer Streifen.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: it rained all day · we stayed at home · although
             target: (Although it rained all day, we stayed at home.|We stayed at home although it rained all day.)
             mistakes:
               - answer: Although it rained all day, but we stayed at home.
-                message: Im englischen Satz steht nie although und but zusammen. Nimm nur although.
-              - answer: Although it rained all day so we stayed at home.
-                message: Although und so passen nicht zusammen. Der zweite Streifen braucht keine Karte.
+                message: Brauchst du hier noch ein but?
           - cue: Peter plays football · Amir plays chess · while
             target: (Peter plays football while Amir plays chess.|While Peter plays football, Amir plays chess.|Peter plays football whereas Amir plays chess.|Whereas Peter plays football, Amir plays chess.)
             mistakes:
               - answer: Peter plays football while Amir chess.
-                message: Hinter while steht ein ganzer Streifen. Was macht Amir?
-              - answer: Peter plays football while Amir play chess.
-                message: Bei he, she und it braucht das Verb ein s. Das gilt auch für Amir.
+                message: Was macht Amir?
           - cue: I save my money · I can buy a bike · so that
             target: I save my money so that I (can|will) buy a (new |)bike.
             mistakes:
               - answer: I save my money so that I buy a bike.
-                message: Hinter so that braucht der Streifen can, could, will oder would.
-              - answer: I save my money so that I can to buy a bike.
-                message: Hinter can steht das Verb ohne to.
+                message: Welches Verb steht hinter so that?
       - type: language-task
         id: alt-uebersetzen
         languages: { source: de, target: en }
-        task: Übersetze den Satz. Du darfst die Streifen tauschen.
-        hint: Wähle die Karte, die zu dem passt, was der deutsche Satz sagt.
+        task: Übersetze den Satz.
+        hint: Welche Karte sagt der deutsche Satz?
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Obwohl Sophie müde ist, macht sie ihre Hausaufgaben.
             target: (Although|Though) Sophie is tired, she does her homework.
             mistakes:
               - answer: Although Sophie is tired, but she does her homework.
-                message: Im englischen Satz steht nie although und but zusammen.
-              - answer: Because Sophie is tired, she does her homework.
-                message: Because nennt einen Grund. Der deutsche Satz sagt aber „obwohl“.
+                message: Steht im Satz although und but?
           - source: Ich lerne Englisch, damit ich mit Sophie sprechen kann.
             target: I (learn|am learning) English so that I (can|will) (speak|talk) (to|with) Sophie.
             mistakes:
-              - answer: I learn English so that I speak with Sophie.
-                message: Hinter so that braucht der Streifen can, could, will oder would.
               - answer: I learn English that I can speak with Sophie.
-                message: Das einzelne that heißt hier nicht „damit“. Du brauchst so that.
+                message: Welche Karte heißt „damit“?
       - type: language-task
         id: alt-hoeren
         languages: { source: de, target: en }
@@ -275,10 +265,10 @@ blocks:
             text: Although the film was long, nobody left.
           - audio: sophie-went-to-bed-early-so-that-she-could-get-up-at-six.mp3
             text: Sophie went to bed early so that she could get up at six.
-        hint: Hör den Satz zuerst. Sprich dann langsam nach. Die Karte betonst du kaum, und am Komma machst du eine kurze Pause.
+        hint: Hör zuerst zu, sprich dann langsam nach. Am Komma machst du eine kurze Pause.
       - type: open-task
         id: alt-meinung
-        task: "Schreibe für die Schülerzeitung drei bis vier Sätze über ein Schulereignis, das du dir wünschst. Sage deine Meinung: Warum ist es eine gute Idee? Benutze although, while oder whereas und so that."
+        task: "Schreibe drei bis vier Sätze über ein Schulereignis, das du dir wünschst. Warum ist es eine gute Idee? Benutze although, while oder whereas und so that."
         hint: Du kannst mit „I think a … day is a good idea“ beginnen.
         points:
           - text: Der Text nennt ein Schulereignis und sagt, warum es eine gute Idee ist.

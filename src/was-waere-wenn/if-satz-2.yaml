@@ -9,26 +9,26 @@ blocks:
     title: Was steht im if-Streifen?
     blocks:
       - type: text
-        text: "Sophie, Amir und Ellie sind jetzt 13 und gehen in die Klasse 8B. Mr Hill hat der Klasse eine Frage gestellt, über die die drei abends im Chat schreiben. Du liest gleich ihren Chat. Davor eine Frage zu den if-Sätzen aus Kapitel 1."
+        text: "Sophie, Amir und Ellie sind jetzt 13 und gehen in die Klasse 8B. Abends chatten sie über eine Frage von Mr Hill. Davor eine Frage zu Kapitel 1."
       - type: single-choice
         id: if2-start
         text: "In „If Ellie wins, we will have a party“ ist offen, ob Ellie gewinnt. Welche Zeitform steht im Streifen mit if?"
         options:
           - text: simple present, wins
             correct: true
-            info: Im Streifen mit if steht in Kapitel 1 das simple present. Der andere Streifen hat will.
+            info: So war es in Kapitel 1.
           - text: will plus Verb, will win
             correct: false
-            info: Im Streifen mit if steht kein will. Das will gehört in den anderen Streifen.
+            info: Wohin gehört das will?
           - text: simple past, won
             correct: false
-            info: Hier nicht. Gleich siehst du, wann das simple past bei if doch steht.
-        explanation: Bei einer wahrscheinlichen Bedingung steht im if-Streifen das simple present.
+            info: Das kommt gleich.
+        explanation: Bei Wahrscheinlichem steht das simple present.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 1
             url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
       - type: text
-        text: "**Das kannst du danach:** Du sprichst mit if-Sätzen Typ 2 über gedachte oder unwahrscheinliche Situationen (If I had more time, I would …). Du stellst die Weiche richtig."
+        text: "**Das kannst du danach:** Du sprichst mit if-Sätzen Typ 2 über gedachte Situationen (If I had more time, I would …)."
   - type: section
     id: lesen
     title: Der Chat der Gruppe
@@ -129,14 +129,14 @@ blocks:
         options:
           - text: mit dem Zug nach London fahren
             correct: true
-            info: "Sophie schreibt in Nachricht 5: „I would take the train to London.“"
+            info: Nachricht 5.
           - text: bis zehn Uhr schlafen
             correct: false
-            info: Das sagt Amir in Nachricht 2.
+            info: Wer sagt das?
           - text: ein Pferd kaufen
             correct: false
-            info: Das sagt Ellie in Nachricht 9, wenn sie viel Geld hätte.
-        explanation: Sophie würde nach London fahren, ein Museum besuchen und am Fluss essen.
+            info: Wer würde ein Pferd kaufen?
+        explanation: Sophie würde nach London fahren.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 2
             url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
@@ -144,9 +144,9 @@ blocks:
         id: if2-beleg
         text: In welcher Nachricht denkt Ellie, dass ihre Mutter nein sagen würde? Gib die Nummer ein.
         answer: 6
-        hint: Lies noch einmal den Chat. Ellie schreibt von ihrer Mum.
+        hint: Ellie schreibt von ihrer Mum.
         tolerance: 0
-        explanation: In Nachricht 6 sagt Ellie, dass ihre Mum wahrscheinlich nein sagen würde.
+        explanation: Nachricht 6.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 2
             url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
@@ -154,7 +154,7 @@ blocks:
         id: if2-formen
         languages: { source: de, target: en }
         mode: choice
-        task: Welche Form passt in die Lücke? Lies zuerst den deutschen Satz.
+        task: Welche Form passt in die Lücke?
         form: { case: hint, punctuation: ok }
         items:
           - source: Wenn Ellie ein Auto hätte, würde sie uns zur Schule fahren.
@@ -162,33 +162,25 @@ blocks:
             distractors: [[has, would have], [will take, took]]
             mistakes:
               - answer: If Ellie would have a car, she would take us to school.
-                message: Im Streifen mit if steht kein would. Dort braucht es das simple past.
-              - answer: If Ellie has a car, she would take us to school.
-                message: Wer sich etwas nur denkt, nimmt im if-Streifen das simple past und nicht das simple present.
+                message: Steht would im if-Streifen?
           - source: Wenn ich du wäre, würde ich ein Foto machen.
             target: If I [were|was] you, I [would take] a photo.
             distractors: [[am, would be], [will take, took]]
             mistakes:
               - answer: If I am you, I would take a photo.
-                message: Bei einem Rat braucht der if-Streifen were oder was, nicht am.
-              - answer: If I would be you, I would take a photo.
-                message: Im Streifen mit if steht kein would.
+                message: Ist das ein wirklicher Fall?
           - source: Wenn es heute nicht regnete, würden wir draußen spielen.
             target: If it [didn't rain|did not rain] today, we [would play] outside.
             distractors: [[doesn't rain, wouldn't rain], [will play, played]]
             mistakes:
               - answer: If it doesn't rain today, we would play outside.
-                message: Hier ist das Gedachte gemeint. Im if-Streifen steht das simple past, hier didn't rain.
-              - answer: If it wouldn't rain today, we would play outside.
-                message: Im Streifen mit if steht kein would, auch nicht in der Verneinung.
+                message: Das ist nur gedacht. Welche Zeitform?
           - source: Ich würde dir helfen, wenn ich Zeit hätte.
             target: I [would help] you if I [had] time.
             distractors: [[will help, helped], [have, would have]]
             mistakes:
               - answer: I will help you if I had time.
-                message: Im anderen Streifen steht would, nicht will.
-              - answer: I would help you if I would have time.
-                message: Im Streifen mit if steht kein would.
+                message: Welches Wort passt zu had?
       - type: ordering
         id: if2-ordnen
         text: "Ordne die Wörter zu einem Satz: Wenn Ellie ein Pferd hätte, würde sie reiten."
@@ -201,15 +193,15 @@ blocks:
           - she
           - would
           - ride
-        explanation: Der Streifen mit if steht vorn im simple past. Im anderen Streifen folgt would plus Grundform.
+        explanation: if + simple past, would + Grundform.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 2
             url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
       - type: language-task
         id: if2-bilden
         languages: { source: de, target: en }
-        task: Verbinde die zwei Streifen mit if. Der Streifen mit if steht vorn. Schreibe ihn im simple past, im anderen Streifen steht would plus Verb. Schreibe den ganzen Satz.
-        hint: Beide Streifen sind gedacht. Rücke die Verben im Cue einen Schritt nach links.
+        task: Verbinde die Streifen mit if. Der if-Streifen steht vorn.
+        hint: Rücke die Verben einen Schritt nach links.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: I have a guitar · I play songs for you · if
@@ -218,10 +210,8 @@ blocks:
               accepted: ["If I had a guitar, I would play songs for you.", "If I had a guitar, I'd play songs for you."]
               rejected: ["If I had a guitar, I play songs for you."]
             mistakes:
-              - answer: If I would have a guitar, I would play songs for you.
-                message: Im Streifen mit if steht kein would.
               - answer: If I have a guitar, I would play songs for you.
-                message: Hier ist das Gedachte gemeint. Im if-Streifen steht das simple past, had.
+                message: Ist die Gitarre wirklich da?
           - cue: Peter is older · he goes to school by bus · if
             target: If Peter (was|were) older, (he would|he'd) go to school by bus.
             examples:
@@ -229,9 +219,7 @@ blocks:
                 ["If Peter was older, he would go to school by bus.", "If Peter were older, he'd go to school by bus."]
             mistakes:
               - answer: If Peter would be older, he would go to school by bus.
-                message: Im Streifen mit if steht kein would.
-              - answer: If Peter is older, he would go to school by bus.
-                message: Im if-Streifen steht das simple past, also was oder were.
+                message: Passt would in den if-Streifen?
           - cue: Mr Hill gives us no homework · everyone is happy · if
             target: If Mr Hill (gave us no|did not give us any|didn't give us any) homework, (everyone|everybody) would be happy.
             examples:
@@ -241,15 +229,13 @@ blocks:
                   "If Mr Hill didn't give us any homework, everybody would be happy.",
                 ]
             mistakes:
-              - answer: If Mr Hill would give us no homework, everyone would be happy.
-                message: Im Streifen mit if steht kein would.
               - answer: If Mr Hill gives us no homework, everyone would be happy.
-                message: Im if-Streifen steht das simple past, gave.
+                message: Welche Zeitform braucht ein gedachter Fall?
       - type: language-task
         id: if2-uebersetzen
         languages: { source: de, target: en }
         task: Übersetze den Satz.
-        hint: Wenn du den Satz mit if beginnst, rücke das Verb einen Schritt nach links.
+        hint: Rücke das Verb einen Schritt nach links.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Wenn ich du wäre, würde ich früher ins Bett gehen.
@@ -257,19 +243,15 @@ blocks:
             examples:
               accepted: ["If I was you, I'd go to bed sooner.", "I would go to bed earlier if I were you."]
             mistakes:
-              - answer: If I would be you, I would go to bed earlier.
-                message: Im Streifen mit if steht kein would, sondern were oder was.
               - answer: If I am you, I would go to bed earlier.
-                message: Im if-Streifen steht für das Gedachte were oder was.
+                message: Bist du es wirklich?
           - source: Wenn wir mehr Geld hätten, würden wir ein Haus kaufen.
             target: (If we had more money, we would buy a house.|If we had more money, we'd buy a house.|We would buy a house if we had more money.|We'd buy a house if we had more money.)
             examples:
               accepted: ["We'd buy a house if we had more money."]
             mistakes:
               - answer: If we would have more money, we would buy a house.
-                message: Im Streifen mit if steht kein would. Dort braucht es had.
-              - answer: If we have more money, we would buy a house.
-                message: Für Gedachtes steht im if-Streifen das simple past.
+                message: Was steht im if-Streifen statt would have?
       - type: language-task
         id: if2-hoeren
         languages: { source: de, target: en }
@@ -296,11 +278,11 @@ blocks:
             text: If I were a bird, I would fly over the city.
           - audio: if-i-invited-you-would-you-come-to-my-party.mp3
             text: If I invited you, would you come to my party?
-        hint: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort would betonst du kaum.
+        hint: Sprich langsam nach. Would betonst du kaum.
       - type: open-task
         id: if2-meinung
-        task: "Schreibe der Gruppe deine Antwort auf Mr Hills Frage. Was würdest du an einem freien Tag tun? Und was würdest du lieber nicht tun? Schreibe mindestens zwei Sätze mit if."
-        hint: Du kannst mit „If I had a free day, I would …“ beginnen. Sage auch, was du nicht tun würdest.
+        task: "Was würdest du an einem freien Tag tun, was lieber nicht? Schreibe mindestens zwei Sätze mit if."
+        hint: Beginne mit „If I had a free day, I would …“.
         points:
           - text: Die Nachricht sagt, was die Person an einem freien Tag tun würde, und was sie lieber nicht tun würde.
             source: /was-waere-wenn/if-satz-2/#lesen

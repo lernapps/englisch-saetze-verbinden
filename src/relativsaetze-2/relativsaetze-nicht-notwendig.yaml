@@ -16,14 +16,14 @@ blocks:
         options:
           - text: Er sagt, welcher Junge gemeint ist
             correct: true
-            info: Ohne den Streifen wüsste man nicht, welcher Junge gemeint ist. Der Relativsatz gehört zum Nomen the boy.
+            info: Wüsste man ohne ihn, welcher Junge gemeint ist?
           - text: Er gibt eine zusätzliche Information über einen Jungen, den alle schon kennen
             correct: false
-            info: Hier ist der Junge noch nicht klar. Der Streifen sagt erst, wer gemeint ist.
+            info: Ist der Junge schon klar?
           - text: Er ersetzt das Verb im Hauptsatz
             correct: false
-            info: Das Verb is bleibt im Satz stehen. Der Relativsatz hängt direkt hinter dem Nomen.
-        explanation: Ein notwendiger Relativsatz sagt, welche Person oder Sache gemeint ist.
+            info: Das Verb is bleibt stehen.
+        explanation: Er sagt, wer gemeint ist.
         links:
           - title: Lernlandkarte Englisch · Notwendige Relativsätze
             url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
@@ -127,14 +127,14 @@ blocks:
         options:
           - text: Es ist sehr alt und hat eine große Küche
             correct: true
-            info: Sophie schreibt „more than a hundred years old“ und „a big kitchen“.
+            info: Eintrag 3 sagt „a hundred years old“.
           - text: Es ist neu und hat einen großen Garten
             correct: false
-            info: Das Haus ist alt. Der Garten kommt in Eintrag 4 vor, dort spielt Peter.
+            info: Ist das Haus neu?
           - text: Es steht hinter dem Park
             correct: false
-            info: Hinter dem Park fließt der Fluss, und der steht in Eintrag 5.
-        explanation: In Eintrag 3 beschreibt Sophie das Haus der Parkers.
+            info: Was fließt hinter dem Park?
+        explanation: Eintrag 3 beschreibt das Haus.
         links:
           - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
             url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
@@ -142,29 +142,29 @@ blocks:
         id: nn-beleg
         text: In welchem Eintrag spielt Peter mit einem Hund? Gib die Nummer ein.
         answer: 4
-        hint: Lies noch einmal das Tagebuch von Dienstag.
+        hint: Lies den Dienstag.
         tolerance: 0
-        explanation: In Eintrag 4 spielt Peter im Garten mit dem Hund von nebenan.
+        explanation: Das steht in Eintrag 4.
         links:
           - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
             url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
       - type: multiple-choice
         id: nn-herausnehmen
-        text: "Bei welchen Sätzen kann man den Relativsatz herausnehmen? Stell dir die Kommas vor. Wähle alle richtigen."
+        text: "Bei welchen Sätzen kann man den Relativsatz herausnehmen? Wähle alle richtigen."
         options:
           - text: Millbrook which is a small town has a market
             correct: true
-            info: Es gibt nur ein Millbrook, jeder weiß, welche Stadt gemeint ist. Der Streifen ist eine Zusatzinformation, also mit zwei Kommas.
+            info: Gibt es mehrere Millbrooks?
           - text: Sophie who lives in Millbrook writes a diary
             correct: true
-            info: Ein Name sagt schon, wer gemeint ist. Der Streifen gibt nur etwas dazu.
+            info: Sagt der Name schon, wer gemeint ist?
           - text: The girl who writes a diary is Sophie
             correct: false
-            info: Ohne den Streifen wüsste man nicht, welches Mädchen gemeint ist. Er ist notwendig und hat keine Kommas.
+            info: Welches Mädchen wäre es ohne den Streifen?
           - text: The bike that is next to the door is mine
             correct: false
-            info: Der Streifen sagt, welches Fahrrad gemeint ist. Er ist notwendig, hier steht that ohne Kommas.
-        explanation: Ein Streifen, der nur etwas dazugibt, steht zwischen Kommas. Ein Streifen, der sagt, welche Person oder Sache gemeint ist, ist notwendig.
+            info: Welches Fahrrad wäre es ohne den Streifen?
+        explanation: Nur Zusatzinfo steht zwischen Kommas.
         links:
           - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
             url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
@@ -172,59 +172,49 @@ blocks:
         id: nn-that-komma
         text: "Stimmt das? „The market, that is open on Saturday, is big.“ ist ein richtiger englischer Satz."
         answer: false
-        explanation: Zwischen Kommas steht nie that. Richtig ist „The market, which is open on Saturday, is big.“
+        explanation: Zwischen Kommas steht which.
         links:
           - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
             url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
       - type: language-task
         id: nn-bilden
         languages: { source: de, target: en }
-        task: Setze den zweiten Streifen in den ersten, direkt hinter das Nomen, mit der Karte und zwischen zwei Kommas. Das Pronomen fällt weg.
-        hint: Hinter welchem Wort steht der Relativsatz? Schreibe die Kommas mit.
+        task: Setze den zweiten Streifen hinter das Nomen, zwischen zwei Kommas.
+        hint: Schreibe die Kommas mit.
         form: { case: hint, punctuation: wrong, apostrophe: ok }
         items:
           - cue: Mrs Parker is a good cook · She is very kind · who
             target: Mrs Parker, who is (very |)kind, is a good cook(.|)
             mistakes:
               - answer: Mrs Parker, that is very kind, is a good cook.
-                message: Zwischen Kommas steht nie that. Bei einer Person nimmst du who.
-              - answer: Mrs Parker, who she is very kind, is a good cook.
-                message: Das Pronomen she fällt weg, denn who ersetzt es.
+                message: Steht that zwischen Kommas?
           - cue: The library is next to the park · It closes at five · which
             target: The library, which closes at five, is next to the park(.|)
             mistakes:
               - answer: The library, who closes at five, is next to the park.
-                message: Who passt nur zu Personen. Für eine Sache nimmst du which.
-              - answer: The library, that closes at five, is next to the park.
-                message: Zwischen Kommas steht nie that.
+                message: Ist eine Bibliothek eine Person?
           - cue: Amir is in my class · His mother works at the market · whose
             target: Amir, whose mother works at the market, is in my class(.|)
             mistakes:
-              - answer: Amir, who his mother works at the market, is in my class.
-                message: Für his mother nimmst du whose. Das Wort his fällt weg.
               - answer: Amir, who's mother works at the market, is in my class.
-                message: Who's heißt who is. Das Besitzwort ist whose.
+                message: Who's heißt who is.
       - type: language-task
         id: nn-uebersetzen
         languages: { source: de, target: en }
-        task: Übersetze den Satz. Im Deutschen stehen immer Kommas. Im Englischen entscheidet der Sinn, ob der Relativsatz Kommas hat.
+        task: Übersetze den Satz. Im Englischen entscheidet der Sinn, ob Kommas stehen.
         hint: Kann man den Relativsatz herausnehmen?
         form: { case: hint, punctuation: wrong, apostrophe: ok }
         items:
           - source: Unser Garten, der sehr groß ist, hat einen Apfelbaum.
             target: Our garden, which is (very |)(big|large), has an apple tree(.|)
             mistakes:
-              - answer: Our garden, who is very big, has an apple tree.
-                message: Ein Garten ist eine Sache. Nimm which.
               - answer: Our garden, that is very big, has an apple tree.
-                message: Zwischen Kommas steht nie that.
+                message: Steht that zwischen Kommas?
           - source: Die Leute, die auf dem Markt arbeiten, sind freundlich.
             target: The people (who|that) work at the market are (friendly|nice|kind)(.|)
             mistakes:
               - answer: The people, who work at the market, are friendly.
-                message: Der Streifen sagt, welche Leute gemeint sind, ohne ihn ist es unklar. Er ist notwendig und hat keine Kommas.
-              - answer: The people which work at the market are friendly.
-                message: Which gilt für Sachen. Bei Leuten nimmst du who oder that.
+                message: Welche Leute wären es ohne den Streifen?
       - type: language-task
         id: nn-hoeren
         languages: { source: de, target: en }
@@ -251,7 +241,7 @@ blocks:
             text: Our classroom, which is on the first floor, is warm.
           - audio: the-people-who-live-next-to-us-are-very-friendly.mp3
             text: The people who live next to us are very friendly.
-        hint: Hör den Satz zuerst. Sprich dann langsam nach. An den Kommas machst du eine kurze Pause. Bei dem Satz ohne Kommas sprichst du in einem Zug.
+        hint: Hör zuerst zu, sprich dann nach. An jedem Komma machst du eine kurze Pause.
       - type: open-task
         id: nn-meinung
         task: "Schreibe einen kurzen Tagebucheintrag über heute, drei bis vier Sätze. Sage, ob der Tag gut war. Nenne eine Person und eine Sache und benutze mindestens zwei Relativsätze mit Kommas und einen ohne."
