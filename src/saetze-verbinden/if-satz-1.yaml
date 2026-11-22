@@ -88,15 +88,15 @@ blocks:
         id: if-weiche
         text: Welcher Satz stellt die Weiche richtig?
         options:
-          - text: If Amir comes, we will win
-            correct: true
-            info: Im Streifen mit if steht das simple present (comes), im anderen will plus Verb (will win).
           - text: If Amir will come, we will win
             correct: false
             info: Im Streifen mit if steht kein will. Dort braucht es das simple present.
           - text: If Amir comes, we will wins
             correct: false
             info: Nach will bleibt das Verb gleich.
+          - text: If Amir comes, we will win
+            correct: true
+            info: Im Streifen mit if steht das simple present (comes), im anderen will plus Verb (will win).
         explanation: Die Weiche stellt das simple present zum if-Streifen.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 1

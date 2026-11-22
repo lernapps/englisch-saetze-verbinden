@@ -120,12 +120,12 @@ blocks:
         id: auf-verstehen
         text: Was soll Ellie laut Mr Hill in Nachricht 5 tun?
         options:
-          - text: Den blauen Stift nehmen, nicht den roten
-            correct: true
-            info: "Mr Hill sagt: „Use the blue pen. Don’t use the red pen.“"
           - text: Nur den roten Stift nehmen
             correct: false
             info: Den roten soll sie nicht nehmen.
+          - text: Den blauen Stift nehmen, nicht den roten
+            correct: true
+            info: "Mr Hill sagt: „Use the blue pen. Don’t use the red pen.“"
           - text: Den Stift an Sophie geben
             correct: false
             info: Davon steht nichts im Gespräch.

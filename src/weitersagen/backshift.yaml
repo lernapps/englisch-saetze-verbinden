@@ -14,12 +14,12 @@ blocks:
         id: backshift-start
         text: "Sophie schreibt im Chat (Nachricht 7): „Mr Hill says that he likes pictures.“ Warum bleibt likes im simple present?"
         options:
-          - text: Weil er es jetzt sagt und es noch gilt
-            correct: true
-            info: Das Sagen ist nicht vorbei.
           - text: Weil nach says immer das simple present steht
             correct: false
             info: Das Verb folgt dem Inhalt, nicht says.
+          - text: Weil er es jetzt sagt und es noch gilt
+            correct: true
+            info: Das Sagen ist nicht vorbei.
           - text: Weil that die Zeit festhält
             correct: false
             info: That hängt nur an.

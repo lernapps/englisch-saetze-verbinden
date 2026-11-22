@@ -164,12 +164,12 @@ blocks:
         id: wish-passt
         text: Die Nachbarn singen jeden Abend laut. Ellie sagt ihrer Mutter, was sie sich wünscht. Welcher Satz passt?
         options:
-          - text: I wish the neighbours would be quiet
-            correct: true
-            info: Die Nachbarn sind gemeint, nicht Ellie.
           - text: I wish the neighbours will be quiet
             correct: false
             info: Passt will nach wish?
+          - text: I wish the neighbours would be quiet
+            correct: true
+            info: Die Nachbarn sind gemeint, nicht Ellie.
           - text: I wish the neighbours are quiet
             correct: false
             info: Passt das simple present nach wish?

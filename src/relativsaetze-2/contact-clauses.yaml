@@ -14,15 +14,15 @@ blocks:
         id: contact-start
         text: "In „Ellie has a friend who lives in London“ ersetzt die Karte who ein Wort aus dem zweiten Streifen. Welches?"
         options:
-          - text: she, die Person, die etwas tut
-            correct: true
-            info: "Aus „She lives in London“ wird „who lives in London“. Who ersetzt das Pronomen she, das Subjekt, also das Wort, das etwas tut."
           - text: her, ein Besitzwort
             correct: false
             info: Her gehört zu whose.
           - text: London, einen Ort
             correct: false
             info: London bleibt stehen. Die Karte ersetzt nur das Pronomen.
+          - text: she, die Person, die etwas tut
+            correct: true
+            info: "Aus „She lives in London“ wird „who lives in London“. Who ersetzt das Pronomen she, das Subjekt, also das Wort, das etwas tut."
         explanation: Die Relativkarte ersetzt das Pronomen des zweiten Streifens.
         links:
           - title: Lernlandkarte Englisch · Notwendige Relativsätze

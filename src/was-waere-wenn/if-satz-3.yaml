@@ -14,12 +14,12 @@ blocks:
         id: if3-start
         text: "Welcher Satz sagt etwas Gedachtes über jetzt, mit der richtigen Weiche?"
         options:
-          - text: If Peter had a horse, he would ride it
-            correct: true
-            info: Beide Streifen passen zu Gedachtem über jetzt.
           - text: If Peter has a horse, he would ride it
             correct: false
             info: Welche Zeitform steht bei if?
+          - text: If Peter had a horse, he would ride it
+            correct: true
+            info: Beide Streifen passen zu Gedachtem über jetzt.
           - text: If Peter would have a horse, he would ride it
             correct: false
             info: Gehört would in den if-Streifen?
@@ -133,12 +133,12 @@ blocks:
         id: if3-verstehen
         text: Warum hat Sophie den Bus verpasst?
         options:
-          - text: Ihr Handy war leer, darum gab es keinen Wecker
-            correct: true
-            info: Der Wecker war das Handy, und der Akku war leer.
           - text: Sie hat die Haltestelle nicht gefunden
             correct: false
             info: Wohin ist Sophie gerannt?
+          - text: Ihr Handy war leer, darum gab es keinen Wecker
+            correct: true
+            info: Der Wecker war das Handy, und der Akku war leer.
           - text: Mrs Parker hat sie zu spät geweckt
             correct: false
             info: Steht das im Blog?

@@ -156,9 +156,6 @@ blocks:
         id: speech-pronomen
         text: "Mr Hill sagt zu euch: „I will help you.“ Sophie erzählt es Amir. Welcher Satz stimmt?"
         options:
-          - text: Mr Hill says that he will help us
-            correct: true
-            info: I wird he, you wird us, will bleibt.
           - text: Mr Hill says that I will help us
             correct: false
             info: Mr Hill spricht von sich, also he.
@@ -168,6 +165,9 @@ blocks:
           - text: Mr Hill says that he would help us
             correct: false
             info: Er sagt es jetzt, also bleibt will.
+          - text: Mr Hill says that he will help us
+            correct: true
+            info: I wird he, you wird us, will bleibt.
         explanation: Die Pronomen wechseln, das Verb bleibt.
         links:
           - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung

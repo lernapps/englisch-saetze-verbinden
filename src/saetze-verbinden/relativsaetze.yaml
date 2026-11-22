@@ -21,15 +21,15 @@ blocks:
         id: relativ-start
         text: Welcher Streifen sagt genauer, welcher Junge gemeint ist?
         options:
-          - text: He sits next to Sophie
-            correct: true
-            info: Der Streifen sagt etwas über den Jungen. So erfährt Peter, welcher Junge gemeint ist.
           - text: We play football
             correct: false
             info: Dieser Streifen sagt nichts über den Jungen. Er sagt, was wir tun.
           - text: It is red
             correct: false
             info: It steht für eine Sache. Der Streifen sagt nichts über einen Jungen.
+          - text: He sits next to Sophie
+            correct: true
+            info: Der Streifen sagt etwas über den Jungen. So erfährt Peter, welcher Junge gemeint ist.
         explanation: Ein zweiter Streifen kann sagen, welche Person gemeint ist.
         links:
           - title: Lernlandkarte Englisch · Notwendige Relativsätze

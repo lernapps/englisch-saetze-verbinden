@@ -21,15 +21,15 @@ blocks:
         id: konjunktionen-start
         text: Welche Karte verbindet die zwei Streifen zu einem Satz?
         options:
-          - text: "and, wenn etwas dazukommt"
-            correct: true
-            info: Peter mag Fußball und Amir mag auch Fußball. Der zweite Streifen fügt etwas hinzu. Dafür steht and.
           - text: "but, wenn der zweite Streifen etwas ganz anderes sagt"
             correct: false
             info: Beide Streifen sagen dasselbe. Ein Gegensatz würde zu but passen, zum Beispiel „Peter likes football, but Amir likes tennis.“
           - text: "because, wenn der zweite Streifen einen Grund nennt"
             correct: false
             info: Dass Amir Fußball mag, ist kein Grund dafür, dass Peter Fußball mag. Because passt nur, wenn der zweite Streifen erklärt, warum der erste stimmt.
+          - text: "and, wenn etwas dazukommt"
+            correct: true
+            info: Peter mag Fußball und Amir mag auch Fußball. Der zweite Streifen fügt etwas hinzu. Dafür steht and.
         explanation: Mit and kommt etwas dazu.
         links:
           - title: Lernlandkarte Englisch · Konjunktionen and, but, because

@@ -14,12 +14,12 @@ blocks:
         id: nn-start
         text: "In „The boy who wears glasses is Amir“ steht der Streifen who wears glasses. Wozu ist er da?"
         options:
-          - text: Er sagt, welcher Junge gemeint ist
-            correct: true
-            info: Wüsste man ohne ihn, welcher Junge gemeint ist?
           - text: Er gibt eine zusätzliche Information über einen Jungen, den alle schon kennen
             correct: false
             info: Ist der Junge schon klar?
+          - text: Er sagt, welcher Junge gemeint ist
+            correct: true
+            info: Wüsste man ohne ihn, welcher Junge gemeint ist?
           - text: Er ersetzt das Verb im Hauptsatz
             correct: false
             info: Das Verb is bleibt stehen.
@@ -132,15 +132,15 @@ blocks:
         id: nn-verstehen
         text: Was sagt Sophie in Eintrag 3 über das Haus, in dem sie wohnt?
         options:
-          - text: Es ist sehr alt und hat eine große Küche
-            correct: true
-            info: Eintrag 3 sagt „a hundred years old“.
           - text: Es ist neu und hat einen großen Garten
             correct: false
             info: Ist das Haus neu?
           - text: Es steht hinter dem Park
             correct: false
             info: Was fließt hinter dem Park?
+          - text: Es ist sehr alt und hat eine große Küche
+            correct: true
+            info: Eintrag 3 sagt „a hundred years old“.
         explanation: Eintrag 3 beschreibt das Haus.
         links:
           - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze

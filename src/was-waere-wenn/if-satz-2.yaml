@@ -14,15 +14,15 @@ blocks:
         id: if2-start
         text: "Welcher Satz steht im simple past?"
         options:
-          - text: Peter played football yesterday
-            correct: true
-            info: Das ist vorbei.
           - text: Peter plays football on Mondays
             correct: false
             info: Welche Zeitform ist plays?
           - text: Peter will play football tomorrow
             correct: false
             info: Was steht hier vor play?
+          - text: Peter played football yesterday
+            correct: true
+            info: Das ist vorbei.
         explanation: Played ist die Form des simple past.
         links:
           - title: Lernlandkarte Englisch · Simple past

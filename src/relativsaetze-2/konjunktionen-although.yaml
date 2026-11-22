@@ -14,12 +14,12 @@ blocks:
         id: alt-start
         text: "Welche Karte aus Kapitel 1 sagt: Der zweite Streifen ist anders, als man nach dem ersten denkt?"
         options:
-          - text: but
-            correct: true
-            info: But zeigt einen Gegensatz.
           - text: and
             correct: false
             info: Fügt der zweite Streifen nur etwas dazu?
+          - text: but
+            correct: true
+            info: But zeigt einen Gegensatz.
           - text: so
             correct: false
             info: Sagt der zweite Streifen, was daraus folgt?
@@ -163,15 +163,15 @@ blocks:
         id: alt-verstehen
         text: Warum geht Year 8 am Montag in den Park?
         options:
-          - text: Die Klasse sammelt Blätter für den Kunstraum
-            correct: true
-            info: Absatz 1 sagt „so that they can collect leaves“.
           - text: Die Klasse schreibt das Programm für die Woche
             correct: false
             info: Wer schreibt das Programm?
           - text: Die Klasse übt Lieder für das Konzert
             correct: false
             info: Wer übt die Lieder?
+          - text: Die Klasse sammelt Blätter für den Kunstraum
+            correct: true
+            info: Absatz 1 sagt „so that they can collect leaves“.
         explanation: Year 8 sammelt Blätter für den Kunstraum.
         links:
           - title: Lernlandkarte Englisch · Konjunktionen although und whereas
