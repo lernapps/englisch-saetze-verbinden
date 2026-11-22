@@ -1,0 +1,303 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Ich wünschte, … Wünsche und Bedauern mit I wish"
+description: "Amir schreibt in seinem Blog über ein verlorenes Finale. Du lernst, mit I wish und If only Wünsche und Bedauern auszudrücken."
+competencies: [i-wish]
+scope: Die Seite führt I wish und If only ein, um Wünsche und Bedauern über etwas auszudrücken, das nicht so ist oder nicht so war. Nach wish gilt dieselbe Verschiebung wie im Streifen mit if. Für einen Wunsch über jetzt steht das simple past (I wish I were faster, bei I, he, she, it auch was), für Bedauern über früher das past perfect (I wish I had practised more), für Ärger über andere oder Dinge, die sich ändern sollen, would plus Grundform (I wish he would stop). Would steht nicht für einen Wunsch über sich selbst (nicht I wish I would have). If only ist die stärkere Form mit denselben Zeitformen. Die Seite arbeitet mit einem erfundenen Blogeintrag von Amir über ein verlorenes Finale, die Absätze sind nummeriert. Nicht hier, weil es andere Seiten sind. Wishes mit to-Infinitiv (I wish to go), hope und der Gebrauch von wish im Sinn von wünschen (I wish you luck).
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie klingt ein Wunsch?
+    blocks:
+      - type: text
+        text: "Amir hat mit seinem Team das Finale der Schule verloren. Am Sonntagabend schreibt er in seinem Blog, was er sich wünscht. Du liest gleich seinen Eintrag. Davor eine Frage zu den if-Sätzen der letzten Seiten."
+      - type: single-choice
+        id: wish-start
+        text: "In „If Ellie had a camera, she would take photos“ ist Ellie nur ein Gedanke. Welche Form steht im Streifen mit if?"
+        options:
+          - text: simple past, had
+            correct: true
+            info: Für Gedachtes über jetzt steht im Streifen mit if das simple past.
+          - text: past perfect, had had
+            correct: false
+            info: Das past perfect braucht man für Gedachtes über früher.
+          - text: would plus Verb, would have
+            correct: false
+            info: Im Streifen mit if steht kein would.
+        explanation: Bei Gedachtem über jetzt steht im Streifen mit if das simple past.
+        links:
+          - title: Lernlandkarte Englisch · If-Sätze Typ 2
+            url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
+      - type: text
+        text: "**Das kannst du danach:** Du drückst mit „I wish …“ und „If only …“ Wünsche und Bedauern aus."
+  - type: section
+    id: lesen
+    title: Amirs Blog
+    blocks:
+      - type: text
+        text: "Amir ist 13. Ellie hat ihm geraten, seine Gedanken aufzuschreiben. Jeder Absatz hat eine Nummer. Mit der Nummer kannst du später sagen, wo etwas steht. Beim Lesen: Achte auf die Sätze mit wish und if only und darauf, welche Zeitform danach steht."
+      - type: table
+        caption: Amirs Blog · Absatz 1 und 2
+        header: [Nr, Eintrag]
+        rows:
+          - [
+              "1",
+              "It is Sunday evening, and I am still sad about the final. Our team lost three to two yesterday. Ellie says writing helps, so here are my wishes.",
+            ]
+          - [
+              "2",
+              "First, a wish about now. I wish I were faster. The boys in 8A run like rabbits, and I always arrive too late.",
+            ]
+      - type: table
+        caption: Randglossar · Absatz 1 und 2
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [final, Endspiel]
+          - [team, Mannschaft]
+          - [wish, Wunsch / wünschen]
+      - type: table
+        caption: Amirs Blog · Absatz 3 und 4
+        header: [Nr, Eintrag]
+        rows:
+          - [
+              "3",
+              "Now the things I regret. I wish I had practised more. We only trained twice a week, and I often stayed at home.",
+            ]
+          - [
+              "4",
+              "I also wish I had listened to Mr Hill. He told us to stay calm, but I got angry after the first goal. If only I had stayed calm! I would not have missed my shot.",
+            ]
+      - type: table
+        caption: Randglossar · Absatz 3 und 4
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [regret, bedauern]
+          - [practise, üben]
+          - [train, trainieren]
+          - [calm, ruhig]
+          - [goal, Tor]
+          - [shot, Schuss]
+      - type: table
+        caption: Amirs Blog · Absatz 5 und 6
+        header: [Nr, Eintrag]
+        rows:
+          - [
+              "5",
+              "And one more thing. I wish my little brother would stop taking my boots. Yesterday I looked for them for ten minutes. If only he would ask me first!",
+            ]
+          - [
+              "6",
+              "Ellie read this and laughed. She says wishing is easy, but changing is better. So I will practise on Mondays and Thursdays. Next year, we will win the final.",
+            ]
+      - type: table
+        caption: Randglossar · Absatz 5 und 6
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [boots, Fußballschuhe]
+          - [stop, aufhören]
+          - [change, ändern]
+  - type: section
+    id: neu
+    title: Nach wish rückt die Form zurück
+    blocks:
+      - type: text
+        text: "Schau in den Blog. Amir schreibt „I wish I **were** faster“, obwohl er jetzt spricht. Er ist nicht schnell, und er wünscht sich, es wäre anders. Nach **wish** gilt dieselbe Verschiebung wie im Streifen mit if: Die Form rückt auf dem Zeitstrahl nach links. Für **jetzt** steht das simple past. Für **früher** steht das past perfect (Absatz 3: „I wish I had practised more“). Ärgerst du dich über jemand anderen oder über etwas, das sich ändern soll, steht **would** plus Verb (Absatz 5). **If only** ist die stärkere Form und hat dieselben Zeitformen."
+      - type: figure
+        image: images/satzstreifen-i-wish.svg
+        alt: "Vier Streifen mit gelben Karten. Die ersten drei haben den Streifen „I“, die gelbe Karte „wish“ und einen Streifen: „it were summer.“ mit dem Hinweis simple past und jetzt, „I had called her.“ mit past perfect und früher, „she would stop.“ mit would und Veränderung. Der vierte hat die gelbe Karte „If only“ und den Streifen „it were summer.“ mit dem Hinweis stärker als wish."
+        caption: Nach wish und If only rückt die Form einen Schritt zurück. Mit would wünschst du dir, dass sich etwas ändert.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Wünsche mit wish
+        header: [Du sagst, Form nach wish, Beispiel]
+        rows:
+          - [Wunsch für jetzt, simple past, I wish I had a bigger room.]
+          - [Bedauern über früher, past perfect, I wish I had stayed longer.]
+          - [Ärger über andere, would + Verb, I wish the bus would come.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Für dich selbst steht nach wish kein would.** Es heißt „I wish I had a new coat“ und nicht „I wish I would have a new coat“. Bei I, he, she und it sind were und was möglich: „I wish she were here“. Mit would wünschst du dir, dass **ein anderer** etwas tut oder lässt.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: true-false
+        id: wish-verstehen
+        text: Ellie meint, dass Wünschen allein schon hilft.
+        answer: false
+        explanation: In Absatz 6 sagt Ellie, dass Wünschen leicht ist, aber Ändern besser.
+        links:
+          - title: Lernlandkarte Englisch · Wünsche mit I wish
+            url: https://lernapps.net/apps/map/englisch/c/i-wish/
+      - type: number
+        id: wish-beleg
+        text: In welchem Absatz ärgert sich Amir über seinen kleinen Bruder? Gib die Nummer ein.
+        answer: 5
+        hint: Lies noch einmal den Blog. Es geht um seine Fußballschuhe.
+        tolerance: 0
+        explanation: In Absatz 5 ärgert sich Amir, weil sein Bruder die Schuhe nimmt.
+        links:
+          - title: Lernlandkarte Englisch · Wünsche mit I wish
+            url: https://lernapps.net/apps/map/englisch/c/i-wish/
+      - type: single-choice
+        id: wish-passt
+        text: Ellie ärgert sich, weil die Nachbarn jeden Abend laut singen. Sie wünscht sich, dass sie damit aufhören. Welcher Satz passt?
+        options:
+          - text: I wish the neighbours would be quiet
+            correct: true
+            info: Mit would wünschst du dir, dass andere etwas ändern.
+          - text: I wish the neighbours will be quiet
+            correct: false
+            info: Nach wish steht kein will. Für Ärger über andere steht would.
+          - text: I wish the neighbours are quiet
+            correct: false
+            info: Nach wish steht nie das simple present. Die Form rückt einen Schritt zurück.
+        explanation: Bei Ärger über andere steht nach wish would plus Verb.
+        links:
+          - title: Lernlandkarte Englisch · Wünsche mit I wish
+            url: https://lernapps.net/apps/map/englisch/c/i-wish/
+      - type: language-task
+        id: wish-luecken
+        languages: { source: de, target: en }
+        mode: gap
+        task: Schreibe die richtige Form in die Lücke. Lies zuerst den deutschen Satz.
+        hint: Für jetzt steht das simple past, für früher das past perfect, für Ärger über andere would.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Ich wünschte, ich hätte mehr Freizeit.
+            target: I wish I [had] more free time.
+            mistakes:
+              - answer: I wish I have more free time.
+                message: Nach wish rückt die Form zurück. Für jetzt steht das simple past.
+              - answer: I wish I would have more free time.
+                message: Für dich selbst steht nach wish kein would.
+          - source: Ich wünschte, ich wäre schon in den Ferien.
+            target: I wish I [were|was] on holiday now.
+            mistakes:
+              - answer: I wish I am on holiday now.
+                message: Nach wish steht das simple past, bei I also were oder was.
+              - answer: I wish I would be on holiday now.
+                message: Für dich selbst steht nach wish kein would.
+          - source: Ich wünschte, ich wäre gestern früher nach Hause gegangen.
+            target: I wish I [had gone] home earlier yesterday.
+            mistakes:
+              - answer: I wish I went home earlier yesterday.
+                message: Für Bedauern über früher braucht es das past perfect, had gone.
+              - answer: I wish I would have gone home earlier yesterday.
+                message: Für dich selbst steht nach wish kein would have.
+          - source: Ich wünschte, du würdest nicht so laut singen.
+            target: I wish you [would not|wouldn't] sing so loudly.
+            mistakes:
+              - answer: I wish you don't sing so loudly.
+                message: Ärger über andere sagst du mit would, hier would not.
+              - answer: I wish you not sing so loudly.
+                message: Für die Verneinung braucht es would not oder wouldn't.
+      - type: language-task
+        id: wish-bilden
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz mit I wish. Die Wirklichkeit steht im Cue. Schreibe ihn so, dass es anders ist, als der Cue sagt.
+        hint: Rücke die Form im Cue einen Schritt nach links. Bei Ärger über andere nimmst du would.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: I do not have a bike · I wish
+            target: I wish I had a bike.
+            mistakes:
+              - answer: I wish I have a bike.
+                message: Nach wish rückt die Form zurück, hier das simple past, had.
+              - answer: I wish I would have a bike.
+                message: Für dich selbst steht nach wish kein would.
+          - cue: I did not go to the party · I wish
+            target: I wish I had gone to the party.
+            mistakes:
+              - answer: I wish I went to the party.
+                message: Für Bedauern über früher braucht es das past perfect, had gone.
+              - answer: I wish I would have gone to the party.
+                message: Für dich selbst steht nach wish kein would have.
+          - cue: Amir does not listen · I wish · he listens
+            target: I wish Amir (would listen|listened).
+            mistakes:
+              - answer: I wish Amir listens.
+                message: Nach wish rückt die Form zurück, bei Ärger über andere nimmst du would listen.
+              - answer: I wish Amir will listen.
+                message: Nach wish steht kein will. Für Ärger über andere steht would.
+      - type: language-task
+        id: wish-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        hint: Nach wish und If only rückt die Form einen Schritt nach links.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Ich wünschte, ich könnte gut Gitarre spielen.
+            target: I wish I could play (the guitar|guitar) well.
+            mistakes:
+              - answer: I wish I can play the guitar well.
+                message: Nach wish rückt die Form zurück, can wird could.
+              - answer: I wish I would play the guitar well.
+                message: Für dich selbst steht nach wish kein would. Für können steht could.
+          - source: Wenn ich nur früher gekommen wäre!
+            target: If only I had (come|arrived) (earlier|sooner).
+            mistakes:
+              - answer: If only I came earlier.
+                message: Für früher braucht es das past perfect, had come.
+              - answer: If only I would have come earlier.
+                message: Nach If only steht kein would have, sondern had plus 3. Form.
+      - type: language-task
+        id: wish-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: i-wish-i-lived-closer-to-my-cousins.mp3
+            target: I wish I lived closer to my cousins.
+          - audio: i-wish-i-had-brought-my-jacket-today.mp3
+            target: I wish I had brought my jacket today.
+          - audio: i-wish-my-parents-would-call-me-more-often.mp3
+            target: I wish my parents would call me more often.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: wish-nachsprechen
+        language: en
+        items:
+          - audio: if-only-i-had-more-money-for-the-holidays.mp3
+            text: If only I had more money for the holidays.
+          - audio: i-wish-we-had-a-cinema-in-the-village.mp3
+            text: I wish we had a cinema in the village.
+          - audio: i-wish-my-sister-would-help-me-with-my-homework.mp3
+            text: I wish my sister would help me with my homework.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Das Wort wish betonst du stark.
+      - type: open-task
+        id: wish-meinung
+        task: "Ellie sagt: Wünschen ist leicht, Ändern ist besser. Was meinst du? Schreibe zwei bis drei Sätze. Schreibe einen Wunsch oder ein Bedauern mit I wish und sage, was du tun kannst, damit es besser wird."
+        hint: Du kannst mit „I wish …“ beginnen. Für das, was du tun kannst, nimmst du will.
+        points:
+          - text: Ein Satz drückt mit I wish einen Wunsch oder ein Bedauern aus.
+            source: /was-waere-wenn/i-wish/#neu
+          - text: Nach wish steht die richtige Form, simple past für jetzt oder past perfect für früher, nicht would für einen Wunsch über sich selbst.
+            source: /was-waere-wenn/i-wish/#neu
+          - text: Ein Satz sagt, was die Person tun kann, damit es besser wird.
+            source: /was-waere-wenn/i-wish/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I wish I had more time for my friends. I will call them every Sunday.
+  - type: section
+    id: weiter
+    title: Rückblick auf das Kapitel
+    blocks:
+      - type: text
+        text: "Amir hat seine Liste geschrieben und weiß jetzt, was er ändern will. Du hast drei Weichen für Unwirkliches gelernt. Die Tabelle zeigt sie alle."
+      - type: table
+        caption: Klassenzimmer-Poster · Unwirkliches
+        header: [Du sagst, Form]
+        rows:
+          - [if Typ 2 (jetzt), "if + simple past, would + Verb"]
+          - [if Typ 3 (früher), "if + past perfect, would have + 3. Form"]
+          - [wish für jetzt, wish + simple past]
+          - [wish für früher, wish + past perfect]
+          - [wish bei Ärger, wish + would + Verb]
