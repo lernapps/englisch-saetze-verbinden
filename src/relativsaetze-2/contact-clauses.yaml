@@ -34,7 +34,7 @@ blocks:
     title: Der Chat der Gruppe
     blocks:
       - type: text
-        text: Die drei schreiben über ein Buch, das Sophie an Amir verliehen hat. Jede Nachricht hat eine Nummer. Mit der Nummer kannst du später sagen, wo etwas steht.
+        text: "Die drei schreiben über ein Buch, das Sophie an Amir verliehen hat. Jede Nachricht hat eine Nummer. Mit der Nummer kannst du später sagen, wo etwas steht. Beim Lesen: Achte auf Nachrichten mit einem Nomen und direkt dahinter einem Subjekt (the book I lent) und auf solche mit who."
       - type: table
         caption: Chat Year 8B · Nachrichten 1 bis 4
         header: [Nr, Wer, Nachricht]
@@ -92,11 +92,11 @@ blocks:
     title: Objekt oder Subjekt?
     blocks:
       - type: text
-        text: "Schau in den Chat. In Nachricht 2 steht „the best book I have read“, ohne that und ohne which. Der zweite Streifen „I have read it“ hat ein **Objekt**, das Wort it. Die Relativkarte hat it ersetzt. Weil hinter der Karte schon ein Subjekt steht (I), versteht man den Satz auch ohne Karte. Das ist ein **Relativsatz ohne Relativkarte** (Fachwort: Relativpronomen), auch **Kontaktsatz** oder englisch **contact clause** genannt."
+        text: "Schau in den Chat. In Nachricht 2 steht „the best book I’ve read“, ohne that und ohne which. Solche Sätze stehen auch in den Nachrichten 4, 6, 8 und 11. Mit Karte stehen nur 3 und 5 (who). Der zweite Streifen „I have read it“ hat ein **Objekt**, das Wort it. Die Relativkarte hat it ersetzt. Weil hinter der Karte schon ein Subjekt steht (I), versteht man den Satz auch ohne Karte. Das **Subjekt** ist das Wort, das etwas tut (I, she). Das **Objekt** ist das Wort, mit dem etwas getan wird (it, them). Das ist ein **Relativsatz ohne Relativkarte** (Fachwort: Relativpronomen), auch **Kontaktsatz** oder englisch **contact clause** genannt."
       - type: figure
         image: images/satzstreifen-contact-clauses.svg
         alt: "Zwei Beispiele untereinander. Oben: ein Streifen „This is the song“, eine gestrichelte Karte „(that)“ in Klammern und ein Streifen „I like.“ Darunter der Hinweis, dass die Karte das Objekt it ersetzt. Unten: ein Streifen „This is the girl“, eine feste Karte „who“ und ein Streifen „sits there.“ Darunter der Hinweis, dass die Karte das Subjekt she ersetzt."
-        caption: Oben ersetzt die Karte das Objekt it, sie darf fehlen. Unten ersetzt who das Subjekt she, die Karte muss bleiben.
+        caption: "Gestrichelt und in Klammern heißt: Die Karte darf fehlen. Oben ersetzt sie das Objekt it. Unten ersetzt who das Subjekt she, die Karte muss bleiben."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -111,7 +111,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Steht hinter der Karte schon ein Subjekt, darf die Karte fehlen.** Es heißt „the book I read“, aber „the boy who sings“. Das ersetzte Wort steht nicht noch einmal da: nicht „the book I read it“. **Whose** bleibt immer: „the boy whose phone is new“.
+              **Steht hinter der Karte schon ein Subjekt, darf die Karte fehlen.** Es heißt „the book I read“, aber „the boy who sings“. Nicht „the book I read it“. **Whose** bleibt immer: „the boy whose phone is new“.
   - type: section
     id: uebung
     title: Übung
@@ -137,6 +137,7 @@ blocks:
         id: contact-beleg
         text: In welcher Nachricht sagt jemand, dass er oder sie etwas zu essen mitbringt? Gib die Nummer ein.
         answer: 12
+        hint: Lies noch einmal den Chat.
         tolerance: 0
         explanation: In Nachricht 12 bringt Ellie Snacks mit.
         links:
@@ -146,7 +147,7 @@ blocks:
         id: contact-weglassen
         text: In welchen Sätzen darf die Relativkarte in Klammern fehlen? Wähle alle richtigen.
         options:
-          - text: The pizza (which) Amir made was great
+          - text: The pasta (which) Amir made was great
             correct: true
             info: Which ersetzt das Objekt it (Amir made it).
           - text: The shirt (that) Ellie wears is new
@@ -165,8 +166,8 @@ blocks:
       - type: language-task
         id: contact-bilden
         languages: { source: de, target: en }
-        task: Hänge die zwei Streifen aneinander. Du darfst die Karte weglassen, wenn es geht. Das Pronomen fällt weg.
-        hint: Welches Wort ersetzt die Karte? Dieses Wort schreibst du nicht noch einmal.
+        task: Hänge die zwei Streifen aneinander. Du darfst die Karte weglassen, wenn es geht. Muss sie stehen, schreibe sie selbst. Das Pronomen fällt weg.
+        hint: Welches Wort ersetzt die Karte? Schreibe es nicht noch einmal.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Here is the jacket · Ellie bought it
@@ -190,7 +191,7 @@ blocks:
         id: contact-uebersetzen
         languages: { source: de, target: en }
         task: Übersetze den Satz. Du darfst die Karte weglassen, wenn es geht.
-        hint: Im Deutschen steht das Perfekt. Im Englischen geht das simple past und das present perfect.
+        hint: Du kannst das simple past oder das present perfect benutzen.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Die Tasche, die ich gekauft habe, ist grün.
@@ -210,11 +211,11 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - audio: the-video-you-sent-me-is-really-funny.mp3
-            target: The video (that |which |)you sent me is really funny.
+            target: The video you sent me is really funny.
           - audio: i-lost-the-key-my-mother-gave-me.mp3
-            target: I lost the key (that |which |)my mother gave me.
+            target: I lost the key my mother gave me.
           - audio: the-teacher-i-like-best-is-mr-hill.mp3
-            target: The teacher (who |that |)I like best is Mr Hill.
+            target: The teacher I like best is Mr Hill.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -233,6 +234,7 @@ blocks:
       - type: open-task
         id: contact-meinung
         task: "Schreibe eine Nachricht an die Gruppe. Sage deine Meinung: Ist ein Buch oft besser als der Film dazu? Nenne ein Buch oder einen Film und benutze mindestens einen Relativsatz ohne Relativkarte."
+        hint: Du kannst mit „I think …“ beginnen.
         points:
           - text: Die Nachricht sagt eine Meinung und nennt ein Buch oder einen Film.
             source: /relativsaetze-2/contact-clauses/#lesen

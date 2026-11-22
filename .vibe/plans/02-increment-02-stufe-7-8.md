@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 1 }
+failedChecks: { checks-pass: 2 }
 ---
 
 # Increment: increment-02-stufe-7-8
@@ -55,6 +55,7 @@ Jugendliche der Klasse 7-8 können Relativsätze genauer bilden (ohne Relativpro
   - reported-speech: Aus einer Sprechblase wird ein Streifen mit said that; Pronomen wechseln (I → she), Orts- und Zeitwörter (here → there); ohne Zeitverschiebung, wenn das Sagen noch gilt oder says. Lesestück: Chat mit Nachrichten und Bericht. Irrtum: Pronomen bleibt, Anführungszeichen.
   - backshift: Das Sagen ist vorbei → Zeitstrahl rückt einen Schritt nach links (am/is → was, will → would, present perfect → past perfect). Lesestück: Interview in der Schulzeitung und Bericht. Irrtum: Zeit nicht verschoben, tomorrow nicht geändert.
   - indirekte-aufforderungen: told/asked + Person + (not) to + Verb. Lesestück: Dialog oder Chat mit Bitten. Irrtum: told me that, ohne to, don't statt not to.
+- Musterseite `contact-clauses` (2026-11-22): Lerner-Check mit Sub-Agent (Klasse 7/8, 360 und 1280 px) und Sprachprüfung Englisch/Deutsch mit Sub-Agent. Behoben: Chat natürlicher (Kurzformen, Bezug in Nachricht 7, 8, 9, 10, 11), stimmige Beleg-Aufgabe (Snacks statt Buch), Merke und Beispiele ohne Lösungen, Diktat ohne Satz der Seite und ohne einsetzbares that, Perfekt-Varianten in Übersetzungen, Randglossar mit copy, chose, for the part, Same!, Subjekt/Objekt erklärt, Lese-Auftrag vor dem Chat, Hinweise je Aufgabe, Hörliste im Inhaltsführer. Offen: Vorlagenfehler wie in der ersten Version.
 - Umfang: in: die neun Bausteine in drei Kapiteln, je ein Lesestück. Out: Kapitel 5 (indirekte Fragen, satzbezogenes which, cleft sentences, Partizipialsätze, -ing-Formen); mixed conditionals, Inversion in if-Sätzen; Relativsätze mit Präposition. Sprache: Deutsch erklärt, britisches Englisch.
 - Voraussetzungen von außen: simple-past (#472 Kapitel 2, gebaut), past-perfect (#472 Stufe 7-8, Inkrement), infinitivkonstruktionen (#480 Stufe 7-8, Inkrement), imperativ (5-6, #470/#480); sie bekommen je Kapitel eine Sammel-Wiederholung (`recap`) oder, wo die Voraussetzung auf der Seite im Chat vorkommt, einen Link (Plan-Phase prüft mit `lernapps check`).
 - Quellen, am 2026-11-22 geöffnet (nur Fakten, CC BY-SA, keine Sätze): Wikipedia „English relative clauses“ (that kann weggelassen werden, wenn es nicht Subjekt ist; Zero relative pronoun; nicht notwendige Relativsätze mit Kommas), „English conditional sentences“ (conditional I, II, III), „Reported speech“ (Backshift ist nicht verpflichtend, wenn die Aussage noch gilt), „Subjunctive“ (wishes, conditional clauses), „Conjunction“ (although, whereas, so that als unterordnende Konjunktionen). Lizenz: Wikipedia CC BY-SA 4.0; wir übernehmen keine Sätze. Texte der Seiten sind eigene Lesestücke. Nicht geprüft: Simple English Wikipedia, VOA, Wikinews, African Storybook (nicht benutzt).
