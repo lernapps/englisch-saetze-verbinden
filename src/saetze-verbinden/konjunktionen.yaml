@@ -38,34 +38,34 @@ blocks:
         text: "**Das kannst du danach:** Du machst aus zwei kurzen Sätzen einen langen, mit and, but, or, because, so oder when. Du weißt, welche Karte wozu passt."
       - type: text
         text: Einfache Wörter wie read, play oder go kennst du schon. Diese Wörter sind neu auf dem Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [tired, müde]
-          - [hungry, hungrig]
-          - [sandwich, belegtes Brot]
-          - [early, früh]
-          - [late, spät]
-          - [sunny, sonnig]
-          - [rain, regnen]
-          - [stay at home, zu Hause bleiben]
-          - [like, mögen]
-          - [football, Fußball]
-          - [tennis, Tennis]
-          - [tea, Tee]
-          - [milk, Milch]
-          - [bike, Fahrrad]
-          - [brother, Bruder]
-          - [sister, Schwester]
-          - [dog, Hund]
-          - [rabbit, Kaninchen]
-          - [every day, jeden Tag]
-          - [happy, froh]
-          - [sing, singen]
-          - [smile, lächeln]
-          - [Saturday, Samstag]
-          - [doesn't, "nicht (= does not)"]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "tired", source: "müde" }
+          - { target: "hungry", source: "hungrig" }
+          - { target: "sandwich", source: "belegtes Brot" }
+          - { target: "early", source: "früh" }
+          - { target: "late", source: "spät" }
+          - { target: "sunny", source: "sonnig" }
+          - { target: "rain", source: "regnen" }
+          - { target: "stay at home", source: "zu Hause bleiben" }
+          - { target: "like", source: "mögen" }
+          - { target: "football", source: "Fußball" }
+          - { target: "tennis", source: "Tennis" }
+          - { target: "tea", source: "Tee" }
+          - { target: "milk", source: "Milch" }
+          - { target: "bike", source: "Fahrrad" }
+          - { target: "brother", source: "Bruder" }
+          - { target: "sister", source: "Schwester" }
+          - { target: "dog", source: "Hund" }
+          - { target: "rabbit", source: "Kaninchen" }
+          - { target: "every day", source: "jeden Tag" }
+          - { target: "happy", source: "froh" }
+          - { target: "sing", source: "singen" }
+          - { target: "smile", source: "lächeln" }
+          - { target: "Saturday", source: "Samstag" }
+          - { target: "doesn't", source: "nicht (= does not)" }
   - type: section
     id: neu
     title: Die Verbindungskarten

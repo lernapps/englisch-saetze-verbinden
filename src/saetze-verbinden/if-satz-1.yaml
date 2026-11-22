@@ -36,26 +36,26 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
       - type: text
         text: "**Das kannst du danach:** Du sagst, was passiert, wenn etwas eintritt. Du weißt, welche Zeitform zu welchem Streifen passt."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [if, wenn / falls]
-          - [outside, draußen]
-          - [come, kommen]
-          - [help, helfen]
-          - [win, gewinnen]
-          - [call, anrufen]
-          - [answer, antworten]
-          - [wait, warten]
-          - [tomorrow, morgen]
-          - [lunch, Mittagessen]
-          - [warm, warm]
-          - [cold, kalt]
-          - [wear, tragen]
-          - [walk, zu Fuß gehen]
-          - [make, machen]
-          - [bed, Bett]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "if", source: "wenn / falls" }
+          - { target: "outside", source: "draußen" }
+          - { target: "come", source: "kommen" }
+          - { target: "help", source: "helfen" }
+          - { target: "win", source: "gewinnen" }
+          - { target: "call", source: "anrufen" }
+          - { target: "answer", source: "antworten" }
+          - { target: "wait", source: "warten" }
+          - { target: "tomorrow", source: "morgen" }
+          - { target: "lunch", source: "Mittagessen" }
+          - { target: "warm", source: "warm" }
+          - { target: "cold", source: "kalt" }
+          - { target: "wear", source: "tragen" }
+          - { target: "walk", source: "zu Fuß gehen" }
+          - { target: "make", source: "machen" }
+          - { target: "bed", source: "Bett" }
   - type: section
     id: neu
     title: Die Weiche bei if

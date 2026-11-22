@@ -43,13 +43,13 @@ blocks:
           - ["2", Amir, "Yes! It's the best book I've read this year."]
           - ["3", Ellie, "Which book? The one about the girl who sails around the world?"]
           - ["4", Sophie, "No, the one Mr Hill recommended on Monday."]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 1 bis 4
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [lend / lent, verleihen / verliehen]
-          - [sail, segeln]
-          - [recommend, empfehlen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "lend / lent", source: "verleihen / verliehen" }
+          - { target: "sail", source: "segeln" }
+          - { target: "recommend", source: "empfehlen" }
       - type: table
         caption: Chat Year 8B · Nachrichten 5 bis 8
         header: [Nr, Wer, Nachricht]
@@ -62,16 +62,16 @@ blocks:
           - ["6", Ellie, "I want to read it too. Can I borrow the copy you have?"]
           - ["7", Amir, "Sure! But the film they made isn't very good."]
           - ["8", Sophie, "I know. The actor they chose is too old for the part."]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 5 bis 8
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [main character, Hauptfigur]
-          - [lighthouse, Leuchtturm]
-          - [copy, Exemplar]
-          - [borrow, sich ausleihen]
-          - [actor, Schauspieler / Schauspielerin]
-          - [chose / choose, wählte / wählen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "main character", source: "Hauptfigur" }
+          - { target: "lighthouse", source: "Leuchtturm" }
+          - { target: "copy", source: "Exemplar" }
+          - { target: "borrow", source: "sich ausleihen" }
+          - { target: "actor", source: "Schauspieler / Schauspielerin" }
+          - { target: "chose / choose", source: "wählte / wählen" }
       - type: table
         caption: Chat Year 8B · Nachrichten 9 bis 12
         header: [Nr, Wer, Nachricht]
@@ -80,13 +80,13 @@ blocks:
           - ["10", Sophie, "Same! The people I know here all say the same."]
           - ["11", Amir, "Let's meet on Saturday. The café we found last week is open then."]
           - ["12", Ellie, "Great! I'll bring the snacks I bought at the shop."]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 9 bis 12
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [for the part, für die Rolle]
-          - [Same!, Geht mir genauso!]
-          - [snacks, kleine Sachen zum Essen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "for the part", source: "für die Rolle" }
+          - { target: "Same!", source: "Geht mir genauso!" }
+          - { target: "snacks", source: "kleine Sachen zum Essen" }
   - type: section
     id: neu
     title: Objekt oder Subjekt?

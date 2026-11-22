@@ -47,13 +47,13 @@ blocks:
               "2",
               "First, a wish about now. I wish I were faster. The boys in 8A run like rabbits, and I always arrive too late.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Absatz 1 und 2
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [final, Endspiel]
-          - [team, Mannschaft]
-          - [wish, Wunsch / wünschen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "final", source: "Endspiel" }
+          - { target: "team", source: "Mannschaft" }
+          - { target: "wish", source: "Wunsch / wünschen" }
       - type: table
         caption: Amirs Blog · Absatz 3 und 4
         header: [Nr, Eintrag]
@@ -66,16 +66,16 @@ blocks:
               "4",
               "I also wish I had listened to Mr Hill. He told us to stay calm, but I got angry after the first goal. If only I had stayed calm! I would not have missed my shot.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Absatz 3 und 4
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [regret, bedauern]
-          - [practise, üben]
-          - [train, trainieren]
-          - [calm, ruhig]
-          - [goal, Tor]
-          - [shot, Schuss]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "regret", source: "bedauern" }
+          - { target: "practise", source: "üben" }
+          - { target: "train", source: "trainieren" }
+          - { target: "calm", source: "ruhig" }
+          - { target: "goal", source: "Tor" }
+          - { target: "shot", source: "Schuss" }
       - type: table
         caption: Amirs Blog · Absatz 5 und 6
         header: [Nr, Eintrag]
@@ -88,13 +88,13 @@ blocks:
               "6",
               "Ellie read this and laughed. She says wishing is easy, but changing is better. So I will practise on Mondays and Thursdays. Next year, we will win the final.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Absatz 5 und 6
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [boots, Fußballschuhe]
-          - [stop, aufhören]
-          - [change, ändern]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "boots", source: "Fußballschuhe" }
+          - { target: "stop", source: "aufhören" }
+          - { target: "change", source: "ändern" }
   - type: section
     id: neu
     title: Nach wish rückt die Form zurück

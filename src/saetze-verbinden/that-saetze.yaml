@@ -36,26 +36,26 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/that-saetze/
       - type: text
         text: "**Das kannst du danach:** Du sagst, was du glaubst, weißt oder hoffst, und was andere sagen. Du weißt, wann die Karte that fehlen darf."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [think, glauben / denken]
-          - [know, wissen]
-          - [say, sagen]
-          - [hope, hoffen]
-          - [fun, Spaß]
-          - [easy, leicht]
-          - [difficult, schwierig]
-          - [right, richtig]
-          - [nice, nett]
-          - [English, Englisch]
-          - [warm, warm]
-          - [happy, froh]
-          - [today, heute]
-          - [tired, müde]
-          - [hungry, hungrig]
-          - [test, Test]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "think", source: "glauben / denken" }
+          - { target: "know", source: "wissen" }
+          - { target: "say", source: "sagen" }
+          - { target: "hope", source: "hoffen" }
+          - { target: "fun", source: "Spaß" }
+          - { target: "easy", source: "leicht" }
+          - { target: "difficult", source: "schwierig" }
+          - { target: "right", source: "richtig" }
+          - { target: "nice", source: "nett" }
+          - { target: "English", source: "Englisch" }
+          - { target: "warm", source: "warm" }
+          - { target: "happy", source: "froh" }
+          - { target: "today", source: "heute" }
+          - { target: "tired", source: "müde" }
+          - { target: "hungry", source: "hungrig" }
+          - { target: "test", source: "Test" }
   - type: section
     id: neu
     title: Die Karte that darf fehlen

@@ -44,14 +44,14 @@ blocks:
               "2",
               "We have to make a poster about Millbrook. Ellie, who is my best friend, wants to draw the market. I want to write about the people who work in our town.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Einträge 1 und 2
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [diary, Tagebuch]
-          - [project, Projekt]
-          - [poster, Plakat]
-          - [Wales, Wales (ein Teil von Großbritannien)]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "diary", source: "Tagebuch" }
+          - { target: "project", source: "Projekt" }
+          - { target: "poster", source: "Plakat" }
+          - { target: "Wales", source: "Wales (ein Teil von Großbritannien)" }
       - type: table
         caption: Sophies Tagebuch · Dienstag, Einträge 3 und 4
         header: [Nr, Eintrag]
@@ -64,12 +64,12 @@ blocks:
               "4",
               "Mrs Parker, who makes very good cakes, gave us tea and cake. Peter, who is eleven, played in the garden with the dog that lives next door.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Einträge 3 und 4
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [more than a hundred years old, mehr als hundert Jahre alt]
-          - [next door, nebenan]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "more than a hundred years old", source: "mehr als hundert Jahre alt" }
+          - { target: "next door", source: "nebenan" }
       - type: table
         caption: Sophies Tagebuch · Mittwoch, Einträge 5 und 6
         header: [Nr, Eintrag]
@@ -82,14 +82,14 @@ blocks:
               "6",
               "Tomorrow we will start with the paper that Mr Hill gave us. Ellie, who sits next to me, already has a lot of ideas. I think it will be a good poster.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Einträge 5 und 6
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [take photos / took, Fotos machen / machte]
-          - [run (hier), fließen]
-          - [favourite, Lieblings-]
-          - [start with, anfangen mit]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "take photos / took", source: "Fotos machen / machte" }
+          - { target: "run (hier)", source: "fließen" }
+          - { target: "favourite", source: "Lieblings-" }
+          - { target: "start with", source: "anfangen mit" }
   - type: section
     id: neu
     title: Kommas wie eine Klammer

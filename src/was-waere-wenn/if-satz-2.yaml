@@ -43,15 +43,15 @@ blocks:
           - ["2", Amir, "If I had a free day, I would sleep until ten o'clock."]
           - ["3", Sophie, "If I were you, I would get up early. A free day is too nice to spend in bed."]
           - ["4", Amir, "Ha! And what would you do, Sophie?"]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 1 bis 4
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [free day, freier Tag]
-          - [until, bis]
-          - [o'clock, Uhr (bei der Uhrzeit)]
-          - [get up, aufstehen]
-          - [spend, verbringen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "free day", source: "freier Tag" }
+          - { target: "until", source: "bis" }
+          - { target: "o'clock", source: "Uhr (bei der Uhrzeit)" }
+          - { target: "get up", source: "aufstehen" }
+          - { target: "spend", source: "verbringen" }
       - type: table
         caption: Chat Year 8B · Nachrichten 5 bis 8
         header: [Nr, Wer, Nachricht]
@@ -68,15 +68,15 @@ blocks:
               Amir,
               "Then we would need money for the tickets. If I won a lot of money, I would buy a new phone first.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 5 bis 8
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [Sounds great!, Klingt toll!]
-          - [probably, wahrscheinlich]
-          - [True., Stimmt.]
-          - [you two, ihr beide]
-          - [a lot of, viel / viele]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "Sounds great!", source: "Klingt toll!" }
+          - { target: "probably", source: "wahrscheinlich" }
+          - { target: "True.", source: "Stimmt." }
+          - { target: "you two", source: "ihr beide" }
+          - { target: "a lot of", source: "viel / viele" }
       - type: table
         caption: Chat Year 8B · Nachrichten 9 bis 12
         header: [Nr, Wer, Nachricht]
@@ -85,13 +85,13 @@ blocks:
           - ["10", Sophie, "A horse? Where would you keep it?"]
           - ["11", Ellie, "In our garden. If Dad said yes, it would live next to the apple tree."]
           - ["12", Amir, "If I was your dad, I would say no. Horses eat a lot!"]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Nachrichten 9 bis 12
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [keep, halten (ein Tier)]
-          - [apple tree, Apfelbaum]
-          - [Dad, Papa]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "keep", source: "halten (ein Tier)" }
+          - { target: "apple tree", source: "Apfelbaum" }
+          - { target: "Dad", source: "Papa" }
   - type: section
     id: neu
     title: Die Weiche für Gedachtes

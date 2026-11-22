@@ -45,14 +45,14 @@ blocks:
               "My phone is my alarm clock, but it was dead. I had played games on it until midnight, and the battery was empty.",
             ]
           - ["3", "So there was no alarm. If I had gone to bed earlier, I would have woken up in time."]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Absatz 1 bis 3
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [alarm clock, Wecker]
-          - [dead, "leer, ohne Strom"]
-          - [battery, Akku]
-          - [in time, rechtzeitig]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "alarm clock", source: "Wecker" }
+          - { target: "dead", source: "leer, ohne Strom" }
+          - { target: "battery", source: "Akku" }
+          - { target: "in time", source: "rechtzeitig" }
       - type: table
         caption: Sophies Blog · Absatz 4 bis 6
         header: [Nr, Eintrag]
@@ -69,26 +69,26 @@ blocks:
               "6",
               "When we arrived, the class was already on the boat. Amir was angry. “If you had sent me a message, I would have asked the driver to wait,” he said.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Absatz 4 bis 6
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [catch / caught, erwischen / erwischte]
-          - [already, schon]
-          - [arrive, ankommen]
-          - [driver, Fahrer]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "catch / caught", source: "erwischen / erwischte" }
+          - { target: "already", source: "schon" }
+          - { target: "arrive", source: "ankommen" }
+          - { target: "driver", source: "Fahrer" }
       - type: table
         caption: Sophies Blog · Absatz 7 und 8
         header: [Nr, Eintrag]
         rows:
           - ["7", "Ellie laughed. “If you had asked me, I would have woken you up. We live in the same house!”"]
           - ["8", "She is right. Tomorrow I will ask her to wake me up, and I will charge my phone every night."]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Absatz 7 und 8
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [wake up, aufwecken]
-          - [charge, aufladen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "wake up", source: "aufwecken" }
+          - { target: "charge", source: "aufladen" }
   - type: section
     id: neu
     title: Die Weiche für Vergangenes

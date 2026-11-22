@@ -47,15 +47,15 @@ blocks:
               "2",
               "While Year 7 makes posters for the week, Year 8 will write the programme. The posters will hang in the school hall so that everyone can see them.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Absätze 1 und 2
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [wet, nass]
-          - [collect, sammeln]
-          - [leaves, Blätter]
-          - [poster, Plakat]
-          - [programme, "Programm (Liste: was wann passiert)"]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "wet", source: "nass" }
+          - { target: "collect", source: "sammeln" }
+          - { target: "leaves", source: "Blätter" }
+          - { target: "poster", source: "Plakat" }
+          - { target: "programme", source: "Programm (Liste: was wann passiert)" }
       - type: table
         caption: Millbrook School News · Autumn Week · Absätze 3 und 4
         header: [Nr, Absatz]
@@ -68,14 +68,14 @@ blocks:
               "4",
               "Some students like quiet songs, whereas others prefer loud music. The group plays both kinds, so everyone will find a favourite.",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Absätze 3 und 4
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [practise, üben]
-          - [prefer, lieber mögen]
-          - [loud, laut]
-          - [kinds, Arten]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "practise", source: "üben" }
+          - { target: "prefer", source: "lieber mögen" }
+          - { target: "loud", source: "laut" }
+          - { target: "kinds", source: "Arten" }
       - type: table
         caption: Millbrook School News · Autumn Week · Absätze 5 und 6
         header: [Nr, Absatz]
@@ -88,15 +88,15 @@ blocks:
               "6",
               "Many students want to help, although the work is hard. While some carry the boxes, others make the signs. We hope to see you there!",
             ]
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Absätze 5 und 6
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [sale, Verkauf]
-          - [pence, Pence (kleine britische Münze)]
-          - [pound, Pfund (britische Währung)]
-          - [borrow, sich ausleihen]
-          - [sign, Schild]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "sale", source: "Verkauf" }
+          - { target: "pence", source: "Pence (kleine britische Münze)" }
+          - { target: "pound", source: "Pfund (britische Währung)" }
+          - { target: "borrow", source: "sich ausleihen" }
+          - { target: "sign", source: "Schild" }
   - type: section
     id: neu
     title: Gegensatz und Absicht
