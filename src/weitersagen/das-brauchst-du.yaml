@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Past perfect, Infinitiv mit to und Imperativ noch einmal kurz, bevor Sophie weitergibt, was andere sagen.
+recap: [englisch/past-perfect, englisch/infinitivkonstruktionen, englisch/imperativ]
+scope: Die Seite wiederholt nur, was das Kapitel über die indirekte Rede braucht. Wiederholt werden das past perfect (had plus 3. Form des Verbs, für die Zeitverschiebung auf der Seite „Indirekte Rede mit Zeitverschiebung“), der Infinitiv mit to (to plus Verb) und der Imperativ mit dem Verbot Don't (für die Seite „Indirekte Aufforderungen“). Diese Bausteine werden in anderen Apps der Lernlandkarte geübt, die noch ausgebaut werden. Die Seite hat keine Übung und keinen neuen Inhalt. Nicht hier, weil es eigene Seiten sind. Die indirekte Rede selbst, die Zeitverschiebung und told oder asked mit to.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? Sophie ist jetzt 13. Sie gibt weiter, was andere sagen. Dazu brauchst du drei Dinge, die in anderen Apps geübt werden. Sie sind dort noch im Aufbau. Darum steht hier nur kurz, was die Formen sind, und eine Übung gibt es nicht. Ist dir etwas neu? Auf der Lernlandkarte findest du dazu mehr."
+      - type: table
+        caption: Klassenzimmer-Poster · Wiederholung
+        header: [Baustein, Die Form, Beispiel]
+        rows:
+          - [Past perfect, had plus 3. Form, Ellie had left before we came.]
+          - [Infinitiv mit to, to plus Verb, Peter wants to play.]
+          - [Imperativ, Verb ohne Subjekt; Verbot mit Don't, "Stand up. Don't talk."]
+  - type: section
+    id: baustein
+    title: Was du dafür können solltest
+    blocks:
+      - type: text
+        text: "**Past perfect** („Ich kann im past perfect ausdrücken, dass etwas vor einem anderen Ereignis in der Vergangenheit geschah.“): Du brauchst es auf der Seite „Indirekte Rede mit Zeitverschiebung“. Nachlesen: [Past perfect](https://lernapps.net/apps/map/englisch/c/past-perfect/)."
+      - type: text
+        text: "**Infinitivkonstruktionen** („Ich kann Infinitive mit to verwenden, zum Beispiel nach in order, nach Fragewörtern und in ‚It’s easy for me to …‘.“): Du brauchst to plus Verb auf der Seite „Indirekte Aufforderungen“. Nachlesen: [Infinitivkonstruktionen](https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/)."
+      - type: text
+        text: "**Imperativ** („Ich kann Aufforderungen und Verbote mit dem Imperativ formulieren (Open the door. Don’t run.).“): Du brauchst ihn auf derselben Seite, denn Bitten und Verbote sind die Sprechblasen, die du dort weitergibst. Nachlesen: [Imperativ](https://lernapps.net/apps/map/englisch/c/imperativ/)."
+      - type: text
+        text: Auf der nächsten Seite beginnt der Chat von Sophie, Amir und Ellie.
