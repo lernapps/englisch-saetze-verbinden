@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Weitersagen, was jemand sagt
 summary: Sophie, Amir und Ellie erzählen einander, was Mr Hill und Peter sagen. Du liest ihren Chat, ein Interview und ein Gespräch an der Tür und lernst, Aussagen mit says that und said that weiterzugeben und Bitten und Aufforderungen mit told oder asked und to.
-pages: [das-brauchst-du, reported-speech, backshift]
+pages: [das-brauchst-du, reported-speech, backshift, indirekte-aufforderungen]
