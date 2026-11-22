@@ -1,0 +1,298 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Mr Hill sagt, dass …: aus der Sprechblase wird ein Streifen"
+description: "Sophie, Amir und Ellie chatten über ein Bild für den Elternabend. Du lernst, mit says that weiterzugeben, was jemand sagt."
+competencies: [reported-speech]
+scope: "Die Seite führt die indirekte Rede ohne Zeitverschiebung ein. Eine Sprechblase wird ein Streifen, der mit dem Namen, says und der Karte that beginnt (Peter says that he is hungry). Die Person wechselt: I wird he oder she, my wird his oder her, you wird I oder we. Das Verb bleibt in der Zeit, in der es gesagt wurde, bei he, she und it kommt das -s dazu. Es gibt keine Zeitverschiebung, weil jemand es jetzt sagt (says) und es noch gilt. Wörter wie here, today und tomorrow bleiben, wenn man es sofort weitergibt. Die Seite arbeitet mit einem Chat von Sophie, Amir und Ellie über ein Bild für den Zettel zum Elternabend, die Nachrichten sind nummeriert. Nicht hier, weil es spätere Seiten sind. Die Zeitverschiebung mit said that (was, would, had), here wird there und today wird that day, und Bitten und Befehle mit told oder asked und to."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie hängst du das an?
+    blocks:
+      - type: text
+        text: "Sophie ist jetzt 13. Am Abend schreiben sie, Amir und Ellie sich Nachrichten. Sie gehen noch einmal durch, was Mr Hill und Peter heute gesagt haben. Du liest gleich ihren Chat. Davor eine Frage zu den Karten von Kapitel 1."
+      - type: single-choice
+        id: speech-start
+        text: "Wie hängst du die Streifen „Peter says“ und „he is hungry“ aneinander?"
+        options:
+          - text: mit that, die Karte darf auch fehlen
+            correct: true
+            info: That schließt an, was jemand sagt.
+          - text: mit because, weil ein Grund folgt
+            correct: false
+            info: Der zweite Streifen ist kein Grund.
+          - text: mit so, weil eine Folge kommt
+            correct: false
+            info: Der zweite Streifen ist keine Folge.
+        explanation: That hängt an, was jemand sagt, denkt oder weiß.
+        links:
+          - title: Lernlandkarte Englisch · That-Sätze
+            url: https://lernapps.net/apps/map/englisch/c/that-saetze/
+      - type: text
+        text: "**Das kannst du danach:** Du gibst weiter, was jemand sagt, mit says that. Du weißt, welche Wörter sich ändern und welche nicht."
+  - type: section
+    id: lesen
+    title: Der Chat der Gruppe
+    blocks:
+      - type: text
+        text: "Mr Hill hat Sophie, Amir und Ellie gebeten, ein Bild für den Zettel zum Elternabend zu machen. Am Abend schreiben die drei darüber. Jede Nachricht hat eine Nummer. Beim Lesen: Achte darauf, wer etwas sagt und wer es weitergibt."
+      - type: table
+        caption: Chat Year 8B · Nachrichten 1 bis 4
+        header: [Nr, Wer, Nachricht]
+        rows:
+          - ["1", Sophie, "Hi! Mr Hill says that we need a picture for the notice."]
+          - ["2", Amir, "Does he want it today?"]
+          - ["3", Sophie, "No. He says that we can bring it on Monday."]
+          - ["4", Ellie, "Peter is next to me. He says, “I have a good idea!”"]
+      - type: table
+        caption: Randglossar · Nachrichten 1 bis 4
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [notice, Zettel / Aushang]
+          - [picture, Bild]
+          - [idea, Idee]
+      - type: table
+        caption: Chat Year 8B · Nachrichten 5 bis 8
+        header: [Nr, Wer, Nachricht]
+        rows:
+          - ["5", Amir, "What is it?"]
+          - ["6", Ellie, "Peter says that his idea is a picture of our classroom."]
+          - ["7", Sophie, "Nice! Mr Hill says that he likes pictures. He says that the parents like them too."]
+          - ["8", Ellie, "Peter says that you can draw it, Amir."]
+      - type: table
+        caption: Randglossar · Nachrichten 5 bis 8
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [classroom, Klassenzimmer]
+          - [draw, zeichnen]
+      - type: table
+        caption: Chat Year 8B · Nachrichten 9 bis 12
+        header: [Nr, Wer, Nachricht]
+        rows:
+          - ["9", Amir, "OK! But I need my pencils. Sophie, do you have some paper?"]
+          - ["10", Sophie, "Yes. Mr Hill says that I can take paper from his desk."]
+          - ["11", Ellie, "Peter says that he and I will bring the colours."]
+          - ["12", Amir, "Great! See you on Monday."]
+      - type: table
+        caption: Randglossar · Nachrichten 9 bis 12
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [pencil, Bleistift]
+          - [desk, Schreibtisch / Pult]
+          - [colours, Farben / Buntstifte]
+  - type: section
+    id: neu
+    title: Aus der Sprechblase wird ein Streifen
+    blocks:
+      - type: text
+        text: "Schau in den Chat. In Nachricht 4 sagt Peter: „I have a good idea!“ Das ist eine **Sprechblase**. In Nachricht 6 gibt Ellie es weiter: „Peter says that his idea is a picture of our classroom.“ Das ist ein **Streifen**: erst der Name, dann **says**, dann die Karte **that**, dann der Satz. So gibst du weiter, was jemand sagt, ohne die Worte genau zu wiederholen. Das heißt **indirekte Rede**."
+      - type: figure
+        image: images/satzstreifen-reported-speech.svg
+        alt: "Oben eine Sprechblase mit einem Satz von Ellie. Ein Pfeil führt nach unten zu einer Zeile mit drei Teilen: einem Streifen mit dem Namen Ellie, einer grünblauen Karte „says that“ und einem Streifen mit dem weitergegebenen Satz. Darunter stehen zwei Hinweise, welche Wörter sich ändern."
+        caption: "Die Karte says that hängt an, was Ellie gesagt hat. Aus I wird she und aus my wird her."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Dabei ändern sich die **Pronomen**: Wer „I“ sagt, wird in deinem Satz „he“ oder „she“. Aus „my“ wird „his“ oder „her“. Das **Verb** bleibt in der Zeit, in der es gesagt wurde. Mr Hill sagt es jetzt und es gilt noch. Darum gibt es keine **Zeitverschiebung**. Bei he, she und it kommt an das Verb das -s."
+      - type: table
+        caption: Klassenzimmer-Poster · Sprechblase und Streifen
+        header: [Sprechblase, Streifen, "Was ändert sich?"]
+        rows:
+          - ["Mr Hill: “I want a quiet class.”", "Mr Hill says that he wants a quiet class.", "I → he, want → wants"]
+          - ["Sophie: “My room is big.”", "Sophie says that her room is big.", "my → her"]
+          - ["Mr Hill: “You can go now.”", "Mr Hill says that we can go now.", "you → we"]
+          - ["Amir: “I like your idea.”", "Amir says that he likes my idea.", "I → he, your → my"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Sprechblase → Streifen: Name, says, that, dann der Satz mit den neuen Pronomen.** Das Verb bleibt im present. Sagst du es sofort weiter, bleiben auch Wörter wie today, tomorrow und here stehen. Die Karte that darf fehlen.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: speech-verstehen
+        text: Was sagt Mr Hill in Nachricht 7 über die Eltern?
+        options:
+          - text: Die Eltern mögen Bilder auch
+            correct: true
+            info: "Sophie schreibt: „the parents like them too“."
+          - text: Die Eltern mögen keine Bilder
+            correct: false
+            info: Das sagt Mr Hill nicht.
+          - text: Die Eltern sollen ein Bild malen
+            correct: false
+            info: Davon steht nichts im Chat.
+        explanation: Mr Hill sagt, dass die Eltern Bilder auch mögen.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
+      - type: number
+        id: speech-beleg
+        text: In welcher Nachricht erzählt Sophie, wo es Papier gibt? Gib die Nummer ein.
+        answer: 10
+        tolerance: 0
+        explanation: In Nachricht 10 steht der Schreibtisch.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
+      - type: single-choice
+        id: speech-pronomen
+        text: "Mr Hill sagt zu euch: „I will help you.“ Sophie erzählt es Amir. Welcher Satz stimmt?"
+        options:
+          - text: Mr Hill says that he will help us
+            correct: true
+            info: I wird he, you wird us, will bleibt.
+          - text: Mr Hill says that I will help us
+            correct: false
+            info: Mr Hill spricht von sich, also he.
+          - text: Mr Hill says that he will helps us
+            correct: false
+            info: Nach will bleibt das Verb gleich.
+          - text: Mr Hill says that he would help us
+            correct: false
+            info: Er sagt es jetzt, also bleibt will.
+        explanation: Die Pronomen wechseln, das Verb bleibt.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
+      - type: language-task
+        id: speech-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Wörter passen? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Amir sagt, dass er einen neuen Stift braucht.
+            target: Amir says that [he] [needs] a new pen.
+            distractors: [[I], [need]]
+            mistakes:
+              - answer: Amir says that I needs a new pen.
+                message: Amir spricht von sich, also he.
+              - answer: Amir says that he need a new pen.
+                message: Bei he kommt das -s ans Verb.
+          - source: Ellie sagt, dass ihr Handy neu ist.
+            target: Ellie says that [her] phone [is] new.
+            distractors: [[my, his], [was]]
+            mistakes:
+              - answer: Ellie says that my phone is new.
+                message: Das Handy gehört Ellie, also her.
+              - answer: Ellie says that her phone was new.
+                message: Sie sagt es jetzt, also is.
+          - source: Peter sagt, dass ich sein Fahrrad nehmen kann.
+            target: Peter says that [I] can take [his] bike.
+            distractors: [[you], [my]]
+            mistakes:
+              - answer: Peter says that you can take his bike.
+                message: Du erzählst es, also I.
+              - answer: Peter says that I can take my bike.
+                message: Das Fahrrad gehört Peter, also his.
+      - type: ordering
+        id: speech-ordnen
+        text: "Ordne die Wörter zu einem Satz: Ellie sagt, dass ihr Bruder zu Hause ist."
+        items:
+          - Ellie
+          - says
+          - that
+          - her
+          - brother
+          - is
+          - at
+          - home
+        explanation: Name, says, that, dann der Satz mit her.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
+      - type: language-task
+        id: speech-bilden
+        languages: { source: de, target: en }
+        task: Mache aus der Sprechblase einen Streifen mit says. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "Mr Hill: “I am happy with your work.”"
+            target: Mr Hill says (that |)he is happy with our work.
+            mistakes:
+              - answer: Mr Hill says that I am happy with our work.
+                message: Mr Hill spricht von sich, also he.
+              - answer: Mr Hill says that he is happy with your work.
+                message: Sophie gehört dazu, also our.
+          - cue: "Ellie: “My brother can swim.”"
+            target: Ellie says (that |)her brother can swim.
+            mistakes:
+              - answer: Ellie says that my brother can swim.
+                message: Der Bruder gehört Ellie, also her.
+          - cue: "Sophie: “I miss my friends.”"
+            target: Sophie says (that |)she misses her friends.
+            mistakes:
+              - answer: Sophie says that she miss her friends.
+                message: Bei she kommt das -s ans Verb.
+              - answer: Sophie says that I miss my friends.
+                message: Sophie spricht von sich, also she und her.
+      - type: language-task
+        id: speech-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Mr Hill sagt, dass wir heute viel Zeit haben.
+            target: Mr Hill says (that |)we have (a lot of|lots of) time today.
+            mistakes:
+              - answer: Mr Hill says that we had a lot of time today.
+                message: Er sagt es jetzt, also bleibt das present.
+              - answer: Mr Hill says that I have a lot of time today.
+                message: Er spricht zur Klasse, also we.
+          - source: Sophie sagt, dass sie dir helfen kann.
+            target: Sophie says (that |)she can help you.
+            mistakes:
+              - answer: Sophie says that she can to help you.
+                message: Nach can steht kein to.
+              - answer: Sophie says that I can help you.
+                message: Sophie kann helfen, also she.
+      - type: language-task
+        id: speech-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: mrs-parker-says-that-dinner-is-ready.mp3
+            target: Mrs Parker says that dinner is ready.
+          - audio: amir-says-that-his-brother-lives-in-london.mp3
+            target: Amir says that his brother lives in London.
+          - audio: peter-says-that-he-never-eats-fish.mp3
+            target: Peter says that he never eats fish.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: speech-nachsprechen
+        language: en
+        items:
+          - audio: sophie-says-that-she-is-very-happy-here.mp3
+            text: Sophie says that she is very happy here.
+          - audio: mr-hill-says-that-the-lesson-starts-at-nine.mp3
+            text: Mr Hill says that the lesson starts at nine.
+          - audio: ellie-says-that-she-likes-cold-weather.mp3
+            text: Ellie says that she likes cold weather.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: speech-meinung
+        task: "Schreibe eine Nachricht an die Gruppe. Gib in zwei Sätzen mit says that weiter, was Mr Hill oder Peter über das Bild gesagt hat. Sage dann, ob du die Idee gut findest."
+        points:
+          - text: Die Nachricht gibt mit says that weiter, was Mr Hill oder Peter gesagt hat.
+            source: /weitersagen/reported-speech/#lesen
+          - text: Die Pronomen sind angepasst, zum Beispiel I wird he und my wird his.
+            source: /weitersagen/reported-speech/#neu
+          - text: Das Verb bleibt im present, bei he oder she mit -s.
+            source: /weitersagen/reported-speech/#neu
+          - text: Ein Satz sagt die eigene Meinung zur Idee.
+            kind: form
+        solution: |
+          Peter says that the picture shows our classroom. Mr Hill says that the parents like pictures. I think that it is a great idea because everybody can see our room.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mr Hill und Peter haben es heute gesagt, darum bleibt alles im present. Am nächsten Tag schreibt Sophie für die Schülerzeitung ein Interview mit einem neuen Lehrer. Danach erzählt sie, was er gesagt hat. Dann ist das Sagen vorbei, und die Zeit rückt eine Stufe zurück. Das siehst du auf der nächsten Seite."
