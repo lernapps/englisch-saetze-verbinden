@@ -110,3 +110,11 @@ Hörsätze, die auf ein einsilbiges Wort enden (nach dem Erzeugen mit `regen_aud
 - `that-saetze`: „I think that you are right.“ (`i-think-that-you-are-right.mp3`), „They know that Sophie is right.“ (`they-know-that-sophie-is-right.mp3`)
 - `relativsaetze`: „We have a teacher who is nice.“ (`we-have-a-teacher-who-is-nice.mp3`), „I have a sister who sings every day.“ (`i-have-a-sister-who-sings-every-day.mp3`)
 - `if-satz-1`: „If the bus is late, we will walk to school.“ (`if-the-bus-is-late-we-will-walk-to-school.mp3`), „If you are late, I will wait for you.“ (`if-you-are-late-i-will-wait-for-you.mp3`)
+
+Geschnitten mit der Regel `valley_cut` (Fehllaut nach dem letzten Wort, `regen_audio.py` vom 2026-11-22; 4 von 24 Dateien, je zusätzlich zum Schnitt des Ausklingens): 
+- „Peter has a dog and Ellie has a rabbit.“ (`peter-has-a-dog-and-ellie-has-a-rabbit.mp3`): 65 ms; endet zweisilbig, hier gezielt hören, ob „bit“ ganz da ist
+- „They know that Sophie is right.“ (`they-know-that-sophie-is-right.mp3`): 45 ms
+- „I think that you are right.“ (`i-think-that-you-are-right.mp3`): 75 ms
+- „Sophie says that English is difficult.“ (`sophie-says-that-english-is-difficult.mp3`): 25 ms; endet dreisilbig, hier gezielt hören, ob „-cult“ ganz da ist
+
+Hörsätze, die zwei- oder mehrsilbig enden (Risiko, dass eine Silbe angeschnitten wird; nicht geschnitten, außer rabbit und difficult oben): `konjunktionen` Sophie, Sunday, sister, happy; `that-saetze` hungry, happy, Millbrook; `relativsaetze` Millbrook, yellow, purple, English; `if-satz-1` sandwich, early, outside (zwei Sätze).
