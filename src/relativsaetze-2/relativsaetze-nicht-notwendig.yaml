@@ -58,7 +58,7 @@ blocks:
         rows:
           - [
               "3",
-              "After school I went home with Ellie. The Parkers' house, which is more than a hundred years old, has a big kitchen.",
+              "After school I went home with Ellie. Our house, which is more than a hundred years old, has a big kitchen.",
             ]
           - [
               "4",
@@ -70,6 +70,8 @@ blocks:
         entries:
           - { target: "more than a hundred years old", source: "mehr als hundert Jahre alt" }
           - { target: "next door", source: "nebenan" }
+          - { target: "cook", source: "Koch, Köchin" }
+          - { target: "kind", source: "freundlich, nett (nicht „Kind“)" }
       - type: table
         caption: Sophies Tagebuch · Mittwoch, Einträge 5 und 6
         header: [Nr, Eintrag]
@@ -80,7 +82,7 @@ blocks:
             ]
           - [
               "6",
-              "Tomorrow we will start with the paper that Mr Hill gave us. Ellie, who sits next to me, already has a lot of ideas. I think it will be a good poster.",
+              "Tomorrow we will start with the sheet that Mr Hill gave us. Ellie, who sits next to me, already has a lot of ideas. I think it will be a good poster.",
             ]
       - type: vocabulary
         caption: Randglossar · Einträge 5 und 6
@@ -90,6 +92,7 @@ blocks:
           - { target: "run (hier)", source: "fließen" }
           - { target: "favourite", source: "Lieblings-" }
           - { target: "start with", source: "anfangen mit" }
+          - { target: "sheet", source: "Blatt (Papier)" }
   - type: section
     id: neu
     title: Kommas wie eine Klammer
@@ -98,7 +101,7 @@ blocks:
         text: "Schau ins Tagebuch. In Eintrag 1 steht „Mr Hill, who is from Wales, gave us a new project.“ Der Streifen **who is from Wales** steht zwischen zwei Kommas, wie in einer Klammer. Nimm ihn heraus: „Mr Hill gave us a new project.“ Der Satz ist noch ganz, und du weißt, wer gemeint ist: Mr Hill kennt jeder. Der Streifen sagt nur etwas dazu. Das ist ein **nicht notwendiger Relativsatz** (englisch **non-defining relative clause**). Er steht zwischen **zwei Kommas**. Beim Sprechen machst du an jedem Komma eine kurze Pause."
       - type: figure
         image: images/satzstreifen-relativsaetze-nicht-notwendig.svg
-        alt: "Zwei Beispiele untereinander. Oben: ein Streifen „The school“, ein Komma, eine braune Karte „which“ mit einem Streifen „is old“, ein zweites Komma und ein Streifen „is in Millbrook.“ Eine Klammer fasst das Mittelstück zusammen. Darunter, nach dem Herausnehmen, der Streifen „The school is in Millbrook.“ Unten: die Streifen „The girl“, eine blaue Karte „who“, „is tall“ und „wins.“ ohne Kommas. Darunter, nach dem Herausnehmen, der Streifen „The girl wins.“ mit der Frage, welches Mädchen gemeint ist."
+        alt: "Zwei Beispiele untereinander. Oben: ein Streifen „The school“, ein Komma, eine ockerbraune Karte „which“ mit einem Streifen „is old“, ein zweites Komma und ein Streifen „is in Millbrook.“ Eine Klammer fasst das Mittelstück zusammen. Darunter, nach dem Herausnehmen, der Streifen „The school is in Millbrook.“ Unten: die Streifen „The girl“, eine türkisfarbene Karte „who“, „is tall“ und „wins.“ ohne Kommas. Darunter, nach dem Herausnehmen, der Streifen „The girl wins.“ mit der Frage, welches Mädchen gemeint ist."
         caption: "Oben: Das Mittelstück steht zwischen Kommas, ohne es bleibt ein ganzer Satz. Unten: Ohne das Mittelstück weißt du nicht mehr, welches Mädchen gemeint ist. Es hat keine Kommas."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -108,22 +111,26 @@ blocks:
         caption: Klassenzimmer-Poster · Mit Kommas oder ohne?
         header: [Streifen, Herausnehmen?, Kommas]
         rows:
-          - ["The cake, which is in the kitchen, is for Peter.", "ja, der Satz bleibt klar", mit]
-          - ["The cake that is in the kitchen is for Peter.", "nein, welcher Kuchen?", ohne]
+          - [
+              "The cake, which is in the kitchen, is for Peter.",
+              "ja, es gibt nur einen Kuchen: der Satz bleibt klar",
+              mit,
+            ]
+          - ["The cake that is in the kitchen is for Peter.", "nein, es gibt mehrere Kuchen: welcher Kuchen?", ohne]
           - ["Ellie, who has a red jacket, likes tea.", "ja, Ellie ist klar", mit]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **Kann man den Relativsatz herausnehmen, stehen zwei Kommas um ihn.** Mit Kommas gibt es who, which und whose, nie that. Notwendig ist ein Relativsatz, wenn er sagt, welche Person oder Sache gemeint ist: dann keine Kommas.
+              **Kann man den Relativsatz herausnehmen, stehen zwei Kommas um ihn.** Mit Kommas gibt es who, which und whose, nie that. Notwendig ist ein Relativsatz, wenn er sagt, welche Person oder Sache gemeint ist: dann keine Kommas. Vergleiche mit Seite 1 ([contact clauses](/relativsaetze-2/contact-clauses/)): Dort darf die that-Karte fehlen, hier steht that nie zwischen Kommas.
   - type: section
     id: uebung
     title: Übung
     blocks:
       - type: single-choice
         id: nn-verstehen
-        text: Was sagt Sophie in Eintrag 3 über das Haus der Parkers?
+        text: Was sagt Sophie in Eintrag 3 über das Haus, in dem sie wohnt?
         options:
           - text: Es ist sehr alt und hat eine große Küche
             correct: true
@@ -154,7 +161,7 @@ blocks:
         options:
           - text: Millbrook which is a small town has a market
             correct: true
-            info: Gibt es mehrere Millbrooks?
+            info: Sagt der Ortsname schon, wo es ist?
           - text: Sophie who lives in Millbrook writes a diary
             correct: true
             info: Sagt der Name schon, wer gemeint ist?
@@ -206,12 +213,12 @@ blocks:
         form: { case: hint, punctuation: wrong, apostrophe: ok }
         items:
           - source: Unser Garten, der sehr groß ist, hat einen Apfelbaum.
-            target: Our garden, which is (very |)(big|large), has an apple tree(.|)
+            target: Our garden, which is (very |really |)(big|large), has (got |)an apple tree(.|)
             mistakes:
               - answer: Our garden, that is very big, has an apple tree.
                 message: Steht that zwischen Kommas?
           - source: Die Leute, die auf dem Markt arbeiten, sind freundlich.
-            target: The people (who|that) work at the market are (friendly|nice|kind)(.|)
+            target: The people (who|that) work (at|in) the market are (really |)(friendly|nice|kind)(.|)
             mistakes:
               - answer: The people, who work at the market, are friendly.
                 message: Welche Leute wären es ohne den Streifen?
@@ -219,14 +226,21 @@ blocks:
         id: nn-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: ok }
+        form: { case: hint, punctuation: wrong }
+        hint: Jedes Komma ist eine kurze Pause. Ein Streifen ohne Pause hat keine Kommas.
         items:
           - audio: amir-who-is-thirteen-has-a-new-phone.mp3
-            target: Amir, who is thirteen, has a new phone.
+            target: Amir, who is thirteen, has a new phone(.|)
+            mistakes:
+              - answer: Amir who is thirteen has a new phone.
+                message: Der Streifen steht zwischen zwei Kommas.
           - audio: my-bag-which-is-yellow-is-under-the-table.mp3
-            target: My bag, which is yellow, is under the table.
+            target: My bag, which is yellow, is under the table(.|)
           - audio: the-film-that-we-saw-on-friday-was-funny.mp3
-            target: The film that we saw on Friday was funny.
+            target: The film that we saw on Friday was funny(.|)
+            mistakes:
+              - answer: The film, that we saw on Friday, was funny.
+                message: Zwischen Kommas steht nie that. Hier sagt der Streifen, welcher Film gemeint ist.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -239,8 +253,8 @@ blocks:
             text: The park, which is close to my house, is very quiet.
           - audio: our-classroom-which-is-on-the-first-floor-is-warm.mp3
             text: Our classroom, which is on the first floor, is warm.
-          - audio: the-people-who-live-next-to-us-are-very-friendly.mp3
-            text: The people who live next to us are very friendly.
+          - audio: my-uncle-who-lives-in-wales-has-two-dogs.mp3
+            text: My uncle, who lives in Wales, has two dogs.
         hint: Hör zuerst zu, sprich dann nach. An jedem Komma machst du eine kurze Pause.
       - type: open-task
         id: nn-meinung

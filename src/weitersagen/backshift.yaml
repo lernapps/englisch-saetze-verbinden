@@ -1,18 +1,18 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück"
-description: "Sophie interviewt für die Schülerzeitung Mr Hill und schreibt dann auf, was er gesagt hat. Du lernst, die Zeit dabei eine Stufe zurückzusetzen."
+description: "Sophie interviewt für die Schülerzeitung Mr Hill über seinen Plan für einen Fußballclub und schreibt dann auf, was er gesagt hat. Du lernst, die Zeit dabei eine Stufe zurückzusetzen."
 competencies: [backshift]
-scope: "Die Seite führt die indirekte Rede mit Zeitverschiebung ein (backshift). Ist das Sagen vorbei, rückt das Verb eine Stufe zurück: am, is und are werden was oder were, will wird would, can wird could, das present perfect und das simple past werden das past perfect (had plus 3. Form). Die Pronomen wechseln wie auf der Seite davor. Auch Wörter wie here und today ändern sich (here wird there, today wird that day). Gilt das Gesagte noch, darf die Zeitverschiebung entfallen. Die Seite arbeitet mit einem erfundenen Interview in der Schülerzeitung Millbrook News mit dem Englischlehrer Mr Hill und einem kurzen Bericht darüber, die Zeilen sind nummeriert. Nicht hier, weil es spätere Seiten sind. Bitten und Befehle mit told oder asked und to, und Fragen in der indirekten Rede."
+scope: "Die Seite führt die indirekte Rede mit Zeitverschiebung ein (backshift). Ist das Sagen vorbei und gilt das Gesagte nicht mehr, rückt das Verb eine Stufe zurück: am und is werden was, are wird were, will wird would, can wird could, das present perfect und das simple past werden das past perfect (had plus 3. Form). Jedes Verb rückt nur eine Stufe. Die Pronomen wechseln wie auf der Seite davor. Auch Wörter wie here, today und tomorrow ändern sich (there, that day, the next day). Gilt das Gesagte noch, darf die Zeitverschiebung entfallen; in den Übungen ist das Sagen immer vorbei. Die Seite arbeitet mit einem erfundenen Interview in der Schülerzeitung Millbrook News mit dem Englischlehrer Mr Hill über seinen Plan für einen Fußballclub und einem kurzen Bericht darüber, die Zeilen sind nummeriert. Nicht hier, weil es spätere Seiten sind. Bitten und Befehle mit told oder asked und to, und Fragen in der indirekten Rede."
 blocks:
   - type: section
     id: einstieg
     title: Wann bleibt das Verb stehen?
     blocks:
       - type: text
-        text: "Sophie schreibt für die Schülerzeitung „Millbrook News“. Sie hat Mr Hill interviewt, unseren Englischlehrer. Du liest gleich das Interview und ihren Bericht darüber. Davor eine Frage zur letzten Seite."
+        text: "Sophie schreibt für die Schülerzeitung „Millbrook News“. Sie hat Mr Hill gefragt, was er für die Schule plant: einen Fußballclub. Du liest gleich das Interview und ihren Bericht darüber. Davor eine Frage zur letzten Seite."
       - type: single-choice
         id: backshift-start
-        text: "Ellie schreibt: „Mr Hill says that he likes the picture.“ Warum bleibt likes im simple present?"
+        text: "Sophie schreibt im Chat (Nachricht 7): „Mr Hill says that he likes pictures.“ Warum bleibt likes im simple present?"
         options:
           - text: Weil er es jetzt sagt und es noch gilt
             correct: true
@@ -39,11 +39,11 @@ blocks:
         caption: Millbrook News · Interview mit Mr Hill
         header: [Nr, Wer, Text]
         rows:
-          - ["1", Sophie, "Mr Hill, do you like Millbrook?"]
-          - ["2", Mr Hill, "Yes, I am very happy here. The children are friendly."]
-          - ["3", Sophie, "Where did you work before?"]
-          - ["4", Mr Hill, "I worked at a big school in London. I have played football for ten years."]
-          - ["5", Sophie, "What will you do here?"]
+          - ["1", Sophie, "Mr Hill, are you happy with Year 8B?"]
+          - ["2", Mr Hill, "Yes, I am very happy with Year 8B. The children are friendly."]
+          - ["3", Sophie, "What was your first job? And what do you do in your free time?"]
+          - ["4", Mr Hill, "I worked in a bookshop for two years. I have played football for ten years."]
+          - ["5", Sophie, "What will you do for our school?"]
           - ["6", Mr Hill, "I will start a football club. Everybody can come."]
           - ["7", Sophie, "When is the first training?"]
           - ["8", Mr Hill, "The first training is on Thursday."]
@@ -51,47 +51,60 @@ blocks:
         caption: Randglossar · Interview
         languages: { source: de, target: en }
         entries:
-          - { target: "newspaper", source: "Zeitung" }
           - { target: "friendly", source: "freundlich" }
+          - { target: "bookshop", source: "Buchladen" }
           - { target: "club", source: "Verein / AG" }
           - { target: "training", source: "Training" }
+          - { target: "everybody", source: "alle / jeder" }
       - type: table
         caption: Millbrook News · Sophies Bericht
         header: [Nr, Text]
         rows:
-          - ["9", "Last Monday I talked to Mr Hill, our English teacher."]
-          - ["10", "He said that he was very happy at Millbrook and that the children were friendly."]
-          - ["11", "He said that he had worked at a big school in London."]
+          - ["9", "Last Monday I asked Mr Hill some questions for Millbrook News."]
+          - ["10", "He said that he was very happy with Year 8B and that the children were friendly."]
+          - ["11", "He said that he had worked in a bookshop for two years."]
           - ["12", "He said that he had played football for ten years."]
-          - ["13", "He said that he would start a football club and that everybody could come."]
+          - ["13", "He said that he would start a football club."]
           - ["14", "He also said that the first training was on Thursday."]
   - type: section
     id: neu
     title: Eine Stufe zurück
     blocks:
       - type: text
-        text: "Schau in den Bericht. In Zeile 2 sagt Mr Hill: „I am very happy.“ In Zeile 10 steht: „he was very happy“. Sophie schreibt später. Das Sagen ist vorbei, darum rückt die Zeit **eine Stufe zurück**. Das heißt **Zeitverschiebung** (englisch **backshift**). Die Karte heißt jetzt **said that**."
+        text: "Schau in den Bericht. In Zeile 2 sagt Mr Hill: „I am very happy.“ In Zeile 10 steht: „he was very happy“. Sophie schreibt später. Das Sagen ist vorbei und das Gesagte gilt nicht mehr, darum rückt die Zeit **eine Stufe zurück**. Das heißt **Zeitverschiebung** (englisch **backshift**). Die Karte heißt jetzt **said that**. Das simple past (worked) und das present perfect (have played) werden das **past perfect**: had plus 3. Form."
       - type: figure
         image: images/satzstreifen-backshift.svg
-        alt: "Eine Zeitleiste mit drei Kästen. Rechts steht „jetzt“ mit am, is, will, can, in der Mitte „früher“ mit was, would, could und links „noch früher“ mit had plus 3. Form. Zwei grünblaue Pfeile gehen von rechts nach links, auf dem ersten steht die Karte said that."
-        caption: "Jeder Pfeil geht eine Stufe nach links. Die Karte said that gehört zum ersten Pfeil."
+        alt: "Eine Zeitleiste mit drei Kästen. Rechts steht „jetzt“ mit am, is, will, can, in der Mitte „früher“ mit was, would, could und links „noch früher“ mit had plus 3. Form. Zwei grünblaue Pfeile gehen von rechts nach links, auf dem ersten steht die Karte said that. Jedes Verb rückt nur eine Stufe: am wird was, das simple past wird had plus 3. Form."
+        caption: "Jedes Verb rückt nur eine Stufe nach links, nicht zwei: am wird was, will wird would, und das simple past oder present perfect wird had plus 3. Form. Die Karte said that gehört zum ersten Pfeil."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
         caption: Klassenzimmer-Poster · Eine Stufe zurück
         header: [Gesagt, Später erzählt, "Was ändert sich?"]
         rows:
-          - ["“The lesson is long.”", "She said that the lesson was long.", "is → was"]
-          - ["“We will win.”", "He said that they would win.", "will → would"]
+          - ["“The lessons are long.”", "She said that the lessons were long.", "is / are → was / were"]
+          - ["“I will help you.”", "She said that she would help me.", "will → would"]
           - ["“I can swim.”", "She said that she could swim.", "can → could"]
-          - ["“I have lost my pen.”", "He said that he had lost his pen.", "have lost → had lost"]
+          - ["“I lost my pen.”", "He said that he had lost his pen.", "simple past → had + 3. Form"]
+          - ["“I have found my key.”", "He said that he had found his key.", "have found → had found"]
           - ["“I am here today.”", "He said that he was there that day.", "here → there, today → that day"]
+          - ["“We will play tomorrow.”", "He said that they would play the next day.", "tomorrow → the next day"]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **Ist das Sagen vorbei, rückt das Verb eine Stufe zurück.** Gilt das Gesagte noch heute, darfst du das Verb auch lassen: Amir said that he lives in Millbrook.
+              **Ist das Sagen vorbei, rückt das Verb eine Stufe zurück: am, is, are werden was, were; will wird would; das simple past und das present perfect werden had plus 3. Form.** Gilt das Gesagte noch heute, darfst du das Verb auch lassen: Amir said that he lives in Millbrook. In den Übungen ist das Sagen vorbei und gilt nicht mehr.
+      - type: vocabulary
+        caption: Wörter für die Übungen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "win", source: "gewinnen" }
+          - { target: "cook", source: "kochen" }
+          - { target: "test", source: "Test / Klassenarbeit" }
+          - { target: "glasses", source: "Brille" }
+          - { target: "forgotten", source: "vergessen (3. Form von forget)" }
+          - { target: "swim", source: "schwimmen" }
   - type: section
     id: uebung
     title: Übung
@@ -106,7 +119,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/backshift/
       - type: number
         id: backshift-beleg
-        text: In welcher Zeile steht, dass Mr Hill schon in London gearbeitet hatte? Gib die Nummer ein.
+        text: In welcher Zeile steht, dass Mr Hill schon in einem Buchladen gearbeitet hatte? Gib die Nummer ein.
         answer: 11
         tolerance: 0
         explanation: In Zeile 11 steht „had worked“.
@@ -125,6 +138,8 @@ blocks:
             right: could
           - left: have seen
             right: had seen
+          - left: went
+            right: had gone
         explanation: Jede Form rückt eine Stufe zurück.
         links:
           - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
@@ -133,7 +148,7 @@ blocks:
         id: backshift-karte
         languages: { source: de, target: en }
         mode: choice
-        task: Welche Wörter passen? Lies zuerst den deutschen Satz.
+        task: Das Sagen ist vorbei und gilt nicht mehr. Welche Wörter passen? Lies zuerst den deutschen Satz.
         form: { case: hint, punctuation: ok }
         items:
           - source: Sophie sagte, dass sie müde war.
@@ -141,7 +156,7 @@ blocks:
             distractors: [[is, were]]
             mistakes:
               - answer: Sophie said that she is tired.
-                message: Das Sagen ist vorbei, also was.
+                message: Das Sagen ist vorbei und gilt nicht mehr, also was.
               - answer: Sophie said that she were tired.
                 message: Zu she passt was.
           - source: Peter sagte, dass er gewinnen würde.
@@ -179,45 +194,50 @@ blocks:
       - type: language-task
         id: backshift-bilden
         languages: { source: de, target: en }
-        task: Sophie schreibt später. Mache aus der Sprechblase einen Streifen mit said. Schreibe den ganzen Satz.
+        task: Das war letzte Woche und gilt nicht mehr. Sophie berichtet später, was gesagt wurde. Mache aus der Sprechblase einen Bericht. Schreibe den ganzen Satz.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: "Ellie: “The bus is late.”"
-            target: Ellie said (that |)the bus was late.
+            target: Ellie (said|told us) (that |)the bus was late.
             mistakes:
               - answer: Ellie said that the bus is late.
-                message: Das Sagen ist vorbei, also was.
+                message: Das war letzte Woche und gilt nicht mehr, also was.
           - cue: "Amir: “I will call Sophie.”"
-            target: Amir said (that |)he would call Sophie.
+            target: Amir (said|told us) (that |)(he would|he'd) call Sophie.
             mistakes:
               - answer: Amir said that he will call Sophie.
-                message: Will wird zu would.
+                message: Das Sagen ist vorbei, also wird will zu would.
               - answer: Amir said that I would call Sophie.
                 message: Amir spricht von sich, also he.
           - cue: "Peter: “I have finished my homework.”"
-            target: Peter said (that |)he had finished his homework.
+            target: Peter (said|told us) (that |)(he had|he'd) finished his homework.
             mistakes:
               - answer: Peter said that he has finished his homework.
-                message: Aus have wird had.
-              - answer: Peter said that he finished his homework.
-                message: Hier brauchst du had und die 3. Form.
+                message: Das war letzte Woche, also wird have zu had.
+          - cue: "Sophie: “I will come to the club tomorrow.”"
+            target: Sophie (said|told us) (that |)(she would|she'd) come to the club (the next day|the following day|the day after).
+            mistakes:
+              - answer: Sophie said that she would come to the club tomorrow.
+                message: Das war letzte Woche, also wird tomorrow zu the next day.
+              - answer: Sophie said that she will come to the club the next day.
+                message: Will wird zu would.
       - type: language-task
         id: backshift-uebersetzen
         languages: { source: de, target: en }
-        task: Übersetze den Satz.
+        task: Das Sagen ist vorbei und gilt nicht mehr. Übersetze den Satz.
         hint: Das past perfect heißt had plus 3. Form.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Mr Hill sagte, dass er das Buch gelesen hatte.
-            target: Mr Hill said (that |)he had read the book.
+            target: Mr Hill (said|told us) (that |)(he had|he'd) read the book.
             mistakes:
               - answer: Mr Hill said that he has read the book.
-                message: Aus has wird had.
+                message: Das Sagen ist vorbei, also wird has zu had.
           - source: Peter sagte, dass er kochen konnte.
-            target: Peter said (that |)he could cook.
+            target: Peter (said|told us) (that |)he (could|was able to) cook.
             mistakes:
               - answer: Peter said that he can cook.
-                message: Aus can wird could.
+                message: Das Sagen ist vorbei, also wird can zu could.
       - type: language-task
         id: backshift-hoeren
         languages: { source: de, target: en }
@@ -242,21 +262,21 @@ blocks:
             text: Peter said that he had never been to London.
           - audio: mrs-parker-said-that-she-could-not-find-her-glasses.mp3
             text: Mrs Parker said that she could not find her glasses.
-          - audio: ellie-said-that-she-liked-the-new-teacher.mp3
-            text: Ellie said that she liked the new teacher.
+          - audio: ellie-said-that-she-liked-the-film.mp3
+            text: Ellie said that she liked the film.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: backshift-meinung
-        task: "Sophie ergänzt ihren Bericht. Gib mit said that weiter, was Mr Hill über den Club gesagt hat, und sage in einem Satz, ob dir die Idee gefällt."
+        task: "Sophie ergänzt ihren Bericht. In Zeile 6 hat Mr Hill noch etwas gesagt, das im Bericht fehlt. Gib es mit said that weiter und sage in einem Satz, ob dir ein Fußballclub in der Schule gefällt."
         points:
-          - text: Der Bericht gibt mit said that weiter, was Mr Hill über den Club gesagt hat.
+          - text: Der Bericht gibt mit said that weiter, was Mr Hill in Zeile 6 darüber gesagt hat, wer kommen darf.
             source: /weitersagen/backshift/#lesen
-          - text: Die Verben rücken eine Stufe zurück, zum Beispiel will wird would.
+          - text: Das Verb rückt eine Stufe zurück, can wird could.
             source: /weitersagen/backshift/#neu
           - text: Ein Satz sagt die eigene Meinung zum Club.
             kind: form
         solution: |
-          Mr Hill said that he would start a football club. He said that girls and boys could join. I think that the club is a great idea.
+          Mr Hill said that everybody could come. I think that a football club is a great idea because we can play together.
   - type: section
     id: weiter
     title: Wie es weitergeht

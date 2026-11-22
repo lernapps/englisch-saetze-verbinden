@@ -16,7 +16,7 @@ blocks:
         options:
           - text: she, die Person, die etwas tut
             correct: true
-            info: Aus „She lives in London“ wird „who lives in London“. Who ersetzt das Pronomen she.
+            info: "Aus „She lives in London“ wird „who lives in London“. Who ersetzt das Pronomen she, das Subjekt, also das Wort, das etwas tut."
           - text: her, ein Besitzwort
             correct: false
             info: Her gehört zu whose. Hier geht es um die Person selbst.
@@ -57,11 +57,11 @@ blocks:
           - [
               "5",
               Amir,
-              "The main character is a boy who lives in a lighthouse. The story he tells in chapter two is amazing.",
+              "The main character is a boy who lives in a lighthouse. The story he tells at the end is amazing.",
             ]
           - ["6", Ellie, "I want to read it too. Can I borrow the copy you have?"]
           - ["7", Amir, "Sure! But the film they made isn't very good."]
-          - ["8", Sophie, "I know. The actor they chose is too old for the part."]
+          - ["8", Sophie, "I know. The actor they chose is too old."]
       - type: vocabulary
         caption: Randglossar · Nachrichten 5 bis 8
         languages: { source: de, target: en }
@@ -76,15 +76,14 @@ blocks:
         caption: Chat Year 8B · Nachrichten 9 bis 12
         header: [Nr, Wer, Nachricht]
         rows:
-          - ["9", Ellie, "Then I'll only read the book. The film I see in my head is better than any real one."]
-          - ["10", Sophie, "Same! The people I know here all say the same."]
+          - ["9", Ellie, "Then I'll only read the book. The film I see in my head is better."]
+          - ["10", Sophie, "Same! The best films I know were books first."]
           - ["11", Amir, "Let's meet on Saturday. The café we found last week is open then."]
           - ["12", Ellie, "Great! I'll bring the snacks I bought at the shop."]
       - type: vocabulary
         caption: Randglossar · Nachrichten 9 bis 12
         languages: { source: de, target: en }
         entries:
-          - { target: "for the part", source: "für die Rolle" }
           - { target: "Same!", source: "Geht mir genauso!" }
           - { target: "snacks", source: "kleine Sachen zum Essen" }
   - type: section
@@ -92,7 +91,7 @@ blocks:
     title: Objekt oder Subjekt?
     blocks:
       - type: text
-        text: "Schau in den Chat. In Nachricht 2 steht „the best book I’ve read“, ohne that und ohne which. Solche Sätze stehen auch in den Nachrichten 4, 6, 8 und 11. Mit Karte stehen nur 3 und 5 (who). Der zweite Streifen „I have read it“ hat ein **Objekt**, das Wort it. Die Relativkarte hat it ersetzt. Weil hinter der Karte schon ein Subjekt steht (I), versteht man den Satz auch ohne Karte. Das **Subjekt** ist das Wort, das etwas tut (I, she). Das **Objekt** ist das Wort, mit dem etwas getan wird (it, them). Das ist ein **Relativsatz ohne Relativkarte** (Fachwort: Relativpronomen), auch **Kontaktsatz** oder englisch **contact clause** genannt."
+        text: "Schau in den Chat. In Nachricht 2 steht „the best book I’ve read“, ohne that und ohne which. Zwei Wörter vorweg: Das **Subjekt** ist das Wort, das etwas tut (I, she). Das **Objekt** ist das Wort, mit dem etwas getan wird (it, them). Fast jede Nachricht hat so einen Satz ohne Karte; nur Nachricht 3 hat keinen. Mit Karte stehen nur die who-Sätze in 3 und 5. Der zweite Streifen „I’ve read it“ hat ein Objekt, das Wort it. Die Relativkarte hat it ersetzt. Weil hinter der Karte schon ein Subjekt steht (I), versteht man den Satz auch ohne Karte. Das ist ein **Relativsatz ohne Relativkarte** (Fachwort: Relativpronomen), auch **Kontaktsatz** oder englisch **contact clause** genannt."
       - type: figure
         image: images/satzstreifen-contact-clauses.svg
         alt: "Zwei Beispiele untereinander. Oben: ein Streifen „This is the song“, eine gestrichelte Karte „(that)“ in Klammern und ein Streifen „I like.“ Darunter der Hinweis, dass die Karte das Objekt it ersetzt. Unten: ein Streifen „This is the girl“, eine feste Karte „who“ und ein Streifen „sits there.“ Darunter der Hinweis, dass die Karte das Subjekt she ersetzt."
@@ -111,7 +110,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Steht hinter der Karte schon ein Subjekt, darf die Karte fehlen.** Es heißt „the book I read“, aber „the boy who sings“. Nicht „the book I read it“. **Whose** bleibt immer: „the boy whose phone is new“.
+              **Steht hinter der Karte schon ein Subjekt, darf die Karte fehlen.** Es heißt „the book I read“, aber „the boy who sings“. Nicht „the book I read it“. **Whose** bleibt immer: „the boy whose phone is new“. Nicht verwechseln: Die that-Karte aus Kapitel 1 verbindet einen Gedanken („I think that …“), diese Karte beschreibt ein Nomen („the book that I read“).
   - type: section
     id: uebung
     title: Übung
@@ -135,7 +134,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/contact-clauses/
       - type: number
         id: contact-beleg
-        text: In welcher Nachricht sagt jemand, dass er oder sie etwas zu essen mitbringt? Gib die Nummer ein.
+        text: In welcher Nachricht sagt jemand, dass er oder sie etwas zu essen mitbringt? Gib nur die Zahl ein, ohne das Wort Nachricht.
         answer: 12
         hint: Lies noch einmal den Chat.
         tolerance: 0
@@ -170,22 +169,22 @@ blocks:
         hint: Welches Wort ersetzt die Karte? Schreibe es nicht noch einmal.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - cue: Here is the jacket · Ellie bought it
-            target: (Here is|Here's) the jacket (that |which |)Ellie bought.
+          - cue: Here is the hat · Ellie bought it
+            target: (Here is|Here's) the hat (that |which |)Ellie bought.
             mistakes:
-              - answer: Here is the jacket Ellie bought it.
+              - answer: Here is the hat Ellie bought it.
                 message: Am Ende bleibt kein it stehen.
-              - answer: Here is the jacket who Ellie bought.
+              - answer: Here is the hat who Ellie bought.
                 message: Who passt nur zu Personen.
-          - cue: This is the boy · he won the race
-            target: This is the boy (who|that) won the race.
+          - cue: This is the boy · he won the game
+            target: This is the boy (who|that) won the game.
             mistakes:
-              - answer: This is the boy won the race.
+              - answer: This is the boy won the game.
                 message: He ist das Subjekt des zweiten Streifens. Dann muss die Karte stehen.
-          - cue: She likes the poster · I made it
-            target: She likes the poster (that |which |)I made.
+          - cue: She likes the picture · I made it
+            target: She likes the picture (that |which |)I made.
             mistakes:
-              - answer: She likes the poster I made it.
+              - answer: She likes the picture I made it.
                 message: Am Ende bleibt kein it stehen.
       - type: language-task
         id: contact-uebersetzen
@@ -195,12 +194,12 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Die Tasche, die ich gekauft habe, ist grün.
-            target: The bag (that |which |)(I bought|I have bought|I've bought) is green.
+            target: The bag (that |which |)(I bought|I have bought|I've bought|I got|I have got|I've got) is green.
             mistakes:
               - answer: The bag I bought it is green.
                 message: "Das it gehört nicht dazu: the bag steht schon vorn."
           - source: Die Leute, die wir getroffen haben, waren nett.
-            target: The people (who |that |)(we met|we have met|we've met) were (nice|kind|friendly).
+            target: The people (who |that |)(we met|we have met|we've met) were (really |)(nice|kind|friendly).
             mistakes:
               - answer: The people who we met them were nice.
                 message: Them steht nicht noch einmal da.

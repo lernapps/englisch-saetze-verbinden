@@ -1,32 +1,32 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Was würdest du tun, wenn …? Die Weiche für Gedachtes"
-description: "Sophie, Amir und Ellie chatten darüber, was sie mit einem freien Tag machen würden. Du lernst, mit if und would über gedachte Situationen zu sprechen."
+description: "Sophie, Amir und Ellie chatten darüber, was sie an einem freien Tag machen würden. Du lernst, mit if und would über gedachte Situationen zu sprechen."
 competencies: [if-satz-2]
-scope: Die Seite führt den if-Satz Typ 2 ein (conditional type 2) für gedachte oder unwahrscheinliche Situationen in der Gegenwart oder Zukunft. Die Weiche stellt anders als bei Typ 1. Im Streifen mit if steht das simple past, im anderen Streifen would plus Grundform (If I had a free day, I would sleep). Das simple past meint hier keine Vergangenheit, die Form rückt auf dem Zeitstrahl einen Schritt nach links. Im Streifen mit if steht kein would. Bei I, he, she, it sind were und was möglich (If I were you, If I was you); mit If I were you gibt man einen Rat. Die Streifen dürfen die Plätze tauschen; steht der if-Streifen vorn, gehört im geschriebenen Englisch ein Komma dahinter, die Seite zählt fehlende Kommas nicht als Fehler. Die Seite arbeitet mit einem Chat von Sophie, Amir und Ellie, die Nachrichten sind nummeriert. Nicht hier, weil es spätere Seiten des Kapitels sind. If-Sätze über die Vergangenheit (past perfect, would have) und I wish.
+scope: Die Seite führt den if-Satz Typ 2 ein (conditional type 2) für gedachte oder unwahrscheinliche Situationen in der Gegenwart oder Zukunft. Die Weiche stellt anders als bei Typ 1. Im Streifen mit if steht das simple past, im anderen Streifen would plus Grundform (If I had a day off, I would sleep in). Das simple past meint hier keine Vergangenheit, die Form rückt auf dem Zeitstrahl einen Schritt nach links. Im Streifen mit if steht kein would. Bei I, he, she, it sind were und was möglich (If I were you, If I was you); mit If I were you gibt man einen Rat. Die Streifen dürfen die Plätze tauschen; steht der if-Streifen vorn, gehört im geschriebenen Englisch ein Komma dahinter, die Seite zählt fehlende Kommas nicht als Fehler. Die Seite arbeitet mit einem Chat von Sophie, Amir und Ellie, die Nachrichten sind nummeriert. Die Seite erklärt, dass Gedachtes das ist, was nicht wirklich ist. Nicht hier, weil es spätere Seiten des Kapitels sind. If-Sätze über die Vergangenheit (past perfect, would have) und I wish.
 blocks:
   - type: section
     id: einstieg
     title: Was steht im if-Streifen?
     blocks:
       - type: text
-        text: "Sophie, Amir und Ellie sind jetzt 13 und gehen in die Klasse 8B. Abends chatten sie über eine Frage von Mr Hill. Davor eine Frage zu Kapitel 1."
+        text: "Sophie, Amir und Ellie sind jetzt 13 und gehen in die Klasse 8B. Abends chatten sie über eine Frage von Mr Hill. Davor eine Frage zum simple past."
       - type: single-choice
         id: if2-start
-        text: "In „If Ellie wins, we will have a party“ ist offen, ob Ellie gewinnt. Welche Zeitform steht im Streifen mit if?"
+        text: "Welcher Satz steht im simple past?"
         options:
-          - text: simple present, wins
+          - text: Peter played football yesterday
             correct: true
-            info: So war es in Kapitel 1.
-          - text: will plus Verb, will win
+            info: Das ist vorbei.
+          - text: Peter plays football on Mondays
             correct: false
-            info: Wohin gehört das will?
-          - text: simple past, won
+            info: Welche Zeitform ist plays?
+          - text: Peter will play football tomorrow
             correct: false
-            info: Das kommt gleich.
-        explanation: Bei Wahrscheinlichem steht das simple present.
+            info: Was steht hier vor play?
+        explanation: Played ist die Form des simple past.
         links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 1
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
+          - title: Lernlandkarte Englisch · Simple past
+            url: https://lernapps.net/apps/map/englisch/c/simple-past/
       - type: text
         text: "**Das kannst du danach:** Du sprichst mit if-Sätzen Typ 2 über gedachte Situationen (If I had more time, I would …)."
   - type: section
@@ -34,24 +34,25 @@ blocks:
     title: Der Chat der Gruppe
     blocks:
       - type: text
-        text: "Mr Hill hat gefragt: Was würdest du tun, wenn du einen freien Tag hättest? Die drei schreiben sich am Abend ihre Antworten. Jede Nachricht hat eine Nummer. Mit der Nummer kannst du später sagen, wo etwas steht. Beim Lesen: Achte auf die Sätze mit if und auf das Wort would."
+        text: "Mr Hill hat gefragt: Was würdest du tun, wenn du einen freien Tag hättest? Die drei schreiben sich am Abend ihre Antworten. Jede Nachricht hat eine Nummer. Achte beim Lesen auf die Sätze mit if und auf das Wort would."
       - type: table
         caption: Chat Year 8B · Nachrichten 1 bis 4
         header: [Nr, Wer, Nachricht]
         rows:
-          - ["1", Ellie, "Mr Hill asked us a question today: What would you do if you had a free day?"]
-          - ["2", Amir, "If I had a free day, I would sleep until ten o'clock."]
-          - ["3", Sophie, "If I were you, I would get up early. A free day is too nice to spend in bed."]
+          - ["1", Ellie, "Mr Hill asked us a question today: What would you do if you had a day off?"]
+          - ["2", Amir, "If I had a day off, I would sleep in until ten o'clock."]
+          - ["3", Sophie, "If I were you, I would get up early. A day off is too nice to spend in bed."]
           - ["4", Amir, "Ha! And what would you do, Sophie?"]
       - type: vocabulary
         caption: Randglossar · Nachrichten 1 bis 4
         languages: { source: de, target: en }
         entries:
-          - { target: "free day", source: "freier Tag" }
+          - { target: "day off", source: "freier Tag" }
           - { target: "until", source: "bis" }
           - { target: "o'clock", source: "Uhr (bei der Uhrzeit)" }
           - { target: "get up", source: "aufstehen" }
           - { target: "spend", source: "verbringen" }
+          - { target: "sleep in", source: "ausschlafen" }
       - type: table
         caption: Chat Year 8B · Nachrichten 5 bis 8
         header: [Nr, Wer, Nachricht]
@@ -59,14 +60,14 @@ blocks:
           - [
               "5",
               Sophie,
-              "If I had a free day, I would take the train to London. I would visit a museum and eat lunch by the river.",
+              "If I had a day off, I would take the train to London. I would visit a museum and eat lunch by the river.",
             ]
           - ["6", Ellie, "Sounds great! But if you asked Mum, she would probably say no. You are only thirteen."]
           - ["7", Sophie, "True. If I could choose, I would go with you two."]
           - [
               "8",
               Amir,
-              "Then we would need money for the tickets. If I won a lot of money, I would buy a new phone first.",
+              "Then we would need money for the tickets. If I won a lot of money, I would buy a new bike first.",
             ]
       - type: vocabulary
         caption: Randglossar · Nachrichten 5 bis 8
@@ -97,11 +98,11 @@ blocks:
     title: Die Weiche für Gedachtes
     blocks:
       - type: text
-        text: "Schau in den Chat. Amir hat gar keinen freien Tag. Er denkt ihn sich aus. In Nachricht 2 steht darum nicht „If I have a free day, I will sleep“, sondern „If I **had** a free day, I **would** sleep“. Die Weiche stellt hier anders als in Kapitel 1: Im Streifen mit if steht das **simple past**. Im anderen Streifen steht **would** plus die Grundform des Verbs. So sagst du, was du tun würdest, wenn etwas nur gedacht ist oder sehr unwahrscheinlich."
+        text: "Schau in den Chat. Amir hat gar keinen freien Tag. Er denkt ihn sich aus. In Nachricht 2 steht darum nicht „If I have a day off, I will sleep in“, sondern „If I **had** a day off, I **would** sleep in“. Die Weiche stellt hier anders als in Kapitel 1: Im Streifen mit if steht das **simple past**. Im anderen Streifen steht **would** plus die Grundform des Verbs. So sagst du, was du tun würdest, wenn etwas nur gedacht ist (Gedachtes, nicht Wirkliches) oder sehr unwahrscheinlich."
       - type: figure
         image: images/satzstreifen-if-satz-2.svg
         alt: "Oben ein Gleis, das sich in zwei Gleise teilt. Das obere Gleis führt zu einer blauen Karte „if“ und einem Streifen „we lived by the sea“ mit dem Hinweis simple past. Das untere führt zu einem Streifen „we“, einer braunen Karte „would“ und einem Streifen „swim every day.“ mit dem Hinweis would plus Verb. Unten ein Zeitstrahl mit den Marken früher, jetzt und später und den Formen simple past, simple present und will. Ein Pfeil führt von jetzt einen Schritt nach links."
-        caption: Der Streifen mit if hat das simple past, der andere would plus Verb. Auf dem Zeitstrahl rückt die Form einen Schritt nach links, gemeint ist aber jetzt.
+        caption: Die blaue Karte ist if, die braune ist would. Der Streifen mit if hat das simple past, der andere would plus Verb. Auf dem Zeitstrahl rückt die Form einen Schritt nach links, gemeint ist aber jetzt.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -118,7 +119,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Im Streifen mit if steht kein would.** Es heißt „If I had a camera“ und nicht „If I would have a camera“. **Bei I, he, she und it** sagt man im geschriebenen Englisch „If I were“, im Alltag auch „If I was“. Beides ist richtig. Mit „If I were you, I would wait“ gibst du einen Rat.
+              **Im Streifen mit if steht kein would.** Es heißt „If I had a camera“ und nicht „If I would have a camera“. **Bei I, he, she und it** sagt man im geschriebenen Englisch „If I were“, im Alltag auch „If I was“. Beides ist richtig. Mit „If I were you, I would wait“ gibst du einen Rat. Die beiden Streifen dürfen die Plätze tauschen.
   - type: section
     id: uebung
     title: Übung
@@ -129,14 +130,14 @@ blocks:
         options:
           - text: mit dem Zug nach London fahren
             correct: true
-            info: Nachricht 5.
+            info: Sie schreibt von London und einem Museum.
           - text: bis zehn Uhr schlafen
             correct: false
             info: Wer sagt das?
           - text: ein Pferd kaufen
             correct: false
             info: Wer würde ein Pferd kaufen?
-        explanation: Sophie würde nach London fahren.
+        explanation: Sophie würde nach London fahren (Nachricht 5).
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 2
             url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
@@ -146,7 +147,7 @@ blocks:
         answer: 6
         hint: Ellie schreibt von ihrer Mum.
         tolerance: 0
-        explanation: Nachricht 6.
+        explanation: Ellie schreibt in Nachricht 6, dass Mum wohl nein sagen würde.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 2
             url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
@@ -169,7 +170,7 @@ blocks:
             mistakes:
               - answer: If I am you, I would take a photo.
                 message: Ist das ein wirklicher Fall?
-          - source: Wenn es heute nicht regnete, würden wir draußen spielen.
+          - source: Wenn es heute nicht regnen würde, würden wir draußen spielen.
             target: If it [didn't rain|did not rain] today, we [would play] outside.
             distractors: [[doesn't rain, wouldn't rain], [will play, played]]
             mistakes:
@@ -239,16 +240,21 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Wenn ich du wäre, würde ich früher ins Bett gehen.
-            target: (If I were you, I would go to bed earlier.|If I were you, I would go to bed sooner.|If I were you, I'd go to bed earlier.|If I were you, I'd go to bed sooner.|If I was you, I would go to bed earlier.|If I was you, I would go to bed sooner.|If I was you, I'd go to bed earlier.|If I was you, I'd go to bed sooner.|I would go to bed earlier if I were you.|I would go to bed earlier if I was you.|I'd go to bed earlier if I were you.|I'd go to bed earlier if I was you.)
+            target: (If I were you, I would go to bed earlier.|If I were you, I would go to bed sooner.|If I were you, I would go to bed early.|If I were you, I'd go to bed earlier.|If I were you, I'd go to bed sooner.|If I were you, I'd go to bed early.|If I were in your place, I would go to bed earlier.|If I were in your place, I would go to bed sooner.|If I were in your place, I would go to bed early.|If I were in your place, I'd go to bed earlier.|If I were in your place, I'd go to bed sooner.|If I were in your place, I'd go to bed early.|If I was you, I would go to bed earlier.|If I was you, I would go to bed sooner.|If I was you, I would go to bed early.|If I was you, I'd go to bed earlier.|If I was you, I'd go to bed sooner.|If I was you, I'd go to bed early.|If I was in your place, I would go to bed earlier.|If I was in your place, I would go to bed sooner.|If I was in your place, I would go to bed early.|If I was in your place, I'd go to bed earlier.|If I was in your place, I'd go to bed sooner.|If I was in your place, I'd go to bed early.|I would go to bed earlier if I were you.|I would go to bed earlier if I were in your place.|I would go to bed earlier if I was you.|I would go to bed earlier if I was in your place.|I would go to bed sooner if I were you.|I would go to bed sooner if I were in your place.|I would go to bed sooner if I was you.|I would go to bed sooner if I was in your place.|I would go to bed early if I were you.|I would go to bed early if I were in your place.|I would go to bed early if I was you.|I would go to bed early if I was in your place.|I'd go to bed earlier if I were you.|I'd go to bed earlier if I were in your place.|I'd go to bed earlier if I was you.|I'd go to bed earlier if I was in your place.|I'd go to bed sooner if I were you.|I'd go to bed sooner if I were in your place.|I'd go to bed sooner if I was you.|I'd go to bed sooner if I was in your place.|I'd go to bed early if I were you.|I'd go to bed early if I were in your place.|I'd go to bed early if I was you.|I'd go to bed early if I was in your place.)
             examples:
-              accepted: ["If I was you, I'd go to bed sooner.", "I would go to bed earlier if I were you."]
+              accepted:
+                [
+                  "If I was you, I'd go to bed sooner.",
+                  "I would go to bed earlier if I were you.",
+                  "If I were in your place, I would go to bed early.",
+                ]
             mistakes:
               - answer: If I am you, I would go to bed earlier.
                 message: Bist du es wirklich?
           - source: Wenn wir mehr Geld hätten, würden wir ein Haus kaufen.
-            target: (If we had more money, we would buy a house.|If we had more money, we'd buy a house.|We would buy a house if we had more money.|We'd buy a house if we had more money.)
+            target: (If we had more money, we would buy a house.|If we had more money, we'd buy a house.|If we had a lot more money, we would buy a house.|If we had a lot more money, we'd buy a house.|If we got more money, we would buy a house.|If we got more money, we'd buy a house.|If we got a lot more money, we would buy a house.|If we got a lot more money, we'd buy a house.|We would buy a house if we had more money.|We would buy a house if we had a lot more money.|We would buy a house if we got more money.|We would buy a house if we got a lot more money.|We'd buy a house if we had more money.|We'd buy a house if we had a lot more money.|We'd buy a house if we got more money.|We'd buy a house if we got a lot more money.)
             examples:
-              accepted: ["We'd buy a house if we had more money."]
+              accepted: ["We'd buy a house if we had more money.", "If we got a lot more money, we would buy a house."]
             mistakes:
               - answer: If we would have more money, we would buy a house.
                 message: Was steht im if-Streifen statt would have?
@@ -259,11 +265,11 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - audio: if-we-had-a-garden-we-would-grow-tomatoes.mp3
-            target: If we had a garden, we would grow tomatoes.
+            target: If we had a garden, (we would|we'd) grow tomatoes.
           - audio: my-brother-would-be-happy-if-he-had-a-cat.mp3
-            target: My brother would be happy if he had a cat.
+            target: My brother (would|'d) be happy if he had a cat.
           - audio: we-would-be-late-if-we-walked-to-the-station.mp3
-            target: We would be late if we walked to the station.
+            target: (We would|We'd) be late if we walked to the station.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -272,8 +278,8 @@ blocks:
         id: if2-nachsprechen
         language: en
         items:
-          - audio: if-it-were-saturday-we-would-sleep-late.mp3
-            text: If it were Saturday, we would sleep late.
+          - audio: if-it-were-saturday-we-would-sleep-in.mp3
+            text: If it were Saturday, we would sleep in.
           - audio: if-i-were-a-bird-i-would-fly-over-the-city.mp3
             text: If I were a bird, I would fly over the city.
           - audio: if-i-invited-you-would-you-come-to-my-party.mp3
@@ -282,7 +288,7 @@ blocks:
       - type: open-task
         id: if2-meinung
         task: "Was würdest du an einem freien Tag tun, was lieber nicht? Schreibe mindestens zwei Sätze mit if."
-        hint: Beginne mit „If I had a free day, I would …“.
+        hint: Beginne mit „If I had a day off, I would …“.
         points:
           - text: Die Nachricht sagt, was die Person an einem freien Tag tun würde, und was sie lieber nicht tun würde.
             source: /was-waere-wenn/if-satz-2/#lesen
@@ -293,10 +299,10 @@ blocks:
           - text: Es sind ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
-          If I had a free day, I would meet my friends at the lake. If it rained, I would read a book. I would not do my homework on a free day!
+          If I had a day off, I would meet my friends in the park. If it rained, I would read a book. I would not do my homework on a day off!
   - type: section
     id: weiter
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am nächsten Tag schreibt Sophie einen Blogeintrag. Sie hat den Bus zum Schulausflug verpasst. Jetzt denkt sie darüber nach, was anders gekommen wäre. Auf der nächsten Seite siehst du, wie man das über die Vergangenheit sagt."
+        text: "Auf der nächsten Seite geht es um die Vergangenheit. Dafür rückt die Weiche noch einen Schritt weiter."
