@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -80,8 +80,9 @@ Jugendliche der Klasse 7-8 können Relativsätze genauer bilden (ohne Relativpro
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Ja, die neun Seiten mit je einem Lesestück passen, und Sub-Agenten dürfen die drei Kapitel parallel schreiben, nachdem die Musterseite (contact-clauses) steht. Recaps für past-perfect und infinitivkonstruktionen nur kompakt und mit Link zur Karte. Push von increment/02-stufe-7-8 und zweiter Vorschau-PR muss die Ersteller:in erlauben; bis dahin lokal.
 
 ### Answers
 
@@ -99,12 +100,12 @@ Jugendliche der Klasse 7-8 können Relativsätze genauer bilden (ohne Relativpro
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] (skipped: keine neue Komponente und keine interaktive Übung; der Seitenaufbau steht in .vibe/sketches/lesestueck-seite.md) Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
@@ -114,9 +115,16 @@ Jugendliche der Klasse 7-8 können Relativsätze genauer bilden (ohne Relativpro
 
 <!-- One line each: the guide's patterns, figures and components used, and where; anything new, what it does and
 cannot. Something new goes into the guide in the slice that adds it. -->
-<!-- An explainer: per figure, model and component its learning action in two to four sentences
-(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
-page, which a link. -->
+- Aufbau jeder Seite (Stufe 7-8, gleiche Abschnitts-IDs): `einstieg` (Vorwissen-Frage als Einzelauswahl, „Das kannst du danach“), `lesen` (Lesestück 150 bis 300 Wörter in 2 bis 3 Abschnitten, je Abschnitt eine Tabelle „Randglossar“ mit höchstens 6 schweren Wörtern; ein Chat ist eine Tabelle Nr · Wer · Nachricht, damit „Belegen mit Zeile“ eine Nummer nennt), `neu` (Satzstreifen-Figur der neuen Karte oder Weiche, Merke-Kasten, Poster-Tabelle; die Kinder finden die Regel im Lesestück: „Suche im Text …“), `uebung` (Verstehen, Belegen, Grammatik, Meinung; höchstens etwa 25 Items, vier bis sechs Übungen), `anwenden` (Schreib- oder Sprechauftrag, `open-task` oder `speaking-task`), `weiter` (nächster Schritt; letzte Seite eines Kapitels mit Rückblick). Titel sagen, was der Abschnitt tut.
+- Muster (neu: Lesestück-Muster, kommt mit der Musterseite in den Inhaltsführer): Verstehen = `single-choice` oder `true-false` mit Begründung; Belegen = `number` („In welcher Nachricht steht das?“) oder `single-choice` mit Zeilennummer; Grammatik = `matching`, `language-task` (choice, write, Übersetzen), `ordering`; Meinung = `open-task` mit Punkten der Form; Hören und Nachsprechen aus kurzen Abschnitten des Lesestücks (je Seite 6 Sätze, neue Sätze, nicht aus dem Lesestück abgeschrieben: Hörliste im Inhaltsführer).
+- Lesestück-Sorten je Seite: contact-clauses Chat (Sophie, Amir, Ellie über Bücher und Filme); relativsaetze-nicht-notwendig Tagebucheintrag (Sophie); konjunktionen-although Artikel der Schulzeitung; if-satz-2 Chat „Was würdest du tun, wenn …?“; if-satz-3 Blog-Eintrag über einen verpassten Bus; i-wish Blog-Eintrag (Wünsche); reported-speech Chat mit Bericht; backshift Interview mit Bericht; indirekte-aufforderungen Dialog beim Elternabend-Zettel? (guess) / Gespräch im Klassenzimmer. Orte und Figuren aus Millbrook School, keine neuen Orte; Wort für Fakten im Text: keine realen Fakten, nur Schulalltag (keine Quellenangabe nötig; sonst im Inhaltsführer „Sources“).
+- Figuren: Zeichen der Satzstreifen-Familie wie in Kapitel 1; neue Karten mit neuen Farben, keine Farbe zweimal in der App: Kontaktkarte = Relativkarte gestrichelt (darf fehlen), Klammer aus Kommas = (Klammern) um den Streifen, although/while/whereas = dunkelgrau, so that = hellblau, Weiche „unwirklich“ = zwei Gleise unter dem Zeitstrahl (Zeitstrahl aus #472: Spur nach links), I wish = Karte mit Stern, Sprechblase → Streifen mit said that = Sprechblase mit Pfeil; Szenen nur, wo sie etwas zeigen (Chat und Tagebuch als Text, kein Bild nötig). Bilder `satzstreifen-<seite>.svg`, Szenen `szene-<seite>.svg` nach dem Muster von Kapitel 1, Figuren 13 bis 14 (Sophie älter: Zöpfe offen? (guess): Aussehen wie in Kapitel 1, nur größer gezeichnet).
+- Wiederholung `das-brauchst-du` in K3 (simple-past, past-perfect) und K4 (past-perfect, infinitivkonstruktionen, imperativ): kompakt, Namen und Link zur Karte, ohne Übung; in K2 nicht nötig (relativsaetze und konjunktionen werden in Kapitel 1 geübt).
+- Wörter: Grundwortschatz A1/A2; weniger einfache Wörter und Wörter außerhalb auf der Seite im Randglossar mit Bedeutung und im Inhaltsführer gelistet; B1-Wörter nur, wenn das Lesestück sie braucht (Randglossar).
+- Hörtexte: `bf_emma`, ganze Sätze, `regen_audio.py` (neu, mit Fehllaut-Schnitt), keine Namen für den Klang, Hörliste im Inhaltsführer; Dubletten-Skript über alle Seiten.
+- Jede Seite: `competencies:` mit Karten-Id; `scope` je Seite und in `app.yaml` ergänzt (Kapitel 5 weiterhin out); Selbsteinschätzung je neuem Kapitel in `chapter.yaml`.
+- Wie ein späterer Agent Kapitel 5 anfügt: Muster dieser Seiten, Inhaltsführer, Abschnitt „Adding a chapter or round“.
+
 
 ## Code
 
@@ -139,7 +147,15 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Musterseite relativsaetze-2/contact-clauses (Kapitel relativsaetze-2, Seite 1, ich allein, zuerst): chapter.yaml, app.yaml (scope und chapters), recap das-brauchst-du, Lesestück (Chat, 150-300 Wörter), Aufgaben, 6 Hörtexte, Inhaltsführer um das Lesestück-Muster erweitern; check, Commit
+- [ ] relativsaetze-2/relativsaetze-nicht-notwendig (Tagebucheintrag): Sub-Agent A, nach der Musterseite, eigener Worktree, nur src/relativsaetze-2/relativsaetze-nicht-notwendig.yaml, Bilder und Audio dieser Seite
+- [ ] relativsaetze-2/konjunktionen-although (Schulzeitungs-Artikel): Sub-Agent A, nach der Musterseite, nur src/relativsaetze-2/konjunktionen-although.yaml, Bilder und Audio dieser Seite
+- [ ] was-waere-wenn/das-brauchst-du, if-satz-2 (Chat): Sub-Agent B, nach der Musterseite, nur src/was-waere-wenn/*.yaml dieser Seiten, Bilder und Audio
+- [ ] was-waere-wenn/if-satz-3 (Blog oder Geschichtenauszug) und i-wish (Blog-Eintrag): Sub-Agent B, nach der Musterseite, nur src/was-waere-wenn/*.yaml, Bilder und Audio
+- [ ] weitersagen/das-brauchst-du, reported-speech (Chat und Bericht): Sub-Agent C, nach der Musterseite, nur src/weitersagen/*.yaml, Bilder und Audio
+- [ ] weitersagen/backshift (Interview in der Schulzeitung) und indirekte-aufforderungen (Dialog oder Chat): Sub-Agent C, nach der Musterseite, nur src/weitersagen/*.yaml, Bilder und Audio
+- [ ] Ich führe die Branches der Sub-Agenten zusammen, trage chapter.yaml und app.yaml ein, prüfe Hörsätze und Wörter über alle Seiten per Skript (keine Dubletten, nichts doppelt), lernapps check
+<!-- tasks: slices (8 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
