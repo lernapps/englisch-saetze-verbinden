@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Simple past und past perfect noch einmal kurz, bevor Sophie, Amir und Ellie sich Unwirkliches ausdenken.
+recap: [englisch/simple-past, englisch/past-perfect]
+scope: Die Seite wiederholt nur, was die nächsten drei Seiten brauchen, und übt es nicht. Wiederholt werden das simple past (Verb plus -ed bei regelmäßigen Verben, daneben die Formen unregelmäßiger Verben wie had, were, went) und die Form des past perfect (had plus die 3. Form des Verbs, wie im present perfect). Das past perfect wird in einer anderen App geübt, die noch erweitert wird; hier steht nur seine Form. Neue Inhalte gibt es nicht, auch keine Übung.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? Du brauchst zwei Dinge aus früheren Seiten. Erstens das **simple past** („Simple past: regelmäßige Verben“): *Ich kann im simple past mit regelmäßigen Verben (-ed) von abgeschlossenen Ereignissen erzählen.* Zweitens das **past perfect**: *Ich kann im past perfect ausdrücken, dass etwas vor einem anderen Ereignis in der Vergangenheit geschah.*"
+      - type: table
+        caption: Klassenzimmer-Poster · Wiederholung
+        header: [Baustein, Form, Beispiel]
+        rows:
+          - [simple past, "Verb + -ed", Ellie played football.]
+          - [past perfect, had + 3. Form, Mr Hill had left before we came.]
+      - type: text
+        text: "Das simple past hat viele unregelmäßige Verben. Ihre Formen musst du kennen: had, were, went. Das past perfect wird in einer anderen App geübt, die noch wächst. Du brauchst hier nur seine Form: **had** plus die **3. Form** des Verbs. Die 3. Form kennst du aus dem present perfect (gone, sent, asked)."
+      - type: text
+        text: "Nicht sicher? Hier kannst du es nachlesen: [simple past](https://lernapps.net/apps/map/englisch/c/simple-past/) und [past perfect](https://lernapps.net/apps/map/englisch/c/past-perfect/)."
+  - type: section
+    id: weiter
+    title: Wozu du das brauchst
+    blocks:
+      - type: text
+        text: "Mr Hill hat Sophie, Amir und Ellie eine Frage gestellt: Was wäre, wenn …? Auf der nächsten Seite steht die Weiche bei if im simple past. Danach folgen das past perfect und der Wunsch mit I wish."
