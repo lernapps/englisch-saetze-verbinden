@@ -9,7 +9,7 @@ blocks:
     title: Wie fragst du höflich?
     blocks:
       - type: text
-        text: "Sophie plant einen Museumsbesuch und schreibt dem Museum eine E-Mail. Du liest gleich ihre Fragen, die Antwort und ihren Bericht. Davor eine Frage aus Sätze bauen."
+        text: "Sophie plant einen Museumsbesuch und schreibt dem Museum eine E-Mail. Du liest gleich ihre Fragen, die Antwort und ihren Bericht. Davor eine Frage aus dem Explainer Sätze bauen."
       - type: single-choice
         id: ifragen-start
         text: "Welcher Satz ist eine ganz normale Frage mit Fragewort und do?"
@@ -22,7 +22,7 @@ blocks:
             info: Fragewort, do, Subjekt, Verb.
           - text: Could you tell me when the train leaves
             correct: false
-            info: Das ist eine höfliche Frage, die später dran kommt.
+            info: Das ist eine höfliche Frage, sie kommt später.
         explanation: Fragewort, do, Subjekt, Verb.
       - type: text
         text: "**Das kannst du danach:** Du stellst Fragen höflich indirekt (Can you tell me where …?) und gibst wieder, was jemand gefragt hat (He asked where I lived.)."
@@ -70,7 +70,7 @@ blocks:
             ]
           - [
               "8",
-              "There is a cloakroom next to the entrance. The workshop for families takes place on Saturday at 11 am. You must book it by email. The café on the first floor serves lunch from 12 pm. Saturdays are busy between 11 am and 2 pm, so we suggest that you come in the morning. Best wishes, Visitor Services",
+              "There is a cloakroom next to the entrance. The workshop for families takes place on Saturday at 11 am. You must book it by email. The café on the first floor serves lunch from noon. Saturdays are busy between 11 am and 2 pm, so we suggest that you come in the morning. Best wishes, Visitor Services",
             ]
       - type: vocabulary
         caption: Randglossar · Antwort
@@ -137,7 +137,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Die indirekte Frage ist ein Streifen mit Subjekt vor dem Verb und ohne do, does, did.** Ja/Nein-Fragen bekommen if oder whether. Gibst du eine Frage später weiter, rückt die Zeit eine Stufe zurück wie in Kapitel 4. Ist das Fragewort selbst das Subjekt, bleibt die Form gleich: I wonder who has the key.
+              **Die indirekte Frage ist ein Streifen mit Subjekt vor dem Verb und ohne do, does, did.** Ja/Nein-Fragen bekommen if oder whether. Gibst du eine Frage weiter, die vorbei ist, rückt die Zeit eine Stufe zurück wie in Kapitel 4. Ist das Fragewort selbst das Subjekt, bleibt die Form gleich: I wonder who has the key.
       - type: vocabulary
         caption: Wörter für die Übungen
         languages: { source: de, target: en }
@@ -209,7 +209,7 @@ blocks:
               - answer: Do you know if the train does late?
                 message: Hier fehlt is.
           - source: Sie fragte, wo ich wohnte.
-            target: She asked where I [lived].
+            target: She asked (me |)where I [lived].
             distractors: [[live, did live]]
             mistakes:
               - answer: She asked where I live.
@@ -239,7 +239,7 @@ blocks:
             target: Could you tell me where the bus stops(.|?)
             mistakes:
               - answer: Could you tell me where does the bus stop?
-                message: Does fällt weg, das Verb bekommt das -s.
+                message: Das does fällt weg, das Verb bekommt das -s.
           - cue: "Is the pool open today? · Do you know"
             target: Do you know (if|whether) the pool is open today?
             mistakes:
@@ -249,7 +249,7 @@ blocks:
             target: I wonder what he said(.|?)
             mistakes:
               - answer: I wonder what did he say.
-                message: Did fällt weg.
+                message: Das did fällt weg.
           - cue: "Who has the key? · I would like to know"
             target: I would like to know who has the key.
             mistakes:
@@ -268,23 +268,23 @@ blocks:
               - answer: Do you know where is my phone?
                 message: Das Subjekt steht vor dem Verb, also my phone is.
           - source: Sie fragte, ob ich müde war.
-            target: She asked (if|whether) I was tired.
+            target: She asked (me |)(if|whether) I was tired.
             mistakes:
               - answer: She asked if was I tired.
                 message: Das Subjekt steht vor dem Verb, also I was.
           - source: Er wollte wissen, wohin wir gingen.
-            target: He wanted to know where we (went|were going).
+            target: He wanted to know where we (went|were going|had gone).
             mistakes:
               - answer: He wanted to know where did we go.
-                message: Did fällt weg, das Verb rückt in die Vergangenheit.
+                message: Das did fällt weg, das Verb rückt in die Vergangenheit.
       - type: language-task
         id: ifragen-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: do-you-know-what-time-the-concert-starts.mp3
-            target: Do you know what time the concert starts?
+          - audio: do-you-know-when-the-concert-starts.mp3
+            target: Do you know when the concert starts?
           - audio: she-asked-me-whether-i-had-finished-my-homework.mp3
             target: She asked me whether I had finished my homework.
           - audio: i-wonder-how-many-people-live-in-this-village.mp3
