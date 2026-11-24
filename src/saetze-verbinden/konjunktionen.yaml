@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-konjunktionen.svg
         alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Peter likes football.“ und „Amir likes football.“ Darunter hängen drei Karten: and, but und because. Sophie fragt in einer Sprechblase: „Which card fits?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Peter und Amir haben die weißen Streifen geschrieben. Die bunten Karten sind Verbindungskarten. Sophie fragt."
+        caption: "Peter und Amir haben die weißen Streifen geschrieben. Die bunten Karten sind Verbindungskarten. Sophie fragt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -21,15 +21,15 @@ blocks:
         id: konjunktionen-start
         text: Welche Karte verbindet die zwei Streifen zu einem Satz?
         options:
-          - text: "and, wenn etwas dazukommt"
-            correct: true
-            info: Peter mag Fußball und Amir mag auch Fußball. Der zweite Streifen fügt etwas hinzu. Dafür steht and.
           - text: "but, wenn der zweite Streifen etwas ganz anderes sagt"
             correct: false
             info: Beide Streifen sagen dasselbe. Ein Gegensatz würde zu but passen, zum Beispiel „Peter likes football, but Amir likes tennis.“
           - text: "because, wenn der zweite Streifen einen Grund nennt"
             correct: false
             info: Dass Amir Fußball mag, ist kein Grund dafür, dass Peter Fußball mag. Because passt nur, wenn der zweite Streifen erklärt, warum der erste stimmt.
+          - text: "and, wenn etwas dazukommt"
+            correct: true
+            info: Peter mag Fußball und Amir mag auch Fußball. Der zweite Streifen fügt etwas hinzu. Dafür steht and.
         explanation: Mit and kommt etwas dazu.
         links:
           - title: Lernlandkarte Englisch · Konjunktionen and, but, because
@@ -38,34 +38,34 @@ blocks:
         text: "**Das kannst du danach:** Du machst aus zwei kurzen Sätzen einen langen, mit and, but, or, because, so oder when. Du weißt, welche Karte wozu passt."
       - type: text
         text: Einfache Wörter wie read, play oder go kennst du schon. Diese Wörter sind neu auf dem Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [tired, müde]
-          - [hungry, hungrig]
-          - [sandwich, belegtes Brot]
-          - [early, früh]
-          - [late, spät]
-          - [sunny, sonnig]
-          - [rain, regnen]
-          - [stay at home, zu Hause bleiben]
-          - [like, mögen]
-          - [football, Fußball]
-          - [tennis, Tennis]
-          - [tea, Tee]
-          - [milk, Milch]
-          - [bike, Fahrrad]
-          - [brother, Bruder]
-          - [sister, Schwester]
-          - [dog, Hund]
-          - [rabbit, Kaninchen]
-          - [every day, jeden Tag]
-          - [happy, froh]
-          - [sing, singen]
-          - [smile, lächeln]
-          - [Saturday, Samstag]
-          - [doesn't, "nicht (= does not)"]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "tired", source: "müde" }
+          - { target: "hungry", source: "hungrig" }
+          - { target: "sandwich", source: "belegtes Brot" }
+          - { target: "early", source: "früh" }
+          - { target: "late", source: "spät" }
+          - { target: "sunny", source: "sonnig" }
+          - { target: "rain", source: "regnen" }
+          - { target: "stay at home", source: "zu Hause bleiben" }
+          - { target: "like", source: "mögen" }
+          - { target: "football", source: "Fußball" }
+          - { target: "tennis", source: "Tennis" }
+          - { target: "tea", source: "Tee" }
+          - { target: "milk", source: "Milch" }
+          - { target: "bike", source: "Fahrrad" }
+          - { target: "brother", source: "Bruder" }
+          - { target: "sister", source: "Schwester" }
+          - { target: "dog", source: "Hund" }
+          - { target: "rabbit", source: "Kaninchen" }
+          - { target: "every day", source: "jeden Tag" }
+          - { target: "happy", source: "froh" }
+          - { target: "sing", source: "singen" }
+          - { target: "smile", source: "lächeln" }
+          - { target: "Saturday", source: "Samstag" }
+          - { target: "doesn't", source: "nicht (= does not)" }
   - type: section
     id: neu
     title: Die Verbindungskarten

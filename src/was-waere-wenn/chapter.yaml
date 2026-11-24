@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Was wäre, wenn …?
+summary: Sophie, Amir und Ellie denken sich Dinge aus, die nicht wirklich sind, und blicken auf Dinge zurück, die anders hätten sein können. Du liest ihren Chat und zwei Blogeinträge und lernst, mit if-Sätzen Typ 2 und 3 und mit I wish über Unwirkliches zu sprechen.
+pages: [das-brauchst-du, if-satz-2, if-satz-3, i-wish]
+selfAssessment:
+  pages:
+    - exercises:
+        - /was-waere-wenn/if-satz-2/#if2-formen
+        - /was-waere-wenn/if-satz-2/#if2-uebersetzen
+    - exercises:
+        - /was-waere-wenn/if-satz-3/#if3-weiche
+        - /was-waere-wenn/if-satz-3/#if3-uebersetzen
+    - exercises:
+        - /was-waere-wenn/i-wish/#wish-luecken
+        - /was-waere-wenn/i-wish/#wish-uebersetzen

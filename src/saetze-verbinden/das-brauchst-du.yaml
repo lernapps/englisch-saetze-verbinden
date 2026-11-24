@@ -24,7 +24,7 @@ blocks:
     title: Die Satzstreifen-Wand
     blocks:
       - type: text
-        text: "Mr Hill hängt in der Millbrook School ein Brett an die Rückwand des Klassenzimmers: die **Satzstreifen-Wand**. **Sophie** (11) kommt aus Deutschland und wohnt bei den Parkers, **Ellie** (11) ist ihre Gastschwester, **Peter** (9) Ellies kleiner Bruder, der auch in die Millbrook School geht, **Amir** (11) ein Freund. **Mr Hill** ist ihr Englischlehrer. Auf jeden Streifen kommt ein ganzer Satz. Mit bunten Karten verbinden die Kinder die Streifen."
+        text: "Mr Hill hängt ein Brett an die Rückwand des Klassenzimmers: die **Satzstreifen-Wand**. Auf jeden Streifen kommt ein ganzer Satz. Mit bunten Karten verbinden die Kinder die Streifen."
       - type: figure
         image: images/satzstreifen-streifen.svg
         alt: "Drei weiße Streifen untereinander. Auf dem ersten steht „I play football every day.“, auf dem zweiten „Ellie plays football on Saturday.“ und auf dem dritten „We will win tomorrow.“ Rechts daneben stehen kleine Hinweise: ich, sie mit -s und will."

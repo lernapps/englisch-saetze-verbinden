@@ -1,0 +1,307 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Sie sagte mir, ich soll warten: Bitten und Befehle weitergeben"
+description: "Sophie, Amir und Ellie schreiben an der Klassenzimmertür den Zettel für den Elternabend. Du lernst, Bitten und Aufforderungen mit told, asked und to weiterzugeben."
+competencies: [indirekte-aufforderungen]
+scope: "Die Seite führt indirekte Aufforderungen ein. Ein Befehl oder eine Bitte (Sprechblase im Imperativ) wird ein Streifen mit told oder asked, der Person und to plus Verb (Mr Hill told Amir to sit down). Ein Verbot mit Don't wird not to plus Verb (Ellie told Peter not to run). Mit please sagt man meist asked, ohne please meist told; beide sind oft möglich. Nach told oder asked plus Person steht to plus Verb, kein that-Satz mit gewöhnlichem Verb; not to und to not sind beide richtig. Die Pronomen wechseln wie auf der Seite zur indirekten Rede. Die Seite beginnt bei der Zeitverschiebung der Seite davor und führt dann das Muster Verb plus Person plus to ein. Die Seite arbeitet mit einem Gespräch von Mr Hill, Sophie, Amir und Ellie an der Klassenzimmertür beim Schreiben des Zettels für den Elternabend, die Nachrichten sind nummeriert. Nicht hier, weil es andere Seiten sind. Aussagen in der indirekten Rede (says that, said that) und indirekte Fragen."
+blocks:
+  - type: section
+    id: einstieg
+    title: Vom Bericht zur Bitte
+    blocks:
+      - type: text
+        text: "Heute geht es um Bitten und Befehle wie „Wait!“ und „Don’t run!“. Du liest gleich das Gespräch an der Klassenzimmertür. Davor eine Frage zur letzten Seite."
+      - type: single-choice
+        id: auf-start
+        text: "Ellie sagte letzte Woche: „I will help.“ Das gilt nicht mehr. Wie gibt Sophie das heute weiter?"
+        options:
+          - text: Ellie said that she would help
+            correct: true
+            info: Das Sagen ist vorbei, also wird will zu would.
+          - text: Ellie said that she will help
+            correct: false
+            info: Das Sagen ist vorbei, also rückt will eine Stufe zurück.
+          - text: Ellie says that she would help
+            correct: false
+            info: Says passt zu etwas, das jemand jetzt sagt.
+        explanation: Nach said rückt will zu would.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
+            url: https://lernapps.net/apps/map/englisch/c/backshift/
+      - type: text
+        text: "**Das kannst du danach:** Du gibst Bitten und Aufforderungen mit told oder asked, der Person und to weiter, auch Verbote mit not to."
+  - type: section
+    id: lesen
+    title: Das Gespräch an der Tür
+    blocks:
+      - type: text
+        text: "Jede Nachricht hat eine Nummer. In den Nachrichten 1 bis 10 sprechen die vier an der Tür. Später fragt Peter, was passiert ist, und Ellie erzählt es ihm. Beim Lesen: Achte auf Sätze ohne Subjekt, wie „Write the title.“ Sie sind der Anfang jedes Berichts weiter unten."
+      - type: table
+        caption: An der Tür · Nachrichten 1 bis 5
+        header: [Nr, Wer, Nachricht]
+        rows:
+          - ["1", Mr Hill, "Good morning! Today we’re writing the notice for the door. Sophie, write the title."]
+          - ["2", Sophie, "OK. Amir, please hold the paper."]
+          - ["3", Amir, "Sure. Ellie, don’t stand in front of the door. People want to come in."]
+          - ["4", Ellie, "Sorry! Mr Hill, which pen can I use?"]
+          - ["5", Mr Hill, "Use the blue pen, Ellie. Don’t use the red pen."]
+      - type: vocabulary
+        caption: Randglossar · Nachrichten 1 bis 5
+        languages: { source: de, target: en }
+        entries:
+          - { target: "notice", source: "Zettel / Aushang" }
+          - { target: "title", source: "Titel / Überschrift" }
+          - { target: "hold", source: "halten" }
+      - type: table
+        caption: An der Tür · Nachrichten 6 bis 10
+        header: [Nr, Wer, Nachricht]
+        rows:
+          - ["6", Sophie, "Ellie, please wait. I need the ruler."]
+          - ["7", Ellie, "OK, I’ll wait."]
+          - ["8", Amir, "Mr Hill, can I draw a picture next to the title?"]
+          - ["9", Mr Hill, "Yes, draw our classroom."]
+          - ["10", Sophie, "Great. Amir, please don’t move the paper!"]
+      - type: vocabulary
+        caption: Randglossar · Nachrichten 6 bis 10
+        languages: { source: de, target: en }
+        entries:
+          - { target: "ruler", source: "Lineal" }
+          - { target: "move", source: "bewegen" }
+      - type: table
+        caption: Später · Nachrichten 11 bis 14
+        header: [Nr, Wer, Nachricht]
+        rows:
+          - ["11", Peter, "What happened at the door?"]
+          - ["12", Ellie, "Mr Hill told Sophie to write the title. Sophie asked Amir to hold the paper."]
+          - [
+              "13",
+              Ellie,
+              "Amir told me not to stand in front of the door. Mr Hill told me to use the blue pen. He told me not to use the red pen.",
+            ]
+          - ["14", Ellie, "Sophie asked me to wait. And she asked Amir not to move the paper."]
+  - type: section
+    id: neu
+    title: Aus dem Befehl wird told … to
+    blocks:
+      - type: text
+        text: "Schau in die Nachrichten 12 bis 14. In Nachricht 1 sagt Mr Hill: „Sophie, write the title.“ In Nachricht 12 steht: „Mr Hill told Sophie to write the title.“ Aus dem Befehl wird ein Streifen mit **told**, der **Person** und **to** plus Verb. Mit „please“ sagst du meist **asked**, sonst meist **told**: Aus „Amir, please hold the paper.“ wird „Sophie asked Amir to hold the paper.“ Ein Verbot mit „Don’t“ wird **not to**."
+      - type: figure
+        image: images/satzstreifen-indirekte-aufforderungen.svg
+        alt: "Zwei Beispiele untereinander. Oben eine Sprechblase mit einem Befehl, darunter ein Streifen mit Name, einer olivgrünen Karte told, einer Person, einer Karte to und dem Verb. Unten eine Sprechblase mit einem Verbot, darunter ein Streifen mit Name, Karte told, Person, Karte not to und dem Verb."
+        caption: "Die olivgrünen Karten gehören zusammen: told, die Person, dann to oder not to."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · told oder asked?
+        header: [Gesagt, Weitergegeben, "Wann?"]
+        rows:
+          - ["“Be quiet.”", "Mr Hill told us to be quiet.", "Befehl: meist told"]
+          - ["“Help me, please.”", "Sophie asked Amir to help her.", "mit please: meist asked"]
+          - ["“Don’t be late.”", "Mrs Parker told Peter not to be late.", "Verbot: not to (oder to not)"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **told oder asked, dann die Person, dann (not) to und das Verb.** Hier kommt kein that-Satz mit gewöhnlichem Verb und kein Subjekt hinter der Person: nicht „He told me wait“ und nicht „He told me that I wait“. Beim Verbot sind not to und to not beide richtig.
+      - type: vocabulary
+        caption: Wörter für die Übungen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "laugh", source: "lachen" }
+          - { target: "carry", source: "tragen" }
+          - { target: "turn", source: "umdrehen, umblättern" }
+          - { target: "bread", source: "Brot" }
+          - { target: "phone", source: "anrufen / Telefon" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: auf-verstehen
+        text: Was soll Ellie laut Mr Hill in Nachricht 5 tun?
+        options:
+          - text: Nur den roten Stift nehmen
+            correct: false
+            info: Den roten soll sie nicht nehmen.
+          - text: Den blauen Stift nehmen, nicht den roten
+            correct: true
+            info: "Mr Hill sagt: „Use the blue pen. Don’t use the red pen.“"
+          - text: Den Stift an Sophie geben
+            correct: false
+            info: Davon steht nichts im Gespräch.
+        explanation: Ellie soll blau nehmen und nicht rot.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Aufforderungen
+            url: https://lernapps.net/apps/map/englisch/c/indirekte-aufforderungen/
+      - type: number
+        id: auf-beleg
+        text: In welcher Nachricht erzählt Ellie, dass Sophie Amir gebeten hat, das Papier zu halten? Gib die Nummer ein.
+        answer: 12
+        tolerance: 0
+        explanation: In Nachricht 12 steht „asked Amir to hold“.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Aufforderungen
+            url: https://lernapps.net/apps/map/englisch/c/indirekte-aufforderungen/
+      - type: multiple-choice
+        id: auf-wahl
+        text: "Sophie sagt zu Amir: „Please open the window.“ Welche Sätze geben das richtig weiter? Wähle alle richtigen."
+        options:
+          - text: Sophie asked Amir to open the window
+            correct: true
+            info: Mit please passt meist asked.
+          - text: Sophie told Amir to open the window
+            correct: true
+            info: Auch told geht, klingt aber meist strenger.
+          - text: Sophie asked Amir that he opens the window
+            correct: false
+            info: Nach asked steht to, kein that-Satz.
+          - text: Sophie asked to Amir open the window
+            correct: false
+            info: to steht vor dem Verb, nicht vor Amir.
+        explanation: told oder asked, die Person, dann to und das Verb.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Aufforderungen
+            url: https://lernapps.net/apps/map/englisch/c/indirekte-aufforderungen/
+      - type: language-task
+        id: auf-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Wörter passen? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Ellie bat Amir, die Tür zu schließen.
+            target: Ellie [asked] Amir [to] close the door.
+            distractors: [[told], [that]]
+            mistakes:
+              - answer: Ellie told Amir to close the door.
+                message: Bei einer Bitte passt asked.
+              - answer: Ellie asked Amir that close the door.
+                message: Nach der Person steht to.
+          - source: Mr Hill sagte Peter, er solle seine Jacke holen.
+            target: Mr Hill [told] Peter [to] get his jacket.
+            distractors: [[asked], [that]]
+            mistakes:
+              - answer: Mr Hill asked Peter to get his jacket.
+                message: Ein Befehl ohne Bitte passt zu told.
+              - answer: Mr Hill told Peter that get his jacket.
+                message: Nach der Person steht to.
+          - source: Sophie sagte mir, ich soll nicht lachen.
+            target: Sophie told me [not to] laugh.
+            distractors: [[to, "don't"]]
+            mistakes:
+              - answer: Sophie told me to laugh.
+                message: Das Verbot braucht not.
+              - answer: Sophie told me don't laugh.
+                message: Don't wird not to.
+      - type: ordering
+        id: auf-ordnen
+        text: "Ordne die Wörter zu einem Satz: Ellie bat Peter, das Papier zu nehmen."
+        items:
+          - Ellie
+          - asked
+          - Peter
+          - to
+          - take
+          - the
+          - paper
+        explanation: asked, die Person, to, das Verb.
+        links:
+          - title: Lernlandkarte Englisch · Indirekte Aufforderungen
+            url: https://lernapps.net/apps/map/englisch/c/indirekte-aufforderungen/
+      - type: language-task
+        id: auf-bilden
+        languages: { source: de, target: en }
+        task: Mache aus der Sprechblase einen Streifen mit told oder asked. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "Mr Hill to Peter: “Open your book.”"
+            target: Mr Hill (told|asked) Peter to open his book.
+            mistakes:
+              - answer: Mr Hill told Peter open his book.
+                message: Nach der Person fehlt to.
+              - answer: Mr Hill told Peter to open your book.
+                message: Aus your wird his.
+          - cue: "Sophie to Amir: “Please call Peter.”"
+            target: Sophie (asked|told) Amir to (call|phone) Peter.
+            mistakes:
+              - answer: Sophie asked Amir call Peter.
+                message: Nach der Person fehlt to.
+          - cue: "Mrs Parker to Ellie: “Don’t forget your coat.”"
+            target: Mrs Parker (told|asked) Ellie (not to|to not) forget her coat.
+            mistakes:
+              - answer: Mrs Parker told Ellie don't forget her coat.
+                message: Don't wird not to.
+              - answer: Mrs Parker told Ellie not to forget your coat.
+                message: Aus your wird her.
+      - type: language-task
+        id: auf-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Peter bat Sophie, mit ihm zu kommen.
+            target: Peter asked Sophie to come with him.
+            mistakes:
+              - answer: Peter asked Sophie that she comes with him.
+                message: Nach der Person steht to plus Verb.
+          - source: Ellie sagte Peter, er soll nicht so viel essen.
+            target: Ellie told Peter (not to|to not) eat (so|too) much.
+            mistakes:
+              - answer: Ellie told Peter he don't eat so much.
+                message: Nach der Person steht not to plus Verb.
+      - type: language-task
+        id: auf-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: mum-asked-me-to-buy-some-bread.mp3
+            target: Mum asked me to buy some bread.
+          - audio: mr-hill-told-us-to-turn-the-page.mp3
+            target: Mr Hill told us to turn the page.
+          - audio: amir-asked-sophie-not-to-tell-peter.mp3
+            target: Amir asked Sophie not to tell Peter.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: auf-nachsprechen
+        language: en
+        items:
+          - audio: ellie-asked-me-to-carry-her-bag.mp3
+            text: Ellie asked me to carry her bag.
+          - audio: mrs-parker-told-us-not-to-eat-before-dinner.mp3
+            text: Mrs Parker told us not to eat before dinner.
+          - audio: peter-asked-mr-hill-to-say-it-again.mp3
+            text: Peter asked Mr Hill to say it again.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: auf-meinung
+        task: "Peter war nicht dabei. Schreibe ihm zwei bis drei Sätze: Was haben dir andere gesagt oder was haben sie dich gebeten? Nimm told oder asked mit to und einmal not to. Sage, welche Bitte leicht oder schwer war."
+        points:
+          - text: Die Sätze geben Bitten oder Befehle mit told oder asked und to weiter.
+            source: /weitersagen/indirekte-aufforderungen/#neu
+          - text: Mindestens ein Satz hat not to (oder to not) für ein Verbot.
+            source: /weitersagen/indirekte-aufforderungen/#neu
+          - text: Nach der Person folgt kein that-Satz.
+            source: /weitersagen/indirekte-aufforderungen/#neu
+          - text: Ein Satz sagt, welche Bitte leicht oder schwer war.
+            kind: form
+        solution: |
+          Mr Hill told me to write the date. He told me not to use the red pen. The first thing was easy, but the second was hard because I like red.
+  - type: section
+    id: weiter
+    title: Der Zettel hängt
+    blocks:
+      - type: text
+        text: "Der Zettel hängt an der Tür. Damit kannst du drei Dinge weitergeben: was jemand jetzt sagt, was er gesagt hat und was er verlangt hat. Die drei Karten hängen an der Satzstreifen-Wand."
+      - type: table
+        caption: Klassenzimmer-Poster · Weitersagen im Überblick
+        header: [Karte, Wann?, Beispiel]
+        rows:
+          - [says that, "Das Gesagte gilt noch.", Peter says that he is hungry.]
+          - [said that, "Das Sagen ist vorbei, das Verb rückt eine Stufe zurück.", Peter said that he was hungry.]
+          - [told / asked … to, "Bitte oder Befehl, mit not to beim Verbot.", Mr Hill told us to sit down.]
+      - type: text
+        text: "Wenn du magst, übe es mit deinen Freunden: Einer sagt einen Satz, der andere gibt ihn weiter."

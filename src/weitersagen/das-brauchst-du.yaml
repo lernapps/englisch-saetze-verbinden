@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Past perfect, Infinitiv mit to und Imperativ noch einmal kurz, bevor Sophie, Amir und Ellie weitergeben, was andere sagen.
+recap: [englisch/past-perfect, englisch/infinitivkonstruktionen, englisch/imperativ]
+scope: Die Seite wiederholt nur, was das Kapitel über die indirekte Rede braucht. Wiederholt werden das past perfect (had plus 3. Form des Verbs, einige unregelmäßige 3. Formen), der Infinitiv mit to (to plus Verb, dazu das Muster Verb plus Person plus to) und der Imperativ mit dem Verbot Don’t. Die Seite hat keine Übung und keinen neuen Inhalt. Nicht hier, weil es eigene Seiten sind. Die indirekte Rede selbst, die Zeitverschiebung und told oder asked mit to.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? In diesem Kapitel gibst du weiter, was andere sagen. Dafür brauchst du drei Dinge, die du aus früheren Seiten kennst. Hier steht nur kurz, wie die Formen aussehen. Eine Übung gibt es nicht. Ist dir etwas neu, lies bei der Lernlandkarte nach (die Links stehen weiter unten)."
+      - type: table
+        caption: Klassenzimmer-Poster · Wiederholung
+        header: [Baustein, Die Form, Beispiel]
+        rows:
+          - [Past perfect, had plus 3. Form, Ellie had left before we came.]
+          - [Infinitiv mit to, to plus Verb, Peter wants to play.]
+          - [Verb plus Person plus to, "Verb, Person, dann to plus Verb", Sophie asked Amir to hold the paper.]
+          - [Imperativ, Verb ohne Subjekt; Verbot mit Don’t, "Stand up. Don’t talk."]
+      - type: vocabulary
+        caption: Klassenzimmer-Poster · Unregelmäßige 3. Formen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "written", source: "geschrieben (write)" }
+          - { target: "taken", source: "genommen (take)" }
+          - { target: "seen", source: "gesehen (see)" }
+          - { target: "caught", source: "gefangen (catch)" }
+          - { target: "woken", source: "geweckt, aufgewacht (wake)" }
+  - type: section
+    id: baustein
+    title: Was du dafür können solltest
+    blocks:
+      - type: text
+        text: "**Past perfect** („Ich kann im past perfect ausdrücken, dass etwas vor einem anderen Ereignis in der Vergangenheit geschah.“): Du brauchst es für die Zeitverschiebung. Nachlesen: [Past perfect](https://lernapps.net/apps/map/englisch/c/past-perfect/)."
+      - type: text
+        text: "**Infinitivkonstruktionen** („Ich kann Infinitive mit to verwenden, zum Beispiel nach in order, nach Fragewörtern und in ‚It’s easy for me to …‘.“): Du brauchst to plus Verb für Bitten und Befehle. Nachlesen: [Infinitivkonstruktionen](https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/)."
+      - type: text
+        text: "**Imperativ** („Ich kann Aufforderungen und Verbote mit dem Imperativ formulieren (Open the door. Don’t run.).“): Du brauchst ihn dort ebenfalls, denn Bitten und Verbote sind die Sprechblasen, die du dort weitergibst. Nachlesen: [Imperativ](https://lernapps.net/apps/map/englisch/c/imperativ/)."
+      - type: text
+        text: "Weiter geht es mit „Mr Hill sagt, dass …: aus der Sprechblase wird ein Streifen“. Danach folgen „Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück“ und „Sie sagte mir, ich soll warten: Bitten und Befehle weitergeben“."

@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Simple past und past perfect noch einmal kurz, bevor Sophie, Amir und Ellie sich Gedachtes ausdenken.
+recap: [englisch/simple-past, englisch/past-perfect]
+scope: Die Seite wiederholt nur, was die nächsten drei Seiten brauchen, und übt es nicht. Wiederholt werden das simple past (Verb plus -ed bei regelmäßigen Verben, daneben die Formen unregelmäßiger Verben wie had, were, went) und die Form des past perfect (had plus die 3. Form des Verbs, wie im present perfect), mit Beispielen für unregelmäßige 3. Formen (written, taken, woken, caught, seen, had had). Neue Inhalte gibt es nicht, auch keine Übung.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? Du brauchst zwei Bausteine der Lernlandkarte: „Simple past: regelmäßige Verben“ und „Past perfect“. Das **simple past** erzählt von etwas, das vorbei ist (Ellie played football). Das **past perfect** sagt, dass etwas schon vorher passiert war. Es besteht aus **had** plus der **3. Form** des Verbs. Die 3. Form kennst du aus dem present perfect."
+      - type: table
+        caption: Klassenzimmer-Poster · Zwei Zeitformen
+        header: [Zeitform, Form, Beispiel]
+        rows:
+          - [simple past, "Verb + -ed, oder eine eigene Form (had, were, went)", Sophie went home.]
+          - [past perfect, had + 3. Form, Mrs Parker had left before Sophie came home.]
+      - type: text
+        text: "Beim past perfect sind viele 3. Formen unregelmäßig. Du musst sie kennen."
+      - type: table
+        caption: Klassenzimmer-Poster · Unregelmäßige 3. Formen
+        header: [Beispiel, 3. Form]
+        rows:
+          - [Sophie had written a text before the lesson., written (write)]
+          - [Ellie had taken her bag before the bell rang., taken (take)]
+          - [Amir had woken up before six., woken (wake up)]
+          - [Peter had caught the ball before it fell., caught (catch)]
+          - [Mr Hill had seen the film before we did., seen (see)]
+          - [Ellie had had breakfast before school., had (have)]
+      - type: text
+        text: "Nicht sicher? Lies auf der Lernlandkarte nach: [Simple past](https://lernapps.net/apps/map/englisch/c/simple-past/) und [Past perfect](https://lernapps.net/apps/map/englisch/c/past-perfect/)."
+  - type: section
+    id: weiter
+    title: Wozu du das brauchst
+    blocks:
+      - type: text
+        text: "Auf der nächsten Seite beginnt das Kapitel mit einer Frage von Mr Hill: Was wäre, wenn …?"

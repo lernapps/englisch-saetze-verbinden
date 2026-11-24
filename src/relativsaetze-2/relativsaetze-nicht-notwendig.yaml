@@ -1,0 +1,279 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Mr Hill, who is from Wales: Relativsätze mit Kommas"
+description: "Sophie schreibt Tagebuch über Mr Hill, ihre Gastfamilie und ein Schulprojekt. Du lernst, wann ein Relativsatz zwischen Kommas steht und wann nicht."
+competencies: [relativsaetze-nicht-notwendig]
+scope: Die Seite führt den nicht notwendigen Relativsatz (non-defining relative clause) ein und grenzt ihn vom notwendigen ab. Ein nicht notwendiger Relativsatz gibt eine zusätzliche Information über eine Person oder Sache, die schon klar ist (ein Name, ein einzigartiges Ding). Er steht zwischen zwei Kommas, man kann ihn herausnehmen und der Satz bleibt vollständig und verständlich. Er hat who, which oder whose, nie that. Beim Sprechen entspricht jedes Komma einer kurzen Pause. Ein notwendiger Relativsatz sagt, welche Person oder Sache gemeint ist, hat keine Kommas und kann nicht herausgenommen werden, ohne dass der Sinn unklar wird. Die Seite arbeitet mit drei Tagebucheinträgen von Sophie, die Einträge sind nummeriert. Nicht hier, weil es andere Seiten sind. Relativsätze ohne Relativpronomen (contact clauses), Relativsätze mit Präposition, Relativsätze, die sich auf einen ganzen Satz beziehen (which als Bezug auf den ganzen Satz), und die Konjunktionen although, while, whereas und so that.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was sagt ein Relativsatz?
+    blocks:
+      - type: text
+        text: "Sophie schreibt in ihr Tagebuch von Mr Hill, den Parkers und einem Schulprojekt. Davor eine Frage zu den Relativsätzen aus Kapitel 1."
+      - type: single-choice
+        id: nn-start
+        text: "In „The boy who wears glasses is Amir“ steht der Streifen who wears glasses. Wozu ist er da?"
+        options:
+          - text: Er gibt eine zusätzliche Information über einen Jungen, den alle schon kennen
+            correct: false
+            info: Ist der Junge schon klar?
+          - text: Er sagt, welcher Junge gemeint ist
+            correct: true
+            info: Wüsste man ohne ihn, welcher Junge gemeint ist?
+          - text: Er ersetzt das Verb im Hauptsatz
+            correct: false
+            info: Das Verb is bleibt stehen.
+        explanation: Er sagt, wer gemeint ist.
+        links:
+          - title: Lernlandkarte Englisch · Notwendige Relativsätze
+            url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
+      - type: text
+        text: "**Das kannst du danach:** Du bildest nicht notwendige Relativsätze mit Kommas und weißt, wann ein Relativsatz notwendig ist und keine Kommas hat."
+  - type: section
+    id: lesen
+    title: Sophies Tagebuch
+    blocks:
+      - type: text
+        text: "Jeder Eintrag hat eine Nummer, damit du später sagen kannst, wo etwas steht. Beim Lesen: Achte auf Streifen, die zwischen zwei Kommas stehen, und auf Streifen ohne Kommas."
+      - type: table
+        caption: Sophies Tagebuch · Montag, Einträge 1 und 2
+        header: [Nr, Eintrag]
+        rows:
+          - ["1", "Dear diary, today was a long day. Mr Hill, who is from Wales, gave us a new project."]
+          - [
+              "2",
+              "We have to make a poster about Millbrook. Ellie, who is my best friend, wants to draw the market. I want to write about the people who work in our town.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Einträge 1 und 2
+        languages: { source: de, target: en }
+        entries:
+          - { target: "diary", source: "Tagebuch" }
+          - { target: "project", source: "Projekt" }
+          - { target: "poster", source: "Plakat" }
+          - { target: "Wales", source: "Wales (ein Teil von Großbritannien)" }
+      - type: table
+        caption: Sophies Tagebuch · Dienstag, Einträge 3 und 4
+        header: [Nr, Eintrag]
+        rows:
+          - [
+              "3",
+              "After school I went home with Ellie. Our house, which is more than a hundred years old, has a big kitchen.",
+            ]
+          - [
+              "4",
+              "Mrs Parker, who makes very good cakes, gave us tea and cake. Peter, who is eleven, played in the garden with the dog that lives next door.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Einträge 3 und 4
+        languages: { source: de, target: en }
+        entries:
+          - { target: "more than a hundred years old", source: "mehr als hundert Jahre alt" }
+          - { target: "next door", source: "nebenan" }
+          - { target: "cook", source: "Koch, Köchin" }
+          - { target: "kind", source: "freundlich, nett (nicht „Kind“)" }
+      - type: table
+        caption: Sophies Tagebuch · Mittwoch, Einträge 5 und 6
+        header: [Nr, Eintrag]
+        rows:
+          - [
+              "5",
+              "Amir showed us the photos that he took on Sunday. His photo of the river, which runs behind the park, is my favourite.",
+            ]
+          - [
+              "6",
+              "Tomorrow we will start with the sheet that Mr Hill gave us. Ellie, who sits next to me, already has a lot of ideas. I think it will be a good poster.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Einträge 5 und 6
+        languages: { source: de, target: en }
+        entries:
+          - { target: "take photos / took", source: "Fotos machen / machte" }
+          - { target: "run (hier)", source: "fließen" }
+          - { target: "favourite", source: "Lieblings-" }
+          - { target: "start with", source: "anfangen mit" }
+          - { target: "sheet", source: "Blatt (Papier)" }
+  - type: section
+    id: neu
+    title: Kommas wie eine Klammer
+    blocks:
+      - type: text
+        text: "Schau ins Tagebuch. In Eintrag 1 steht „Mr Hill, who is from Wales, gave us a new project.“ Der Streifen **who is from Wales** steht zwischen zwei Kommas, wie in einer Klammer. Nimm ihn heraus: „Mr Hill gave us a new project.“ Der Satz ist noch ganz, und du weißt, wer gemeint ist: Mr Hill kennt jeder. Der Streifen sagt nur etwas dazu. Das ist ein **nicht notwendiger Relativsatz** (englisch **non-defining relative clause**). Er steht zwischen **zwei Kommas**. Beim Sprechen machst du an jedem Komma eine kurze Pause."
+      - type: figure
+        image: images/satzstreifen-relativsaetze-nicht-notwendig.svg
+        alt: "Zwei Beispiele untereinander. Oben: ein Streifen „The school“, ein Komma, eine ockerbraune Karte „which“ mit einem Streifen „is old“, ein zweites Komma und ein Streifen „is in Millbrook.“ Eine Klammer fasst das Mittelstück zusammen. Darunter, nach dem Herausnehmen, der Streifen „The school is in Millbrook.“ Unten: die Streifen „The girl“, eine türkisfarbene Karte „who“, „is tall“ und „wins.“ ohne Kommas. Darunter, nach dem Herausnehmen, der Streifen „The girl wins.“ mit der Frage, welches Mädchen gemeint ist."
+        caption: "Oben: Das Mittelstück steht zwischen Kommas, ohne es bleibt ein ganzer Satz. Unten: Ohne das Mittelstück weißt du nicht mehr, welches Mädchen gemeint ist. Es hat keine Kommas."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Anders ist es bei einem **notwendigen Relativsatz** wie in Eintrag 4 („the dog that lives next door“). Er sagt, **welcher** Hund gemeint ist. Nimmst du ihn heraus, fehlt diese Information. Darum hat er **keine Kommas**, und hier darf that stehen. Der Relativsatz **mit Kommas** hat who, which oder whose, **nie that**."
+      - type: table
+        caption: Klassenzimmer-Poster · Mit Kommas oder ohne?
+        header: [Streifen, Herausnehmen?, Kommas]
+        rows:
+          - [
+              "The cake, which is in the kitchen, is for Peter.",
+              "ja, es gibt nur einen Kuchen: der Satz bleibt klar",
+              mit,
+            ]
+          - ["The cake that is in the kitchen is for Peter.", "nein, es gibt mehrere Kuchen: welcher Kuchen?", ohne]
+          - ["Ellie, who has a red jacket, likes tea.", "ja, Ellie ist klar", mit]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Kann man den Relativsatz herausnehmen, stehen zwei Kommas um ihn.** Mit Kommas gibt es who, which und whose, nie that. Notwendig ist ein Relativsatz, wenn er sagt, welche Person oder Sache gemeint ist: dann keine Kommas. Vergleiche mit Seite 1 ([contact clauses](/relativsaetze-2/contact-clauses/)): Dort darf die that-Karte fehlen, hier steht that nie zwischen Kommas.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: nn-verstehen
+        text: Was sagt Sophie in Eintrag 3 über das Haus, in dem sie wohnt?
+        options:
+          - text: Es ist neu und hat einen großen Garten
+            correct: false
+            info: Ist das Haus neu?
+          - text: Es steht hinter dem Park
+            correct: false
+            info: Was fließt hinter dem Park?
+          - text: Es ist sehr alt und hat eine große Küche
+            correct: true
+            info: Eintrag 3 sagt „a hundred years old“.
+        explanation: Eintrag 3 beschreibt das Haus.
+        links:
+          - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
+            url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
+      - type: number
+        id: nn-beleg
+        text: In welchem Eintrag spielt Peter mit einem Hund? Gib die Nummer ein.
+        answer: 4
+        hint: Lies den Dienstag.
+        tolerance: 0
+        explanation: Das steht in Eintrag 4.
+        links:
+          - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
+            url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
+      - type: multiple-choice
+        id: nn-herausnehmen
+        text: "Bei welchen Sätzen kann man den Relativsatz herausnehmen? Wähle alle richtigen."
+        options:
+          - text: Millbrook which is a small town has a market
+            correct: true
+            info: Sagt der Ortsname schon, wo es ist?
+          - text: Sophie who lives in Millbrook writes a diary
+            correct: true
+            info: Sagt der Name schon, wer gemeint ist?
+          - text: The girl who writes a diary is Sophie
+            correct: false
+            info: Welches Mädchen wäre es ohne den Streifen?
+          - text: The bike that is next to the door is mine
+            correct: false
+            info: Welches Fahrrad wäre es ohne den Streifen?
+        explanation: Nur Zusatzinfo steht zwischen Kommas.
+        links:
+          - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
+            url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
+      - type: true-false
+        id: nn-that-komma
+        text: "Stimmt das? „The market, that is open on Saturday, is big.“ ist ein richtiger englischer Satz."
+        answer: false
+        explanation: Zwischen Kommas steht which.
+        links:
+          - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
+            url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
+      - type: language-task
+        id: nn-bilden
+        languages: { source: de, target: en }
+        task: Setze den zweiten Streifen hinter das Nomen, zwischen zwei Kommas.
+        hint: Schreibe die Kommas mit.
+        form: { case: hint, punctuation: wrong, apostrophe: ok }
+        items:
+          - cue: Mrs Parker is a good cook · She is very kind · who
+            target: Mrs Parker, who is (very |)kind, is a good cook(.|)
+            mistakes:
+              - answer: Mrs Parker, that is very kind, is a good cook.
+                message: Steht that zwischen Kommas?
+          - cue: The library is next to the park · It closes at five · which
+            target: The library, which closes at five, is next to the park(.|)
+            mistakes:
+              - answer: The library, who closes at five, is next to the park.
+                message: Ist eine Bibliothek eine Person?
+          - cue: Amir is in my class · His mother works at the market · whose
+            target: Amir, whose mother works at the market, is in my class(.|)
+            mistakes:
+              - answer: Amir, who's mother works at the market, is in my class.
+                message: Who's heißt who is.
+      - type: language-task
+        id: nn-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz. Im Englischen entscheidet der Sinn, ob Kommas stehen.
+        hint: Kann man den Relativsatz herausnehmen?
+        form: { case: hint, punctuation: wrong, apostrophe: ok }
+        items:
+          - source: Unser Garten, der sehr groß ist, hat einen Apfelbaum.
+            target: Our garden, which is (very |really |)(big|large), has (got |)an apple tree(.|)
+            mistakes:
+              - answer: Our garden, that is very big, has an apple tree.
+                message: Steht that zwischen Kommas?
+          - source: Die Leute, die auf dem Markt arbeiten, sind freundlich.
+            target: The people (who|that) work (at|in) the market are (really |)(friendly|nice|kind)(.|)
+            mistakes:
+              - answer: The people, who work at the market, are friendly.
+                message: Welche Leute wären es ohne den Streifen?
+      - type: language-task
+        id: nn-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: wrong }
+        hint: Jedes Komma ist eine kurze Pause. Ein Streifen ohne Pause hat keine Kommas.
+        items:
+          - audio: amir-who-is-thirteen-has-a-new-phone.mp3
+            target: Amir, who is thirteen, has a new phone(.|)
+            mistakes:
+              - answer: Amir who is thirteen has a new phone.
+                message: Der Streifen steht zwischen zwei Kommas.
+          - audio: my-bag-which-is-yellow-is-under-the-table.mp3
+            target: My bag, which is yellow, is under the table(.|)
+          - audio: the-film-that-we-saw-on-friday-was-funny.mp3
+            target: The film that we saw on Friday was funny(.|)
+            mistakes:
+              - answer: The film, that we saw on Friday, was funny.
+                message: Zwischen Kommas steht nie that. Hier sagt der Streifen, welcher Film gemeint ist.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: nn-nachsprechen
+        language: en
+        items:
+          - audio: the-park-which-is-close-to-my-house-is-very-quiet.mp3
+            text: The park, which is close to my house, is very quiet.
+          - audio: our-classroom-which-is-on-the-first-floor-is-warm.mp3
+            text: Our classroom, which is on the first floor, is warm.
+          - audio: my-uncle-who-lives-in-wales-has-two-dogs.mp3
+            text: My uncle, who lives in Wales, has two dogs.
+        hint: Hör zuerst zu, sprich dann nach. An jedem Komma machst du eine kurze Pause.
+      - type: open-task
+        id: nn-meinung
+        task: "Schreibe einen kurzen Tagebucheintrag über heute, drei bis vier Sätze. Sage, ob der Tag gut war. Nenne eine Person und eine Sache und benutze mindestens zwei Relativsätze mit Kommas und einen ohne."
+        hint: Du kannst mit „Today was …“ beginnen.
+        points:
+          - text: Der Eintrag sagt, wie der Tag war, und nennt eine Person und eine Sache.
+            source: /relativsaetze-2/relativsaetze-nicht-notwendig/#lesen
+          - text: Mindestens zwei Relativsätze stehen zwischen Kommas und haben who, which oder whose, nicht that.
+            source: /relativsaetze-2/relativsaetze-nicht-notwendig/#neu
+          - text: Ein Relativsatz ohne Kommas sagt, welche Person oder Sache gemeint ist.
+            source: /relativsaetze-2/relativsaetze-nicht-notwendig/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Today was a good day. My friend Ellie, who loves music, played a new song. The song that she chose was great. After school we went to the park, which is next to the school.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Die Schülerzeitung berichtet über die Herbstwoche. Die Reporter verbinden ihre Sätze mit although, while, whereas und so that. Auf der nächsten Seite siehst du, was diese Wörter sagen."

@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-relativsaetze.svg
         alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Amir is the boy.“ und „He sits next to Sophie.“ Darunter hängen drei Karten: who, which und whose. Peter fragt in einer Sprechblase: „Which boy?“ Von links stehen Sophie, Amir, Peter und Ellie. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Amir (Brille), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Mr Hill (graue Haare). Amir hat „Amir is the boy.“ aufgehängt, Ellie den zweiten Streifen. Peter fragt."
+        caption: "Amir hat „Amir is the boy.“ aufgehängt, Ellie den zweiten Streifen. Peter fragt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -21,42 +21,42 @@ blocks:
         id: relativ-start
         text: Welcher Streifen sagt genauer, welcher Junge gemeint ist?
         options:
-          - text: He sits next to Sophie
-            correct: true
-            info: Der Streifen sagt etwas über den Jungen. So erfährt Peter, welcher Junge gemeint ist.
           - text: We play football
             correct: false
             info: Dieser Streifen sagt nichts über den Jungen. Er sagt, was wir tun.
           - text: It is red
             correct: false
             info: It steht für eine Sache. Der Streifen sagt nichts über einen Jungen.
+          - text: He sits next to Sophie
+            correct: true
+            info: Der Streifen sagt etwas über den Jungen. So erfährt Peter, welcher Junge gemeint ist.
         explanation: Ein zweiter Streifen kann sagen, welche Person gemeint ist.
         links:
           - title: Lernlandkarte Englisch · Notwendige Relativsätze
             url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
       - type: text
         text: "**Das kannst du danach:** Du sagst genauer, welche Person oder Sache du meinst. Dazu hängst du mit who, which, that oder whose einen zweiten Streifen an."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [boy, Junge]
-          - [girl, Mädchen]
-          - [man, Mann]
-          - [friend, Freund / Freundin]
-          - [teacher, Lehrer / Lehrerin]
-          - [mother, Mutter]
-          - [sit, sitzen]
-          - [next to, neben]
-          - [live, wohnen]
-          - [teach, unterrichten]
-          - [sing, singen]
-          - [jacket, Jacke]
-          - [bus, Bus]
-          - [funny, lustig]
-          - [nice, nett]
-          - [small, klein]
-          - [red / blue / green / yellow / purple, rot / blau / grün / gelb / lila]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "boy", source: "Junge" }
+          - { target: "girl", source: "Mädchen" }
+          - { target: "man", source: "Mann" }
+          - { target: "friend", source: "Freund / Freundin" }
+          - { target: "teacher", source: "Lehrer / Lehrerin" }
+          - { target: "mother", source: "Mutter" }
+          - { target: "sit", source: "sitzen" }
+          - { target: "next to", source: "neben" }
+          - { target: "live", source: "wohnen" }
+          - { target: "teach", source: "unterrichten" }
+          - { target: "sing", source: "singen" }
+          - { target: "jacket", source: "Jacke" }
+          - { target: "bus", source: "Bus" }
+          - { target: "funny", source: "lustig" }
+          - { target: "nice", source: "nett" }
+          - { target: "small", source: "klein" }
+          - { target: "red / blue / green / yellow / purple", source: "rot / blau / grün / gelb / lila" }
   - type: section
     id: neu
     title: Die Karte ersetzt das Pronomen

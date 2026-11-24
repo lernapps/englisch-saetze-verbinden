@@ -1,0 +1,298 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wenn ich nur früher … Die Weiche für Vergangenes"
+description: "Sophie hat den Bus zum Schulausflug verpasst und schreibt darüber in ihrem Blog. Du lernst, mit if und would have zu sagen, was in der Vergangenheit anders gekommen wäre."
+competencies: [if-satz-3]
+scope: Die Seite führt den if-Satz Typ 3 ein (conditional type 3) für Gedachtes über die Vergangenheit, das nicht mehr zu ändern ist. Die Weiche stellt noch einen Schritt weiter. Im Streifen mit if steht das past perfect (had plus 3. Form), im anderen Streifen would have plus 3. Form (If I had gone to bed earlier, I would have woken up in time). Auf dem Zeitstrahl rückt die Form zwei Schritte nach links, vom simple present über das simple past zum past perfect. Im Streifen mit if steht kein would have. Die Kurzform 'd kann had oder would sein. Die Streifen dürfen die Plätze tauschen; steht der if-Streifen vorn, gehört im geschriebenen Englisch ein Komma dahinter, die Seite zählt fehlende Kommas nicht als Fehler. Die 3. Form kommt aus dem present perfect und wird hier nicht neu erklärt. Die Seite arbeitet mit einem erfundenen Blogeintrag von Sophie über einen verpassten Bus auf dem Weg zum Schulausflug, die Absätze sind nummeriert. Nicht hier, weil es andere Seiten sind. Gemischte if-Sätze mit Typ 2 und Typ 3 und I wish.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was steht im Streifen mit if bei Gedachtem?
+    blocks:
+      - type: text
+        text: "Sophie hat gestern den Bus zum Schulausflug verpasst. Am Abend schreibt sie darüber in ihrem Blog. Davor eine Frage zur letzten Seite."
+      - type: single-choice
+        id: if3-start
+        text: "Welcher Satz sagt etwas Gedachtes über jetzt, mit der richtigen Weiche?"
+        options:
+          - text: If Peter has a horse, he would ride it
+            correct: false
+            info: Welche Zeitform steht bei if?
+          - text: If Peter had a horse, he would ride it
+            correct: true
+            info: Beide Streifen passen zu Gedachtem über jetzt.
+          - text: If Peter would have a horse, he would ride it
+            correct: false
+            info: Gehört would in den if-Streifen?
+        explanation: Gedachtes über jetzt steht im if-Streifen im simple past.
+        links:
+          - title: Lernlandkarte Englisch · If-Sätze Typ 2
+            url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst mit if-Sätzen Typ 3, was früher anders gekommen wäre (If you had asked me, I would have helped.)."
+  - type: section
+    id: lesen
+    title: Sophies Blog
+    blocks:
+      - type: text
+        text: "Jeder Absatz hat eine Nummer. Achte beim Lesen auf if, had und would have."
+      - type: table
+        caption: Sophies Blog · Absatz 1 und 2
+        header: [Nr, Eintrag]
+        rows:
+          - ["1", "Yesterday was our school trip to the lake, and I missed the bus. What a morning!"]
+          - ["2", "My phone is my alarm clock. I had played games on it until midnight, and the battery was empty."]
+      - type: vocabulary
+        caption: Randglossar · Absatz 1 und 2
+        languages: { source: de, target: en }
+        entries:
+          - { target: "school trip", source: "Schulausflug" }
+          - { target: "lake", source: "See" }
+          - { target: "miss / missed", source: "verpassen / verpasste" }
+          - { target: "alarm clock", source: "Wecker" }
+          - { target: "midnight", source: "Mitternacht" }
+          - { target: "battery", source: "Akku" }
+      - type: table
+        caption: Sophies Blog · Absatz 3 und 4
+        header: [Nr, Eintrag]
+        rows:
+          - ["3", "So there was no alarm. If I had gone to bed earlier, I would have woken up in time."]
+          - [
+              "4",
+              "I ran to the bus stop, but the bus had already left. If I had left the house five minutes earlier, I would have caught it.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Absatz 3 und 4
+        languages: { source: de, target: en }
+        entries:
+          - { target: "wake up", source: "aufwachen / aufwecken" }
+          - { target: "in time", source: "rechtzeitig" }
+          - { target: "already", source: "schon" }
+          - { target: "catch / caught", source: "erwischen / erwischt" }
+      - type: table
+        caption: Sophies Blog · Absatz 5 und 6
+        header: [Nr, Eintrag]
+        rows:
+          - [
+              "5",
+              "Then I called Mrs Parker, and she took me to the lake by car. If she had been at work, I would have stayed at home all day.",
+            ]
+          - [
+              "6",
+              "When we arrived, the class was already on the boat. Amir was angry. “If you had sent me a message, I would have asked the driver to wait,” he said.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Absatz 5 und 6
+        languages: { source: de, target: en }
+        entries:
+          - { target: "arrive", source: "ankommen" }
+          - { target: "boat", source: "Boot, Schiff" }
+          - { target: "angry", source: "wütend" }
+          - { target: "driver", source: "Fahrer" }
+      - type: table
+        caption: Sophies Blog · Absatz 7 und 8
+        header: [Nr, Eintrag]
+        rows:
+          - ["7", "Ellie laughed. “If you had asked me, I would have woken you up. We live in the same house!”"]
+          - ["8", "She is right. Tomorrow I will ask her to wake me up, and I will charge my phone every night."]
+      - type: vocabulary
+        caption: Randglossar · Absatz 7 und 8
+        languages: { source: de, target: en }
+        entries:
+          - { target: "laugh / laughed", source: "lachen / lachte" }
+          - { target: "charge", source: "aufladen" }
+  - type: section
+    id: neu
+    title: Die Weiche für Vergangenes
+    blocks:
+      - type: text
+        text: "Schau in den Blog. In Absatz 3 steht „If I **had gone** to bed earlier, I **would have woken** up in time“. Sophie ist nicht früh ins Bett gegangen. Das ist vorbei, und sie kann es nicht mehr ändern. Sie sagt, was dann anders gekommen wäre. Dafür rückt die Weiche noch einen Schritt weiter: Im Streifen mit if steht das **past perfect**, also **had** plus die **3. Form** des Verbs. Im anderen Streifen steht **would have** plus die **3. Form**."
+      - type: figure
+        image: images/satzstreifen-if-satz-3.svg
+        alt: "Oben ein Gleis, das sich in zwei Gleise teilt. Das obere Gleis führt zu einer blauen Karte „if“ und einem Streifen „we had taken the train“ mit dem Hinweis had plus 3. Form. Das untere führt zu einem Streifen „we“, einer braunen Karte „would have“ und einem Streifen „arrived on time.“ mit dem Hinweis would have plus 3. Form. Unten ein Zeitstrahl mit den Marken damals, früher, jetzt und später und den Formen past perfect, simple past, simple present und will. Zwei Pfeile führen von jetzt nach links bis damals."
+        caption: Die blaue Karte ist if, die braune ist would have. Der Streifen mit if hat had plus 3. Form, der andere would have plus 3. Form. Auf dem Zeitstrahl rückt die Form zwei Schritte nach links, gemeint ist damals.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Zwei Weichen bei if
+        header: [Streifen, "Typ 2 (gedacht, jetzt)", "Typ 3 (gedacht, früher)"]
+        rows:
+          - [mit if, simple past, past perfect]
+          - [der andere, would + Verb, would have + 3. Form]
+          - [Beispiel, "If Peter lost his bag, he would be sad.", "If Peter had lost his bag, he would have been sad."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Im Streifen mit if steht kein would have.** Es heißt „If I had known“ und nicht „If I would have known“. Die Kurzform **'d** kann **had** oder **would** sein: „If I'd known, I'd have told you.“ Die 3. Form kennst du aus dem present perfect, zum Beispiel gone, woken, sent. Die beiden Streifen dürfen die Plätze tauschen.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: if3-verstehen
+        text: Warum hat Sophie den Bus verpasst?
+        options:
+          - text: Sie hat die Haltestelle nicht gefunden
+            correct: false
+            info: Wohin ist Sophie gerannt?
+          - text: Ihr Handy war leer, darum gab es keinen Wecker
+            correct: true
+            info: Der Wecker war das Handy, und der Akku war leer.
+          - text: Mrs Parker hat sie zu spät geweckt
+            correct: false
+            info: Steht das im Blog?
+        explanation: Das Handy war leer (Absatz 2 und 3).
+        links:
+          - title: Lernlandkarte Englisch · If-Sätze Typ 3
+            url: https://lernapps.net/apps/map/englisch/c/if-satz-3/
+      - type: number
+        id: if3-beleg
+        text: In welchem Absatz schreibt Sophie, dass Mrs Parker sie zum See gebracht hat? Gib die Nummer ein.
+        answer: 5
+        hint: Suche nach by car.
+        tolerance: 0
+        explanation: Mrs Parker nimmt Sophie im Auto mit (Absatz 5).
+        links:
+          - title: Lernlandkarte Englisch · If-Sätze Typ 3
+            url: https://lernapps.net/apps/map/englisch/c/if-satz-3/
+      - type: multiple-choice
+        id: if3-weiche
+        text: Welche Sätze stellen die Weiche richtig? Wähle alle richtigen.
+        options:
+          - text: If Amir had called, we would have waited
+            correct: true
+            info: had plus 3. Form, would have plus 3. Form.
+          - text: If it had rained, we would have stayed in
+            correct: true
+            info: Auch hier stimmen beide Streifen.
+          - text: If Amir would have called, we would have waited
+            correct: false
+            info: Gehört would have in den if-Streifen?
+          - text: If Amir had called, we would have wait
+            correct: false
+            info: Welche Form steht nach would have?
+          - text: If Amir had called, we will have waited
+            correct: false
+            info: Passt will zu einem gedachten Fall?
+        explanation: Beide Streifen haben die 3. Form.
+        links:
+          - title: Lernlandkarte Englisch · If-Sätze Typ 3
+            url: https://lernapps.net/apps/map/englisch/c/if-satz-3/
+      - type: matching
+        id: if3-zuordnen
+        text: Was ist wirklich passiert? Ordne jedem if-Satz zu, was in Wirklichkeit geschah.
+        pairs:
+          - left: If Ellie had called, I would have answered.
+            right: Ellie hat nicht angerufen.
+          - left: If Amir hadn't forgotten his book, he would have read it.
+            right: Amir hat sein Buch vergessen.
+          - left: If Peter had run faster, he would have won.
+            right: Peter ist nicht schnell genug gelaufen.
+        distractors:
+          - Peter hat das Rennen gewonnen.
+        explanation: Typ 3 sagt das Gegenteil der Wirklichkeit.
+        links:
+          - title: Lernlandkarte Englisch · If-Sätze Typ 3
+            url: https://lernapps.net/apps/map/englisch/c/if-satz-3/
+      - type: language-task
+        id: if3-bilden
+        languages: { source: de, target: en }
+        task: "Es geht um gestern: Typ 3. Verbinde die Streifen mit if, beide Reihenfolgen sind erlaubt."
+        hint: Rücke die Verben zwei Schritte nach links.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: Peter takes the bus · he is on time · if
+            target: (If Peter had taken the bus, he would have been on time.|If Peter had taken the bus, he would have been in time.|If Peter had taken the bus, he'd have been on time.|If Peter had taken the bus, he'd have been in time.|He would have been on time if Peter had taken the bus.|He would have been in time if Peter had taken the bus.|He'd have been on time if Peter had taken the bus.|He'd have been in time if Peter had taken the bus.)
+            examples:
+              accepted:
+                [
+                  "If Peter had taken the bus, he would have been on time.",
+                  "If Peter had taken the bus, he'd have been on time.",
+                ]
+            mistakes:
+              - answer: If Peter took the bus, he would have been on time.
+                message: Reicht das simple past für die Vergangenheit?
+          - cue: it snows · we stay at home · if
+            target: (If it had snowed, we would have stayed at home.|If it had snowed, we would have stayed home.|If it had snowed, we'd have stayed at home.|If it had snowed, we'd have stayed home.|We would have stayed at home if it had snowed.|We would have stayed home if it had snowed.|We'd have stayed at home if it had snowed.|We'd have stayed home if it had snowed.)
+            examples:
+              accepted: ["If it had snowed, we would have stayed at home."]
+            mistakes:
+              - answer: If it had snowed, we would have stay at home.
+                message: Welche Form steht nach would have?
+          - cue: Sophie sees the dog · she says hello · if
+            target: (If Sophie had seen the dog, she would have said hello.|If Sophie had seen the dog, she'd have said hello.|She would have said hello if Sophie had seen the dog.|She'd have said hello if Sophie had seen the dog.)
+            examples:
+              accepted: ["If Sophie had seen the dog, she would have said hello."]
+            mistakes:
+              - answer: If Sophie had saw the dog, she would have said hello.
+                message: Wie heißt die 3. Form von see?
+      - type: language-task
+        id: if3-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        hint: Beginne mit if.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Wenn wir gestern Zeit gehabt hätten, wären wir ins Kino gegangen.
+            target: (If we had had time yesterday, we would have gone to the cinema.|If we had had time yesterday, we'd have gone to the cinema.|If we'd had time yesterday, we would have gone to the cinema.|If we'd had time yesterday, we'd have gone to the cinema.|We would have gone to the cinema if we had had time yesterday.|We would have gone to the cinema if we'd had time yesterday.|We'd have gone to the cinema if we had had time yesterday.|We'd have gone to the cinema if we'd had time yesterday.)
+            examples:
+              accepted: ["If we had had time yesterday, we would have gone to the cinema."]
+            mistakes:
+              - answer: If we had time yesterday, we would have gone to the cinema.
+                message: Wie heißt die 3. Form von have?
+          - source: Wenn du mir geschrieben hättest, hätte ich dir geholfen.
+            target: (If you had written to me, I would have helped you.|I would have helped you if you had written to me.|If you had written to me, I'd have helped you.|I'd have helped you if you had written to me.|If you'd written to me, I would have helped you.|I would have helped you if you'd written to me.|If you'd written to me, I'd have helped you.|I'd have helped you if you'd written to me.|If you had texted me, I would have helped you.|I would have helped you if you had texted me.|If you had texted me, I'd have helped you.|I'd have helped you if you had texted me.|If you'd texted me, I would have helped you.|I would have helped you if you'd texted me.|If you'd texted me, I'd have helped you.|I'd have helped you if you'd texted me.|If you had sent me a message, I would have helped you.|I would have helped you if you had sent me a message.|If you had sent me a message, I'd have helped you.|I'd have helped you if you had sent me a message.|If you'd sent me a message, I would have helped you.|I would have helped you if you'd sent me a message.|If you'd sent me a message, I'd have helped you.|I'd have helped you if you'd sent me a message.)
+            examples:
+              accepted: ["If you had written to me, I would have helped you."]
+            mistakes:
+              - answer: If you would have written to me, I would have helped you.
+                message: Wie beginnt der if-Streifen?
+      - type: language-task
+        id: if3-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: if-ellie-had-known-she-would-have-brought-an-umbrella.mp3
+            target: If Ellie had known, she would have brought an umbrella.
+          - audio: i-would-have-called-you-if-i-had-had-your-number.mp3
+            target: I would have called you if I had had your number.
+          - audio: we-would-have-missed-the-train-if-we-had-stopped-for-coffee.mp3
+            target: We would have missed the train if we had stopped for coffee.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: if3-nachsprechen
+        language: en
+        items:
+          - audio: if-the-shop-had-been-open-i-would-have-bought-a-present.mp3
+            text: If the shop had been open, I would have bought a present.
+          - audio: she-would-have-been-happy-if-you-had-come-on-friday.mp3
+            text: She would have been happy if you had come on Friday.
+          - audio: if-peter-had-listened-he-would-have-understood-the-answer.mp3
+            text: If Peter had listened, he would have understood the answer.
+        hint: Sprich langsam nach. Have betonst du kaum.
+      - type: open-task
+        id: if3-meinung
+        task: "Wer hätte den Ärger mit dem Bus vermeiden können? Schreibe zwei Sätze mit if."
+        hint: Wähle eine Person und überlege, was sie nicht getan hat.
+        points:
+          - text: Die Antwort nennt eine Person und sagt, warum sie den Ärger hätte vermeiden können.
+            source: /was-waere-wenn/if-satz-3/#lesen
+          - text: Beide Sätze haben einen Streifen mit if im past perfect und einen anderen mit would have plus 3. Form.
+            source: /was-waere-wenn/if-satz-3/#neu
+          - text: Im Streifen mit if steht kein would have.
+            source: /was-waere-wenn/if-satz-3/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          If Sophie had charged her phone, she would have had an alarm. If she had left the house earlier, she would have caught the bus.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Auf der nächsten Seite lernst du, wie man sich etwas wünscht: mit I wish."

@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-if-satz-1.svg
         alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „It rains.“ und „We stay in.“ Darunter hängen drei Karten: if, so und because. Peter fragt in einer Sprechblase: „What if it rains?“ Neben Peter stehen Sophie, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Nächste Woche ist Elternabend. Mr Hill will einen Zettel für die Klassenzimmertür schreiben. Peter fragt."
+        caption: "Nächste Woche ist Elternabend. Mr Hill will einen Zettel für die Klassenzimmertür schreiben. Peter fragt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -36,26 +36,26 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
       - type: text
         text: "**Das kannst du danach:** Du sagst, was passiert, wenn etwas eintritt. Du weißt, welche Zeitform zu welchem Streifen passt."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [if, wenn / falls]
-          - [outside, draußen]
-          - [come, kommen]
-          - [help, helfen]
-          - [win, gewinnen]
-          - [call, anrufen]
-          - [answer, antworten]
-          - [wait, warten]
-          - [tomorrow, morgen]
-          - [lunch, Mittagessen]
-          - [warm, warm]
-          - [cold, kalt]
-          - [wear, tragen]
-          - [walk, zu Fuß gehen]
-          - [make, machen]
-          - [bed, Bett]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "if", source: "wenn / falls" }
+          - { target: "outside", source: "draußen" }
+          - { target: "come", source: "kommen" }
+          - { target: "help", source: "helfen" }
+          - { target: "win", source: "gewinnen" }
+          - { target: "call", source: "anrufen" }
+          - { target: "answer", source: "antworten" }
+          - { target: "wait", source: "warten" }
+          - { target: "tomorrow", source: "morgen" }
+          - { target: "lunch", source: "Mittagessen" }
+          - { target: "warm", source: "warm" }
+          - { target: "cold", source: "kalt" }
+          - { target: "wear", source: "tragen" }
+          - { target: "walk", source: "zu Fuß gehen" }
+          - { target: "make", source: "machen" }
+          - { target: "bed", source: "Bett" }
   - type: section
     id: neu
     title: Die Weiche bei if
@@ -88,15 +88,15 @@ blocks:
         id: if-weiche
         text: Welcher Satz stellt die Weiche richtig?
         options:
-          - text: If Amir comes, we will win
-            correct: true
-            info: Im Streifen mit if steht das simple present (comes), im anderen will plus Verb (will win).
           - text: If Amir will come, we will win
             correct: false
             info: Im Streifen mit if steht kein will. Dort braucht es das simple present.
           - text: If Amir comes, we will wins
             correct: false
             info: Nach will bleibt das Verb gleich.
+          - text: If Amir comes, we will win
+            correct: true
+            info: Im Streifen mit if steht das simple present (comes), im anderen will plus Verb (will win).
         explanation: Die Weiche stellt das simple present zum if-Streifen.
         links:
           - title: Lernlandkarte Englisch · If-Sätze Typ 1

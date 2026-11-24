@@ -82,6 +82,9 @@ Karte `https://lernapps.net/apps/map/englisch.json` und die Baustein-Seiten `htt
 
 ## Rules learned from mistakes
 
+Rückmeldung der Ersteller:in (Inkrement 02, gilt für alle Seiten):
+- Keine Vorstellung der Figuren, keine Altersangaben, keine Verwandtschaftserklärungen und kein Datum im Fließtext, wenn sie für die Aufgabe nichts beitragen. Die Figuren stehen einmal auf der Startseite (`app.yaml`). Eine Figur wird nur genannt, wo die Aufgabe sie braucht (wer spricht in der Chatzeile). Das gilt auch für Einstiegs-, Lesestück- und „Wie es weitergeht“-Texte, Bildunterschriften und Alt-Texte (Alt-Texte beschreiben nur, was man im Bild sieht).
+
 Aus #470 und #472 übernommen:
 - Jede Übung fragt nur Wörter ab, die vorher auf der Seite stehen.
 - Eine Tabelle, die eine Übung beantwortet, steht nicht direkt über ihr.
@@ -118,3 +121,31 @@ Geschnitten mit der Regel `valley_cut` (Fehllaut nach dem letzten Wort, `regen_a
 - „Sophie says that English is difficult.“ (`sophie-says-that-english-is-difficult.mp3`): 25 ms; endet dreisilbig, hier gezielt hören, ob „-cult“ ganz da ist
 
 Hörsätze, die zwei- oder mehrsilbig enden (Risiko, dass eine Silbe angeschnitten wird; nicht geschnitten, außer rabbit und difficult oben): `konjunktionen` Sophie, Sunday, sister, happy; `that-saetze` hungry, happy, Millbrook; `relativsaetze` Millbrook, yellow, purple, English; `if-satz-1` sandwich, early, outside (zwei Sätze).
+
+## Stufe 7-8: Seiten mit Lesestück (Inkrement 02, Kapitel 2 bis 4)
+
+Die Kapitel `relativsaetze-2` (Relativsätze genauer), `was-waere-wenn` (Was wäre, wenn …?) und `weitersagen` (Weitersagen, was jemand sagt) gehören zur Stufe 7-8. Sophie ist jetzt 13 bis 14, Ellie und Amir sind 13, Peter 11; Aussehen und Orte wie in Kapitel 1 (Millbrook School, Satzstreifen-Wand). Die Seiten sind Lesestück-Seiten (Konventionen Abschnitt 8):
+
+- Abschnitte in dieser Reihenfolge: `einstieg` (Vorwissen-Frage als Einzelauswahl mit drei Optionen, „Das kannst du danach“), `lesen` (Lesestück 150 bis 300 Wörter, in Abschnitten; ein Chat ist eine Tabelle Nr · Wer · Nachricht, jede Nachricht nummeriert; nach jedem Abschnitt eine Tabelle „Randglossar“ mit höchstens sechs Wörtern), `neu` (Satzstreifen-Figur, Poster-Tabelle, Merke; „Schau in den Chat“ führt zur Regel), `uebung`, `anwenden`, `weiter`.
+- Aufgaben in drei Stufen: Verstehen (`single-choice` oder `true-false` über den Text), Belegen (`number`: „In welcher Nachricht …?“, Antwort ist die Nummer), Meinung (`open-task` in `anwenden`); dazu die Grammatik-Übungen wie in Kapitel 1 (`multiple-choice`, `language-task` write und Übersetzen, `matching`, `ordering`, Diktat, Nachsprechen). Höchstens etwa 25 Items je Seite. Die Länge des Lesestücks zählt nicht zu den 350 Wörtern Erklärtext (die Tabellen werden nicht gezählt).
+- Das Lesestück ist ein eigener Text, erfundene Schule und Personen, keine echten Fakten (sonst mit Quelle unter „Sources“). Die Hör- und Nachsprechsätze stehen nicht im Lesestück.
+- `contact-clauses` (Seite 1 von Kapitel 2) ist die Musterseite: Chat „Class 8B“ mit zwölf Nachrichten, `satzstreifen-contact-clauses.svg` (gestrichelte Karte „(that)“ in Klammern darf fehlen, `who` als Subjekt-Ersatz bleibt), Poster „Karte weglassen?“.
+- Wiederholung am Kapitelanfang (`das-brauchst-du`, `recap`) nur, wo ein Baustein von außerhalb gebraucht wird: Kapitel 3 simple-past und past-perfect, Kapitel 4 past-perfect, infinitivkonstruktionen und imperativ; kompakt, ohne Übung, mit Link zur Karte.
+
+Hörliste Kapitel 2, `contact-clauses` (`regen_audio.py` mit `valley_cut`; Dateien in `src/audio/`):
+- einsilbig am Ende: „I lost the key my mother gave me.“ (`i-lost-the-key-my-mother-gave-me.mp3`), „The teacher I like best is Mr Hill.“ (`the-teacher-i-like-best-is-mr-hill.mp3`), „The cake we ate on Sunday was great.“ (`the-cake-we-ate-on-sunday-was-great.mp3`, Fehllaut-Schnitt 45 ms)
+- zwei- oder mehrsilbig am Ende (Risiko angeschnittener Silbe): „The video you sent me is really funny.“, „The woman we asked was very helpful.“, „Where is the ticket I bought yesterday?“
+
+## Kapitel 2 bis 4 (Stufe 7-8) im Überblick
+
+- Kapitel `relativsaetze-2` („Relativsätze genauer“): `contact-clauses` (Chat „Year 8B“, Muster), `relativsaetze-nicht-notwendig` (Tagebuch von Sophie, Kommas als Klammer), `konjunktionen-although` (Artikel der Schülerzeitung „Millbrook News“, although, while, whereas, so that). Karten-Ids: `contact-clauses`, `relativsaetze-nicht-notwendig`, `konjunktionen-although`.
+- Kapitel `was-waere-wenn` („Was wäre, wenn …?“): `das-brauchst-du` (Wiederholung `recap: [englisch/simple-past, englisch/past-perfect]`), `if-satz-2` (Chat, Weiche „unwirklich jetzt“), `if-satz-3` (Blog über einen verpassten Bus, Weiche „unwirklich früher“), `i-wish` (Blog, I wish und If only). Karten-Ids: `if-satz-2`, `if-satz-3`, `i-wish`.
+- Kapitel `weitersagen` („Weitersagen, was jemand sagt“): `das-brauchst-du` (`recap: [englisch/past-perfect, englisch/infinitivkonstruktionen, englisch/imperativ]`), `reported-speech` (Chat), `backshift` (Interview mit Mr Hill in „Millbrook News“ und Bericht), `indirekte-aufforderungen` (Dialog an der Klassenzimmertür beim Zettel für den Elternabend). Karten-Ids: `reported-speech`, `backshift`, `indirekte-aufforderungen`.
+- Figuren (`src/images/satzstreifen-<seite>.svg`, eigene Zeichnungen, CC-BY-4.0, jede Kartenfarbe nur einmal in der App): although, while, whereas #546e7a, so that #7cb342, would und would have #8d6e63, wish und If only #f9a825, said that #00838f, told … to #827717; die alten Farben stehen im Abschnitt „Figures“.
+- Wörter: Vokabeln stehen im Block `vocabulary` (`caption`, `languages: { source: de, target: en }`, `entries` mit `target` und `source`), nicht in einer Tabelle „Ausdruck · Bedeutung“; ein Randglossar hat höchstens sechs Einträge je Abschnitt. Alle englischen Inhaltswörter stammen aus A1/A2, Ausnahmen stehen im Randglossar der Seite (diary, poster, project, Wales, programme; alarm, battery, charge; final, goal, regret).
+- Quellen der Fakten (geöffnet am 2026-11-22, nur Fakten, keine Sätze, Wikipedia CC BY-SA 4.0): „English relative clauses“ (Kontaktsatz, nicht notwendige Relativsätze mit Kommas), „English conditional sentences“ (Typen 2 und 3), „Reported speech“ (Backshift, nicht verpflichtend, wenn das Gesagte noch gilt), „English subjunctive“ (Wünsche), „Conjunction“ (although, whereas, so that). Die Lesestücke sind eigene Texte mit erfundenen Orten und Texten (die Schülerzeitung „Millbrook News“ ist erfunden), keine fremden Sätze; die Figuren sind die bekannten, ab Kapitel 2 zwei Jahre älter (Sophie 13 bis 14, Ellie und Amir 13, Peter 11).
+- Selbsteinschätzung je Kapitel: je Seite eine Aufgabe „Karte wählen“ oder „Form wählen“ und eine Übersetzen-Aufgabe (`chapter.yaml`).
+- Hörliste Kapitel 2 bis 4 (Fehllaut-Schnitt durch `regen_audio.py` mit `valley_cut`; 54 Hörsätze, die Ersteller:in hört gezielt):
+  - Geschnitten: „Sophie went to bed early so that she could get up at six.“ (75 ms), „If the shop had been open, I would have bought a present.“ (35 ms, endet zweisilbig), „I wish I lived closer to my cousins.“ (65 ms, zweisilbig), „I wish we had a cinema in the village.“ (55 ms, zweisilbig), „I wish the rain would stop.“ (75 ms, einsilbig), „My uncle, who lives in Wales, has two dogs.“ (75 ms, einsilbig), „Mrs Parker said that she could not find her glasses.“ (55 ms, zweisilbig).
+  - Einsilbig am Ende: „Amir, who is thirteen, has a new phone.“, „Our classroom, which is on the first floor, is warm.“, „Although the film was long, nobody left.“, „My brother would be happy if he had a cat.“, „If it were Saturday, we would sleep in.“, „Ellie said that she liked the film.“, „Peter says that he never eats fish.“, „Sophie says that she is very happy here.“, „Mr Hill says that the lesson starts at nine.“, „Amir said that he had forgotten his bag.“, „Mum asked me to buy some bread.“, „Mr Hill told us to turn the page.“, „Ellie asked me to carry her bag.“
+  - Dazu alle Hörsätze, die zwei- oder mehrsilbig enden, als Risiko für angeschnittene Silben (Dateien in `src/audio/`, Sätze in `audio-texte.json`).

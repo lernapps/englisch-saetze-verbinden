@@ -1,0 +1,320 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Although, while, whereas, so that: Gegensatz und Absicht"
+description: "Die Schülerzeitung der Millbrook School berichtet über die Herbstwoche. Du lernst, wie man Gegensätze und Absichten mit although, while, whereas und so that sagt."
+competencies: [konjunktionen-although]
+scope: Die Seite führt die Konjunktionen although, while, whereas und so that ein. Although (obwohl) steht vor einem ganzen Streifen mit Subjekt und Verb und nennt etwas, das trotzdem nicht das Gegenteil bewirkt. Im selben Satz steht nie although und but. While und whereas (während, wohingegen) stellen zwei Dinge nebeneinander, die man vergleicht. So that (damit) nennt die Absicht und hat im folgenden Streifen meist can, could, will oder would. Die zwei Streifen dürfen die Plätze tauschen. Steht although vorn, trennt ein Komma die zwei Streifen, steht es in der Mitte, steht meist kein Komma. Vor while und whereas steht in der Mitte ein Komma, wenn sie einen Gegensatz zeigen. Die Seite arbeitet mit einem Artikel der Schülerzeitung, die Absätze sind nummeriert. Nicht hier, weil es andere Seiten oder Kapitel sind. Because, so und but aus Kapitel 1, Relativsätze, while und when als Zeitangabe (während etwas anderes passiert) und die Konjunktion in order to mit Infinitiv.
+blocks:
+  - type: section
+    id: einstieg
+    title: Welche Karte zeigt einen Gegensatz?
+    blocks:
+      - type: text
+        text: "Ellie und Amir haben für die Schülerzeitung einen Artikel über die Herbstwoche geschrieben. Du liest ihn gleich. Davor eine Frage zu den Verbindungskarten aus Kapitel 1."
+      - type: single-choice
+        id: alt-start
+        text: "Welche Karte aus Kapitel 1 sagt: Der zweite Streifen ist anders, als man nach dem ersten denkt?"
+        options:
+          - text: and
+            correct: false
+            info: Fügt der zweite Streifen nur etwas dazu?
+          - text: but
+            correct: true
+            info: But zeigt einen Gegensatz.
+          - text: so
+            correct: false
+            info: Sagt der zweite Streifen, was daraus folgt?
+        explanation: But zeigt etwas Unerwartetes.
+        links:
+          - title: Lernlandkarte Englisch · Konjunktionen and, but, because
+            url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
+      - type: text
+        text: "**Das kannst du danach:** Du drückst Gegensätze mit although, while und whereas aus und sagst mit so that, wozu man etwas tut."
+  - type: section
+    id: lesen
+    title: Der Artikel der Schülerzeitung
+    blocks:
+      - type: text
+        text: "Der Artikel hat sechs Absätze. Jeder Absatz hat eine Nummer, damit du später sagen kannst, wo etwas steht. Beim Lesen: Achte auf die Wörter although, while, whereas und so that."
+      - type: table
+        caption: Millbrook School News · Autumn Week · Absatz 1
+        header: [Nr, Absatz]
+        rows:
+          - [
+              "1",
+              "Autumn Week starts on Monday at Millbrook School. Although it is often wet in November, the first event is a walk in the park. Year 8 will go with Mr Hill so that they can collect leaves for the art room.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Absatz 1
+        languages: { source: de, target: en }
+        entries:
+          - { target: "wet", source: "nass" }
+          - { target: "event", source: "Veranstaltung" }
+          - { target: "collect", source: "sammeln" }
+          - { target: "leaves", source: "Blätter" }
+          - { target: "art room", source: "Kunstraum" }
+      - type: table
+        caption: Millbrook School News · Autumn Week · Absatz 2
+        header: [Nr, Absatz]
+        rows:
+          - [
+              "2",
+              "While Year 8 makes posters for the week, Year 7 will write the programme. The posters will hang in the school hall so that everyone can see them.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Absatz 2
+        languages: { source: de, target: en }
+        entries:
+          - { target: "poster", source: "Plakat" }
+          - { target: "programme", source: "Programm (Liste: was wann passiert)" }
+          - { target: "hang", source: "hängen" }
+          - { target: "hall", source: "Saal" }
+      - type: table
+        caption: Millbrook School News · Autumn Week · Absatz 3
+        header: [Nr, Absatz]
+        rows:
+          - [
+              "3",
+              "The concert is on Wednesday evening. Although the hall is quite small, more than a hundred people can sit there. The music group practises every day so that the songs will sound good.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Absatz 3
+        languages: { source: de, target: en }
+        entries:
+          - { target: "concert", source: "Konzert" }
+          - { target: "practise", source: "üben" }
+      - type: table
+        caption: Millbrook School News · Autumn Week · Absatz 4
+        header: [Nr, Absatz]
+        rows:
+          - [
+              "4",
+              "Some students like quiet songs, whereas others prefer loud music. The group plays both kinds, so everyone will find a favourite.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Absatz 4
+        languages: { source: de, target: en }
+        entries:
+          - { target: "quiet", source: "leise" }
+          - { target: "prefer", source: "lieber mögen" }
+          - { target: "loud", source: "laut" }
+          - { target: "both", source: "beide" }
+          - { target: "kinds", source: "Arten" }
+      - type: table
+        caption: Millbrook School News · Autumn Week · Absatz 5
+        header: [Nr, Absatz]
+        rows:
+          - [
+              "5",
+              "On Friday there is a book sale. Small books cost fifty pence, whereas big books cost two pounds. The money will buy new books for the library so that more students can borrow them.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Absatz 5
+        languages: { source: de, target: en }
+        entries:
+          - { target: "sale", source: "Verkauf" }
+          - { target: "pence", source: "Pence (kleine britische Münze)" }
+          - { target: "pound", source: "Pfund (britische Währung)" }
+          - { target: "borrow", source: "sich ausleihen" }
+      - type: table
+        caption: Millbrook School News · Autumn Week · Absatz 6
+        header: [Nr, Absatz]
+        rows:
+          - [
+              "6",
+              "Many students want to help although the work is hard. While some carry the boxes, others make the signs. We hope to see you there!",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Absatz 6
+        languages: { source: de, target: en }
+        entries:
+          - { target: "sign", source: "Schild" }
+  - type: section
+    id: neu
+    title: Gegensatz und Absicht
+    blocks:
+      - type: text
+        text: "Schau in den Artikel. In Absatz 1 steht „Although it is often wet in November, the first event is a walk in the park.“ Die Karte **although** (obwohl) steht vor einem **ganzen Streifen**: Subjekt und Verb, also it is often wet. Der andere Streifen sagt, was trotzdem passiert. Anders als im Deutschen steht nur **although oder but**, nicht beides. Steht although vorn, trennt ein **Komma** die zwei Streifen. Die Streifen dürfen die Plätze tauschen. Dann steht although in der Mitte und meist **kein Komma**."
+      - type: figure
+        image: images/satzstreifen-konjunktionen-although.svg
+        alt: "Vier Beispiele untereinander. Erstes: eine graublaue Karte „although“, der Streifen „it was cold“, ein Komma und der Streifen „we went out.“ Zweites: der Streifen „We went out“, die graublaue Karte „although“ und der Streifen „it was cold.“ ohne Komma. Drittes: der Streifen „Peter drinks tea“, ein Komma, die graublaue Karte „while“ und der Streifen „Amir drinks milk.“ Viertes: der Streifen „I wear a scarf“, eine hellgrüne Karte „so that“ mit dunkler Schrift und der Streifen „I will be warm.“ ohne Komma"
+        caption: "Graublau sind although, while und whereas, hellgrün ist so that. Hinter jeder Karte steht ein ganzer Streifen. Die ersten zwei Beispiele sagen dasselbe, nur die Plätze sind getauscht."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "**While** und **whereas** (während, wohingegen) stellen zwei Dinge nebeneinander, die man vergleicht, wie in Absatz 4. Beide Karten bedeuten hier dasselbe. Vor ihnen steht in der Mitte ein **Komma**. **So that** (damit) sagt, wozu man etwas tut, die **Absicht**. Hinter so that steht ein ganzer Streifen, meist mit **can, could, will oder would**, wie in Absatz 2. Nicht verwechseln: **so** aus Kapitel 1 heißt „deshalb“ und nennt die Folge, **so that** heißt „damit“ und nennt die Absicht."
+      - type: table
+        caption: Klassenzimmer-Poster · Gegensatz und Absicht
+        header: [Karte, Bedeutung, Beispiel]
+        rows:
+          - [although, obwohl, "Although Mr Hill is busy, he helps us."]
+          - [while / whereas, während / wohingegen, "Ellie walks to school, while Amir takes the bus."]
+          - [so that, damit, "Amir writes a list so that he will not forget anything."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Hinter although, while, whereas und so that steht immer ein ganzer Streifen mit Subjekt und Verb.** Although und but stehen nie im selben Satz. Vor while und whereas steht in der Mitte ein Komma, vor although und so that meist nicht. Hinter so that steht meist can, could, will oder would.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: alt-verstehen
+        text: Warum geht Year 8 am Montag in den Park?
+        options:
+          - text: Die Klasse schreibt das Programm für die Woche
+            correct: false
+            info: Wer schreibt das Programm?
+          - text: Die Klasse übt Lieder für das Konzert
+            correct: false
+            info: Wer übt die Lieder?
+          - text: Die Klasse sammelt Blätter für den Kunstraum
+            correct: true
+            info: Absatz 1 sagt „so that they can collect leaves“.
+        explanation: Year 8 sammelt Blätter für den Kunstraum.
+        links:
+          - title: Lernlandkarte Englisch · Konjunktionen although und whereas
+            url: https://lernapps.net/apps/map/englisch/c/konjunktionen-although/
+      - type: number
+        id: alt-beleg
+        text: In welchem Absatz steht, dass der Saal ziemlich klein ist? Gib die Nummer ein.
+        answer: 3
+        hint: Lies den Teil über das Konzert.
+        tolerance: 0
+        explanation: Das steht in Absatz 3.
+        links:
+          - title: Lernlandkarte Englisch · Konjunktionen although und whereas
+            url: https://lernapps.net/apps/map/englisch/c/konjunktionen-although/
+      - type: language-task
+        id: alt-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Karte passt in die Lücke?
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Obwohl es spät ist, spielen wir noch.
+            target: "[Although] it is late, we are still playing."
+            distractors: [[Because, When]]
+            mistakes:
+              - answer: Because it is late, we are still playing.
+                message: Ist „spät“ der Grund?
+              - answer: When it is late, we are still playing.
+                message: Geht es hier um die Zeit?
+          - source: Ellie liebt Musik, während Peter Sport liebt.
+            target: Ellie loves music [while|whereas] Peter loves sport.
+            distractors: [[when, because]]
+            mistakes:
+              - answer: Ellie loves music when Peter loves sport.
+                message: Zwei Dinge werden verglichen.
+              - answer: Ellie loves music because Peter loves sport.
+                message: Ist Peters Sport der Grund?
+          - source: Wir nehmen Schirme mit, damit wir nicht nass werden.
+            target: We take umbrellas [so that] we will not get wet.
+            distractors: [[because, although]]
+            mistakes:
+              - answer: We take umbrellas because we will not get wet.
+                message: Sagt der Satz einen Grund oder eine Absicht?
+              - answer: We take umbrellas although we will not get wet.
+                message: Ist das ein Gegensatz?
+      - type: ordering
+        id: alt-ordnen
+        text: "Ordne die Wörter zu einem Satz: Obwohl der Bus spät war, kamen wir pünktlich an."
+        items:
+          - although
+          - the bus
+          - was late
+          - we
+          - arrived
+          - on time
+        explanation: Erst although mit ganzem Streifen, dann ein Komma und der andere Streifen.
+        links:
+          - title: Lernlandkarte Englisch · Konjunktionen although und whereas
+            url: https://lernapps.net/apps/map/englisch/c/konjunktionen-although/
+      - type: language-task
+        id: alt-bilden
+        languages: { source: de, target: en }
+        task: Verbinde die zwei Streifen mit der Karte. Du darfst tauschen.
+        hint: Hinter der Karte steht ein ganzer Streifen.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: it rained all day · we played outside · although
+            target: (Although it rained all day, we played outside.|We played outside although it rained all day.)
+            mistakes:
+              - answer: Although it rained all day, but we played outside.
+                message: Brauchst du hier noch ein but?
+          - cue: Peter plays football · Amir plays chess · while
+            target: (Peter plays football while Amir plays chess.|While Peter plays football, Amir plays chess.|Peter plays football whereas Amir plays chess.|Whereas Peter plays football, Amir plays chess.|Amir plays chess while Peter plays football.|While Amir plays chess, Peter plays football.|Amir plays chess whereas Peter plays football.|Whereas Amir plays chess, Peter plays football.)
+            mistakes:
+              - answer: Peter plays football while Amir chess.
+                message: Was macht Amir?
+          - cue: I save my money · I can buy a bike · so that
+            target: I save my money so that I (can |could |will |)buy a (new |)bike.
+            mistakes:
+              - answer: I save my money that I can buy a bike.
+                message: Welche Karte heißt „damit“?
+      - type: language-task
+        id: alt-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        hint: Welche Karte sagt der deutsche Satz?
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Obwohl Sophie müde ist, macht sie ihre Hausaufgaben.
+            target: (Although Sophie is tired, she does her homework.|Although she is tired, Sophie does her homework.|Although Sophie is tired, she is doing her homework.|Although she is tired, Sophie is doing her homework.|Though Sophie is tired, she does her homework.|Though she is tired, Sophie does her homework.|Though Sophie is tired, she is doing her homework.|Though she is tired, Sophie is doing her homework.|Even though Sophie is tired, she does her homework.|Even though she is tired, Sophie does her homework.|Even though Sophie is tired, she is doing her homework.|Even though she is tired, Sophie is doing her homework.|Sophie does her homework although she is tired.|Sophie does her homework though she is tired.|Sophie does her homework even though she is tired.|Sophie is doing her homework although she is tired.|Sophie is doing her homework though she is tired.|Sophie is doing her homework even though she is tired.|She does her homework although she is tired.|She does her homework though she is tired.|She does her homework even though she is tired.|She is doing her homework although she is tired.|She is doing her homework though she is tired.|She is doing her homework even though she is tired.)
+            mistakes:
+              - answer: Although Sophie is tired, but she does her homework.
+                message: Steht im Satz although und but?
+          - source: Ich lerne Englisch, damit ich mit Sophie sprechen kann.
+            target: I (learn|am learning) English so that I (can|will|could) (speak|talk) (to|with) Sophie.
+            mistakes:
+              - answer: I learn English that I can speak with Sophie.
+                message: Welche Karte heißt „damit“?
+      - type: language-task
+        id: alt-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: although-the-soup-was-hot-amir-ate-it-quickly.mp3
+            target: Although the soup was hot, Amir ate it quickly.
+          - audio: ellie-likes-maths-whereas-sophie-prefers-history.mp3
+            target: Ellie likes maths, whereas Sophie prefers history.
+          - audio: mr-hill-speaks-slowly-so-that-we-can-all-understand.mp3
+            target: Mr Hill speaks slowly so that we can all understand.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: alt-nachsprechen
+        language: en
+        items:
+          - audio: while-sophie-makes-lunch-amir-sets-the-table.mp3
+            text: While Sophie makes lunch, Amir sets the table.
+          - audio: although-the-film-was-long-nobody-left.mp3
+            text: Although the film was long, nobody left.
+          - audio: sophie-went-to-bed-early-so-that-she-could-get-up-at-six.mp3
+            text: Sophie went to bed early so that she could get up at six.
+        hint: Hör zuerst zu, sprich dann langsam nach. Am Komma machst du eine kurze Pause.
+      - type: open-task
+        id: alt-meinung
+        task: "Schreibe drei bis vier Sätze über ein Schulereignis, das du dir wünschst. Warum ist es eine gute Idee? Benutze although, while oder whereas und so that."
+        hint: Du kannst mit „I think a … day is a good idea“ beginnen.
+        points:
+          - text: Der Text nennt ein Schulereignis und sagt, warum es eine gute Idee ist.
+            source: /relativsaetze-2/konjunktionen-although/#lesen
+          - text: Ein Satz hat although, while oder whereas und ein ganzer Streifen steht dahinter.
+            source: /relativsaetze-2/konjunktionen-although/#neu
+          - text: Ein Satz hat so that und im Streifen dahinter can, could, will oder would.
+            source: /relativsaetze-2/konjunktionen-although/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I think a sports day is a good idea. Although the weather is often bad, we can play indoors. Our class loves football, while the other classes like running. We should have it in spring so that everyone can come.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Damit kennst du zwei neue Wege, Sätze genauer zu machen: Kommas um einen Relativsatz und Karten für Gegensatz und Absicht. In Kapitel 3 kommt zuerst eine kurze Wiederholung der Vergangenheit. Danach sagen Sophie und ihre Freunde mit if, was wäre, wenn …"
