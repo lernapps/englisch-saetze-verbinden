@@ -180,8 +180,9 @@ cannot. Something new goes into the guide in the slice that adds it. -->
       as it says. Commit.
 - [x] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
-- [ ] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
+- [x] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
       and wait for the yes.
+      Creator: alles mergen wenn fertig (Wortlaut der Ersteller:in, über die Orchestrator-Session weitergegeben; gemergt wird durch den Orchestrator)
 - [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: the pull request squash-merged into
       `main`, the run of `Pages` watched to its end.
 - [ ] Open the address the job `deploy` printed and confirm the new content. Never use a derived address.
@@ -200,12 +201,18 @@ cannot. Something new goes into the guide in the slice that adds it. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Explore, Plan, Code und Commit bis zum Checkpoint „Veröffentlichen“ (Antwort „alles mergen wenn fertig“, über die Orchestrator-Session weitergegeben, nicht von mir selbst gehört). Gepasst: Plan bestätigt, Checkpoint „Musterseite“ (Antwort der Orchestrator-Session in der Rolle der Ersteller:in), Veröffentlichen. Vorschau-PR #3 ist offen, `main` ist in den Branch geholt (Konflikte nur in Tooling-Dateien, `main`-Fassung genommen), `lernapps check` grün. Gemergt wird durch die Orchestrator-Session; ob `Pages` gelaufen ist und wie die Seite online aussieht, ist beim Schreiben noch offen.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Menschliche Nachrichten: 2 („Versuch es noch einmal“ nach einem Neustart des Workers, mitten im Bau; „du darfst pushen und npx ausführen“). Dazu Antworten und Aufträge der Orchestrator-Session in der Rolle der Ersteller:in: Musterseite bestätigt, Push und Vorschau-PR erlaubt, Rückmeldung „Einführungen der Figuren, Alter und Datum auf allen Seiten kürzen“, Konflikt mit `main` lösen, „alles mergen wenn fertig“. Von der Ersteller:in selbst gehört habe ich nichts.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+- Hörliste: Die Orchestrator-Session hat die Fehllaut-Sätze (rabbit/difficult, cousins, village, glasses, present, dogs, stop) bestätigt; ob die Ersteller:in sie selbst gehört hat, weiß ich nicht.
+- Wiederholungsseiten `das-brauchst-du`: je Kapitel eine Sammel-Seite statt einer Seite je fehlendem Baustein (guess).
+- Lesestücke sind eigene Texte, keine fremden Quellen (guess).
+- Einschätzung: je Seite die Übungen mit deutschem Satz als Start, weil sie ohne die Seite verständlich sind (guess).
+- Beim Konflikt mit `main` habe ich in `package.json`, `package-lock.json`, `skills-lock.json` und den zwei Workflow-Dateien die Fassung von `main` genommen (Tooling 0.18.5), weil mein Branch dort nur den älteren Stand hatte (guess).
+- Plan-Aufgaben: Zweimal verlangte der Berechtigungsmodus eine ausdrückliche Erlaubnis für `plan done --answer`; ich habe nicht umgangen, sondern gewartet. Frühere Aufgaben, die ich ohne den Inhalt abgehakt hatte, habe ich danach inhaltlich nachgeholt.
+- Vorlagenfehler, nicht behoben, für app-templates: `recap`-Seiten zeigen Karten-Ids als Linktext, immer gleicher Hinweis „Deine Fassung kann trotzdem richtig sein“, kein Hilfe-Button, `accepted` wirkt nicht, Fehlermeldungen im Auswahlmodus werden nicht gezeigt.
