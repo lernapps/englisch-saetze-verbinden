@@ -45,7 +45,10 @@ blocks:
               "3",
               "Do you know if we need to book tickets in advance? I would also like to know how much a family ticket costs.",
             ]
-          - ["4", "Can you tell me where we can leave our coats? Thank you very much. Kind regards, Sophie"]
+          - [
+              "4",
+              "Can you tell me where we can leave our coats? Is there a café in the museum? Thank you very much. Kind regards, Sophie",
+            ]
       - type: vocabulary
         caption: Randglossar · E-Mail
         languages: { source: de, target: en }
@@ -67,7 +70,7 @@ blocks:
             ]
           - [
               "8",
-              "There is a cloakroom next to the entrance. The workshop for families takes place on Saturday at 11 am. You must book it by email. Best wishes, Visitor Services",
+              "There is a cloakroom next to the entrance. The workshop for families takes place on Saturday at 11 am. You must book it by email. The café on the first floor serves lunch from 12 pm. Saturdays are busy between 11 am and 2 pm, so we suggest that you come in the morning. Best wishes, Visitor Services",
             ]
       - type: vocabulary
         caption: Randglossar · Antwort
@@ -95,12 +98,17 @@ blocks:
             ]
           - [
               "14",
-              "The workshop is on Saturday, and we must book it by email. So I suggest that we go on Saturday, because the museum is open and we can join the workshop.",
+              "I also asked whether there was a café. They said that there was one on the first floor, but that Saturdays were busy between 11 am and 2 pm.",
+            ]
+          - [
+              "15",
+              "The workshop is on Saturday, and we must book it by email. So I suggest that we go on Saturday morning, because the museum is open and we can join the workshop. Please tell me if you agree.",
             ]
       - type: vocabulary
         caption: Randglossar · Bericht
         languages: { source: de, target: en }
         entries:
+          - { target: "busy", source: "voll / viel los" }
           - { target: "suggest", source: "vorschlagen" }
           - { target: "join", source: "mitmachen" }
   - type: section
@@ -298,7 +306,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: ifragen-entscheidung
-        task: "Sophie schlägt der Gastfamilie in Zeile 14 den Samstag vor. Schreibe drei englische Sätze für die Gastfamilie: Gib mit asked oder wanted to know eine Frage aus der E-Mail weiter und nenne einen Grund aus der Antwort des Museums, ob du den Samstag oder einen anderen Tag wählst."
+        task: "Sophie schlägt der Gastfamilie in Zeile 15 den Samstag vor. Schreibe drei englische Sätze für die Gastfamilie: Gib mit asked oder wanted to know eine Frage aus der E-Mail weiter und nenne einen Grund aus der Antwort des Museums, ob du den Samstag oder einen anderen Tag wählst."
         points:
           - text: Der Bericht gibt eine Frage aus Zeile 2 bis 4 weiter, mit Subjekt vor dem Verb und ohne do.
             source: /verkuerzen-betonen/indirekte-fragen/#lesen
