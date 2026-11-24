@@ -9,7 +9,7 @@ blocks:
     title: Wie fragst du höflich?
     blocks:
       - type: text
-        text: "Sophie plant einen Museumsbesuch und schreibt dem Museum eine E-Mail. Du liest gleich ihre Fragen, die Antwort und ihren Bericht. Ein Streifen ist ein Satz oder Satzteil auf der Satzstreifen-Wand aus den früheren Kapiteln. Davor eine Frage aus dem Explainer Sätze bauen."
+        text: "Sophie plant einen Museumsbesuch und schreibt dem Museum eine E-Mail. Du liest gleich ihre Fragen, die Antwort und ihren Bericht. Ein Streifen ist ein Satz oder Satzteil auf der Satzstreifen-Wand aus den früheren Kapiteln. Davor eine Frage zu normalen Fragen mit do."
       - type: single-choice
         id: ifragen-start
         text: "Welcher Satz ist eine ganz normale Frage mit Fragewort und do?"
@@ -116,7 +116,7 @@ blocks:
     title: Die Frage gibt ihren Helfer ab
     blocks:
       - type: text
-        text: "Schau in Zeile 2: „Could you tell me whether the museum is open on Mondays?“ Die Frage ist ein Streifen im Satz. Wie in Sätze bauen hat eine direkte Frage einen Helfer: **do**, **does** oder **did**. Als indirekte Frage gibt sie ihn **ab**. Das Subjekt steht jetzt **vor** dem Verb, wie in einem normalen Satz. Ja/Nein-Fragen bekommen **if** oder **whether**."
+        text: "Schau in Zeile 2: „Could you tell me whether the museum is open on Mondays?“ Die Frage ist ein Streifen im Satz. Eine direkte Frage hat einen Helfer, ein Hilfsverb: **do**, **does** oder **did**. Als indirekte Frage gibt sie ihn **ab**. Das Subjekt steht jetzt **vor** dem Verb, wie in einem normalen Satz. Ja/Nein-Fragen bekommen **if** oder **whether**."
       - type: figure
         image: images/satzstreifen-indirekte-fragen.svg
         alt: "Oben die direkte Frage in vier Streifen: ein Fragewort-Streifen „When“, „does“, „the shop“ und „close?“ Ein Pfeil zeigt von „does“ nach unten mit dem Hinweis, dass does wegfällt. Darunter die indirekte Frage: „Could you tell me“, eine goldene Karte „when“, „the shop“ und „closes?“ Ganz unten eine Ja/Nein-Frage: „Do you know“, eine blaue Karte „if“ und „the shop opens“. Eine Legende erklärt: goldene Karte = Fragewort, blaue Karte = if oder whether."
