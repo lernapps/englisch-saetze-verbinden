@@ -47,6 +47,29 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - „Welcher Junge? who, which, that und whose“ · Aufgaben A5, A6
 - „Was passiert, wenn …? Die Weiche bei if“ · Aufgaben A7, A8
 
+### Kapitel „Relativsätze genauer“
+
+- Selbsteinschätzung des Kapitels
+- „Das Buch, das ich gelesen habe: die Karte darf fehlen“ · Aufgaben A9, A10
+- „Mr Hill, who is from Wales: Relativsätze mit Kommas“ · Aufgaben A11, A12
+- „Although, while, whereas, so that: Gegensatz und Absicht“ · Aufgaben A13, A14
+
+### Kapitel „Was wäre, wenn …?“
+
+- Selbsteinschätzung des Kapitels
+- „Das brauchst du hier“
+- „Was würdest du tun, wenn …? Die Weiche für Gedachtes“ · Aufgaben A15, A16
+- „Wenn ich nur früher … Die Weiche für Vergangenes“ · Aufgaben A17, A18
+- „Ich wünschte, … Wünsche und Bedauern mit I wish“ · Aufgaben A19, A20
+
+### Kapitel „Weitersagen, was jemand sagt“
+
+- Selbsteinschätzung des Kapitels
+- „Das brauchst du hier“
+- „Mr Hill sagt, dass …: aus der Sprechblase wird ein Streifen“ · Aufgaben A21, A22
+- „Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück“ · Aufgaben A23, A24
+- „Sie sagte mir, ich soll warten: Bitten und Befehle weitergeben“ · Aufgaben A25, A26
+
 ## Die Aufgaben dieser Selbsteinschätzung
 
 - A1: Aufgabe konjunktionen-karte der Seite „Zwei Streifen, eine Karte: and, but, or, because, so, when“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
@@ -57,3 +80,21 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - A6: Aufgabe relativ-uebersetzen der Seite „Welcher Junge? who, which, that und whose“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A7: Aufgabe if-formen der Seite „Was passiert, wenn …? Die Weiche bei if“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A8: Aufgabe if-uebersetzen der Seite „Was passiert, wenn …? Die Weiche bei if“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A9: Aufgabe contact-weglassen der Seite „Das Buch, das ich gelesen habe: die Karte darf fehlen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A10: Aufgabe contact-uebersetzen der Seite „Das Buch, das ich gelesen habe: die Karte darf fehlen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A11: Aufgabe nn-herausnehmen der Seite „Mr Hill, who is from Wales: Relativsätze mit Kommas“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A12: Aufgabe nn-uebersetzen der Seite „Mr Hill, who is from Wales: Relativsätze mit Kommas“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A13: Aufgabe alt-karte der Seite „Although, while, whereas, so that: Gegensatz und Absicht“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A14: Aufgabe alt-uebersetzen der Seite „Although, while, whereas, so that: Gegensatz und Absicht“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A15: Aufgabe if2-formen der Seite „Was würdest du tun, wenn …? Die Weiche für Gedachtes“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A16: Aufgabe if2-uebersetzen der Seite „Was würdest du tun, wenn …? Die Weiche für Gedachtes“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A17: Aufgabe if3-weiche der Seite „Wenn ich nur früher … Die Weiche für Vergangenes“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A18: Aufgabe if3-uebersetzen der Seite „Wenn ich nur früher … Die Weiche für Vergangenes“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A19: Aufgabe wish-luecken der Seite „Ich wünschte, … Wünsche und Bedauern mit I wish“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A20: Aufgabe wish-uebersetzen der Seite „Ich wünschte, … Wünsche und Bedauern mit I wish“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A21: Aufgabe speech-karte der Seite „Mr Hill sagt, dass …: aus der Sprechblase wird ein Streifen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A22: Aufgabe speech-uebersetzen der Seite „Mr Hill sagt, dass …: aus der Sprechblase wird ein Streifen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A23: Aufgabe backshift-karte der Seite „Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A24: Aufgabe backshift-uebersetzen der Seite „Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A25: Aufgabe auf-karte der Seite „Sie sagte mir, ich soll warten: Bitten und Befehle weitergeben“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A26: Aufgabe auf-uebersetzen der Seite „Sie sagte mir, ich soll warten: Bitten und Befehle weitergeben“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)

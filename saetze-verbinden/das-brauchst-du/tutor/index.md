@@ -57,7 +57,7 @@ Nicht sicher? Hier kannst du es nachlesen: [Personalpronomen](https://lernapps.n
 
 ### Die Satzstreifen-Wand
 
-Mr Hill hängt in der Millbrook School ein Brett an die Rückwand des Klassenzimmers: die **Satzstreifen-Wand**. **Sophie** (11) kommt aus Deutschland und wohnt bei den Parkers, **Ellie** (11) ist ihre Gastschwester, **Peter** (9) Ellies kleiner Bruder, der auch in die Millbrook School geht, **Amir** (11) ein Freund. **Mr Hill** ist ihr Englischlehrer. Auf jeden Streifen kommt ein ganzer Satz. Mit bunten Karten verbinden die Kinder die Streifen.
+Mr Hill hängt ein Brett an die Rückwand des Klassenzimmers: die **Satzstreifen-Wand**. Auf jeden Streifen kommt ein ganzer Satz. Mit bunten Karten verbinden die Kinder die Streifen.
 
 Bild: Drei weiße Streifen untereinander. Auf dem ersten steht „I play football every day.“, auf dem zweiten „Ellie plays football on Saturday.“ und auf dem dritten „We will win tomorrow.“ Rechts daneben stehen kleine Hinweise: ich, sie mit -s und will. Bildunterschrift: Ein Satz, ein Streifen. Jeder Streifen hat ein Subjekt und ein Verb.
 
