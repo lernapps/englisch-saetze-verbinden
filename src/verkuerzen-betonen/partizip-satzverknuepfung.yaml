@@ -61,6 +61,7 @@ blocks:
           - { target: "path", source: "Weg / Pfad" }
           - { target: "flat", source: "flach / eben" }
           - { target: "fall asleep", source: "einschlafen" }
+          - { target: "duck", source: "Ente" }
       - type: table
         caption: Bericht · Zwei Strecken für das nächste Mal
         header: [Nr, Text]
@@ -89,6 +90,7 @@ blocks:
           - { target: "steep", source: "steil" }
           - { target: "climb", source: "Aufstieg / Anstieg" }
           - { target: "farm shop", source: "Hofladen" }
+          - { target: "hike", source: "Wanderung" }
       - type: table
         caption: Bericht · Wetter und Entscheidung
         header: [Nr, Text]

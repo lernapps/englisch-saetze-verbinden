@@ -105,6 +105,9 @@ blocks:
         languages: { source: de, target: en }
         entries:
           - { target: "notice", source: "bemerken" }
+          - { target: "matter", source: "wichtig sein" }
+          - { target: "cause", source: "verursachen" }
+          - { target: "result", source: "Ergebnis" }
   - type: section
     id: neu
     title: Der betonte Teil steht in der Mitte

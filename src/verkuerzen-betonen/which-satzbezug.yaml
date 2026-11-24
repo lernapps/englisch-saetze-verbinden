@@ -115,6 +115,8 @@ blocks:
         languages: { source: de, target: en }
         entries:
           - { target: "half as many", source: "halb so viele" }
+          - { target: "quietest", source: "am ruhigsten" }
+          - { target: "workshop", source: "Workshop / Mitmachkurs" }
   - type: section
     id: neu
     title: Which greift den ganzen Streifen auf
