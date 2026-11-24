@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Verkürzen, betonen, indirekt fragen
 summary: Sophie plant, reist und schreibt Berichte. Du liest ihre E-Mails und Texte zu realistischen Fällen und lernst, indirekt zu fragen, mit which einen ganzen Satz aufzugreifen, mit It is … that zu betonen, Nebensätze mit einem Partizip zu verkürzen und die Formen auf -ing zu unterscheiden.
-pages: [das-brauchst-du, indirekte-fragen, which-satzbezug]
+pages: [das-brauchst-du, indirekte-fragen, which-satzbezug, cleft-sentences]
 selfAssessment:
   pages:
     - exercises:
@@ -10,3 +10,6 @@ selfAssessment:
     - exercises:
         - /verkuerzen-betonen/which-satzbezug/#which-karte
         - /verkuerzen-betonen/which-satzbezug/#which-uebersetzen
+    - exercises:
+        - /verkuerzen-betonen/cleft-sentences/#cleft-karte
+        - /verkuerzen-betonen/cleft-sentences/#cleft-uebersetzen
