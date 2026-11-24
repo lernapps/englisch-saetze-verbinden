@@ -153,11 +153,11 @@ page, which a link. -->
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Slice 1, Musterseite: Kapitel 5 `verkuerzen-betonen` anlegen (chapter.yaml, app.yaml: Kapitel, Intro ohne Alter, Scope) und Baustein `indirekte-fragen` mit Lesestück 300 bis 600 Wörter, Satzstreifen-Figur, Übungen, 6 Hörsätze; Wiederholungsseite `das-brauchst-du` (recap fragewoerter, passiv, gerund-oder-infinitiv); Guide, Inhaltsführer und Hörliste. Nur ich, kein Sub-Agent.
-- [ ] Slice 2: Baustein `which-satzbezug` (Seite, Figur satzstreifen-which-satzbezug.svg, Lesestück, 6 Hörsätze). Ein Sub-Agent im eigenen Worktree darf diese Seite schreiben; chapter.yaml, app.yaml, Inhaltsführer und audio-texte.json bleiben bei mir.
-- [ ] Slice 3: Baustein `cleft-sentences` (Seite, Figur satzstreifen-cleft-sentences.svg, Lesestück, 6 Hörsätze). Sub-Agent im eigenen Worktree, zusammen mit Slice 2 (zwei Seiten, eigene Dateien).
-- [ ] Slice 4: Baustein `partizip-statt-relativsatz` (Seite, Figur satzstreifen-partizip-statt-relativsatz.svg, Lesestück, 6 Hörsätze). Ein zweiter Sub-Agent im eigenen Worktree darf diese Seite schreiben.
-- [ ] Slice 5: Baustein `partizip-satzverknuepfung` (Seite, Figur satzstreifen-partizip-satzverknuepfung.svg, Lesestück, 6 Hörsätze). Derselbe zweite Sub-Agent wie Slice 4, andere Seitendatei.
-- [ ] Slice 6: Baustein `ing-formen` (Seite, Figur satzstreifen-ing-formen.svg, Lesestück, 6 Hörsätze, Rückblick auf alle Karten des Kapitels). Ein dritter Sub-Agent im eigenen Worktree darf diese Seite schreiben.
+- [x] Slice 2: Baustein `which-satzbezug` (Seite, Figur satzstreifen-which-satzbezug.svg, Lesestück, 6 Hörsätze). Ein Sub-Agent im eigenen Worktree darf diese Seite schreiben; chapter.yaml, app.yaml, Inhaltsführer und audio-texte.json bleiben bei mir.
+- [x] Slice 3: Baustein `cleft-sentences` (Seite, Figur satzstreifen-cleft-sentences.svg, Lesestück, 6 Hörsätze). Sub-Agent im eigenen Worktree, zusammen mit Slice 2 (zwei Seiten, eigene Dateien).
+- [x] Slice 4: Baustein `partizip-statt-relativsatz` (Seite, Figur satzstreifen-partizip-statt-relativsatz.svg, Lesestück, 6 Hörsätze). Ein zweiter Sub-Agent im eigenen Worktree darf diese Seite schreiben.
+- [x] Slice 5: Baustein `partizip-satzverknuepfung` (Seite, Figur satzstreifen-partizip-satzverknuepfung.svg, Lesestück, 6 Hörsätze). Derselbe zweite Sub-Agent wie Slice 4, andere Seitendatei.
+- [x] Slice 6: Baustein `ing-formen` (Seite, Figur satzstreifen-ing-formen.svg, Lesestück, 6 Hörsätze, Rückblick auf alle Karten des Kapitels). Ein dritter Sub-Agent im eigenen Worktree darf diese Seite schreiben.
 - [ ] Slice 7: Zusammenführen: Sub-Agent-Branches einzeln mergen, chapter.yaml mit selbstEinschätzung (selfAssessment) je Seite, app.yaml, Inhaltsführer (Überblick, Quellen mit Datum, Hörliste), audio-texte.json, Dubletten-Skript über alle Seiten, Gesamtcheck der App und Sprachprüfung mit Sub-Agenten. Nur ich.
 <!-- tasks: slices (7 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
