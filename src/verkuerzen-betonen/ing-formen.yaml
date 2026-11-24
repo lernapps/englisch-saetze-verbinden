@@ -1,0 +1,341 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Welche Rolle spielt das -ing-Wort?
+description: Sophie plant ein Fahrradprojekt und braucht eine Entscheidung. Du erkennst, ob ein -ing-Wort Verlaufsform, Gerundium oder Partizip ist, und grenzt es vom Infinitiv ab.
+competencies: [ing-formen]
+scope: "Die Seite zeigt, dass ein -ing-Wort im Streifen drei Rollen spielen kann. Als Verlaufsform ist es das Verb (be plus -ing: is walking). Als Gerundium steht es an der Stelle eines Nomens: als Subjekt (Walking is healthy), als Objekt nach Verben wie like oder enjoy und nach einer Präposition (interested in learning), nie mit to. Als Partizip beschreibt es ein Nomen (the man waiting there) oder verkürzt einen Satz (Walking home, I saw Mr Hill). Zur Abgrenzung steht der Infinitiv mit to (I like to walk, stop to talk) und ohne to nach einem Modalverb (She can swim). Die Seite arbeitet mit einem Blogbeitrag von Sophie über ein Fahrradprojekt; der Fall, die Zahlen und die Preise sind erfunden, die Zeilen sind nummeriert. Nicht hier, weil es frühere Seiten sind oder den Rahmen sprengen. Verben mit wechselnder Bedeutung außer stop, ausführliche Partizipialsätze mit Zeitfolge, das Passiv mit being."
+blocks:
+  - type: section
+    id: einstieg
+    title: Was bedeutet stop?
+    blocks:
+      - type: text
+        text: "Sophie schreibt einen Blogbeitrag über ein Fahrradprojekt in der Schule. Du liest ihre Zahlen und hilfst bei der Entscheidung. Davor eine Frage aus der Wiederholung."
+      - type: single-choice
+        id: ing-start
+        text: "Welcher Satz heißt: Er blieb stehen, um mit Sophie zu reden?"
+        options:
+          - text: He stopped talking to Sophie
+            correct: false
+            info: Das heißt, er hörte auf zu reden.
+          - text: He stopped to talk to Sophie
+            correct: true
+            info: Mit to bleibt er stehen, um zu reden.
+          - text: He stopped to talking to Sophie
+            correct: false
+            info: Nach to steht das Verb ohne -ing.
+        explanation: Stop to talk heißt stehen bleiben, um zu reden.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst, ob ein -ing-Wort Verlaufsform, Gerundium oder Partizip ist, und grenzt es vom Infinitiv mit to ab."
+  - type: section
+    id: lesen
+    title: Blogbeitrag über das Fahrradprojekt
+    blocks:
+      - type: text
+        text: "Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Wörter auf -ing und auf die Zahlen, mit denen Sophie die Entscheidung vorbereitet."
+      - type: table
+        caption: "Blog · Warum so wenige Räder?"
+        header: [Nr, Text]
+        rows:
+          - ["1", "Cycling to school is healthy and cheap, so I wanted more pupils to try it."]
+          - ["2", "At the moment only 14 pupils cycle, but 62 live less than three miles from school."]
+          - [
+              "3",
+              "I asked these 62 pupils why they are not cycling. Most of them said that they are afraid of arriving wet.",
+            ]
+          - [
+              "4",
+              "Another 38 have nowhere safe to leave a bike. Pupils waiting at the bus stop told me that they would like to ride, but a bike left outside all day is not safe.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Warum so wenige Räder?
+        languages: { source: de, target: en }
+        entries:
+          - { target: "pupil", source: "Schüler / Schülerin" }
+          - { target: "afraid of", source: "Angst vor" }
+          - { target: "arrive", source: "ankommen" }
+          - { target: "wet", source: "nass" }
+          - { target: "safe", source: "sicher" }
+      - type: table
+        caption: Blog · Der Plan von Mr Hill
+        header: [Nr, Text]
+        rows:
+          - ["5", 'I showed my numbers to Mr Hill. Looking at the list, he said, "Let''s try it for four weeks."']
+          - [
+              "6",
+              "Mr Hill suggested starting with a cycling group. We met every Friday at the park gate and rode to school together.",
+            ]
+          - ["7", "Nine pupils came on the first Friday. It was raining, but nobody stopped riding."]
+          - ["8", "Riding in a group felt safe, and we arrived in 14 minutes, six minutes faster than the bus."]
+          - [
+              "9",
+              "Mr Hill also asked the school office about money. He found out that the parents' fund can pay £900 for a project like this.",
+            ]
+          - [
+              "10",
+              "He gave us two choices. A covered shelter costs £840 and has room for 30 bikes. A repair stand with a pump and tools costs £350.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Der Plan von Mr Hill
+        languages: { source: de, target: en }
+        entries:
+          - { target: "suggest", source: "vorschlagen" }
+          - { target: "fund", source: "Geldtopf, Fonds" }
+          - { target: "covered shelter", source: "überdachter Unterstand" }
+          - { target: "repair stand", source: "Reparaturständer" }
+          - { target: "tools", source: "Werkzeug" }
+          - { target: "pump", source: "Luftpumpe" }
+      - type: table
+        caption: Blog · Vier Wochen später
+        header: [Nr, Text]
+        rows:
+          - [
+              "11",
+              "After four weeks the group had 21 members. Seven of them were still waiting for a safe place to leave their bikes.",
+            ]
+          - ["12", "Counting the bikes every morning, I saw that the old rack has room for only 16."]
+          - ["13", "Two mornings we were late for lessons, because we had a flat tyre and nobody was carrying a pump."]
+          - [
+              "14",
+              "The shelter solves the first problem, but it gives no tools. The repair stand is cheaper, but it gives no extra room.",
+            ]
+          - ["15", "Keeping both is impossible: £840 plus £350 is £1,190, and the fund has only £900."]
+          - [
+              "16",
+              "Mr Hill wants to know our choice before the end of term. I am writing this post to ask what you think: shelter or repair stand?",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Vier Wochen später
+        languages: { source: de, target: en }
+        entries:
+          - { target: "member", source: "Mitglied" }
+          - { target: "rack", source: "Fahrradständer" }
+          - { target: "flat tyre", source: "platter Reifen" }
+          - { target: "impossible", source: "unmöglich" }
+          - { target: "term", source: "Halbjahr" }
+  - type: section
+    id: neu
+    title: Welche Rolle hat das -ing-Wort?
+    blocks:
+      - type: text
+        text: "Im Blogbeitrag stehen viele Wörter auf -ing, aber sie spielen verschiedene Rollen. Frage bei jedem: **Welche Rolle hat es in seinem Streifen?**"
+      - type: figure
+        image: images/satzstreifen-ing-formen.svg
+        alt: "Vier Zeilen mit je einem Satzstreifen aus kleinen Streifen, in denen das Wort „singing“ oder „to sing“ einen dicken Rand hat. Rechts steht in jeder Zeile eine Marke: eine runde grau mit „Verlaufsform“, eine eckige grau mit „Gerundium“, eine braune Pfeilmarke mit „Partizip“ und eine gestrichelte mit „Infinitiv: kein -ing“. Unten erklärt eine Legende die drei Formen der Marken. Oben steht die Frage nach der Rolle des -ing-Wortes."
+        caption: "Das Wort singing hat in drei Streifen drei Rollen. Der Infinitiv to sing ist keine -ing-Form."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die Rollen
+        header: [Rolle, Woran du sie erkennst, Beispiel]
+        rows:
+          - [Verlaufsform, "be plus -ing, das -ing-Wort ist das Verb", "The train is leaving."]
+          - [Gerundium, "steht an der Stelle eines Nomens", "Dancing makes me happy. I like dancing."]
+          - [Gerundium nach Präposition, "immer -ing, nie to plus Verb", "He is afraid of falling."]
+          - [
+              Partizip,
+              "beschreibt ein Nomen oder verkürzt einen Satz",
+              "The cat sitting on the wall is grey. Opening the door, she smiled.",
+            ]
+          - [Infinitiv, "to plus Verb, keine -ing-Form", "I like to dance. She can dance."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Jedes -ing-Wort hat im Streifen eine Rolle:** Verb mit be, Platz eines Nomens (Gerundium) oder Platz eines Adjektivs oder Nebensatzes (Partizip). Nach einer Präposition steht -ing, nie to plus Verb. Nach einem Modalverb steht der Infinitiv ohne to. Bei stop ändert sich die Bedeutung: stop doing hört auf, stop to do bleibt stehen, um etwas zu tun.
+      - type: vocabulary
+        caption: Wörter für die Übungen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "interested", source: "interessiert" }
+          - { target: "climb", source: "klettern" }
+          - { target: "test", source: "Test, Klassenarbeit" }
+          - { target: "helmet", source: "Helm" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: ing-verstehen
+        text: Warum kann die Schule nicht beides kaufen, den Unterstand und den Reparaturständer?
+        options:
+          - text: Der alte Ständer hat nur 16 Plätze
+            correct: false
+            info: Das stimmt, ist aber nicht der Grund für das Geld.
+          - text: Der Unterstand ist teurer als der Fonds
+            correct: false
+            info: Der Unterstand kostet £840, der Fonds hat £900.
+          - text: Beides zusammen kostet £1,190, der Fonds hat nur £900
+            correct: true
+            info: Zeile 15 rechnet es vor.
+        explanation: Beides zusammen übersteigt den Fonds.
+      - type: number
+        id: ing-beleg
+        text: In welcher Zeile steht, wie viele Räder in den alten Ständer passen? Gib nur die Nummer ein, zum Beispiel 3.
+        answer: 12
+        tolerance: 0
+        explanation: In Zeile 12 steht „room for only 16“.
+      - type: matching
+        id: ing-zuordnen
+        text: Welche Rolle hat das -ing-Wort oder die Form in diesem Satz? Ordne zu.
+        pairs:
+          - left: The wind is getting stronger.
+            right: Verlaufsform
+          - left: I enjoy running in the rain.
+            right: Gerundium
+          - left: The bus coming round the corner is late.
+            right: Partizip
+          - left: I want to run in the rain.
+            right: Infinitiv
+        explanation: Frage nach der Rolle, nicht nach der Endung.
+      - type: language-task
+        id: ing-rolle
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Form passt? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Sie interessiert sich fürs Klettern.
+            target: She is interested in [climbing].
+            distractors: [[to climb, climb]]
+            mistakes:
+              - answer: She is interested in to climb.
+                message: Nach einer Präposition kein to.
+              - answer: She is interested in climb.
+                message: Nach in steht -ing.
+          - source: Sie lernt gerade für den Test.
+            target: She [is learning] for the test.
+            distractors: [[learning, to learn]]
+            mistakes:
+              - answer: She learning for the test.
+                message: Hier fehlt be, also is learning.
+              - answer: She to learn for the test.
+                message: Gerade heißt be plus -ing.
+          - source: Er kann gut schwimmen.
+            target: He can [swim] well.
+            distractors: [[swimming, to swim]]
+            mistakes:
+              - answer: He can swimming well.
+                message: Nach can kein -ing.
+              - answer: He can to swim well.
+                message: Nach can kein to.
+          - source: Der Mann, der dort wartet, ist Mr Hill.
+            target: The man [waiting] there is Mr Hill.
+            distractors: [[waits, to wait]]
+            mistakes:
+              - answer: The man waits there is Mr Hill.
+                message: Waiting ersetzt who is waiting.
+              - answer: The man to wait there is Mr Hill.
+                message: Das Partizip hat kein to.
+      - type: ordering
+        id: ing-ordnen
+        text: "Ordne die Wörter zu einem Satz: Sophie is thinking about buying a helmet."
+        items:
+          - Sophie
+          - is
+          - thinking
+          - about
+          - buying
+          - a
+          - helmet
+        explanation: Nach about steht buying, das Gerundium.
+      - type: language-task
+        id: ing-bilden
+        languages: { source: de, target: en }
+        task: Schreibe aus dem Cue einen ganzen Satz. Entscheide selbst, welche Form das Verb braucht.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "She · read a book · now"
+            target: She is reading a book now.
+            mistakes:
+              - answer: She reading a book now.
+                message: Hier fehlt be, also is reading.
+              - answer: She reads a book now.
+                message: Jetzt gerade heißt be plus -ing.
+          - cue: "He is good at · draw pictures"
+            target: He is good at drawing pictures.
+            mistakes:
+              - answer: He is good at to draw pictures.
+                message: Nach at kein to.
+              - answer: He is good at draw pictures.
+                message: Nach at steht -ing.
+          - cue: "The woman · sit next to Mr Hill · is a doctor"
+            target: The woman sitting next to Mr Hill is a doctor.
+            mistakes:
+              - answer: The woman sits next to Mr Hill is a doctor.
+                message: Ein Streifen hat ein Verb, hier hilft sitting.
+              - answer: The woman sit next to Mr Hill is a doctor.
+                message: Das Partizip braucht -ing.
+      - type: language-task
+        id: ing-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        hint: Frage zuerst, welche Rolle das -ing-Wort im englischen Satz hat.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Lesen ist mein Hobby.
+            target: Reading is my hobby.
+            mistakes:
+              - answer: Read is my hobby.
+                message: Als Subjekt steht -ing.
+              - answer: Reads is my hobby.
+                message: Reads ist ein Verb, hier braucht es -ing.
+          - source: Sie ist müde vom Warten.
+            target: She is tired (of|from) waiting.
+            mistakes:
+              - answer: She is tired of to wait.
+                message: Nach of kein to, also waiting.
+              - answer: She is tired of wait.
+                message: Nach of steht -ing.
+          - source: Mr Hill steht gerade am Tor.
+            target: Mr Hill is standing at the gate (now|).
+            mistakes:
+              - answer: Mr Hill standing at the gate.
+                message: Hier fehlt be, also is standing.
+      - type: language-task
+        id: ing-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: learning-a-new-language-takes-a-lot-of-time.mp3
+            target: Learning a new language takes a lot of time.
+          - audio: we-are-meeting-outside-the-library-after-school.mp3
+            target: We are meeting outside the library after school.
+          - audio: walking-along-the-river-we-saw-a-lot-of-birds.mp3
+            target: Walking along the river, we saw a lot of birds.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und entscheiden
+    blocks:
+      - type: speaking-task
+        id: ing-nachsprechen
+        language: en
+        items:
+          - audio: are-you-interested-in-joining-the-tennis-club.mp3
+            text: Are you interested in joining the tennis club?
+          - audio: the-woman-standing-at-the-door-is-my-aunt.mp3
+            text: The woman standing at the door is my aunt.
+          - audio: my-brother-is-learning-to-play-the-guitar.mp3
+            text: My brother is learning to play the guitar.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: ing-entscheidung
+        task: "Mr Hill fragt in Zeile 16, was Sophie wählt. Schreibe drei englische Sätze: Entscheide dich für den Unterstand oder den Reparaturständer und nenne einen Grund aus Zeile 10 bis 15. Benutze mindestens ein Gerundium und ein Partizip."
+        points:
+          - text: Die Entscheidung steht da und der Grund nennt eine Zahl oder Tatsache aus Zeile 10 bis 15.
+            source: /verkuerzen-betonen/ing-formen/#lesen
+          - text: Das Gerundium steht ohne to, zum Beispiel nach einer Präposition (afraid of leaving).
+            source: /verkuerzen-betonen/ing-formen/#neu
+          - text: Das Partizip ersetzt einen Relativsatz oder verkürzt einen Satz, und eine Verlaufsform hat be.
+            source: /verkuerzen-betonen/ing-formen/#neu
+        solution: |
+          I think we should choose the shelter, because the old rack has room for only 16 bikes and the group is growing. Pupils afraid of leaving their bikes outside will start cycling when they have a safe place. Paying £840 is possible, because the fund has £900.
+  - type: section
+    id: weiter
+    title: Das war das Kapitel
+    blocks:
+      - type: text
+        text: "Du hast im Kapitel fünf Karten kennengelernt: die **indirekte Frage** (Subjekt vor dem Verb, kein do), **which** nach einem Komma (greift den ganzen Satz davor auf), **It is … that** (hebt einen Teil des Satzes hervor), das **Partizip statt Relativsatz** (the man waiting there) und den **Partizipialsatz** (Walking home, I saw Mr Hill). Zum Schluss hast du gefragt, welche Rolle ein -ing-Wort spielt: Verlaufsform, Gerundium oder Partizip."
+      - type: text
+        text: "Danach kommt nichts mehr: Das war die letzte Seite. Du kannst jetzt die Selbsteinschätzung öffnen und prüfen, was du schon kannst."
