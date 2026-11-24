@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: That hängt nur an.
         explanation: Wer jetzt etwas sagt, dessen Verb bleibt.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
       - type: text
         text: "**Das kannst du danach:** Du gibst weiter, was jemand früher gesagt hat, und setzt die Zeit richtig eine Stufe zurück."
   - type: section
@@ -114,18 +111,12 @@ blocks:
         text: Mr Hill sagt im Interview, dass das erste Training am Mittwoch ist.
         answer: false
         explanation: Das Training ist am Donnerstag.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/backshift/
       - type: number
         id: backshift-beleg
         text: In welcher Zeile steht, dass Mr Hill schon in einem Buchladen gearbeitet hatte? Gib die Nummer ein.
         answer: 11
         tolerance: 0
         explanation: In Zeile 11 steht „had worked“.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/backshift/
       - type: matching
         id: backshift-zuordnen
         text: Welche Form wird aus welcher? Ordne zu.
@@ -141,9 +132,6 @@ blocks:
           - left: went
             right: had gone
         explanation: Jede Form rückt eine Stufe zurück.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/backshift/
       - type: language-task
         id: backshift-karte
         languages: { source: de, target: en }
@@ -188,9 +176,6 @@ blocks:
           - the
           - paper
         explanation: Name, said, that, dann would plus Verb.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/backshift/
       - type: language-task
         id: backshift-bilden
         languages: { source: de, target: en }

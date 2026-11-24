@@ -82,6 +82,8 @@ Karte `https://lernapps.net/apps/map/englisch.json` und die Baustein-Seiten `htt
 
 ## Rules learned from mistakes
 
+Seit Tooling 0.19 (app-templates 0.20): `links` einer Frage dürfen nicht auf die Lernlandkarte zeigen (Regel `explainer-content-valid`). Die Links auf die Karte wurden entfernt; ein Link nur, wenn er genau erklärt, was die Frage fragt (zum Beispiel ein Lexikonartikel), sonst keiner.
+
 Rückmeldung der Ersteller:in (Inkrement 02, gilt für alle Seiten):
 - Keine Vorstellung der Figuren, keine Altersangaben, keine Verwandtschaftserklärungen und kein Datum im Fließtext, wenn sie für die Aufgabe nichts beitragen. Die Figuren stehen einmal auf der Startseite (`app.yaml`). Eine Figur wird nur genannt, wo die Aufgabe sie braucht (wer spricht in der Chatzeile). Das gilt auch für Einstiegs-, Lesestück- und „Wie es weitergeht“-Texte, Bildunterschriften und Alt-Texte (Alt-Texte beschreiben nur, was man im Bild sieht).
 

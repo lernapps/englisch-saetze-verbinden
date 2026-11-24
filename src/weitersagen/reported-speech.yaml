@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Der zweite Streifen ist keine Folge.
         explanation: That hängt an, was jemand sagt, denkt oder weiß.
-        links:
-          - title: Lernlandkarte Englisch · That-Sätze
-            url: https://lernapps.net/apps/map/englisch/c/that-saetze/
       - type: text
         text: "**Das kannst du danach:** Du gibst weiter, was jemand sagt, mit says that. Du weißt, welche Wörter sich ändern und welche nicht."
   - type: section
@@ -140,18 +137,12 @@ blocks:
             correct: false
             info: Davon steht nichts im Chat.
         explanation: Mr Hill sagt, dass die Eltern Bilder auch mögen.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
       - type: number
         id: speech-beleg
         text: In welcher Nachricht erzählt Sophie, wo es Papier gibt? Gib die Nummer ein.
         answer: 10
         tolerance: 0
         explanation: In Nachricht 10 steht der Schreibtisch.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
       - type: single-choice
         id: speech-pronomen
         text: "Mr Hill sagt zu euch: „I will help you.“ Sophie erzählt es Amir. Welcher Satz stimmt?"
@@ -169,9 +160,6 @@ blocks:
             correct: true
             info: I wird he, you wird us, will bleibt.
         explanation: Die Pronomen wechseln, das Verb bleibt.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
       - type: language-task
         id: speech-karte
         languages: { source: de, target: en }
@@ -216,9 +204,6 @@ blocks:
           - at
           - home
         explanation: Name, says, that, dann der Satz mit her.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede ohne Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/reported-speech/
       - type: language-task
         id: speech-bilden
         languages: { source: de, target: en }
