@@ -1,0 +1,335 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "the boy sitting next to me: Relativsatz verkürzen"
+description: "Sophie schreibt über die neue Stadtbibliothek in einer alten Mühle. Du lernst, einen Relativsatz zu einem Partizip zu verkürzen: -ing für Aktiv, die 3. Form für Passiv."
+competencies: [partizip-statt-relativsatz]
+scope: "Die Seite zeigt, wie ein Relativsatz mit who, which oder that und is, are, was oder were zu einem Partizip hinter dem Nomen wird. Ein Aktivsatz bekommt -ing (the girl who is singing wird the girl singing), ein Passivsatz die 3. Form (a letter that was sent wird a letter sent). Auch ein Relativsatz ohne is, der einen Zustand beschreibt, kann -ing bekommen (the man who lives next door wird the man living next door). Ein Relativsatz mit eigenem Subjekt (the film that we saw) lässt sich nicht verkürzen. Die Seite nutzt das Passiv aus der Wiederholung. Das Lesestück ist ein erfundener Artikel über eine erfundene Bibliothek mit erfundenen Preisen und Zeiten, keine echten Fakten. Nicht hier, weil es spätere Seiten sind. Partizipgruppen am Satzanfang und die Unterschiede der Formen auf -ing."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie beschreibst du ein Nomen näher?
+    blocks:
+      - type: text
+        text: "Eine alte Mühle am Fluss ist jetzt eine Bibliothek. Sophie schreibt darüber einen Artikel für die Schülerzeitung. Vorher eine Frage zu den Relativsätzen aus Kapitel 1."
+      - type: single-choice
+        id: partrel-start
+        text: "In welchem Satz steht ein richtiger Relativsatz mit who?"
+        options:
+          - text: The girl and sits next to me is new
+            correct: false
+            info: Hier ist and keine Relativkarte, sie ersetzt nicht das Subjekt.
+          - text: The girl who sits next to me is new
+            correct: true
+            info: who ersetzt she und der Streifen rückt hinter das Nomen.
+          - text: The girl she sits next to me is new
+            correct: false
+            info: Das Pronomen bleibt stehen, es fehlt die Relativkarte.
+        explanation: Die Relativkarte who ersetzt das Pronomen she.
+      - type: text
+        text: "**Das kannst du danach:** Du verkürzt einen Relativsatz zu einem Partizip (the boy sitting next to me, a letter written by hand)."
+  - type: section
+    id: lesen
+    title: Ein Artikel über die neue Bibliothek
+    blocks:
+      - type: text
+        text: "Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Wörter mit -ing und -ed direkt hinter einem Nomen."
+      - type: table
+        caption: Artikel · Die Mühle am Fluss
+        header: [Nr, Text]
+        rows:
+          - [
+              "1",
+              "Riverside Library opened last month. The old mill standing next to the bridge is now a modern library with three floors. It is a short walk from the station.",
+            ]
+          - [
+              "2",
+              "Visitors entering the main hall see a café and a big desk. The new books placed near the window are easy to find, and the shelves holding them are made of wood.",
+            ]
+          - [
+              "3",
+              "The children's room is on the second floor. People reading there can sit on large cushions. A volunteer helping with homework is there every afternoon.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Die Mühle
+        languages: { source: de, target: en }
+        entries:
+          - { target: "mill", source: "Mühle" }
+          - { target: "hall", source: "Halle / Eingangsbereich" }
+          - { target: "shelf, shelves", source: "Regal, Regale" }
+          - { target: "cushion", source: "Kissen" }
+          - { target: "volunteer", source: "freiwillige Helferin / freiwilliger Helfer" }
+      - type: table
+        caption: Artikel · Sammlung und Angebote
+        header: [Nr, Text]
+        rows:
+          - [
+              "4",
+              "The library has a collection of old maps donated by local families. The maps hanging on the walls show the town in different years, and people looking at them often find their own street.",
+            ]
+          - [
+              "5",
+              "Many visitors use the computers. A volunteer working at the desk helps people who have never used a computer before.",
+            ]
+          - [
+              "6",
+              "On Wednesdays there is a homework club run by Mr Hill. Students joining the club get help with English, maths and science from 4.30 pm to 6 pm. The room used for the club is quiet, so it is also a good place to learn.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Sammlung und Angebote
+        languages: { source: de, target: en }
+        entries:
+          - { target: "collection", source: "Sammlung" }
+          - { target: "donate", source: "spenden / schenken" }
+          - { target: "local", source: "aus der Gegend / örtlich" }
+          - { target: "hang", source: "hängen" }
+      - type: table
+        caption: Artikel · Preise und Öffnungszeiten
+        header: [Nr, Text]
+        rows:
+          - [
+              "7",
+              "The library is open from Monday to Friday, from 9 am to 7 pm, and on Saturday from 10 am to 4 pm. It is closed on Sundays. There is a place for bikes behind the building.",
+            ]
+          - [
+              "8",
+              "Young people under 18 pay £5 for a youth card valid for one year. With the card you can borrow eight books and use the computers for free.",
+            ]
+          - [
+              "9",
+              "Visitors without a card pay £2 for each visit. They can read the books in the building, but they cannot take them home. Computers used by visitors without a card cost £1 an hour.",
+            ]
+          - [
+              "10",
+              "I want to use the library for my school project. I plan to go every Wednesday for the next two months, and sometimes on Saturday morning. I have to decide this week: a card, or a ticket for every visit?",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Preise
+        languages: { source: de, target: en }
+        entries:
+          - { target: "borrow", source: "ausleihen" }
+          - { target: "valid", source: "gültig" }
+          - { target: "project", source: "Projekt" }
+          - { target: "decide", source: "sich entscheiden" }
+  - type: section
+    id: neu
+    title: Die Relativkarte fällt weg
+    blocks:
+      - type: text
+        text: "Schau in Zeile 1: „The old mill standing next to the bridge …“ Aus „the mill that is standing …“ fallen die Relativkarte und **is** weg. Das **Partizip** steht direkt hinter dem Nomen: **-ing** für Aktiv, die **3. Form** für Passiv, wie im Passiv aus der Wiederholung."
+      - type: figure
+        image: images/satzstreifen-partizip-statt-relativsatz.svg
+        alt: "Oben ein Relativsatz in Streifen: „the dog“, eine graue Karte „that“, „is“, eine dunkelbraune Karte „sleeping“ und „under the table“. Ein Pfeil zeigt von der braunen Karte nach unten zu einem kurzen Satz aus „the dog“, „sleeping“ und „under the table“. Darunter dasselbe mit einem Passivsatz: „the soup“, eine orangebraune Karte „which“, „was“, eine dunkelbraune Karte „cooked“ und „by my uncle“, nach unten wird daraus „the soup cooked by my uncle“. Eine Legende erklärt: Relativkarten fallen weg, dunkelbraune Karte = Partizip."
+        caption: "Aus „the dog that is sleeping under the table“ wird „the dog sleeping under the table“. Die Relativkarte und das Hilfsverb fallen weg, das Partizip rückt hinter das Nomen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Relativsatz und Partizip
+        header: [Relativsatz, Mit Partizip, "Was ändert sich?"]
+        rows:
+          - ["the girl who is singing in the garden", "the girl singing in the garden", "who is fällt weg, -ing bleibt"]
+          - [
+              "a letter that was sent by a friend",
+              "a letter sent by a friend",
+              "that was fällt weg, die 3. Form bleibt",
+            ]
+          - [
+              "the people who are standing near the door",
+              "the people standing near the door",
+              "Mehrere Personen, trotzdem -ing",
+            ]
+          - ["the cars that are parked outside", "the cars parked outside", "Passiv, darum die 3. Form"]
+          - ["the man who lives next door", "the man living next door", "Auch ohne is: lives wird living"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Relativkarte und Hilfsverb fallen weg, das Partizip steht hinter dem Nomen.** Aktiv bekommt -ing, Passiv die 3. Form. Hat der Relativsatz ein eigenes Subjekt (the song that I like), kannst du ihn nicht verkürzen.
+      - type: vocabulary
+        caption: Wörter für die Übungen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "bench", source: "Bank (zum Sitzen)" }
+          - { target: "castle", source: "Burg / Schloss" }
+          - { target: "tourist", source: "Tourist / Touristin" }
+          - { target: "friendly", source: "freundlich" }
+          - { target: "cousin", source: "Cousin / Cousine" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: partrel-verstehen
+        text: Wie viel kostet die Jugendkarte der Bibliothek für ein Jahr?
+        options:
+          - text: £2
+            correct: false
+            info: So viel kostet ein Besuch ohne Karte.
+          - text: £5
+            correct: true
+            info: Zeile 8 nennt £5 für ein Jahr.
+          - text: £1
+            correct: false
+            info: So viel kostet eine Stunde am Computer.
+        explanation: Die Jugendkarte kostet £5 im Jahr.
+      - type: number
+        id: partrel-beleg
+        text: In welcher Zeile steht, was ein Besuch ohne Karte kostet? Gib nur die Nummer ein, zum Beispiel 3.
+        answer: 9
+        tolerance: 0
+        explanation: Zeile 9 nennt £2 für jeden Besuch.
+      - type: multiple-choice
+        id: partrel-auswahl
+        text: Welche Relativsätze kannst du zu einem Partizip verkürzen? Wähle alle richtigen.
+        options:
+          - text: the film that we saw on Friday
+            correct: false
+            info: Hier steht ein eigenes Subjekt, we.
+          - text: a cake that was made by my aunt
+            correct: true
+            info: that was fällt weg, made bleibt.
+          - text: the bag which she left on the bus
+            correct: false
+            info: Hier steht ein eigenes Subjekt, she.
+          - text: the girls who are playing outside
+            correct: true
+            info: who are fällt weg, playing bleibt.
+        explanation: Verkürzen geht, wenn die Relativkarte das Subjekt ersetzt.
+      - type: language-task
+        id: partrel-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Wörter passen? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Das Mädchen, das auf der Bank sitzt, ist müde.
+            target: The girl [sitting] on the bench is tired.
+            distractors: [[who sitting, sit]]
+            mistakes:
+              - answer: The girl who sitting on the bench is tired.
+                message: Beim Partizip fällt who weg.
+              - answer: The girl sit on the bench is tired.
+                message: Das Partizip hat -ing.
+          - source: Das Foto, das im Urlaub gemacht wurde, ist schön.
+            target: The photo [taken] on holiday is nice.
+            distractors: [[taking, was taken]]
+            mistakes:
+              - answer: The photo taking on holiday is nice.
+                message: Passiv braucht die 3. Form.
+              - answer: The photo was taken on holiday is nice.
+                message: Beim Partizip fällt was weg.
+          - source: Die Leute, die vor dem Kino warten, sind laut.
+            target: The people [waiting] in front of the cinema are loud.
+            distractors: [[who waiting, waited]]
+            mistakes:
+              - answer: The people waited in front of the cinema are loud.
+                message: Aktiv braucht -ing.
+              - answer: The people who waiting in front of the cinema are loud.
+                message: who fällt mit are weg.
+      - type: ordering
+        id: partrel-ordnen
+        text: "Ordne die Wörter zu einem Satz: The women talking to us are friendly."
+        items:
+          - The
+          - women
+          - talking
+          - to
+          - us
+          - are
+          - friendly
+        explanation: Das Partizip steht direkt hinter dem Nomen.
+      - type: language-task
+        id: partrel-bilden
+        languages: { source: de, target: en }
+        task: Verkürze den Relativsatz zu einem Partizip. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "The girl who is dancing in the hall is my cousin."
+            target: The girl dancing in the hall is my cousin.
+            mistakes:
+              - answer: The girl who dancing in the hall is my cousin.
+                message: who fällt mit is weg.
+              - answer: The girl danced in the hall is my cousin.
+                message: Aktiv braucht -ing.
+              - answer: The girl in the hall dancing is my cousin.
+                message: Das Partizip steht direkt hinter dem Nomen.
+          - cue: "The pictures that were painted by a student are on the wall."
+            target: The pictures painted by a student are on the wall.
+            mistakes:
+              - answer: The pictures painting by a student are on the wall.
+                message: Passiv braucht die 3. Form.
+              - answer: The pictures that painted by a student are on the wall.
+                message: that fällt mit were weg.
+          - cue: "The tourists who are visiting the castle come from Spain."
+            target: The tourists visiting the castle come from Spain.
+            mistakes:
+              - answer: The tourists visited the castle come from Spain.
+                message: Aktiv braucht -ing.
+      - type: language-task
+        id: partrel-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz. Verkürze den Relativsatz mit einem Partizip.
+        hint: Aktiv bekommt -ing, Passiv die 3. Form.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Das Haus, das an der Ecke steht, ist sehr alt.
+            target: The house standing on the corner is very old.
+            mistakes:
+              - answer: The house which standing on the corner is very old.
+                message: which fällt mit is weg.
+              - answer: The house stood on the corner is very old.
+                message: Aktiv braucht -ing.
+          - source: Der Brief, der von meinem Vater geschrieben wurde, ist lang.
+            target: The letter written by my father is long.
+            mistakes:
+              - answer: The letter writing by my father is long.
+                message: Passiv braucht die 3. Form, written.
+          - source: Die Jungen, die im Park Fußball spielen, sind laut.
+            target: The boys playing football in the park are loud.
+            mistakes:
+              - answer: The boys who playing football in the park are loud.
+                message: who fällt mit are weg.
+      - type: language-task
+        id: partrel-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-woman-working-in-the-shop-is-very-kind.mp3
+            target: The woman working in the shop is very kind.
+          - audio: the-photos-taken-last-summer-are-on-my-phone.mp3
+            target: The photos taken last summer are on my phone.
+          - audio: the-tickets-bought-online-are-cheaper.mp3
+            target: The tickets bought online are cheaper.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: partrel-nachsprechen
+        language: en
+        items:
+          - audio: the-film-shown-on-friday-was-very-funny.mp3
+            text: The film shown on Friday was very funny.
+          - audio: the-people-living-in-this-street-are-friendly.mp3
+            text: The people living in this street are friendly.
+          - audio: i-like-the-shoes-displayed-in-the-window.mp3
+            text: I like the shoes displayed in the window.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: partrel-entscheidung
+        task: "Sophie muss sich entscheiden: Jugendkarte oder Karte für jeden Besuch? Schreibe drei englische Sätze für sie. Nenne mit einem Partizip nach dem Nomen zwei Preise aus Zeile 8 oder 9 und begründe die Wahl mit Zeile 10."
+        points:
+          - text: Mindestens ein Satz hat ein Partizip statt eines Relativsatzes.
+            source: /verkuerzen-betonen/partizip-statt-relativsatz/#neu
+          - text: Die Preise stimmen mit Zeile 8 oder 9 überein.
+            source: /verkuerzen-betonen/partizip-statt-relativsatz/#lesen
+          - text: Der Grund nutzt Zeile 10 (jeden Mittwoch, zwei Monate) und vergleicht.
+            source: /verkuerzen-betonen/partizip-statt-relativsatz/#lesen
+        solution: |
+          Young people buying a youth card pay £5 for one year. Visitors paying for each visit spend £2 every time, so eight Wednesdays cost £16. I think that the youth card is the better choice, because Sophie wants to go every week.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Ein Partizip kann nicht nur ein Nomen näher beschreiben, es kann auch einen ganzen Nebensatz mit Konjunktion ersetzen. Das siehst du auf der nächsten Seite in einem Wanderbericht."
