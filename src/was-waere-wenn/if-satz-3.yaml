@@ -34,7 +34,7 @@ blocks:
     title: Sophies Blog
     blocks:
       - type: text
-        text: "Sophie schreibt jeden Abend in ihren Blog. Jeder Absatz hat eine Nummer. Achte beim Lesen auf if, had und would have."
+        text: "Jeder Absatz hat eine Nummer. Achte beim Lesen auf if, had und would have."
       - type: table
         caption: Sophies Blog · Absatz 1 und 2
         header: [Nr, Eintrag]

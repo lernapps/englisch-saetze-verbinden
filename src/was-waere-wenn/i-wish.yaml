@@ -9,7 +9,7 @@ blocks:
     title: Wie klingt ein Wunsch?
     blocks:
       - type: text
-        text: "Amir hat mit seinem Team das Finale der Schule verloren. Am Sonntagabend schreibt er in seinem Blog, was er sich wünscht. Davor eine Frage zur letzten Seite."
+        text: "Amir hat mit seinem Team das Finale verloren. Er schreibt in seinem Blog, was er sich wünscht. Davor eine Frage zur letzten Seite."
       - type: single-choice
         id: wish-start
         text: "Peter hat das Rennen nicht gewonnen. Welche Form steht im Streifen mit if in „If Peter had practised more, he would have won“?"
@@ -34,7 +34,7 @@ blocks:
     title: Amirs Blog
     blocks:
       - type: text
-        text: "Amir ist 13. Ellie hat ihm geraten, seine Gedanken aufzuschreiben. Im Text kommt Mr Hill vor, der auch die Fußball-AG leitet. Jeder Absatz hat eine Nummer. Achte beim Lesen auf wish, if only und die Zeitform danach."
+        text: "Jeder Absatz hat eine Nummer. Achte beim Lesen auf wish, if only und die Zeitform danach."
       - type: table
         caption: Amirs Blog · Absatz 1 und 2
         header: [Nr, Eintrag]

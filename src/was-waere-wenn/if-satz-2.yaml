@@ -9,7 +9,7 @@ blocks:
     title: Was steht im if-Streifen?
     blocks:
       - type: text
-        text: "Sophie, Amir und Ellie sind jetzt 13 und gehen in die Klasse 8B. Abends chatten sie über eine Frage von Mr Hill. Davor eine Frage zum simple past."
+        text: "Abends chatten Sophie, Amir und Ellie über eine Frage von Mr Hill. Davor eine Frage zum simple past."
       - type: single-choice
         id: if2-start
         text: "Welcher Satz steht im simple past?"

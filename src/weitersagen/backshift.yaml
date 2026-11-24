@@ -9,7 +9,7 @@ blocks:
     title: Wann bleibt das Verb stehen?
     blocks:
       - type: text
-        text: "Sophie schreibt für die Schülerzeitung „Millbrook News“. Sie hat Mr Hill gefragt, was er für die Schule plant: einen Fußballclub. Du liest gleich das Interview und ihren Bericht darüber. Davor eine Frage zur letzten Seite."
+        text: "Sophie hat Mr Hill für die Schülerzeitung gefragt, was er für die Schule plant: einen Fußballclub. Du liest gleich das Interview und ihren Bericht. Davor eine Frage zur letzten Seite."
       - type: single-choice
         id: backshift-start
         text: "Sophie schreibt im Chat (Nachricht 7): „Mr Hill says that he likes pictures.“ Warum bleibt likes im simple present?"
@@ -34,7 +34,7 @@ blocks:
     title: Interview und Bericht
     blocks:
       - type: text
-        text: "Die Schülerzeitung „Millbrook News“ ist erfunden. Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Verben im Interview (am, will, can) und dann auf dieselben Stellen im Bericht."
+        text: "Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Verben im Interview (am, will, can) und dann auf dieselben Stellen im Bericht."
       - type: table
         caption: Millbrook News · Interview mit Mr Hill
         header: [Nr, Wer, Text]

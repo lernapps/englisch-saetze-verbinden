@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-konjunktionen.svg
         alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Peter likes football.“ und „Amir likes football.“ Darunter hängen drei Karten: and, but und because. Sophie fragt in einer Sprechblase: „Which card fits?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Peter und Amir haben die weißen Streifen geschrieben. Die bunten Karten sind Verbindungskarten. Sophie fragt."
+        caption: "Peter und Amir haben die weißen Streifen geschrieben. Die bunten Karten sind Verbindungskarten. Sophie fragt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

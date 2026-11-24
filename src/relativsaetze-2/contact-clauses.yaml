@@ -9,7 +9,7 @@ blocks:
     title: Was ersetzt die Relativkarte?
     blocks:
       - type: text
-        text: "Sophie ist jetzt 13 und seit zwei Jahren in der Millbrook School. Mr Hill hat die Satzstreifen-Wand behalten. Ellie, Amir und Sophie schreiben sich abends Nachrichten. Du liest gleich ihren Chat. Davor eine Frage zu den Relativkarten von Kapitel 1."
+        text: "Ellie, Amir und Sophie schreiben sich abends Nachrichten. Du liest gleich ihren Chat. Davor eine Frage zu den Relativkarten von Kapitel 1."
       - type: single-choice
         id: contact-start
         text: "In „Ellie has a friend who lives in London“ ersetzt die Karte who ein Wort aus dem zweiten Streifen. Welches?"
@@ -250,4 +250,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Abend schreibt Sophie in ihr Tagebuch. Sie erzählt von Mr Hill, ihrem Englischlehrer, und von ihrer Gastfamilie. Dabei fügt sie Nebensätze ein, die man herausnehmen kann. Auf der nächsten Seite siehst du, wie man sie mit Kommas abtrennt."
+        text: "Am Abend schreibt Sophie in ihr Tagebuch. Dabei fügt sie Nebensätze ein, die man herausnehmen kann. Auf der nächsten Seite siehst du, wie man sie mit Kommas abtrennt."

@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-if-satz-1.svg
         alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „It rains.“ und „We stay in.“ Darunter hängen drei Karten: if, so und because. Peter fragt in einer Sprechblase: „What if it rains?“ Neben Peter stehen Sophie, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Nächste Woche ist Elternabend. Mr Hill will einen Zettel für die Klassenzimmertür schreiben. Peter fragt."
+        caption: "Nächste Woche ist Elternabend. Mr Hill will einen Zettel für die Klassenzimmertür schreiben. Peter fragt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

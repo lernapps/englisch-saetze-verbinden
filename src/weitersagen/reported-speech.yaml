@@ -9,7 +9,7 @@ blocks:
     title: Wie hängst du das an?
     blocks:
       - type: text
-        text: "Es ist Abend. Mr Hill hat Sophie gerade geschrieben, und Peter sitzt neben Ellie. Beide sagen also jetzt etwas, und es gilt noch. Du liest gleich den Chat von Sophie, Amir und Ellie. Davor eine Frage zu Kapitel 1."
+        text: "Mr Hill und Peter sagen gerade etwas, und es gilt noch. Du liest gleich den Chat von Sophie, Amir und Ellie. Davor eine Frage zu Kapitel 1."
       - type: single-choice
         id: speech-start
         text: "Wie hängst du die Streifen „Peter says“ und „he is hungry“ aneinander?"

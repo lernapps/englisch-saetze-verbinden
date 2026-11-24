@@ -82,6 +82,9 @@ Karte `https://lernapps.net/apps/map/englisch.json` und die Baustein-Seiten `htt
 
 ## Rules learned from mistakes
 
+Rückmeldung der Ersteller:in (Inkrement 02, gilt für alle Seiten):
+- Keine Vorstellung der Figuren, keine Altersangaben, keine Verwandtschaftserklärungen und kein Datum im Fließtext, wenn sie für die Aufgabe nichts beitragen. Die Figuren stehen einmal auf der Startseite (`app.yaml`). Eine Figur wird nur genannt, wo die Aufgabe sie braucht (wer spricht in der Chatzeile). Das gilt auch für Einstiegs-, Lesestück- und „Wie es weitergeht“-Texte, Bildunterschriften und Alt-Texte (Alt-Texte beschreiben nur, was man im Bild sieht).
+
 Aus #470 und #472 übernommen:
 - Jede Übung fragt nur Wörter ab, die vorher auf der Seite stehen.
 - Eine Tabelle, die eine Übung beantwortet, steht nicht direkt über ihr.

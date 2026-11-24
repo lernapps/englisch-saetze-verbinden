@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-relativsaetze.svg
         alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Amir is the boy.“ und „He sits next to Sophie.“ Darunter hängen drei Karten: who, which und whose. Peter fragt in einer Sprechblase: „Which boy?“ Von links stehen Sophie, Amir, Peter und Ellie. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Amir (Brille), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Mr Hill (graue Haare). Amir hat „Amir is the boy.“ aufgehängt, Ellie den zweiten Streifen. Peter fragt."
+        caption: "Amir hat „Amir is the boy.“ aufgehängt, Ellie den zweiten Streifen. Peter fragt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

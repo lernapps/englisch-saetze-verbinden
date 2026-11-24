@@ -9,7 +9,7 @@ blocks:
     title: Was sagt ein Relativsatz?
     blocks:
       - type: text
-        text: "Am Abend schreibt Sophie in ihr Tagebuch. Sie ist jetzt 13 und schreibt auf Englisch, damit sie viel übt. Sie erzählt von Mr Hill, von den Parkers und von einem Schulprojekt. Davor eine Frage zu den Relativsätzen aus Kapitel 1."
+        text: "Sophie schreibt in ihr Tagebuch von Mr Hill, den Parkers und einem Schulprojekt. Davor eine Frage zu den Relativsätzen aus Kapitel 1."
       - type: single-choice
         id: nn-start
         text: "In „The boy who wears glasses is Amir“ steht der Streifen who wears glasses. Wozu ist er da?"
@@ -34,7 +34,7 @@ blocks:
     title: Sophies Tagebuch
     blocks:
       - type: text
-        text: "Sophie schreibt von Montag bis Mittwoch. Jeder Eintrag hat eine Nummer, damit du später sagen kannst, wo etwas steht. Beim Lesen: Achte auf Streifen, die zwischen zwei Kommas stehen, und auf Streifen ohne Kommas."
+        text: "Jeder Eintrag hat eine Nummer, damit du später sagen kannst, wo etwas steht. Beim Lesen: Achte auf Streifen, die zwischen zwei Kommas stehen, und auf Streifen ohne Kommas."
       - type: table
         caption: Sophies Tagebuch · Montag, Einträge 1 und 2
         header: [Nr, Eintrag]
@@ -276,4 +276,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Donnerstag liegt die neue Schülerzeitung der Millbrook School im Klassenzimmer. Sie berichtet über die Herbstwoche. Die jungen Reporter verbinden ihre Sätze mit although, while, whereas und so that. Auf der nächsten Seite siehst du, was diese Wörter sagen."
+        text: "Die Schülerzeitung berichtet über die Herbstwoche. Die Reporter verbinden ihre Sätze mit although, while, whereas und so that. Auf der nächsten Seite siehst du, was diese Wörter sagen."

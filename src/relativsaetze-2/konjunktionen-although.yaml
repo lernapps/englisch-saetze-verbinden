@@ -9,7 +9,7 @@ blocks:
     title: Welche Karte zeigt einen Gegensatz?
     blocks:
       - type: text
-        text: "Am Donnerstag liegt die neue Schülerzeitung der Millbrook School im Klassenzimmer. Ellie und Amir haben für sie einen Artikel über die Herbstwoche geschrieben. Du liest ihn gleich. Davor eine Frage zu den Verbindungskarten aus Kapitel 1."
+        text: "Ellie und Amir haben für die Schülerzeitung einen Artikel über die Herbstwoche geschrieben. Du liest ihn gleich. Davor eine Frage zu den Verbindungskarten aus Kapitel 1."
       - type: single-choice
         id: alt-start
         text: "Welche Karte aus Kapitel 1 sagt: Der zweite Streifen ist anders, als man nach dem ersten denkt?"

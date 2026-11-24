@@ -9,7 +9,7 @@ blocks:
     title: Vom Bericht zur Bitte
     blocks:
       - type: text
-        text: "Auf der letzten Seite hast du gelernt, wie du mit said that weitergibst, was jemand gesagt hat. Heute geht es um Bitten und Befehle wie „Wait!“ und „Don’t run!“. Sophie, Amir und Ellie schreiben an der Klassenzimmertür den Zettel für den Elternabend, Mr Hill ist dabei. Du liest gleich das Gespräch. Davor eine Frage zur letzten Seite."
+        text: "Heute geht es um Bitten und Befehle wie „Wait!“ und „Don’t run!“. Du liest gleich das Gespräch an der Klassenzimmertür. Davor eine Frage zur letzten Seite."
       - type: single-choice
         id: auf-start
         text: "Ellie sagte letzte Woche: „I will help.“ Das gilt nicht mehr. Wie gibt Sophie das heute weiter?"

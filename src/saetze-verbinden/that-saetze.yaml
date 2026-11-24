@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-that-saetze.svg
         alt: "Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „I think“ und „football is fun.“ Darunter hängen drei Karten: eine gestrichelte Karte „that“, eine rote „but“ und eine blaue „because“. Sophie fragt in einer Sprechblase: „What comes next?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Ellie hat „I think“ aufgehängt, Peter den langen Streifen. Sophie fragt."
+        caption: "Ellie hat „I think“ aufgehängt, Peter den langen Streifen. Sophie fragt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
