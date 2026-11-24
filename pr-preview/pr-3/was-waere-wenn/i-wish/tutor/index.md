@@ -45,7 +45,7 @@ Amir schreibt in seinem Blog über ein verlorenes Finale. Du lernst, mit I wish 
 
 ### Wie klingt ein Wunsch?
 
-Amir hat mit seinem Team das Finale der Schule verloren. Am Sonntagabend schreibt er in seinem Blog, was er sich wünscht. Davor eine Frage zur letzten Seite.
+Amir hat mit seinem Team das Finale verloren. Er schreibt in seinem Blog, was er sich wünscht. Davor eine Frage zur letzten Seite.
 
 - Aufgabe `wish-start` (unten)
 
@@ -53,7 +53,7 @@ Amir hat mit seinem Team das Finale der Schule verloren. Am Sonntagabend schreib
 
 ### Amirs Blog
 
-Amir ist 13. Ellie hat ihm geraten, seine Gedanken aufzuschreiben. Im Text kommt Mr Hill vor, der auch die Fußball-AG leitet. Jeder Absatz hat eine Nummer. Achte beim Lesen auf wish, if only und die Zeitform danach.
+Jeder Absatz hat eine Nummer. Achte beim Lesen auf wish, if only und die Zeitform danach.
 
 Amirs Blog · Absatz 1 und 2:
 - Nr | Eintrag

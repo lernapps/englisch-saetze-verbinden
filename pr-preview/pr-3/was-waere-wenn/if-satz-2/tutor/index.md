@@ -45,7 +45,7 @@ Sophie, Amir und Ellie chatten darüber, was sie an einem freien Tag machen wür
 
 ### Was steht im if-Streifen?
 
-Sophie, Amir und Ellie sind jetzt 13 und gehen in die Klasse 8B. Abends chatten sie über eine Frage von Mr Hill. Davor eine Frage zum simple past.
+Abends chatten Sophie, Amir und Ellie über eine Frage von Mr Hill. Davor eine Frage zum simple past.
 
 - Aufgabe `if2-start` (unten)
 

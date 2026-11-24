@@ -45,7 +45,7 @@ Ellie hängt den Streifen I think an die Wand. Du lernst, mit that Gedanken und 
 
 ### Was kommt hinter I think?
 
-Bild: Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „I think“ und „football is fun.“ Darunter hängen drei Karten: eine gestrichelte Karte „that“, eine rote „but“ und eine blaue „because“. Sophie fragt in einer Sprechblase: „What comes next?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill. Bildunterschrift: Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Ellie hat „I think“ aufgehängt, Peter den langen Streifen. Sophie fragt.
+Bild: Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „I think“ und „football is fun.“ Darunter hängen drei Karten: eine gestrichelte Karte „that“, eine rote „but“ und eine blaue „because“. Sophie fragt in einer Sprechblase: „What comes next?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill. Bildunterschrift: Ellie hat „I think“ aufgehängt, Peter den langen Streifen. Sophie fragt.
 
 Ellie hat den Streifen „I think“ aufgehängt. Das heißt: Ich glaube. Sophie fragt: „What comes next?“ Was kommt als Nächstes? Peter hat den Streifen „football is fun.“ dazugehängt. Football heißt Fußball, fun heißt Spaß.
 

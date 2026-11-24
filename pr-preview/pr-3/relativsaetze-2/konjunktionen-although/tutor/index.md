@@ -45,7 +45,7 @@ Die Schülerzeitung der Millbrook School berichtet über die Herbstwoche. Du ler
 
 ### Welche Karte zeigt einen Gegensatz?
 
-Am Donnerstag liegt die neue Schülerzeitung der Millbrook School im Klassenzimmer. Ellie und Amir haben für sie einen Artikel über die Herbstwoche geschrieben. Du liest ihn gleich. Davor eine Frage zu den Verbindungskarten aus Kapitel 1.
+Ellie und Amir haben für die Schülerzeitung einen Artikel über die Herbstwoche geschrieben. Du liest ihn gleich. Davor eine Frage zu den Verbindungskarten aus Kapitel 1.
 
 - Aufgabe `alt-start` (unten)
 

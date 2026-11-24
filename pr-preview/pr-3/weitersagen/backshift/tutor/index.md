@@ -45,7 +45,7 @@ Sophie interviewt für die Schülerzeitung Mr Hill über seinen Plan für einen 
 
 ### Wann bleibt das Verb stehen?
 
-Sophie schreibt für die Schülerzeitung „Millbrook News“. Sie hat Mr Hill gefragt, was er für die Schule plant: einen Fußballclub. Du liest gleich das Interview und ihren Bericht darüber. Davor eine Frage zur letzten Seite.
+Sophie hat Mr Hill für die Schülerzeitung gefragt, was er für die Schule plant: einen Fußballclub. Du liest gleich das Interview und ihren Bericht. Davor eine Frage zur letzten Seite.
 
 - Aufgabe `backshift-start` (unten)
 
@@ -53,7 +53,7 @@ Sophie schreibt für die Schülerzeitung „Millbrook News“. Sie hat Mr Hill g
 
 ### Interview und Bericht
 
-Die Schülerzeitung „Millbrook News“ ist erfunden. Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Verben im Interview (am, will, can) und dann auf dieselben Stellen im Bericht.
+Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Verben im Interview (am, will, can) und dann auf dieselben Stellen im Bericht.
 
 Millbrook News · Interview mit Mr Hill:
 - Nr | Wer | Text

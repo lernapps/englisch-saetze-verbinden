@@ -45,7 +45,7 @@ Sophie, Amir und Ellie chatten über ein Bild für den Elternabend. Du lernst, m
 
 ### Wie hängst du das an?
 
-Es ist Abend. Mr Hill hat Sophie gerade geschrieben, und Peter sitzt neben Ellie. Beide sagen also jetzt etwas, und es gilt noch. Du liest gleich den Chat von Sophie, Amir und Ellie. Davor eine Frage zu Kapitel 1.
+Mr Hill und Peter sagen gerade etwas, und es gilt noch. Du liest gleich den Chat von Sophie, Amir und Ellie. Davor eine Frage zu Kapitel 1.
 
 - Aufgabe `speech-start` (unten)
 

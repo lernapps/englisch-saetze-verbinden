@@ -45,7 +45,7 @@ Peter fragt: What if it rains? Du lernst, mit if zu sagen, was unter einer Bedin
 
 ### Was ist, wenn es regnet?
 
-Bild: Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „It rains.“ und „We stay in.“ Darunter hängen drei Karten: if, so und because. Peter fragt in einer Sprechblase: „What if it rains?“ Neben Peter stehen Sophie, Ellie und Amir. Rechts steht Mr Hill. Bildunterschrift: Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Nächste Woche ist Elternabend. Mr Hill will einen Zettel für die Klassenzimmertür schreiben. Peter fragt.
+Bild: Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „It rains.“ und „We stay in.“ Darunter hängen drei Karten: if, so und because. Peter fragt in einer Sprechblase: „What if it rains?“ Neben Peter stehen Sophie, Ellie und Amir. Rechts steht Mr Hill. Bildunterschrift: Nächste Woche ist Elternabend. Mr Hill will einen Zettel für die Klassenzimmertür schreiben. Peter fragt.
 
 Nächste Woche ist Elternabend. Mr Hill schreibt einen Zettel für die Tür. Peter fragt: „What if it rains?“ Das heißt: Was ist, wenn es regnet? Ellie hat die Streifen „It rains.“ und „We stay in.“ aufgehängt. **Stay in** heißt drinnen bleiben.
 

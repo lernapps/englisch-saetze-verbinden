@@ -45,7 +45,7 @@ Sophie, Amir und Ellie chatten über ein Buch und einen Film. Du lernst, wann ei
 
 ### Was ersetzt die Relativkarte?
 
-Sophie ist jetzt 13 und seit zwei Jahren in der Millbrook School. Mr Hill hat die Satzstreifen-Wand behalten. Ellie, Amir und Sophie schreiben sich abends Nachrichten. Du liest gleich ihren Chat. Davor eine Frage zu den Relativkarten von Kapitel 1.
+Ellie, Amir und Sophie schreiben sich abends Nachrichten. Du liest gleich ihren Chat. Davor eine Frage zu den Relativkarten von Kapitel 1.
 
 - Aufgabe `contact-start` (unten)
 
@@ -131,7 +131,7 @@ Klassenzimmer-Poster · Karte weglassen?:
 
 ### Wie es weitergeht
 
-Am Abend schreibt Sophie in ihr Tagebuch. Sie erzählt von Mr Hill, ihrem Englischlehrer, und von ihrer Gastfamilie. Dabei fügt sie Nebensätze ein, die man herausnehmen kann. Auf der nächsten Seite siehst du, wie man sie mit Kommas abtrennt.
+Am Abend schreibt Sophie in ihr Tagebuch. Dabei fügt sie Nebensätze ein, die man herausnehmen kann. Auf der nächsten Seite siehst du, wie man sie mit Kommas abtrennt.
 
 ### Aufgabe contact-start
 

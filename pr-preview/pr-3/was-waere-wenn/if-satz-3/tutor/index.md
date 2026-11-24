@@ -53,7 +53,7 @@ Sophie hat gestern den Bus zum Schulausflug verpasst. Am Abend schreibt sie darÃ
 
 ### Sophies Blog
 
-Sophie schreibt jeden Abend in ihren Blog. Jeder Absatz hat eine Nummer. Achte beim Lesen auf if, had und would have.
+Jeder Absatz hat eine Nummer. Achte beim Lesen auf if, had und would have.
 
 Sophies Blog Â· Absatz 1 und 2:
 - Nr | Eintrag

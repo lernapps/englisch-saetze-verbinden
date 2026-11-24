@@ -45,7 +45,7 @@ Mr Hill hängt in Millbrook die Satzstreifen-Wand auf. Du lernst, mit and, but, 
 
 ### Zwei Streifen und eine Karte
 
-Bild: Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Peter likes football.“ und „Amir likes football.“ Darunter hängen drei Karten: and, but und because. Sophie fragt in einer Sprechblase: „Which card fits?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill. Bildunterschrift: Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Peter und Amir haben die weißen Streifen geschrieben. Die bunten Karten sind Verbindungskarten. Sophie fragt.
+Bild: Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Peter likes football.“ und „Amir likes football.“ Darunter hängen drei Karten: and, but und because. Sophie fragt in einer Sprechblase: „Which card fits?“ Neben Sophie stehen Peter, Ellie und Amir. Rechts steht Mr Hill. Bildunterschrift: Peter und Amir haben die weißen Streifen geschrieben. Die bunten Karten sind Verbindungskarten. Sophie fragt.
 
 An der **Satzstreifen-Wand** hängen heute zwei **Streifen**, auf jedem steht ein ganzer Satz. Peter hat geschrieben: „Peter likes football.“ Amir hat geschrieben: „Amir likes football.“ Like heißt mögen, football heißt Fußball. Sophie fragt: „Which card fits?“ Das heißt: Welche Karte passt? Darunter hängen bunte **Verbindungskarten**. Eine Karte soll die zwei Streifen zu einem Satz verbinden.
 

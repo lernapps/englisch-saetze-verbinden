@@ -45,7 +45,7 @@ Sophie schreibt Tagebuch über Mr Hill, ihre Gastfamilie und ein Schulprojekt. D
 
 ### Was sagt ein Relativsatz?
 
-Am Abend schreibt Sophie in ihr Tagebuch. Sie ist jetzt 13 und schreibt auf Englisch, damit sie viel übt. Sie erzählt von Mr Hill, von den Parkers und von einem Schulprojekt. Davor eine Frage zu den Relativsätzen aus Kapitel 1.
+Sophie schreibt in ihr Tagebuch von Mr Hill, den Parkers und einem Schulprojekt. Davor eine Frage zu den Relativsätzen aus Kapitel 1.
 
 - Aufgabe `nn-start` (unten)
 
@@ -53,7 +53,7 @@ Am Abend schreibt Sophie in ihr Tagebuch. Sie ist jetzt 13 und schreibt auf Engl
 
 ### Sophies Tagebuch
 
-Sophie schreibt von Montag bis Mittwoch. Jeder Eintrag hat eine Nummer, damit du später sagen kannst, wo etwas steht. Beim Lesen: Achte auf Streifen, die zwischen zwei Kommas stehen, und auf Streifen ohne Kommas.
+Jeder Eintrag hat eine Nummer, damit du später sagen kannst, wo etwas steht. Beim Lesen: Achte auf Streifen, die zwischen zwei Kommas stehen, und auf Streifen ohne Kommas.
 
 Sophies Tagebuch · Montag, Einträge 1 und 2:
 - Nr | Eintrag
@@ -131,7 +131,7 @@ Klassenzimmer-Poster · Mit Kommas oder ohne?:
 
 ### Wie es weitergeht
 
-Am Donnerstag liegt die neue Schülerzeitung der Millbrook School im Klassenzimmer. Sie berichtet über die Herbstwoche. Die jungen Reporter verbinden ihre Sätze mit although, while, whereas und so that. Auf der nächsten Seite siehst du, was diese Wörter sagen.
+Die Schülerzeitung berichtet über die Herbstwoche. Die Reporter verbinden ihre Sätze mit although, while, whereas und so that. Auf der nächsten Seite siehst du, was diese Wörter sagen.
 
 ### Aufgabe nn-start
 

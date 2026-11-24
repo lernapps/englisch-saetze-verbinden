@@ -45,7 +45,7 @@ Sophie, Amir und Ellie schreiben an der Klassenzimmertür den Zettel für den El
 
 ### Vom Bericht zur Bitte
 
-Auf der letzten Seite hast du gelernt, wie du mit said that weitergibst, was jemand gesagt hat. Heute geht es um Bitten und Befehle wie „Wait!“ und „Don’t run!“. Sophie, Amir und Ellie schreiben an der Klassenzimmertür den Zettel für den Elternabend, Mr Hill ist dabei. Du liest gleich das Gespräch. Davor eine Frage zur letzten Seite.
+Heute geht es um Bitten und Befehle wie „Wait!“ und „Don’t run!“. Du liest gleich das Gespräch an der Klassenzimmertür. Davor eine Frage zur letzten Seite.
 
 - Aufgabe `auf-start` (unten)
 

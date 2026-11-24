@@ -45,7 +45,7 @@ Peter fragt: Which boy? Du lernst, mit who, which, that und whose eine Person od
 
 ### Welcher Junge?
 
-Bild: Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Amir is the boy.“ und „He sits next to Sophie.“ Darunter hängen drei Karten: who, which und whose. Peter fragt in einer Sprechblase: „Which boy?“ Von links stehen Sophie, Amir, Peter und Ellie. Rechts steht Mr Hill. Bildunterschrift: Von links: Sophie (Zöpfe), Amir (Brille), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Mr Hill (graue Haare). Amir hat „Amir is the boy.“ aufgehängt, Ellie den zweiten Streifen. Peter fragt.
+Bild: Im Klassenzimmer hängt ein Brett mit zwei weißen Streifen: „Amir is the boy.“ und „He sits next to Sophie.“ Darunter hängen drei Karten: who, which und whose. Peter fragt in einer Sprechblase: „Which boy?“ Von links stehen Sophie, Amir, Peter und Ellie. Rechts steht Mr Hill. Bildunterschrift: Amir hat „Amir is the boy.“ aufgehängt, Ellie den zweiten Streifen. Peter fragt.
 
 Amir hat den Streifen „Amir is the boy.“ aufgehängt. Das heißt: Amir ist der Junge. Peter fragt: „Which boy?“ Welcher Junge? Der Streifen sagt nicht, welcher Junge gemeint ist. Ellie hat einen zweiten Streifen: „He sits next to Sophie.“ Er sitzt neben Sophie.
 
