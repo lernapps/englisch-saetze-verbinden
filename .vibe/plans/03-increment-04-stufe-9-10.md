@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -81,8 +81,9 @@ correction. The process is in AGENTS.md; this plan holds the method.
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] (skipped: Die Seiten haben den Aufbau der Stufe 7-8 mit Lesestück, das der Inhaltsführer schon beschreibt; neu ist nur die Stufe, keine neue Seitenart und keine neue Übungsart) The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Recherche bestätigt: Sophie bleibt als Stimme ohne Figuren-Einführung, Ellie, Amir und Peter treten nicht auf, Mr Hill darf; Fälle einverstanden mit der Zahlenregel (nur Zahlen aus geöffneter Quelle, im Inhaltsführer nennen, keine echten Personen oder Zitate); eine Wiederholungsseite das-brauchst-du; Cleft (syntax) und Gerund später erneut öffnen. Antwort der Orchestrator-Session in der Rolle der Ersteller:in
 
 ### Answers
 
@@ -100,12 +101,12 @@ correction. The process is in AGENTS.md; this plan holds the method.
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] (skipped: Keine neue Komponente und keine interaktive Übung, der Seitenaufbau steht im Inhaltsführer) Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
@@ -118,6 +119,14 @@ cannot. Something new goes into the guide in the slice that adds it. -->
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+- Aufbau jeder Seite wie in Stufe 7-8 (gleiche Abschnitts-IDs `einstieg`, `lesen`, `neu`, `uebung`, `anwenden`, `weiter`; Lesestück-Muster steht im Inhaltsführer): Vorwissen-Frage als Einzelauswahl mit drei Optionen, Lesestück 300 bis 600 Wörter in Abschnitten mit Randglossar (höchstens sechs Wörter je Abschnitt), Aufgaben in drei Stufen (Verstehen, Belegen mit `number` auf die Zeilennummer, Meinung als `open-task`), Grammatik-Übungen, Schreib- oder Sprechauftrag, höchstens etwa 25 Items, 350 Wörter Erklärtext. Vokabeln als Block `vocabulary`.
+- Neu gegenüber 7-8 nur die Form des Lesestücks (Konventionen 2 und 8): ein realer oder realistischer Fall mit Daten, Quellen und einer Entscheidung, sachlicher Ton, keine erfundenen Kinder. Sorten: E-Mail- und Telefon-Anfragen (`indirekte-fragen`), Sachtext mit Wetterdaten (`which-satzbezug`), Sachtext über eine Entdeckung (`cleft-sentences`), Artikel über ein Gebäude oder eine Sammlung (`partizip-statt-relativsatz`), Reisebericht mit Entscheidung (`partizip-satzverknuepfung`), Artikel mit vielen -ing-Formen (`ing-formen`). Tabellen mit Daten sind `table`-Blöcke mit Quelle in der Bildunterschrift; Sophie (15 bis 16) bleibt Stimme der Briefe und Berichte. Die Seitenart ist dieselbe, es gibt keine Komponente und keine neue Übungsart.
+- Figuren (Satzstreifen-Familie `src/images/satzstreifen-<seite>.svg`, eigene Zeichnung, CC-BY-4.0, jede Kartenfarbe nur einmal in der App; die Farben der Kapitel 1 bis 4 stehen im Inhaltsführer): `indirekte-fragen` Frage-Streifen gibt den Helfer do ab und rückt das Subjekt vor das Verb, if oder whether als Karte; `which-satzbezug` Komma-Karte which greift den ganzen Streifen mit Bogen auf; `cleft-sentences` ein Streifen wird gespalten, Karte „It is … that“ hebt einen Teil hervor; `partizip-statt-relativsatz` die Relativkarte verschwindet und das Partizip steht hinter dem Nomen; `partizip-satzverknuepfung` das Partizip ersetzt Konjunktion und Subjekt, Pfeil zum Subjekt des Hauptsatzes; `ing-formen` Wort in Streifen mit Rollen (Verlaufsform, Gerundium, Partizip). Jede Figur sagt, was die Lernenden tun sollen (sortieren, ersetzen, spalten), nie die Lösung der Aufgabe.
+- Wiederholung `das-brauchst-du` (`recap: [englisch/fragewoerter, englisch/passiv, englisch/gerund-oder-infinitiv]`): kompakt, ohne Übung, mit Links zur Karte; backshift, relativsaetze und relativsaetze-nicht-notwendig sind Seiten dieser App (Verweis im Text, kein Recap).
+- Zahlen und Fakten: nur aus einer geöffneten Quelle, im Inhaltsführer unter „Sources“ mit Datum; ohne Beleg kein Satz. Erlaubte Quellen nach Konventionen 8 (Wikipedia, NASA, Met Office, VOA, Wikinews); keine Sätze übernehmen.
+- Hörtexte: `bf_emma`, ganze Sätze (6 je Seite: 3 Diktat, 3 Nachsprechen), `regen_audio.py`, Hörliste im Inhaltsführer, keine Namen nur wegen des Klangs, Dubletten-Skript über alle Seiten (jetzt auch gegen Kapitel 1 bis 4); die Orchestrator-Session bestätigt die Hörurteile.
+- Selbsteinschätzung je Seite zwei Übungen (Formen wählen oder Karte wählen, Übersetzen), wie in Kapitel 2 bis 4. `scope` je Seite und in `app.yaml` ergänzt.
+- Wie ein späterer Agent ein Kapitel 6 anfügt: Muster dieser Seiten, Inhaltsführer, Abschnitt „Adding a chapter or round“.
 
 ## Code
 
@@ -140,7 +149,14 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Slice 1, Musterseite: Kapitel 5 `verkuerzen-betonen` anlegen (chapter.yaml, app.yaml: Kapitel, Intro ohne Alter, Scope) und Baustein `indirekte-fragen` mit Lesestück 300 bis 600 Wörter, Satzstreifen-Figur, Übungen, 6 Hörsätze; Wiederholungsseite `das-brauchst-du` (recap fragewoerter, passiv, gerund-oder-infinitiv); Guide, Inhaltsführer und Hörliste. Nur ich, kein Sub-Agent.
+- [ ] Slice 2: Baustein `which-satzbezug` (Seite, Figur satzstreifen-which-satzbezug.svg, Lesestück, 6 Hörsätze). Ein Sub-Agent im eigenen Worktree darf diese Seite schreiben; chapter.yaml, app.yaml, Inhaltsführer und audio-texte.json bleiben bei mir.
+- [ ] Slice 3: Baustein `cleft-sentences` (Seite, Figur satzstreifen-cleft-sentences.svg, Lesestück, 6 Hörsätze). Sub-Agent im eigenen Worktree, zusammen mit Slice 2 (zwei Seiten, eigene Dateien).
+- [ ] Slice 4: Baustein `partizip-statt-relativsatz` (Seite, Figur satzstreifen-partizip-statt-relativsatz.svg, Lesestück, 6 Hörsätze). Ein zweiter Sub-Agent im eigenen Worktree darf diese Seite schreiben.
+- [ ] Slice 5: Baustein `partizip-satzverknuepfung` (Seite, Figur satzstreifen-partizip-satzverknuepfung.svg, Lesestück, 6 Hörsätze). Derselbe zweite Sub-Agent wie Slice 4, andere Seitendatei.
+- [ ] Slice 6: Baustein `ing-formen` (Seite, Figur satzstreifen-ing-formen.svg, Lesestück, 6 Hörsätze, Rückblick auf alle Karten des Kapitels). Ein dritter Sub-Agent im eigenen Worktree darf diese Seite schreiben.
+- [ ] Slice 7: Zusammenführen: Sub-Agent-Branches einzeln mergen, chapter.yaml mit selbstEinschätzung (selfAssessment) je Seite, app.yaml, Inhaltsführer (Überblick, Quellen mit Datum, Hörliste), audio-texte.json, Dubletten-Skript über alle Seiten, Gesamtcheck der App und Sprachprüfung mit Sub-Agenten. Nur ich.
+<!-- tasks: slices (7 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
