@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -32,6 +32,8 @@ correction. The process is in AGENTS.md; this plan holds the method.
 ## Key decisions
 
 <!-- One line each: decision and reason. Your own choice without the creator: mark "(guess)". -->
+- `scope`: Die App hat `scope` in `app.yaml` und je Seite schon (Kapitel 5 stand dort als „out“). Beides wird für Kapitel 5 fortgeschrieben: Kapitel 5 wird aus der Liste „out“ genommen, jede neue Seite bekommt ihr `scope` (was sie lehrt, was nicht hier ist). Sonst keine Änderung.
+- Kein Neuzeichnen der Szenen: Kapitel 5 hat keine Szenen mit Kindern, nur Satzstreifen-Figuren und, wo nötig, Tabellen und Karten (Konventionen 2).
 
 ## Notes
 
@@ -109,8 +111,9 @@ correction. The process is in AGENTS.md; this plan holds the method.
 - [x] (skipped: Keine neue Komponente und keine interaktive Übung, der Seitenaufbau steht im Inhaltsführer) Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Plan und Inhaltsmethode bestätigt, so bauen. Gesamtcheck am Ende mit Sub-Agenten, nach der Musterseite indirekte-fragen und ihrem Lerner-Check melden, erst danach schreiben die drei Sub-Agenten die übrigen Seiten. Antwort der Orchestrator-Session in der Rolle der Ersteller:in
 
 ### Content method
 
@@ -139,17 +142,17 @@ page, which a link. -->
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Slice 1, Musterseite: Kapitel 5 `verkuerzen-betonen` anlegen (chapter.yaml, app.yaml: Kapitel, Intro ohne Alter, Scope) und Baustein `indirekte-fragen` mit Lesestück 300 bis 600 Wörter, Satzstreifen-Figur, Übungen, 6 Hörsätze; Wiederholungsseite `das-brauchst-du` (recap fragewoerter, passiv, gerund-oder-infinitiv); Guide, Inhaltsführer und Hörliste. Nur ich, kein Sub-Agent.
+- [x] Slice 1, Musterseite: Kapitel 5 `verkuerzen-betonen` anlegen (chapter.yaml, app.yaml: Kapitel, Intro ohne Alter, Scope) und Baustein `indirekte-fragen` mit Lesestück 300 bis 600 Wörter, Satzstreifen-Figur, Übungen, 6 Hörsätze; Wiederholungsseite `das-brauchst-du` (recap fragewoerter, passiv, gerund-oder-infinitiv); Guide, Inhaltsführer und Hörliste. Nur ich, kein Sub-Agent.
 - [ ] Slice 2: Baustein `which-satzbezug` (Seite, Figur satzstreifen-which-satzbezug.svg, Lesestück, 6 Hörsätze). Ein Sub-Agent im eigenen Worktree darf diese Seite schreiben; chapter.yaml, app.yaml, Inhaltsführer und audio-texte.json bleiben bei mir.
 - [ ] Slice 3: Baustein `cleft-sentences` (Seite, Figur satzstreifen-cleft-sentences.svg, Lesestück, 6 Hörsätze). Sub-Agent im eigenen Worktree, zusammen mit Slice 2 (zwei Seiten, eigene Dateien).
 - [ ] Slice 4: Baustein `partizip-statt-relativsatz` (Seite, Figur satzstreifen-partizip-statt-relativsatz.svg, Lesestück, 6 Hörsätze). Ein zweiter Sub-Agent im eigenen Worktree darf diese Seite schreiben.
