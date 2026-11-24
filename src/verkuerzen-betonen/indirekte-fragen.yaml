@@ -9,14 +9,14 @@ blocks:
     title: Wie fragst du höflich?
     blocks:
       - type: text
-        text: "Sophie plant einen Museumsbesuch und schreibt dem Museum eine E-Mail. Du liest gleich ihre Fragen, die Antwort und ihren Bericht. Davor eine Frage aus dem Explainer Sätze bauen."
+        text: "Sophie plant einen Museumsbesuch und schreibt dem Museum eine E-Mail. Du liest gleich ihre Fragen, die Antwort und ihren Bericht. Ein Streifen ist ein Satz oder Satzteil auf der Satzstreifen-Wand aus den früheren Kapiteln. Davor eine Frage aus dem Explainer Sätze bauen."
       - type: single-choice
         id: ifragen-start
         text: "Welcher Satz ist eine ganz normale Frage mit Fragewort und do?"
         options:
-          - text: The train leaves when
+          - text: When the train does leave
             correct: false
-            info: Das Fragewort steht am Ende, das ist keine Frage.
+            info: Hier steht do hinter dem Subjekt, so fragt man nicht.
           - text: When does the train leave
             correct: true
             info: Fragewort, do, Subjekt, Verb.
@@ -119,7 +119,7 @@ blocks:
         text: "Schau in Zeile 2: „Could you tell me whether the museum is open on Mondays?“ Die Frage ist ein Streifen im Satz. Wie in Sätze bauen hat eine direkte Frage einen Helfer: **do**, **does** oder **did**. Als indirekte Frage gibt sie ihn **ab**. Das Subjekt steht jetzt **vor** dem Verb, wie in einem normalen Satz. Ja/Nein-Fragen bekommen **if** oder **whether**."
       - type: figure
         image: images/satzstreifen-indirekte-fragen.svg
-        alt: "Oben die direkte Frage in vier Streifen: ein Fragewort-Streifen „When“, „does“, „the shop“ und „close?“ Ein Pfeil zeigt von „does“ nach unten mit dem Hinweis, dass does wegfällt. Darunter die indirekte Frage: „Could you tell me“, eine goldene Karte „when“, „the shop“ und „closes?“ Ganz unten eine Ja/Nein-Frage: „Do you know“, eine blaue Karte „if“ und „it opens“."
+        alt: "Oben die direkte Frage in vier Streifen: ein Fragewort-Streifen „When“, „does“, „the shop“ und „close?“ Ein Pfeil zeigt von „does“ nach unten mit dem Hinweis, dass does wegfällt. Darunter die indirekte Frage: „Could you tell me“, eine goldene Karte „when“, „the shop“ und „closes?“ Ganz unten eine Ja/Nein-Frage: „Do you know“, eine blaue Karte „if“ und „the shop opens“. Eine Legende erklärt: goldene Karte = Fragewort, blaue Karte = if oder whether."
         caption: "Aus „When does the shop close?“ wird „Could you tell me when the shop closes?“ Das does fällt weg, das Verb bekommt wieder das -s. Bei Ja/Nein-Fragen steht if oder whether."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -168,7 +168,7 @@ blocks:
         explanation: Montags ist das Museum geschlossen.
       - type: number
         id: ifragen-beleg
-        text: In welcher Zeile steht in der Antwort des Museums, was ein Familienticket kostet? Gib die Nummer ein.
+        text: In welcher Zeile steht in der Antwort des Museums, was ein Familienticket kostet? Gib nur die Nummer ein, zum Beispiel 3.
         answer: 7
         tolerance: 0
         explanation: In Zeile 7 steht „A family ticket costs £18“.
@@ -209,7 +209,7 @@ blocks:
               - answer: Do you know if the train does late?
                 message: Hier fehlt is.
           - source: Sie fragte, wo ich wohnte.
-            target: She asked (me |)where I [lived].
+            target: She asked (|me )where I [lived].
             distractors: [[live, did live]]
             mistakes:
               - answer: She asked where I live.
@@ -236,17 +236,19 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: "Where does the bus stop? · Could you tell me"
-            target: Could you tell me where the bus stops(.|?)
+            target: Could you tell me where the bus stops?
             mistakes:
               - answer: Could you tell me where does the bus stop?
                 message: Das does fällt weg, das Verb bekommt das -s.
+              - answer: Could you tell me where the bus stop?
+                message: Zu the bus gehört das -s, also stops.
           - cue: "Is the pool open today? · Do you know"
             target: Do you know (if|whether) the pool is open today?
             mistakes:
               - answer: Do you know is the pool open today?
-                message: Hier fehlen if oder whether, und das Subjekt steht vor dem Verb.
+                message: Hier fehlen if oder whether.
           - cue: "What did he say? · I wonder"
-            target: I wonder what he said(.|?)
+            target: I wonder what he said.
             mistakes:
               - answer: I wonder what did he say.
                 message: Das did fällt weg.
@@ -255,6 +257,8 @@ blocks:
             mistakes:
               - answer: I would like to know who have the key.
                 message: Who ist hier das Subjekt, darum bleibt has.
+              - answer: I would like to know who does have the key.
+                message: Who ist hier das Subjekt, darum kein does, also who has.
       - type: language-task
         id: ifragen-uebersetzen
         languages: { source: de, target: en }
@@ -268,7 +272,7 @@ blocks:
               - answer: Do you know where is my phone?
                 message: Das Subjekt steht vor dem Verb, also my phone is.
           - source: Sie fragte, ob ich müde war.
-            target: She asked (me |)(if|whether) I was tired.
+            target: She asked (|me )(if|whether) I was tired.
             mistakes:
               - answer: She asked if was I tired.
                 message: Das Subjekt steht vor dem Verb, also I was.
@@ -276,7 +280,7 @@ blocks:
             target: He wanted to know where we (went|were going|had gone).
             mistakes:
               - answer: He wanted to know where did we go.
-                message: Das did fällt weg, das Verb rückt in die Vergangenheit.
+                message: Das did fällt weg, das Verb rückt zurück.
       - type: language-task
         id: ifragen-hoeren
         languages: { source: de, target: en }
@@ -306,9 +310,9 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: ifragen-entscheidung
-        task: "Sophie schlägt der Gastfamilie in Zeile 15 den Samstag vor. Schreibe drei englische Sätze für die Gastfamilie: Gib mit asked oder wanted to know eine Frage aus der E-Mail weiter und nenne einen Grund aus der Antwort des Museums, ob du den Samstag oder einen anderen Tag wählst."
+        task: "Sophie schlägt in Zeile 15 den Samstag vor. Schreibe drei englische Sätze für die Gastfamilie: Gib mit asked oder wanted to know eine Frage aus Zeile 2 bis 4 weiter und wähle mit einem Grund aus der Antwort einen Tag."
         points:
-          - text: Der Bericht gibt eine Frage aus Zeile 2 bis 4 weiter, mit Subjekt vor dem Verb und ohne do.
+          - text: Der Bericht gibt eine Frage aus Zeile 2 bis 4 der E-Mail weiter, mit Subjekt vor dem Verb und ohne do.
             source: /verkuerzen-betonen/indirekte-fragen/#lesen
           - text: Das Verb rückt eine Stufe zurück, zum Beispiel is zu was.
             source: /verkuerzen-betonen/indirekte-fragen/#neu
