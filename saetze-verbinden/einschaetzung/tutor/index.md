@@ -70,6 +70,17 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - „Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück“
 - „Sie sagte mir, ich soll warten: Bitten und Befehle weitergeben“
 
+### Kapitel „Verkürzen, betonen, indirekt fragen“
+
+- Selbsteinschätzung des Kapitels
+- „Das brauchst du hier“
+- „Can you tell me where …?: indirekt fragen“
+- „He was late, which annoyed me: which greift den ganzen Streifen auf“
+- „It is the bus that …: einen Satzteil hervorheben“
+- „the boy sitting next to me: Relativsatz verkürzen“
+- „Walking home, I met Tom: Sätze mit Partizipialsatz verknüpfen“
+- „Welche Rolle spielt das -ing-Wort?“
+
 ## Die Aufgaben dieser Selbsteinschätzung
 
 - A1: Aufgabe konjunktionen-karte der Seite „Zwei Streifen, eine Karte: and, but, or, because, so, when“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)

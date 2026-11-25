@@ -6,9 +6,8 @@ Die Seite führt den Relativsatz ohne Relativpronomen ein (Kontaktsatz, contact 
 
 - Die Zeitformen selbst (steht im Explainer „Zeiten auf dem Zeitstrahl“)
 - Fragen im einfachen Satz (steht im Explainer „Sätze bauen“)
-- Infinitiv und Gerundium (steht im Explainer „Verbketten“)
+- Verbketten im Einzelnen (steht im Explainer „Verbketten“)
 - Verbindungswörter für Erzählung und Argumentation
-- Indirekte Fragen, satzbezogenes which, cleft sentences, Partizipialsätze und die Formen auf -ing (Kapitel 5, später)
 - Gemischte if-Sätze und Inversion in if-Sätzen
 
 Alle Seiten des Kapitels: [Scope des Kapitels](../../scope/)

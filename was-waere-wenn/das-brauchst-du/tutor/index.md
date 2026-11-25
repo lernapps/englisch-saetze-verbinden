@@ -39,7 +39,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Das brauchst du hier“
 
-Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon können sollte, und hat keine Aufgabe. Erklär mit dem Inhalt der Seite und frag nach, ob das Kind ihn verstanden hat. Üben kann es das in anderen Apps; welche das sind, steht hier: https://lernapps.net/apps/map/englisch/c/simple-past/, https://lernapps.net/apps/map/englisch/c/past-perfect/
+Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon können sollte, und hat höchstens zwei Aufgaben zur Kontrolle. Erklär mit dem Inhalt der Seite und frag nach, ob das Kind ihn verstanden hat. Üben kann es das in anderen Apps; welche das sind, steht hier: https://lernapps.net/apps/map/englisch/c/simple-past/, https://lernapps.net/apps/map/englisch/c/past-perfect/
 
 Simple past und past perfect noch einmal kurz, bevor Sophie, Amir und Ellie sich Gedachtes ausdenken.
 

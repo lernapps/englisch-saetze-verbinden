@@ -20,9 +20,8 @@ Die Seite führt I wish und If only ein, um Wünsche und Bedauern über etwas au
 
 - Die Zeitformen selbst (steht im Explainer „Zeiten auf dem Zeitstrahl“)
 - Fragen im einfachen Satz (steht im Explainer „Sätze bauen“)
-- Infinitiv und Gerundium (steht im Explainer „Verbketten“)
+- Verbketten im Einzelnen (steht im Explainer „Verbketten“)
 - Verbindungswörter für Erzählung und Argumentation
-- Indirekte Fragen, satzbezogenes which, cleft sentences, Partizipialsätze und die Formen auf -ing (Kapitel 5, später)
 - Gemischte if-Sätze und Inversion in if-Sätzen
 
 Die ganze App: [Scope der App](../../scope/)

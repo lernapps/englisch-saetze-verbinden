@@ -70,6 +70,17 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - „Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück“ · Aufgaben A23, A24
 - „Sie sagte mir, ich soll warten: Bitten und Befehle weitergeben“ · Aufgaben A25, A26
 
+### Kapitel „Verkürzen, betonen, indirekt fragen“
+
+- Selbsteinschätzung des Kapitels
+- „Das brauchst du hier“
+- „Can you tell me where …?: indirekt fragen“ · Aufgaben A27, A28
+- „He was late, which annoyed me: which greift den ganzen Streifen auf“ · Aufgaben A29, A30
+- „It is the bus that …: einen Satzteil hervorheben“ · Aufgaben A31, A32
+- „the boy sitting next to me: Relativsatz verkürzen“ · Aufgaben A33, A34
+- „Walking home, I met Tom: Sätze mit Partizipialsatz verknüpfen“ · Aufgaben A35, A36
+- „Welche Rolle spielt das -ing-Wort?“ · Aufgaben A37, A38
+
 ## Die Aufgaben dieser Selbsteinschätzung
 
 - A1: Aufgabe konjunktionen-karte der Seite „Zwei Streifen, eine Karte: and, but, or, because, so, when“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
@@ -98,3 +109,15 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - A24: Aufgabe backshift-uebersetzen der Seite „Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A25: Aufgabe auf-karte der Seite „Sie sagte mir, ich soll warten: Bitten und Befehle weitergeben“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A26: Aufgabe auf-uebersetzen der Seite „Sie sagte mir, ich soll warten: Bitten und Befehle weitergeben“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A27: Aufgabe ifragen-karte der Seite „Can you tell me where …?: indirekt fragen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A28: Aufgabe ifragen-uebersetzen der Seite „Can you tell me where …?: indirekt fragen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A29: Aufgabe which-karte der Seite „He was late, which annoyed me: which greift den ganzen Streifen auf“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A30: Aufgabe which-uebersetzen der Seite „He was late, which annoyed me: which greift den ganzen Streifen auf“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A31: Aufgabe cleft-karte der Seite „It is the bus that …: einen Satzteil hervorheben“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A32: Aufgabe cleft-uebersetzen der Seite „It is the bus that …: einen Satzteil hervorheben“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A33: Aufgabe partrel-karte der Seite „the boy sitting next to me: Relativsatz verkürzen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A34: Aufgabe partrel-uebersetzen der Seite „the boy sitting next to me: Relativsatz verkürzen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A35: Aufgabe partsatz-karte der Seite „Walking home, I met Tom: Sätze mit Partizipialsatz verknüpfen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A36: Aufgabe partsatz-uebersetzen der Seite „Walking home, I met Tom: Sätze mit Partizipialsatz verknüpfen“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A37: Aufgabe ing-rolle der Seite „Welche Rolle spielt das -ing-Wort?“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A38: Aufgabe ing-uebersetzen der Seite „Welche Rolle spielt das -ing-Wort?“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
