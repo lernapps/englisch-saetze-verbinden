@@ -1,15 +1,15 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "It is the bus that …: einen Satzteil hervorheben"
-description: "Sophie wertet eine Umfrage zum Schulweg aus, und Mr Hill fragt nach einer Empfehlung für den Schulrat. Du lernst, mit It is … that und What … is … einen Satzteil hervorzuheben."
+description: "Sophie wertet eine Umfrage zum Schulweg aus, und Mr Hill fragt nach einer Empfehlung für den Schülerrat. Du lernst, mit It is … that und What … is … einen Satzteil hervorzuheben."
 competencies: [cleft-sentences]
-scope: "Die Seite zeigt zwei Wege, einen Teil des Streifens hervorzuheben: It is oder It was, der betonte Teil, dann that oder who und der Rest (It is the bus that most students use.), und What … is … (What they want is a covered bike shelter.). Der betonte Teil kann ein Subjekt, ein Objekt, ein Ort oder eine Zeit sein. Bei Personen sind who und that beide richtig, bei Sachen steht nur that. It bleibt is oder was, auch bei der Mehrzahl (It is the buses that …). Bei What … is … fällt do weg, und nach What steht kein it. Nicht hier: lange betonte Nebensätze als eigene Muster (What I noticed was that …, sie stehen im Text, werden aber nicht geübt) und die Betonung mit Nachdruck in der Aussprache. Die Seite arbeitet mit einem erfundenen Fall: einer Schule, einer Umfrage mit erfundenen Zahlen, einer E-Mail mit erfundenen Preisen und Sophies Notizen, die Zeilen sind nummeriert. Es gibt keine echten Daten. Die Seite stützt sich auf keine geöffnete Quelle zu Cleft-Sätzen."
+scope: "Die Seite zeigt zwei Wege, einen Teil des Streifens hervorzuheben: It is oder It was, der betonte Teil, dann that oder who und der Rest (It is the bus that most students use.), und What … is … (What they want is a covered bike shelter.). Der betonte Teil kann ein Subjekt, ein Objekt, ein Ort oder eine Zeit sein. Bei Personen sind who und that beide richtig, bei Sachen steht meist that. Nach It steht is oder was, auch bei der Mehrzahl (It is the buses that …). Bei What … is … fällt do weg, und nach What steht kein it. Nicht hier: lange betonte Nebensätze als eigene Muster (What I noticed was that …, sie stehen im Text, werden aber nicht geübt) und die Betonung mit Nachdruck in der Aussprache. Die Seite arbeitet mit einem erfundenen Fall: einer Schule, einer Umfrage mit erfundenen Zahlen, einer E-Mail mit erfundenen Preisen und Sophies Notizen, die Zeilen sind nummeriert. Es gibt keine echten Daten. Die Seite stützt sich auf keine geöffnete Quelle zu Cleft-Sätzen."
 blocks:
   - type: section
     id: einstieg
     title: Was willst du betonen?
     blocks:
       - type: text
-        text: "Sophie wertet in der Schule eine Umfrage aus: Wie kommen die Schüler zur Schule? Du liest gleich ihren Blog, eine E-Mail von Mr Hill und Sophies Notizen für den Rat. Davor eine Frage zu who aus Kapitel 1."
+        text: "Nach dem Museum geht es um einen anderen Fall in der Schule: Sophie wertet eine Umfrage aus. Du liest gleich ihren Blog, eine E-Mail von Mr Hill und Sophies Notizen für den Schülerrat. Ein Streifen ist ein Satz oder Satzteil wie auf der Satzstreifen-Wand der früheren Kapitel. Davor eine Frage zu who aus Kapitel 1."
       - type: single-choice
         id: cleft-start
         text: "Welches Wort passt zu einer Person: the girl ___ sings best?"
@@ -23,9 +23,9 @@ blocks:
           - text: whose
             correct: false
             info: Whose zeigt, wem etwas gehört.
-        explanation: Für eine Person steht who, oft auch that.
+        explanation: Für eine Person steht who.
       - type: text
-        text: "**Das kannst du danach:** Du hebst einen Satzteil mit It is … that oder What … is … hervor."
+        text: "**Das kannst du danach:** Du hebst einen Satzteil hervor, auf zwei Wegen."
   - type: section
     id: lesen
     title: Blog, E-Mail und Notizen
@@ -44,7 +44,7 @@ blocks:
             ]
           - [
               "4",
-              "We also asked the students who do not ride a bike why they do not. Ninety of them said that they would ride a bike if there was a safe place for it.",
+              "We also asked the students who do not ride a bike why they do not. Ninety of them said that they would ride a bike if there were a safe place for it.",
             ]
           - ["5", "What they want is a covered bike shelter."]
           - [
@@ -60,7 +60,7 @@ blocks:
           - { target: "gate", source: "Tor" }
           - { target: "shelter", source: "Unterstand" }
           - { target: "covered", source: "überdacht" }
-          - { target: "council", source: "Schulrat (Schülervertretung)" }
+          - { target: "council", source: "Schülerrat (school council)" }
       - type: table
         caption: E-Mail von Mr Hill
         header: [Nr, Text]
@@ -113,10 +113,10 @@ blocks:
     title: Der betonte Teil steht in der Mitte
     blocks:
       - type: text
-        text: "Schau in Zeile 3: „It is the bus that most students use.“ Der Streifen „Most students use the bus“ wird geteilt. Der Teil, den du **betonen** willst, steht zwischen **It is** und **that**, bei Personen auch **who**. Bei **What … is …** steht der betonte Teil am Ende."
+        text: "Schau in Zeile 3: „It is the bus that most students use.“ Der Streifen „Most students use the bus“ wird geteilt. Der Teil, den du **betonen** willst, steht zwischen **It is** und **that**, bei Personen auch **who**. Bei **What … is …** steht der betonte Teil am Ende, so wie im Deutschen: „Was ich mir wünsche, ist ein ruhiger Tag.“"
       - type: figure
         image: images/satzstreifen-cleft-sentences.svg
-        alt: "Oben ein Streifen „The dog broke the window.“ Ein Pfeil führt nach unten zu vier Teilen: eine dunkelgrüne Karte „It is“, ein grün umrandeter Streifen „the dog“, eine dunkelgrüne Karte „that“ und ein Streifen „broke the window.“ Darunter ein zweiter Streifen „We need a new map.“ und ein Pfeil zu „What we need“, einer grünen Karte „is“ und einem grün umrandeten Streifen „a new map“. Eine Legende erklärt: grüne Karte = der Rahmen, grüner Rand = betont."
+        alt: "Oben ein Streifen „The dog broke the window.“ Ein Pfeil führt nach unten zu vier Teilen: eine dunkelgrüne Karte „It is“, ein grün umrandeter Streifen „the dog“, eine dunkelgrüne Karte „that“ und ein Streifen „broke the window.“ Darunter ein zweiter Streifen „We need a new map.“ und ein Pfeil zu „What we need“, einer grünen Karte „is“ und einem grün umrandeten Streifen „a new map“. Eine Legende erklärt: dunkelgrüne Karte = Gerüst (It is, that, is), hellgrüner Rand = betont."
         caption: "Aus „The dog broke the window.“ wird „It is the dog that broke the window.“ Aus „We need a new map.“ wird „What we need is a new map.“ Der betonte Teil ist grün umrandet."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -128,13 +128,13 @@ blocks:
           - ["I need some sleep.", "What I need is some sleep.", "der betonte Teil steht am Ende"]
           - ["We met at the station.", "It was at the station that we met.", "auch ein Ort lässt sich betonen"]
           - ["She called on Monday.", "It was on Monday that she called.", "auch eine Zeit lässt sich betonen"]
-          - ["The music made us dance.", "It was the music that made us dance.", "bei Sachen nur that"]
+          - ["The music made us dance.", "It was the music that made us dance.", "bei Sachen meist that"]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **Mit It is … that oder What … is … hebst du einen Teil des Streifens hervor.** Bei Personen darfst du who oder that nehmen, bei Sachen nur that. Das Wort It bleibt is oder was, auch bei der Mehrzahl. Nach What … is … steht kein it.
+              **Zwei Rahmen heben einen Teil des Streifens hervor: It is … that und What … is ….** Bei Personen darfst du who oder that nehmen, bei Sachen meist that. Nach It steht is oder was, auch bei der Mehrzahl. Nach What … is … steht kein it.
       - type: vocabulary
         caption: Wörter für die Übungen
         languages: { source: de, target: en }
@@ -153,13 +153,13 @@ blocks:
         id: cleft-verstehen
         text: In der Umfrage fahren die meisten Schüler mit dem Auto zur Schule.
         answer: false
-        explanation: Die meisten nehmen den Bus, das steht in Zeile 2 und 3.
+        explanation: Die meisten nehmen den Bus (Zeile 2).
       - type: number
         id: cleft-beleg
-        text: In welcher Zeile steht, was der Fahrradunterstand kostet? Gib nur die Nummer ein, zum Beispiel 3.
+        text: In welcher Zeile steht, was der Fahrradunterstand kostet? Gib nur die Nummer ein.
         answer: 8
         tolerance: 0
-        explanation: In Zeile 8 steht „A bike shelter for 60 bikes costs £1,200“.
+        explanation: Zeile 8.
       - type: matching
         id: cleft-zuordnen
         text: Welche betonte Form gehört zu welchem Streifen? Ordne zu.
@@ -172,7 +172,7 @@ blocks:
             right: It was in the park that we met.
           - left: The cold wind worries her.
             right: What worries her is the cold wind.
-        explanation: Der betonte Teil steht zwischen It was und that, oder bei What … is … am Ende.
+        explanation: Siehe Poster.
       - type: language-task
         id: cleft-karte
         languages: { source: de, target: en }
@@ -185,7 +185,7 @@ blocks:
             distractors: [[who, what]]
             mistakes:
               - answer: It is the noise who annoys me.
-                message: Für Sachen steht that, nicht who.
+                message: Für Sachen steht meist that, nicht who.
               - answer: It is the noise what annoys me.
                 message: Hier steht that.
           - source: Es sind die Busse, die so voll sind.
@@ -193,9 +193,9 @@ blocks:
             distractors: [[are, were]]
             mistakes:
               - answer: It are the buses that are so full.
-                message: It bleibt is, auch bei der Mehrzahl.
+                message: Nach It steht is oder was, auch bei der Mehrzahl.
               - answer: It were the buses that are so full.
-                message: Es ist jetzt, also is, und It bleibt is.
+                message: "Der deutsche Satz steht in der Gegenwart: is, nicht were."
           - source: Was ich brauche, ist eine Pause.
             target: "[What] I need is a rest."
             distractors: [[That, It]]
@@ -203,10 +203,10 @@ blocks:
               - answer: That I need is a rest.
                 message: Der Streifen beginnt mit What.
               - answer: It I need is a rest.
-                message: Der Streifen beginnt mit What.
+                message: Ohne What beginnt der Streifen falsch.
       - type: ordering
         id: cleft-ordnen
-        text: "Ordne die Wörter zu einem Satz: It was the rain that stopped our game."
+        text: "Ordne die Wörter zu einem englischen Satz mit der Bedeutung: Es war der Regen, der unser Spiel beendete."
         items:
           - It
           - was
@@ -216,27 +216,27 @@ blocks:
           - stopped
           - our
           - game
-        explanation: It was, dann der betonte Teil, dann that und der Rest.
+        explanation: It was, betonter Teil, that, Rest.
       - type: language-task
         id: cleft-bilden
         languages: { source: de, target: en }
-        task: Mache aus dem Streifen einen betonten Satz. Der Anfang steht hinter dem Punkt im Cue. Schreibe den ganzen Satz.
+        task: Mache aus dem Streifen einen betonten Satz. Hinter dem Mittelpunkt (·) steht der Anfang des neuen Satzes. Schreibe den ganzen Satz.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: "My uncle told me the news. · It was"
-            target: It was my uncle (who|that) told me the news.
+            target: It was (my uncle who told me the news|my uncle that told me the news|the news that my uncle told me|the news my uncle told me).
             mistakes:
               - answer: It was my uncle which told me the news.
-                message: Für Personen steht who oder that.
+                message: Für den Onkel passen who und that, which nicht.
           - cue: "The long walk made us tired. · It was"
             target: It was the long walk that made us tired.
             mistakes:
               - answer: It was the long walk who made us tired.
-                message: Für Sachen steht that, nicht who.
+                message: Bei der langen Wanderung ist who falsch, nimm that.
               - answer: It was that the long walk made us tired.
                 message: Zuerst kommt der betonte Teil, dann that.
           - cue: "We need more time. · What"
-            target: What we need is more time.
+            target: What we need is (|some )more time.
             mistakes:
               - answer: What do we need is more time.
                 message: Hier gibt es kein do.
@@ -246,7 +246,7 @@ blocks:
             target: What worries me is the noise.
             mistakes:
               - answer: What worries me it is the noise.
-                message: Nach What … is … steht kein it.
+                message: Nach worries me steht kein it vor is.
       - type: language-task
         id: cleft-uebersetzen
         languages: { source: de, target: en }
@@ -258,21 +258,25 @@ blocks:
             target: It was my sister (who|that) won the prize.
             mistakes:
               - answer: It was my sister which won the prize.
-                message: Für Personen steht who oder that.
+                message: Für die Schwester passen who und that, which nicht.
+              - answer: It is my sister who won the prize.
+                message: Der deutsche Satz steht in der Vergangenheit („Es war“), also It was.
               - answer: It was my sister who she won the prize.
                 message: Das Pronomen she fällt weg.
           - source: Was ich am meisten mag, ist der Sommer.
-            target: What I (like|love) (most|best) is (the )summer.
+            target: What I (like|love|enjoy) (|the )(most|best) (|of all )is (|the )summer.
             mistakes:
               - answer: What I like most it is summer.
-                message: Nach What … is … steht kein it.
+                message: Kein it zwischen What … und is.
               - answer: What do I like most is summer.
-                message: Hier gibt es kein do.
+                message: Das Fragewort What braucht hier kein do.
           - source: Es ist das Wetter, das mich stört.
-            target: It is the weather that (annoys|bothers) me.
+            target: It is the weather that (annoys|bothers|disturbs|irritates) me.
             mistakes:
               - answer: It is the weather who annoys me.
-                message: Für Sachen steht that, nicht who.
+                message: Beim Wetter ist who falsch, nimm that.
+              - answer: It was the weather that annoys me.
+                message: Der deutsche Satz steht in der Gegenwart („Es ist“), also It is.
       - type: language-task
         id: cleft-hoeren
         languages: { source: de, target: en }
@@ -295,18 +299,18 @@ blocks:
         items:
           - audio: what-she-wants-for-her-birthday-is-a-camera.mp3
             text: What she wants for her birthday is a camera.
-          - audio: it-was-my-aunt-who-found-the-keys.mp3
-            text: It was my aunt who found the keys.
+          - audio: it-was-the-cat-that-drank-all-the-milk.mp3
+            text: It was the cat that drank all the milk.
           - audio: what-surprised-me-most-was-the-price.mp3
             text: What surprised me most was the price.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: cleft-entscheidung
-        task: "Der Rat braucht Sophies Empfehlung. Wähle den Fahrradunterstand (£1,200) oder den Halteplatz mit den Lichtern (£1,500) und schreibe drei englische Sätze: Betone mit It is … that oder What … is … einen Grund aus Zeile 1 bis 16."
+        task: "Der Schülerrat braucht Sophies Empfehlung. Wähle den Fahrradunterstand (£1,200) oder den Halteplatz mit den Lichtern (£1,500) und schreibe drei englische Sätze: Betone in zwei Sätzen mit den beiden Rahmen einen Grund aus Zeile 1 bis 16."
         points:
           - text: Der Text nennt eine Entscheidung (Unterstand oder Halteplatz mit Lichtern).
             source: /verkuerzen-betonen/cleft-sentences/#lesen
-          - text: Ein Satz hebt mit It is … that (oder who) einen Teil hervor, das Wort It bleibt is oder was.
+          - text: Ein Satz hebt mit It is … that (oder who) einen Teil hervor, nach It steht is oder was.
             source: /verkuerzen-betonen/cleft-sentences/#neu
           - text: Ein Satz beginnt mit What und hat is oder was in der Mitte, ohne do und ohne it.
             source: /verkuerzen-betonen/cleft-sentences/#neu
@@ -319,4 +323,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Der Rat hat Sophies Empfehlung gelesen. Wie du Sätze mit einem Partizip kürzer machst, zum Beispiel einen Relativsatz, siehst du auf der nächsten Seite."
+        text: "Die nächste Seite zeigt einen Artikel über eine Bibliothek. Dort lernst du, Sätze mit einem Partizip zu kürzen, zum Beispiel einen Relativsatz."
