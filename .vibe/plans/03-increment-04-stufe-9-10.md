@@ -179,7 +179,7 @@ page, which a link. -->
 
 - [x] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
       as it says. Commit.
-- [ ] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
+- [x] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
 - [ ] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
       and wait for the yes.
@@ -201,12 +201,19 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Explore, Plan, Code und Commit bis zum Checkpoint „Veröffentlichen“. Gepasst: Recherche, Plan und Inhaltsmethode, Musterseite (alle drei Antworten der Orchestrator-Session in der Rolle der Ersteller:in), dazu die Erlaubnis zum Push und zur Vorschau-PR (ebenfalls über die Orchestrator-Session). Vorschau-PR #5 gegen `main` ist offen, Check `app` grün. Nicht erreicht: Veröffentlichen, Katalog (kein Eintrag in diesem Auftrag).
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Menschliche Nachrichten: 1 („Weiter“, nach einer Unterbrechung durch das Limit der Sub-Agenten). Dazu Antworten der Orchestrator-Session in der Rolle der Ersteller:in: Recherche, Plan und Inhaltsmethode, Musterseite, Push und Vorschau-PR. Von der Ersteller:in selbst gehört habe ich nichts.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+- Sophie bleibt als Stimme der Texte (15 bis 16), ohne Figuren-Einführung, die anderen Kinder treten nicht auf (guess, Orchestrator-Session bestätigt); Mr Hill darf vorkommen.
+- Alle sechs Fälle sind erfunden (Museum, Schlange, Schulweg-Umfrage, Bibliothek, Wanderung, Tennisclub), damit keine unbelegten Fakten im Text stehen; echte Fakten nur aus geöffneten Quellen (guess, mit der Zahlenregel bestätigt).
+- Eine Wiederholungsseite für drei Bausteine statt einer je Baustein (guess, bestätigt).
+- Wörter gegen die Wortliste der Karte: die Sub-Agenten haben sie nur geschätzt; ich habe sie danach selbst gegen die Liste geprüft und sieben fehlende Glossarwörter ergänzt.
+- Die Seite `ing-formen` bekam in der Korrektur einen neuen Fall (Tennisclub), weil der Fahrrad-Fall mit `cleft-sentences` doppelt war und die Zahlen widersprüchlich waren.
+- Wikipedia „Cleft (syntax)“ und „Gerund“ habe ich nicht geöffnet (HTTP 429, nicht wiederholt); die Fakten dazu stehen nicht im Inhaltsführer.
+- Der Plan 02 musste mit dem Tooling 0.19 neu abgehakt werden, weil `plan skip` mit Klammern im Grund vom Check `plan-file` abgelehnt wurde; ich habe die Klammern aus den Gründen genommen.
+- Vorlagenfunde, nicht behoben: Standardmeldung „Deine Fassung kann trotzdem richtig sein“, `ordering` mit Auswahlfeldern, Zeilennummer wird als „keine Zahl“ gemeldet, Fehlermeldungen im Auswahlmodus fehlen, das CC-BY-Etikett verdeckt unten rechts den Bildrand.
