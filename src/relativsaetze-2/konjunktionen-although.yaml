@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Sagt der zweite Streifen, was daraus folgt?
         explanation: But zeigt etwas Unerwartetes.
-        links:
-          - title: Lernlandkarte Englisch · Konjunktionen and, but, because
-            url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
       - type: text
         text: "**Das kannst du danach:** Du drückst Gegensätze mit although, while und whereas aus und sagst mit so that, wozu man etwas tut."
   - type: section
@@ -173,9 +170,6 @@ blocks:
             correct: true
             info: Absatz 1 sagt „so that they can collect leaves“.
         explanation: Year 8 sammelt Blätter für den Kunstraum.
-        links:
-          - title: Lernlandkarte Englisch · Konjunktionen although und whereas
-            url: https://lernapps.net/apps/map/englisch/c/konjunktionen-although/
       - type: number
         id: alt-beleg
         text: In welchem Absatz steht, dass der Saal ziemlich klein ist? Gib die Nummer ein.
@@ -183,9 +177,6 @@ blocks:
         hint: Lies den Teil über das Konzert.
         tolerance: 0
         explanation: Das steht in Absatz 3.
-        links:
-          - title: Lernlandkarte Englisch · Konjunktionen although und whereas
-            url: https://lernapps.net/apps/map/englisch/c/konjunktionen-although/
       - type: language-task
         id: alt-karte
         languages: { source: de, target: en }
@@ -228,9 +219,6 @@ blocks:
           - arrived
           - on time
         explanation: Erst although mit ganzem Streifen, dann ein Komma und der andere Streifen.
-        links:
-          - title: Lernlandkarte Englisch · Konjunktionen although und whereas
-            url: https://lernapps.net/apps/map/englisch/c/konjunktionen-although/
       - type: language-task
         id: alt-bilden
         languages: { source: de, target: en }

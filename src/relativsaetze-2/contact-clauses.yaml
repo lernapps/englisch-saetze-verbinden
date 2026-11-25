@@ -24,9 +24,6 @@ blocks:
             correct: true
             info: "Aus „She lives in London“ wird „who lives in London“. Who ersetzt das Pronomen she, das Subjekt, also das Wort, das etwas tut."
         explanation: Die Relativkarte ersetzt das Pronomen des zweiten Streifens.
-        links:
-          - title: Lernlandkarte Englisch · Notwendige Relativsätze
-            url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
       - type: text
         text: "**Das kannst du danach:** Du bildest Relativsätze ohne who, which oder that, wenn das möglich ist, und du weißt, wann die Karte stehen muss."
   - type: section
@@ -129,9 +126,6 @@ blocks:
             correct: false
             info: Davon steht nichts im Chat.
         explanation: Der Film ist nicht sehr gut.
-        links:
-          - title: Lernlandkarte Englisch · Contact clauses
-            url: https://lernapps.net/apps/map/englisch/c/contact-clauses/
       - type: number
         id: contact-beleg
         text: In welcher Nachricht sagt jemand, dass er oder sie etwas zu essen mitbringt? Gib nur die Zahl ein, ohne das Wort Nachricht.
@@ -139,9 +133,6 @@ blocks:
         hint: Lies noch einmal den Chat.
         tolerance: 0
         explanation: In Nachricht 12 bringt Ellie Snacks mit.
-        links:
-          - title: Lernlandkarte Englisch · Contact clauses
-            url: https://lernapps.net/apps/map/englisch/c/contact-clauses/
       - type: multiple-choice
         id: contact-weglassen
         text: In welchen Sätzen darf die Relativkarte in Klammern fehlen? Wähle alle richtigen.
@@ -159,9 +150,6 @@ blocks:
             correct: false
             info: That ersetzt das Subjekt it.
         explanation: Die Karte darf fehlen, wenn sie ein Objekt ersetzt.
-        links:
-          - title: Lernlandkarte Englisch · Contact clauses
-            url: https://lernapps.net/apps/map/englisch/c/contact-clauses/
       - type: language-task
         id: contact-bilden
         languages: { source: de, target: en }

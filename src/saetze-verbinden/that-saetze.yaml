@@ -31,9 +31,6 @@ blocks:
             correct: false
             info: Because nennt einen Grund. Hier geht es darum, was Ellie glaubt, nicht warum.
         explanation: Hinter I think steht ein ganzer Satz.
-        links:
-          - title: Lernlandkarte Englisch · That-Sätze
-            url: https://lernapps.net/apps/map/englisch/c/that-saetze/
       - type: text
         text: "**Das kannst du danach:** Du sagst, was du glaubst, weißt oder hoffst, und was andere sagen. Du weißt, wann die Karte that fehlen darf."
       - type: vocabulary
@@ -95,9 +92,6 @@ blocks:
             correct: false
             info: Hier fehlen Subjekt und Verb. Es ist kein ganzer Streifen.
         explanation: Hinter I think steht ein ganzer Satz. Die Karte that darf davor stehen oder fehlen.
-        links:
-          - title: Lernlandkarte Englisch · That-Sätze
-            url: https://lernapps.net/apps/map/englisch/c/that-saetze/
       - type: language-task
         id: that-karte
         languages: { source: de, target: en }

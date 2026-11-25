@@ -1,0 +1,351 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Welche Rolle spielt das -ing-Wort?
+description: Sophie plant einen Tennisclub an der Schule und braucht eine Entscheidung. Du erkennst, ob ein -ing-Wort Verlaufsform, Gerundium oder Partizip ist, und grenzt es vom Infinitiv ab.
+competencies: [ing-formen]
+scope: "Die Seite zeigt, dass ein -ing-Wort im Streifen drei Rollen spielen kann. Als Verlaufsform ist es das Verb (be plus -ing: is walking). Als Gerundium steht es an der Stelle eines Nomens: als Subjekt (Walking is healthy), als Objekt nach Verben wie like oder enjoy und nach einer Präposition (interested in learning), nie mit to. Als Partizip beschreibt es ein Nomen (the man waiting there) oder verkürzt einen Satz (Walking home, I saw Mr Hill). Zur Abgrenzung steht der Infinitiv mit to (I like to walk, stop to talk) und ohne to nach einem Modalverb (She can swim). Die Seite arbeitet mit einem Blogbeitrag von Sophie über einen Tennisclub; der Fall, die Zahlen und die Preise sind erfunden, die Zeilen sind nummeriert. Nicht hier, weil es frühere Seiten sind oder den Rahmen sprengen. Verben mit wechselnder Bedeutung außer stop, ausführliche Partizipialsätze mit Zeitfolge, das Passiv mit being."
+blocks:
+  - type: section
+    id: einstieg
+    title: Was bedeutet stop?
+    blocks:
+      - type: text
+        text: "Sophie gründet einen Tennisclub an der Schule und braucht eine Entscheidung. Du liest ihren Blogbeitrag und hilfst dabei. Ein Streifen ist ein Satz oder Satzteil wie auf der Satzstreifen-Wand der früheren Kapitel. Davor eine Frage aus der Wiederholung."
+      - type: single-choice
+        id: ing-start
+        text: "Welcher Satz bedeutet: Er blieb stehen, um mit Sophie zu reden?"
+        options:
+          - text: He stopped talking to Sophie
+            correct: false
+            info: Das heißt, er hörte auf zu reden.
+          - text: He stopped to talk to Sophie
+            correct: true
+            info: Mit to bleibt er stehen, um zu reden.
+          - text: He stopped to talking to Sophie
+            correct: false
+            info: Nach to steht das Verb ohne -ing.
+        explanation: Stop to talk heißt stehen bleiben, um zu reden.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst, ob ein -ing-Wort Verlaufsform (be plus -ing, zum Beispiel is walking), Gerundium oder Partizip ist, und grenzt es vom Infinitiv mit to ab."
+  - type: section
+    id: lesen
+    title: Blogbeitrag über den Tennisclub
+    blocks:
+      - type: text
+        text: "Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Wörter auf -ing und auf die Zahlen, mit denen Sophie die Entscheidung vorbereitet."
+      - type: table
+        caption: "Blog · Warum ein Tennisclub?"
+        header: [Nr, Text]
+        rows:
+          - ["1", "Playing tennis is great fun, so I decided to start a tennis club at our school."]
+          - [
+              "2",
+              "I asked 40 pupils if they would come. 24 said yes. Of the other 16, nine were afraid of playing badly, and seven prefer other sports.",
+            ]
+          - [
+              "3",
+              "Mr Hill liked my plan. Looking at the sports list, he told me that the park has two courts and that one court costs £5 an hour.",
+            ]
+          - [
+              "4",
+              "We need both courts for one hour every Friday for ten weeks. Hiring them is £100 for the term, and the school fund can give £400 to our club.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Warum ein Tennisclub?
+        languages: { source: de, target: en }
+        entries:
+          - { target: "afraid of", source: "Angst vor" }
+          - { target: "court", source: "Tennisplatz" }
+          - { target: "hire", source: "mieten" }
+          - { target: "fund", source: "Geldtopf, Fonds" }
+          - { target: "term", source: "Schulabschnitt" }
+      - type: table
+        caption: Blog · Die ersten Wochen
+        header: [Nr, Text]
+        rows:
+          - [
+              "5",
+              "We started on the first Friday of term. Eighteen pupils came, and they were all smiling when the first ball flew across the court.",
+            ]
+          - [
+              "6",
+              "Mr Hill stood at the side, watching us play. He said that we were good at running, but not at hitting the ball.",
+            ]
+          - [
+              "7",
+              "The sports cupboard has only eight old rackets, so ten of us were sharing. The pupils waiting for a racket sat on the bench and watched.",
+            ]
+          - ["8", "Sharing is fun for one lesson, but nobody can learn by waiting."]
+      - type: vocabulary
+        caption: Randglossar · Die ersten Wochen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "racket", source: "Schläger" }
+          - { target: "cupboard", source: "Schrank" }
+          - { target: "share", source: "teilen" }
+          - { target: "bench", source: "Bank" }
+          - { target: "hit", source: "schlagen, treffen" }
+      - type: table
+        caption: Blog · Trainer oder Schläger?
+        header: [Nr, Text]
+        rows:
+          - ["9", "After the courts, £300 of the fund is left. Mr Hill found two ways to spend it."]
+          - [
+              "10",
+              "A coach would teach us for ten lessons and cost £18 a lesson, which is £180. Teaching two groups of nine, she can show everybody how to hit the ball.",
+            ]
+          - [
+              "11",
+              "The other choice is buying ten new rackets for £12 each, which is £120, and six tubes of balls for £4 each, which is £24. Together that is £144.",
+            ]
+          - ["12", "Doing both is impossible: £180 plus £144 is £324, and only £300 is left."]
+          - [
+              "13",
+              "With a coach we are learning the right way to play, but we would still share. With new rackets everybody is playing from the first minute, but nobody is teaching us.",
+            ]
+          - [
+              "14",
+              "I am writing this post to ask what you think. Mr Hill needs to know our choice by Friday: coach or new rackets and balls?",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Trainer oder Schläger?
+        languages: { source: de, target: en }
+        entries:
+          - { target: "coach", source: "Trainerin, Trainer" }
+          - { target: "lesson", source: "Stunde, Unterrichtsstunde" }
+          - { target: "tube", source: "Dose" }
+          - { target: "spend", source: "ausgeben" }
+          - { target: "impossible", source: "unmöglich" }
+  - type: section
+    id: neu
+    title: Welche Rolle hat das -ing-Wort?
+    blocks:
+      - type: text
+        text: "Im Blogbeitrag stehen viele Wörter auf -ing, aber sie spielen verschiedene Rollen. Frage bei jedem: **Welche Rolle hat es in seinem Streifen?** Ein Modalverb ist ein Hilfsverb wie can oder must; danach steht der Infinitiv ohne to."
+      - type: figure
+        image: images/satzstreifen-ing-formen.svg
+        alt: "Vier Zeilen mit je einem Satzstreifen aus kleinen Streifen, in denen das Wort „singing“ oder „to sing“ einen dicken Rand hat. Rechts steht in jeder Zeile eine Marke: eine runde grau mit „Verlaufsform“, eine eckige grau mit „Gerundium“, eine braune Pfeilmarke mit „Partizip“ und eine gestrichelte mit „Infinitiv: kein -ing“. Unten erklärt eine Legende die drei Formen der Marken. Oben steht die Frage nach der Rolle des -ing-Wortes."
+        caption: "Das Wort singing hat in drei Streifen drei Rollen. Der Infinitiv to sing ist keine -ing-Form."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die Rollen
+        header: [Rolle, Woran du sie erkennst, Beispiel]
+        rows:
+          - [Verlaufsform, "be plus -ing, das -ing-Wort ist das Verb", "The train is leaving."]
+          - [Gerundium, "steht an der Stelle eines Nomens", "Dancing makes me happy. I like dancing."]
+          - [Gerundium nach Präposition, "immer -ing, nie to plus Verb", "He is afraid of falling."]
+          - [
+              Partizip,
+              "beschreibt ein Nomen oder verkürzt einen Satz",
+              "The cat sitting on the wall is grey. Opening the door, she smiled.",
+            ]
+          - [Infinitiv, "to plus Verb (nach Modalverb ohne to), keine -ing-Form", "I like to dance. She can dance."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Jedes -ing-Wort hat im Streifen eine Rolle:** Verb mit be, Platz eines Nomens (Gerundium) oder Platz eines Adjektivs oder Nebensatzes (Partizip). Nach einer Präposition steht -ing, nie to plus Verb. Nach einem Modalverb steht der Infinitiv ohne to. Bei stop ändert sich die Bedeutung: stop doing hört auf, stop to do bleibt stehen, um etwas zu tun.
+      - type: vocabulary
+        caption: Wörter für die Übungen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "interested", source: "interessiert" }
+          - { target: "climb", source: "klettern" }
+          - { target: "test", source: "Test, Klassenarbeit" }
+          - { target: "helmet", source: "Helm" }
+          - { target: "tired from", source: "müde von" }
+          - { target: "tired of", source: "etwas satt haben" }
+          - { target: "gate", source: "Tor" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: ing-verstehen
+        text: Warum kann der Club nicht beides kaufen, den Trainer und die neuen Schläger mit Bällen?
+        options:
+          - text: Es gibt nur acht alte Schläger
+            correct: false
+            info: Stimmt, aber kein Geldgrund.
+          - text: Beides zusammen kostet £324, es bleiben nur £300
+            correct: true
+            info: Zeile 12 rechnet es vor.
+          - text: Der Trainer kostet mehr als das restliche Geld
+            correct: false
+            info: £180 sind weniger als £300.
+        explanation: Beides kostet zu viel.
+      - type: number
+        id: ing-beleg
+        text: In welcher Zeile steht, wie viele alte Schläger der Club hat? Gib nur die Nummer ein, zum Beispiel 3.
+        answer: 7
+        tolerance: 0
+        explanation: In Zeile 7 steht „only eight old rackets“.
+      - type: matching
+        id: ing-zuordnen
+        text: Welche Rolle hat das -ing-Wort oder die Form in diesem Satz? Ordne zu.
+        pairs:
+          - left: The wind is getting stronger.
+            right: Verlaufsform
+          - left: I enjoy running in the rain.
+            right: Gerundium
+          - left: The bus coming round the corner is late.
+            right: Partizip
+          - left: I want to run in the rain.
+            right: Infinitiv
+        explanation: Frage nach der Rolle, nicht nach der Endung.
+      - type: language-task
+        id: ing-rolle
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Form passt? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Sie interessiert sich fürs Klettern.
+            target: She is interested in [climbing].
+            distractors: [[to climb, climb]]
+            mistakes:
+              - answer: She is interested in to climb.
+                message: "Nach in: Gerundium, kein to."
+              - answer: She is interested in climb.
+                message: Nach in braucht das Verb -ing.
+          - source: Sie lernt gerade für den Test.
+            target: She [is studying] for the test.
+            distractors: [[studying, study]]
+            mistakes:
+              - answer: She studying for the test.
+                message: "Verlaufsform: be fehlt."
+              - answer: She study for the test.
+                message: Gerade heißt be plus -ing.
+          - source: Er kann gut schwimmen.
+            target: He can [swim] well.
+            distractors: [[swimming, to swim]]
+            mistakes:
+              - answer: He can swimming well.
+                message: "Nach can: ohne -ing."
+              - answer: He can to swim well.
+                message: "Nach can: ohne to."
+          - source: Der Mann, der dort wartet, ist Mr Hill.
+            target: The man [waiting] there is Mr Hill.
+            distractors: [[waits, to wait]]
+            mistakes:
+              - answer: The man waits there is Mr Hill.
+                message: Das Partizip ersetzt who is waiting.
+              - answer: The man to wait there is Mr Hill.
+                message: Das Partizip hat kein to.
+      - type: ordering
+        id: ing-ordnen
+        text: "Ordne die Wörter zu einem Satz: Sophie is thinking about buying a helmet."
+        items:
+          - Sophie
+          - is
+          - thinking
+          - about
+          - buying
+          - a
+          - helmet
+        explanation: Nach about steht buying, das Gerundium.
+      - type: language-task
+        id: ing-bilden
+        languages: { source: de, target: en }
+        task: Schreibe aus den Stichwörtern einen ganzen Satz. Im dritten brauchst du ein Partizip (ohne who).
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "She · read a book · now"
+            target: (Now she is|Now she's|Right now she is|Right now she's|She is|She's) reading a book (now|right now|at the moment|).
+            mistakes:
+              - answer: She reading a book now.
+                message: Hier fehlt be, also is reading.
+              - answer: She reads a book now.
+                message: Jetzt gerade heißt be plus -ing.
+          - cue: "He is good at · draw pictures"
+            target: (He is|He's) good at drawing pictures.
+            mistakes:
+              - answer: He is good at to draw pictures.
+                message: Nach at kein to.
+              - answer: He is good at draw pictures.
+                message: Nach at steht -ing.
+          - cue: "The woman · sit next to Mr Hill · is a doctor"
+            target: The woman sitting next to Mr Hill is a doctor.
+            mistakes:
+              - answer: The woman who is sitting next to Mr Hill is a doctor.
+                message: "Richtig, aber benutze das Partizip: sitting."
+              - answer: The woman sits next to Mr Hill is a doctor.
+                message: Ein Streifen hat ein Verb, hier hilft sitting.
+              - answer: The woman sit next to Mr Hill is a doctor.
+                message: Das Partizip braucht -ing.
+      - type: language-task
+        id: ing-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        hint: Frage zuerst, welche Rolle das -ing-Wort im englischen Satz hat.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Lesen ist mein Hobby.
+            target: (Reading is my hobby|Reading's my hobby|My hobby is reading).
+            mistakes:
+              - answer: Read is my hobby.
+                message: Als Subjekt steht -ing.
+              - answer: Reads is my hobby.
+                message: Hier braucht es -ing.
+          - source: Sie ist müde vom Warten.
+            target: (She is|She's) tired from waiting.
+            mistakes:
+              - answer: She is tired of waiting.
+                message: "Tired of heißt: hat es satt. Müde von: tired from."
+              - answer: She is tired from to wait.
+                message: "Nach from: -ing."
+              - answer: She is tired from wait.
+                message: Nach from steht -ing.
+          - source: Mr Hill steht gerade am Tor.
+            target: (Mr Hill is|Mr Hill's) standing (at|by) the gate (now|right now|at the moment|).
+            mistakes:
+              - answer: Mr Hill standing at the gate.
+                message: Hier fehlt be, also is standing.
+      - type: language-task
+        id: ing-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: learning-a-new-language-takes-a-lot-of-time.mp3
+            target: Learning a new language takes a lot of time.
+          - audio: we-are-meeting-outside-the-library-after-school.mp3
+            target: We are meeting outside the library after school.
+          - audio: carrying-two-heavy-bags-the-old-man-crossed-the-road.mp3
+            target: Carrying two heavy bags, the old man crossed the road.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und entscheiden
+    blocks:
+      - type: speaking-task
+        id: ing-nachsprechen
+        language: en
+        items:
+          - audio: are-you-interested-in-joining-the-tennis-club.mp3
+            text: Are you interested in joining the tennis club?
+          - audio: the-boy-riding-a-red-bike-is-my-cousin.mp3
+            text: The boy riding a red bike is my cousin.
+          - audio: my-brother-is-learning-to-play-the-guitar.mp3
+            text: My brother is learning to play the guitar.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: ing-entscheidung
+        task: "Sophie fragt in Zeile 14 ihre Leser, Mr Hill will die Antwort. Schreibe drei englische Sätze: Trainer oder neue Schläger und Bälle? Nenne einen Grund aus Zeile 9 bis 13 und benutze ein Gerundium und ein Partizip."
+        points:
+          - text: Entscheidung und Grund aus Zeile 9 bis 13.
+            source: /verkuerzen-betonen/ing-formen/#lesen
+          - text: Das Gerundium steht ohne to (Buying them costs …).
+            source: /verkuerzen-betonen/ing-formen/#neu
+          - text: "Ein Partizip beschreibt ein Nomen (pupils waiting …); are sharing hat be und zählt nicht."
+            source: /verkuerzen-betonen/ing-formen/#neu
+        solution: |
+          I think we should buy the new rackets and balls, because ten of us are sharing eight old rackets. Pupils waiting for a racket cannot learn anything. Buying them costs only £144, so we can still pay for the courts.
+  - type: section
+    id: weiter
+    title: Das war das Kapitel
+    blocks:
+      - type: text
+        text: "Du hast im Kapitel fünf Satzbausteine kennengelernt: die **indirekte Frage** (Subjekt vor dem Verb, kein do), **which** nach einem Komma (greift den ganzen Satz davor auf), **It is … that** (hebt einen Teil des Satzes hervor), das **Partizip statt Relativsatz** (the man waiting there) und den **Partizipialsatz** (Walking home, I met Tom.). Zum Schluss hast du geklärt, welche Rolle ein -ing-Wort spielt: Verlaufsform, Gerundium oder Partizip."
+      - type: text
+        text: "Danach kommt nichts mehr: Das war die letzte Seite. Du kannst jetzt die Selbsteinschätzung öffnen und prüfen, was du schon kannst."

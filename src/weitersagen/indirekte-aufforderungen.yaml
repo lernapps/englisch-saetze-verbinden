@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Says passt zu etwas, das jemand jetzt sagt.
         explanation: Nach said rückt will zu would.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Rede mit Zeitverschiebung
-            url: https://lernapps.net/apps/map/englisch/c/backshift/
       - type: text
         text: "**Das kannst du danach:** Du gibst Bitten und Aufforderungen mit told oder asked, der Person und to weiter, auch Verbote mit not to."
   - type: section
@@ -130,18 +127,12 @@ blocks:
             correct: false
             info: Davon steht nichts im Gespräch.
         explanation: Ellie soll blau nehmen und nicht rot.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Aufforderungen
-            url: https://lernapps.net/apps/map/englisch/c/indirekte-aufforderungen/
       - type: number
         id: auf-beleg
         text: In welcher Nachricht erzählt Ellie, dass Sophie Amir gebeten hat, das Papier zu halten? Gib die Nummer ein.
         answer: 12
         tolerance: 0
         explanation: In Nachricht 12 steht „asked Amir to hold“.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Aufforderungen
-            url: https://lernapps.net/apps/map/englisch/c/indirekte-aufforderungen/
       - type: multiple-choice
         id: auf-wahl
         text: "Sophie sagt zu Amir: „Please open the window.“ Welche Sätze geben das richtig weiter? Wähle alle richtigen."
@@ -159,9 +150,6 @@ blocks:
             correct: false
             info: to steht vor dem Verb, nicht vor Amir.
         explanation: told oder asked, die Person, dann to und das Verb.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Aufforderungen
-            url: https://lernapps.net/apps/map/englisch/c/indirekte-aufforderungen/
       - type: language-task
         id: auf-karte
         languages: { source: de, target: en }
@@ -205,9 +193,6 @@ blocks:
           - the
           - paper
         explanation: asked, die Person, to, das Verb.
-        links:
-          - title: Lernlandkarte Englisch · Indirekte Aufforderungen
-            url: https://lernapps.net/apps/map/englisch/c/indirekte-aufforderungen/
       - type: language-task
         id: auf-bilden
         languages: { source: de, target: en }

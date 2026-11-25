@@ -31,9 +31,6 @@ blocks:
             correct: true
             info: Peter mag Fußball und Amir mag auch Fußball. Der zweite Streifen fügt etwas hinzu. Dafür steht and.
         explanation: Mit and kommt etwas dazu.
-        links:
-          - title: Lernlandkarte Englisch · Konjunktionen and, but, because
-            url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
       - type: text
         text: "**Das kannst du danach:** Du machst aus zwei kurzen Sätzen einen langen, mit and, but, or, because, so oder when. Du weißt, welche Karte wozu passt."
       - type: text
@@ -115,9 +112,6 @@ blocks:
           - left: Der zweite Streifen sagt, wann etwas passiert.
             right: when
         explanation: Jede Karte sagt, wie die zwei Streifen zusammengehören.
-        links:
-          - title: Lernlandkarte Englisch · Konjunktionen and, but, because
-            url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
       - type: language-task
         id: konjunktionen-karte
         languages: { source: de, target: en }
@@ -178,9 +172,6 @@ blocks:
           - a
           - bike
         explanation: Der Grund kommt hinter because.
-        links:
-          - title: Lernlandkarte Englisch · Konjunktionen and, but, because
-            url: https://lernapps.net/apps/map/englisch/c/konjunktionen/
       - type: language-task
         id: konjunktionen-bilden
         languages: { source: de, target: en }

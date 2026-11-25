@@ -183,17 +183,18 @@ cannot. Something new goes into the guide in the slice that adds it. -->
 - [x] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
       and wait for the yes.
       Creator: alles mergen wenn fertig (Wortlaut der Ersteller:in, über die Orchestrator-Session weitergegeben; gemergt wird durch den Orchestrator)
-- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: the pull request squash-merged into
+- [x] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: the pull request squash-merged into
       `main`, the run of `Pages` watched to its end.
-- [ ] Open the address the job `deploy` printed and confirm the new content. Never use a derived address.
-- [ ] The app is listed and its entry changes (school years, summary): load skill `lernapps-listing` and write the
+- [x] Open the address the job `deploy` printed and confirm the new content. Never use a derived address.
+- [x] (skipped: Kein Katalogeintrag in diesem Auftrag, der Eintrag ist inzwischen in lernapps/apps gemergt) The app is listed and its entry changes (school years, summary): load skill `lernapps-listing` and write the
       changed entry. Else skip this task.
-- [ ] Fill the retrospective.
-- [ ] Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
-- [ ] **Checkpoint:** list. The entry changed: open the pull request to the catalog as skill `lernapps-listing`
+- [x] Fill the retrospective.
+- [x] (skipped: Der Plan geht mit der nächsten Vorschau-PR nach main, ein Push auf main ist hier nicht erlaubt) Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
+- [x] **Checkpoint:** list. The entry changed: open the pull request to the catalog as skill `lernapps-listing`
       says, without asking first, see it to "bestanden", then show the creator the pull request and its result. The
       entry did not change: tell the creator that the catalog updates the app by itself.
-- [ ] If the plan changed since its last push, commit it on `main` and push again.
+      Creator: Der Katalog übernimmt die App von selbst. Antwort der Orchestrator-Session, der Katalogeintrag ist gemergt
+- [x] (skipped: Der Plan geht mit der nächsten Vorschau-PR nach main, ein Push auf main ist hier nicht erlaubt) If the plan changed since its last push, commit it on `main` and push again.
 
 ## Retrospective
 
@@ -201,7 +202,7 @@ cannot. Something new goes into the guide in the slice that adds it. -->
 
 ### Phases reached
 
-Explore, Plan, Code und Commit bis zum Checkpoint „Veröffentlichen“ (Antwort „alles mergen wenn fertig“, über die Orchestrator-Session weitergegeben, nicht von mir selbst gehört). Gepasst: Plan bestätigt, Checkpoint „Musterseite“ (Antwort der Orchestrator-Session in der Rolle der Ersteller:in), Veröffentlichen. Vorschau-PR #3 ist offen, `main` ist in den Branch geholt (Konflikte nur in Tooling-Dateien, `main`-Fassung genommen), `lernapps check` grün. Gemergt wird durch die Orchestrator-Session; ob `Pages` gelaufen ist und wie die Seite online aussieht, ist beim Schreiben noch offen.
+Explore, Plan, Code und Commit bis zum Checkpoint „Veröffentlichen“ (Antwort „alles mergen wenn fertig“, über die Orchestrator-Session weitergegeben, nicht von mir selbst gehört). Gepasst: Plan bestätigt, Checkpoint „Musterseite“ (Antwort der Orchestrator-Session in der Rolle der Ersteller:in), Veröffentlichen. Vorschau-PR #3 ist offen, `main` ist in den Branch geholt (Konflikte nur in Tooling-Dateien, `main`-Fassung genommen), `lernapps check` grün. Die Orchestrator-Session hat PR #3 per Squash gemergt, der Lauf `Pages` war erfolgreich, die neuen Kapitel sind unter der vom Job `deploy` gedruckten Adresse online (Startseite und zwei Seiten geöffnet, Antwort 200, Kapitel 2 bis 4 sichtbar). Der Katalogeintrag ist in lernapps/apps gemergt, laut Mitteilung der Orchestrator-Session.
 
 ### Creator turns after the plan
 

@@ -1,0 +1,359 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Walking home, I met Tom: Sätze mit Partizipialsatz verknüpfen"
+description: "Sophie berichtet von einer Wanderung und vergleicht zwei Strecken für das nächste Mal. Du lernst, mit einem Partizipialsatz am Satzanfang Konjunktion und Subjekt zu ersetzen und das Subjekt richtig zu wählen."
+competencies: [partizip-satzverknuepfung]
+scope: "Die Seite zeigt, wie ein Nebensatz mit when, as, while, after oder because zu einem Partizipialsatz am Satzanfang wird. -ing zeigt, dass beides gleichzeitig oder direkt nacheinander geschieht, auch als Grund (Walking home, I met a friend). Having plus 3. Form zeigt, dass die Handlung deutlich vorher abgeschlossen war (Having locked the door, he left). Ein Adjektiv oder eine 3. Form beschreibt einen Zustand (Tired after the trip, she slept). Verneint steht not vor dem Partizip. Das Subjekt des Partizipialsatzes ist immer das Subjekt des Hauptsatzes. Hat der Hauptsatz ein anderes Subjekt, entsteht ein hängendes Partizip, ein Fehler (Walking home, the rain started). Das Komma nach dem Partizipialsatz wird nicht geprüft. Die Seite arbeitet mit einem erfundenen Wanderbericht mit erfundenen Orten, Strecken und Zeiten, keine echten Fakten. Nicht hier, weil es eine spätere Seite ist: die Unterschiede der Formen auf -ing."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie verbindest du zwei Sätze mit when?
+    blocks:
+      - type: text
+        text: "Sophie berichtet von einer Wanderung und vergleicht zwei Strecken für das nächste Mal. Vorher eine Frage zu when aus Kapitel 1."
+      - type: single-choice
+        id: partsatz-start
+        text: "Welcher Satz verbindet zwei Streifen richtig mit when?"
+        options:
+          - text: When came I home, I was hungry
+            correct: false
+            info: Nach when steht zuerst das Subjekt, dann das Verb.
+          - text: When I home came, I was hungry
+            correct: false
+            info: Das Verb steht nicht am Ende, wie im Deutschen.
+          - text: When I came home, I was hungry
+            correct: true
+            info: when, Subjekt, Verb, dann der zweite Streifen.
+        explanation: Nach when kommt das Subjekt vor das Verb.
+      - type: text
+        text: "**Das kannst du danach:** Du verknüpfst Sätze mit Partizipien (Walking home, I met Tom.) und weißt, wer in einem solchen Satz etwas tut."
+  - type: section
+    id: lesen
+    title: Ein Wanderbericht
+    blocks:
+      - type: text
+        text: "Jede Zeile hat eine Nummer. Achte beim Lesen auf die Satzanfänge mit -ing und Having sowie auf einen Zustand wie Tired after … (müde nach …)."
+      - type: table
+        caption: Bericht von Sophie · Die Flusswanderung
+        header: [Nr, Text]
+        rows:
+          - [
+              "1",
+              "Last Saturday we walked the river path from Dunmere to Kettle Bridge with Mr Hill. Leaving the youth hostel at eight, we followed the river for the first hour.",
+            ]
+          - [
+              "2",
+              "Walking along the water, we saw a heron and two ducks. It was a warm and sunny morning, and the hills looked green. The path was flat, so we walked fast.",
+            ]
+          - [
+              "3",
+              "Having walked ten kilometres, we reached the bridge at half past eleven. The café at the bridge was closed. We sat on the grass and ate our sandwiches.",
+            ]
+          - [
+              "4",
+              "Tired after the long walk, we took the bus back to the hostel. Sitting at the back, I slept for half an hour.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Die Flusswanderung
+        languages: { source: de, target: en }
+        entries:
+          - { target: "youth hostel", source: "Jugendherberge" }
+          - { target: "heron", source: "Reiher" }
+          - { target: "path", source: "Weg / Pfad" }
+          - { target: "flat", source: "flach / eben" }
+          - { target: "fall asleep", source: "einschlafen" }
+          - { target: "duck", source: "Ente" }
+      - type: table
+        caption: Bericht · Zwei Strecken für das nächste Mal
+        header: [Nr, Text]
+        rows:
+          - [
+              "5",
+              "Mr Hill has found two routes for the next hike. He showed us both on a map after dinner. Both start at the hostel at eight in the morning. The times below are walking times, and both routes also need a one-hour break for lunch.",
+            ]
+          - [
+              "6",
+              "Route A is the valley path. It is twelve kilometres long and takes about four hours. Following the river, you walk with almost no climb. A small farm shop on the way sells hot drinks.",
+            ]
+          - [
+              "7",
+              "Route B goes up Kettle Hill. It is sixteen kilometres long and takes about six hours, with a steep climb of 400 metres. Reaching the top, you can see the whole valley.",
+            ]
+          - [
+              "8",
+              "Both routes end at the bus stop in Dunmere. The last bus leaves at 5.10 pm. The one before leaves at 2.10 pm.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Zwei Strecken
+        languages: { source: de, target: en }
+        entries:
+          - { target: "route", source: "Strecke / Route" }
+          - { target: "steep", source: "steil" }
+          - { target: "climb", source: "Aufstieg / Anstieg" }
+          - { target: "farm shop", source: "Hofladen" }
+          - { target: "hike", source: "Wanderung" }
+      - type: table
+        caption: Bericht · Wetter und Entscheidung
+        header: [Nr, Text]
+        rows:
+          - [
+              "9",
+              "Mr Hill checked the forecast for next Saturday, because he does not like walking in the rain. Having read the report, he told us that it would start to rain at three in the afternoon.",
+            ]
+          - ["10", "On Route B the stones are slippery in the rain."]
+          - ["11", "Nobody wants to miss the last bus, and nobody wants to wait long at the stop."]
+          - [
+              "12",
+              "Mr Hill will decide on Thursday. I like the view from the hill, but I do not want to get wet. Which route would you choose?",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Wetter
+        languages: { source: de, target: en }
+        entries:
+          - { target: "forecast", source: "Vorhersage" }
+          - { target: "slippery", source: "rutschig" }
+          - { target: "view", source: "Aussicht" }
+  - type: section
+    id: neu
+    title: Das Partizip ersetzt Konjunktion und Subjekt
+    blocks:
+      - type: text
+        text: "Schau in Zeile 2: „Walking along the water, we saw a heron.“ Das Partizip steht statt einer Konjunktion mit Subjekt (When we walked …). **Das Subjekt des Partizipialsatzes ist das Subjekt des Hauptsatzes**, hier **we**."
+      - type: figure
+        image: images/satzstreifen-partizip-satzverknuepfung.svg
+        alt: "Oben zwei Streifen mit einer grauen Karte „when“: „he read the note,“ und „he laughed.“ Ein Pfeil führt nach unten zu einer dunkelbraunen Karte „Reading“, dem Streifen „the note,“ und dem Streifen „he laughed.“ Ein gebogener Pfeil verbindet die braune Karte mit dem Streifen „he laughed.“ und trägt die Beschriftung „Wer liest? he“. Darunter ein zweites Beispiel: aus „after she had washed the car,“ wird eine braune Karte „Having washed“, mit dem Hinweis, dass after und she wegfallen und had zu Having wird. Eine Legende erklärt: graue Karte = Konjunktion (when, after), dunkelbraune Karte = Partizip."
+        caption: "Aus „When he read the note, he laughed.“ wird „Reading the note, he laughed.“ Die Karte when und das erste Subjekt fallen weg. Der gebogene Pfeil fragt „Wer liest?“ und zeigt auf he im zweiten Streifen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Konjunktion und Partizip
+        header: [Mit Konjunktion, Mit Partizip, "Was ändert sich?"]
+        rows:
+          - ["When I cross the road, I look left.", "Crossing the road, I look left.", "when und I fallen weg, -ing"]
+          - [
+              "While she was cooking dinner, she listened to music.",
+              "Cooking dinner, she listened to music.",
+              "while, she und was fallen weg",
+            ]
+          - [
+              "After he had locked the door, he left.",
+              "Having locked the door, he left.",
+              "had wird having, die 3. Form bleibt",
+            ]
+          - [
+              "Because she was tired after work, she went to bed.",
+              "Tired after work, she went to bed.",
+              "Zustand: Adjektiv oder 3. Form",
+            ]
+          - [
+              "Because I did not know the way, I looked at the map.",
+              "Not knowing the way, I looked at the map.",
+              "not steht vor dem Partizip",
+            ]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Der Partizipialsatz hat kein eigenes Subjekt: Er gehört zum Subjekt des Hauptsatzes.** -ing: gleichzeitig oder direkt nacheinander, auch ein Grund. Having plus 3. Form: die Handlung ist deutlich vorher abgeschlossen. Adjektiv oder 3. Form beschreibt einen Zustand. Mit einem anderen Subjekt stimmt der Satz nicht: „Opening the box, the smell was awful“ sagt, dass der Geruch die Kiste öffnete.
+      - type: vocabulary
+        caption: Wörter für die Übungen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "surprised", source: "überrascht" }
+          - { target: "noise", source: "Lärm / Geräusch" }
+          - { target: "excited", source: "aufgeregt" }
+          - { target: "umbrella", source: "Regenschirm" }
+          - { target: "menu", source: "Speisekarte" }
+          - { target: "gate", source: "Tor / Gartentür" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: partsatz-verstehen
+        text: Um wie viel Uhr soll es am nächsten Samstag laut Wettervorhersage anfangen zu regnen?
+        options:
+          - text: Um ein Uhr
+            correct: false
+            info: Um ein Uhr ist Route A zu Ende.
+          - text: Um zehn nach fünf
+            correct: false
+            info: So spät fährt der letzte Bus.
+          - text: Um drei Uhr
+            correct: true
+            info: Zeile 9 nennt drei Uhr.
+        explanation: Der Regen beginnt um drei Uhr nachmittags.
+      - type: single-choice
+        id: partsatz-subjekt
+        text: Welcher Satz ist richtig?
+        options:
+          - text: Closing the gate, a dog ran out
+            correct: false
+            info: Der Hund würde das Tor schließen
+          - text: Closing the gate, I saw a dog
+            correct: true
+            info: Ich schließe das Tor und sehe den Hund
+          - text: Closing the gate, the rain started
+            correct: false
+            info: Der Regen würde das Tor schließen
+        explanation: Das Partizip gehört zum Subjekt des Hauptsatzes.
+      - type: number
+        id: partsatz-beleg
+        text: In welcher Zeile steht, wie lange Route A dauert? Gib nur die Nummer ein, zum Beispiel 3.
+        answer: 6
+        tolerance: 0
+        explanation: Zeile 6 nennt vier Stunden.
+      - type: matching
+        id: partsatz-zuordnen
+        text: Ordne Satz mit Konjunktion und Satz mit Partizip zu.
+        pairs:
+          - left: When she entered the room, she turned on the light.
+            right: Entering the room, she turned on the light.
+          - left: After he had cleaned his bike, he went for a ride.
+            right: Having cleaned his bike, he went for a ride.
+          - left: Because I was hungry after school, I made a sandwich.
+            right: Hungry after school, I made a sandwich.
+        explanation: "Zustand: Adjektiv. Deutlich früher: Having. Sonst: -ing."
+      - type: language-task
+        id: partsatz-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Wörter passen? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Beim Warten auf den Bus las ich ein Buch.
+            target: "[Waiting] for the bus, I read a book."
+            distractors: [[Waited, Wait]]
+            mistakes:
+              - answer: Waited for the bus, I read a book.
+                message: Gleichzeitig und aktiv braucht -ing.
+              - answer: Wait for the bus, I read a book.
+                message: Das Partizip hat -ing.
+          - source: Nachdem sie ihre Hausaufgaben gemacht hatte, ging sie aus.
+            target: "[Having] [done] her homework, she went out."
+            distractors: [[Had, Have], [did, doing]]
+            mistakes:
+              - answer: Had done her homework, she went out.
+                message: Vorher fertig heißt Having.
+              - answer: Having did her homework, she went out.
+                message: Nach Having steht die 3. Form.
+          - source: Überrascht von dem Lärm, sah er auf.
+            target: "[Surprised] by the noise, he looked up."
+            distractors: [[Surprising, Surprise]]
+            mistakes:
+              - answer: Surprising by the noise, he looked up.
+                message: Das Gefühl steht in der 3. Form, surprised.
+              - answer: Surprise by the noise, he looked up.
+                message: Hier fehlt die Endung -d.
+      - type: ordering
+        id: partsatz-ordnen
+        text: "Ordne die Wörter zu einem Satz: Reaching the village, we stopped for tea."
+        items:
+          - Reaching
+          - the
+          - village
+          - we
+          - stopped
+          - for
+          - tea
+        explanation: Zuerst der Partizipialsatz, dann der Hauptsatz.
+      - type: language-task
+        id: partsatz-bilden
+        languages: { source: de, target: en }
+        task: Ersetze Konjunktion und Subjekt durch ein Partizip.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "When I opened the window, I heard a bird. · Opening"
+            target: Opening the window, I heard a bird.
+            mistakes:
+              - answer: Opened the window, I heard a bird.
+                message: Aktiv braucht -ing.
+              - answer: When I opening the window, I heard a bird.
+                message: Entweder when und Subjekt oder nur das Partizip.
+          - cue: "After she had finished her tea, she called her mum. · Having"
+            target: Having finished her tea, she called her mum.
+            mistakes:
+              - answer: Having finish her tea, she called her mum.
+                message: Nach Having steht die 3. Form.
+              - answer: Having she finished her tea, she called her mum.
+                message: Das Subjekt fällt weg.
+          - cue: "Because he did not have a key, he called his sister. · Not having"
+            target: Not having (a|had a) key, he called his sister.
+            mistakes:
+              - answer: Having not a key, he called his sister.
+                message: Es heißt Not having a key.
+              - answer: Not having a key, his sister called him.
+                message: Wer hat keinen Schlüssel? Das Subjekt muss passen.
+      - type: language-task
+        id: partsatz-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz. Beginne mit einem Partizip.
+        hint: Das Partizip steht vorn, danach folgt der Hauptsatz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Als ich zum Bahnhof ging, traf ich Mr Hill.
+            target: (Walking|Going) to the station, I (met|saw|ran into|bumped into) Mr Hill.
+            mistakes:
+              - answer: Walking to the station, Mr Hill met me.
+                message: Wer geht zum Bahnhof? Das Subjekt muss ich sein.
+              - answer: Walked to the station, I met Mr Hill.
+                message: Aktiv braucht -ing.
+          - source: Nachdem wir den Hügel bestiegen hatten, waren wir müde.
+            target: Having (climbed|walked up|climbed up) the hill, we (were|felt|got) (tired|exhausted).
+            mistakes:
+              - answer: Having climbing the hill, we were tired.
+                message: Nach Having steht die 3. Form.
+              - answer: Climbing the hill, we were tired.
+                message: Erst fertig, dann müde, also Having.
+          - source: Aufgeregt wegen der Reise, konnte sie nicht schlafen.
+            target: Excited (about|by) the (trip|journey), she (could not|couldn't|was unable to) (sleep|fall asleep|get to sleep).
+            mistakes:
+              - answer: Exciting about the trip, she could not sleep.
+                message: Das Gefühl steht in der 3. Form, excited.
+              - answer: Excited about the trip, the sleep was difficult.
+                message: Wer ist aufgeregt? Das Subjekt muss she sein.
+      - type: language-task
+        id: partsatz-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: leaving-the-house-early-she-caught-the-first-train.mp3
+            target: Leaving the house early, she caught the first train.
+          - audio: having-read-the-menu-we-ordered-two-pizzas.mp3
+            target: Having read the menu, we ordered two pizzas.
+          - audio: caught-in-the-rain-she-opened-her-umbrella.mp3
+            target: Caught in the rain, she opened her umbrella.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: partsatz-nachsprechen
+        language: en
+        items:
+          - audio: sitting-in-the-garden-he-drank-a-cup-of-tea.mp3
+            text: Sitting in the garden, he drank a cup of tea.
+          - audio: having-missed-the-bus-we-walked-to-school.mp3
+            text: Having missed the bus, we walked to school.
+          - audio: happy-about-the-news-she-called-her-father.mp3
+            text: Happy about the news, she called her father.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: partsatz-entscheidung
+        task: "Schreibe drei englische Sätze für Mr Hill: Wähle Route A oder B und begründe mit Zeit, Bus oder Wetter. Beginne einen Satz mit einem Partizip."
+        points:
+          - text: Ein Satz beginnt mit einem Partizip, das zum Subjekt des Hauptsatzes passt.
+            source: /verkuerzen-betonen/partizip-satzverknuepfung/#neu
+          - text: Die Zeiten stimmen mit den Zeilen 5 bis 9 überein.
+            source: /verkuerzen-betonen/partizip-satzverknuepfung/#lesen
+          - text: Die Wahl ist begründet, zum Beispiel mit dem Regen oder dem letzten Bus.
+            source: /verkuerzen-betonen/partizip-satzverknuepfung/#lesen
+        solution: |
+          Having added the times, I choose Route A. Leaving at eight, we will finish at one o'clock, two hours before the rain starts. On Route B we would reach the bus stop at three, just when the rain starts.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "In den Berichten sind dir viele Wörter auf -ing begegnet, doch nicht jedes -ing ist ein Partizip. Auf der nächsten Seite unterscheidest du die Formen auf -ing."

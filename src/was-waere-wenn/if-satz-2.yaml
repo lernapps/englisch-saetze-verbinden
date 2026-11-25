@@ -24,9 +24,6 @@ blocks:
             correct: true
             info: Das ist vorbei.
         explanation: Played ist die Form des simple past.
-        links:
-          - title: Lernlandkarte Englisch · Simple past
-            url: https://lernapps.net/apps/map/englisch/c/simple-past/
       - type: text
         text: "**Das kannst du danach:** Du sprichst mit if-Sätzen Typ 2 über gedachte Situationen (If I had more time, I would …)."
   - type: section
@@ -138,9 +135,6 @@ blocks:
             correct: false
             info: Wer würde ein Pferd kaufen?
         explanation: Sophie würde nach London fahren (Nachricht 5).
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 2
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
       - type: number
         id: if2-beleg
         text: In welcher Nachricht denkt Ellie, dass ihre Mutter nein sagen würde? Gib die Nummer ein.
@@ -148,9 +142,6 @@ blocks:
         hint: Ellie schreibt von ihrer Mum.
         tolerance: 0
         explanation: Ellie schreibt in Nachricht 6, dass Mum wohl nein sagen würde.
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 2
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
       - type: language-task
         id: if2-formen
         languages: { source: de, target: en }
@@ -195,9 +186,6 @@ blocks:
           - would
           - ride
         explanation: if + simple past, would + Grundform.
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 2
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
       - type: language-task
         id: if2-bilden
         languages: { source: de, target: en }

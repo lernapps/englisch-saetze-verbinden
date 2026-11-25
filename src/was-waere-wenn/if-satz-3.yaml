@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Gehört would in den if-Streifen?
         explanation: Gedachtes über jetzt steht im if-Streifen im simple past.
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 2
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-2/
       - type: text
         text: "**Das kannst du danach:** Du sagst mit if-Sätzen Typ 3, was früher anders gekommen wäre (If you had asked me, I would have helped.)."
   - type: section
@@ -143,9 +140,6 @@ blocks:
             correct: false
             info: Steht das im Blog?
         explanation: Das Handy war leer (Absatz 2 und 3).
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 3
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-3/
       - type: number
         id: if3-beleg
         text: In welchem Absatz schreibt Sophie, dass Mrs Parker sie zum See gebracht hat? Gib die Nummer ein.
@@ -153,9 +147,6 @@ blocks:
         hint: Suche nach by car.
         tolerance: 0
         explanation: Mrs Parker nimmt Sophie im Auto mit (Absatz 5).
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 3
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-3/
       - type: multiple-choice
         id: if3-weiche
         text: Welche Sätze stellen die Weiche richtig? Wähle alle richtigen.
@@ -176,9 +167,6 @@ blocks:
             correct: false
             info: Passt will zu einem gedachten Fall?
         explanation: Beide Streifen haben die 3. Form.
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 3
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-3/
       - type: matching
         id: if3-zuordnen
         text: Was ist wirklich passiert? Ordne jedem if-Satz zu, was in Wirklichkeit geschah.
@@ -192,9 +180,6 @@ blocks:
         distractors:
           - Peter hat das Rennen gewonnen.
         explanation: Typ 3 sagt das Gegenteil der Wirklichkeit.
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 3
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-3/
       - type: language-task
         id: if3-bilden
         languages: { source: de, target: en }

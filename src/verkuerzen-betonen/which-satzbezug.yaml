@@ -1,0 +1,357 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "He was late, which annoyed me: which greift den ganzen Streifen auf"
+description: "Sophie beschwert sich per E-Mail über eine lange Schlange vor dem Museum und plant den nächsten Besuch. Du lernst, mit einem Komma und which den ganzen Streifen davor aufzugreifen."
+competencies: [which-satzbezug]
+scope: "Die Seite zeigt which nach einem Komma, das sich auf einen ganzen Streifen bezieht (The lift was broken, which was a problem.). Which ersetzt dann das Pronomen it, das Pronomen bleibt nicht stehen (not: …, which it was a problem). Nach dem Komma steht which, nicht that und nicht what. Zum Vergleich steht das which aus Kapitel 1, das nur an einem Nomen hängt (a bike which is red). Nicht hier: Relativsätze mit Kommas um ein Nomen (Kapitel 2), which mit Präposition (in which) und der Unterschied zwischen which und what in Fragen. Die Seite arbeitet mit einem erfundenen Fall: einer E-Mail an ein erfundenes Museum, der Antwort mit erfundenen Zahlen und Preisen und Sophies Notizen, die Zeilen sind nummeriert. Die Fakten über which stammen aus Wikipedia, English relative clauses (geöffnet am 2026-11-24)."
+blocks:
+  - type: section
+    id: einstieg
+    title: Woran hängt which?
+    blocks:
+      - type: text
+        text: "Sophie war am Samstag im Museum und schreibt eine E-Mail über die lange Schlange vor dem Eingang. Du liest gleich die E-Mail, die Antwort und Sophies Notizen. Ein Streifen ist ein Satz oder Satzteil wie auf der Satzstreifen-Wand der früheren Kapitel. Davor eine Frage zu which aus Kapitel 1."
+      - type: single-choice
+        id: which-start
+        text: "In „We have a boat which is old.“ steht which an einer Stelle. Woran hängt es?"
+        options:
+          - text: An dem ganzen Streifen We have a boat
+            correct: false
+            info: Dann wäre es der ganze Streifen.
+          - text: An dem Nomen boat
+            correct: true
+            info: Which ersetzt it und gehört zu boat.
+          - text: An dem Wort have
+            correct: false
+            info: Have ist ein Verb.
+        explanation: Hier ersetzt which das Nomen boat.
+      - type: text
+        text: "**Das kannst du danach:** Du schließt mit einem Komma und which einen Relativsatz an einen ganzen Streifen an (He was late, which annoyed me.)."
+  - type: section
+    id: lesen
+    title: E-Mail, Antwort und Notizen
+    blocks:
+      - type: text
+        text: "Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Wörter vor jedem which."
+      - type: table
+        caption: E-Mail an das Museum
+        header: [Nr, Text]
+        rows:
+          - ["1", "Dear Visitor Services,"]
+          - [
+              "2",
+              "Last Saturday we arrived at your museum at 10.30 am. There was a queue of about 200 people outside, which surprised us.",
+            ]
+          - ["3", "We waited for 55 minutes, which meant that we missed the start of the family workshop at 11 am."]
+          - [
+              "4",
+              "A sign on the door said that the museum was full, which was not true, because we saw many empty rooms inside.",
+            ]
+          - [
+              "5",
+              "The staff were friendly, which helped a lot. But nobody told us why the queue was so slow, which made many visitors angry.",
+            ]
+          - ["6", "Could you tell me how you want to solve this problem? Kind regards, Sophie"]
+      - type: vocabulary
+        caption: Randglossar · E-Mail
+        languages: { source: de, target: en }
+        entries:
+          - { target: "queue", source: "Warteschlange" }
+          - { target: "staff", source: "Personal" }
+          - { target: "sign", source: "Schild" }
+          - { target: "empty", source: "leer" }
+          - { target: "solve", source: "lösen" }
+      - type: table
+        caption: Antwort des Museums
+        header: [Nr, Text]
+        rows:
+          - ["7", "Dear Sophie, thank you for your honest message. We are sorry about Saturday."]
+          - ["8", "On busy days all visitors use one entrance, which means a long queue."]
+          - [
+              "9",
+              "Soon we will open a second entrance on Saturdays, which should cut the waiting time to about ten minutes.",
+            ]
+          - [
+              "10",
+              "You can also book a timed ticket online for £2 extra per ticket, which means that you can walk straight in.",
+            ]
+          - [
+              "11",
+              "Our numbers show the problem: on Saturdays about 1,800 people come, on Sundays about 900 and on weekdays about 400, which explains why Saturdays are so busy.",
+            ]
+          - [
+              "12",
+              "The workshop for families takes place on Saturdays only, which is why many people want to come then. Best wishes, Visitor Services",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Antwort
+        languages: { source: de, target: en }
+        entries:
+          - { target: "honest", source: "ehrlich" }
+          - { target: "timed ticket", source: "Ticket mit fester Uhrzeit" }
+          - { target: "cut", source: "verkürzen" }
+          - { target: "weekday", source: "Wochentag" }
+          - { target: "extra", source: "zusätzlich" }
+          - { target: "straight", source: "direkt" }
+      - type: table
+        caption: Sophies Notizen für die Gastfamilie
+        header: [Nr, Text]
+        rows:
+          - ["13", "Dear all, here are three plans for our next visit."]
+          - [
+              "14",
+              "Plan A: We go on Saturday and book timed tickets. That costs £2 extra for each person, which makes £8 for four people. We can join the workshop at 11 am, which makes the visit more fun.",
+            ]
+          - [
+              "15",
+              "Plan B: We go on Sunday. About half as many people come, which means a shorter queue. But there is no workshop on Sundays.",
+            ]
+          - [
+              "16",
+              "Plan C: We go on a weekday. Only about 400 people come, which means almost no queue. But we are at school or at work, which makes this plan difficult.",
+            ]
+          - ["17", "The family ticket costs £18 on every day. Please tell me what you think."]
+      - type: vocabulary
+        caption: Randglossar · Notizen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "half as many", source: "halb so viele" }
+          - { target: "workshop", source: "Workshop / Mitmachkurs" }
+  - type: section
+    id: neu
+    title: Which greift den ganzen Streifen auf
+    blocks:
+      - type: text
+        text: "Schau in Zeile 3: „We waited for 55 minutes, which meant that we missed the start.“ Nach dem **Komma** greift **which** den **ganzen Streifen davor** auf. Es ersetzt das Pronomen **it**."
+      - type: figure
+        image: images/satzstreifen-which-satzbezug.svg
+        alt: "Oben ein Streifen „The shop was closed“ mit einer braunen Klammer darunter, dann ein Komma, eine braune Karte „which“ und ein Streifen „was no fun“. Ein brauner Pfeil führt von der Karte zurück zur Mitte der Klammer. Darunter der Vergleich aus Kapitel 1: „We have a boat“, eine braune Karte „which“ und „is very old“. Ein gestrichelter Pfeil führt von der Karte zurück zum Streifen We have a boat. Eine Legende erklärt: braune Karte = Relativkarte which."
+        caption: "Oben bezieht sich which auf den ganzen Streifen vor dem Komma. Unten steht which wie in Kapitel 1 nur für ein Nomen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · which nach dem Komma
+        header: [Zwei Streifen, Ein Satz, "Was gilt?"]
+        rows:
+          - [
+              "The lift was broken. It was a problem.",
+              "The lift was broken, which was a problem.",
+              "which ersetzt it, vor which steht ein Komma",
+            ]
+          - [
+              "Our flight was late. It meant a long wait.",
+              "Our flight was late, which meant a long wait.",
+              "which greift den ganzen Streifen auf",
+            ]
+          - [
+              "The café was full. It surprised us.",
+              "The café was full, which surprised us.",
+              "das Pronomen it bleibt nicht stehen",
+            ]
+          - ["She has a bike. It is red.", "She has a bike which is red.", "nur das Nomen bike, wie in Kapitel 1"]
+          - [
+              "We lost the match. It made the team sad.",
+              "We lost the match, which made the team sad.",
+              "nicht that und nicht what",
+            ]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Soll ein Relativsatz einen ganzen Streifen aufgreifen, steht nach dem Komma which.** Das Wort it fällt weg, und that oder what passen hier nicht. Hängt which nur an einem Nomen, wie in Kapitel 1, greift es nicht den ganzen Streifen auf.
+      - type: vocabulary
+        caption: Wörter für die Übungen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "broken", source: "kaputt" }
+          - { target: "lift", source: "Aufzug" }
+          - { target: "flight", source: "Flug" }
+          - { target: "exam", source: "Prüfung" }
+          - { target: "annoy", source: "ärgern" }
+          - { target: "worry", source: "Sorgen machen" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: which-verstehen
+        text: Wie lange hat Sophie vor dem Museum gewartet?
+        options:
+          - text: 55 Minuten
+            correct: true
+            info: Zeile 3.
+          - text: Zehn Minuten
+            correct: false
+            info: Das ist die Wartezeit mit dem zweiten Eingang (Zeile 9).
+          - text: Zwei Stunden
+            correct: false
+            info: So lange steht das nirgends im Text.
+        explanation: Zeile 3.
+      - type: number
+        id: which-beleg
+        text: In welcher Zeile steht, wie viele Gäste an einem Sonntag ins Museum kommen? Gib nur die Nummer ein.
+        answer: 11
+        tolerance: 0
+        explanation: Zeile 11 nennt die Zahlen.
+      - type: multiple-choice
+        id: which-streifen
+        text: In welchen Sätzen greift which den ganzen Streifen davor auf? Wähle alle richtigen.
+        options:
+          - text: The film was long, which made me tired
+            correct: true
+            info: Which greift den ganzen Streifen auf.
+          - text: We have a cat which sleeps all day
+            correct: false
+            info: Hier hängt which nur an cat.
+          - text: We won the game, which was great
+            correct: true
+            info: Which greift den ganzen Streifen auf.
+          - text: He likes the book which you gave him
+            correct: false
+            info: Hier hängt which nur an book.
+        explanation: Nach dem Komma bezieht sich which auf den ganzen Streifen.
+      - type: single-choice
+        id: which-komma
+        text: "Du verbindest „Wir verpassten den Bus. Das machte uns zu spät.“ zu einem Streifen. Welche Schreibweise ist richtig?"
+        options:
+          - text: We missed the bus, which made us late
+            correct: true
+            info: Komma, dann which.
+          - text: We missed the bus. Which made us late
+            correct: false
+            info: Nach dem Punkt beginnt ein neuer Satz. Which braucht ein Komma davor.
+          - text: We missed the bus which made us late
+            correct: false
+            info: Vor which fehlt das Komma.
+          - text: We missed the bus, it made us late
+            correct: false
+            info: Ein Komma allein verbindet nicht. Es braucht which.
+        explanation: Streifen, Komma, which.
+      - type: language-task
+        id: which-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Wörter passen? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Es regnete den ganzen Tag, was uns ärgerte.
+            target: It rained all day, [which] annoyed us.
+            distractors: [[that, what]]
+            mistakes:
+              - answer: It rained all day, that annoyed us.
+                message: Nach dem Komma braucht der Satz which.
+              - answer: It rained all day, what annoyed us.
+                message: Für den ganzen Streifen gibt es which.
+          - source: Er war krank, was eine Woche zu Hause bedeutete.
+            target: He was ill, [which] meant a week at home.
+            distractors: [[which it, what]]
+            mistakes:
+              - answer: He was ill, which it meant a week at home.
+                message: Hier fällt it weg.
+          - source: Sie hat die Prüfung bestanden, was ihre Eltern freute.
+            target: She passed the exam, [which] made her parents happy.
+            distractors: [[that, which it]]
+            mistakes:
+              - answer: She passed the exam, that made her parents happy.
+                message: Nach dem Komma braucht der Satz which.
+      - type: ordering
+        id: which-ordnen
+        text: "Ordne die Wörter zu einem englischen Satz mit der Bedeutung: Der Bus kam zu spät, was uns wütend machte."
+        items:
+          - The
+          - bus
+          - was
+          - late,
+          - which
+          - made
+          - us
+          - angry
+        explanation: Streifen, Komma, which.
+      - type: language-task
+        id: which-bilden
+        languages: { source: de, target: en }
+        task: Verbinde die beiden Streifen mit which zu einem Satz. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "He lost his phone · It made him sad · which"
+            target: He lost his phone, which made him (|feel )(sad|unhappy|upset).
+            mistakes:
+              - answer: He lost his phone, which it made him sad.
+                message: Hier fällt it weg.
+          - cue: "It snowed all night · It meant no school · which"
+            target: It snowed all night, which meant (no school|that there was no school|there was no school|that we had no school|we had no school).
+            mistakes:
+              - answer: It snowed all night, what meant no school.
+                message: Kein what, nimm which.
+          - cue: "The train was full · It surprised nobody · which"
+            target: The train was full, which (surprised nobody|surprised no one|did not surprise anybody|did not surprise anyone|didn't surprise anybody|didn't surprise anyone).
+            mistakes:
+              - answer: The train was full, which it surprised nobody.
+                message: Hier fällt it weg.
+      - type: language-task
+        id: which-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        hint: Nach dem Komma ersetzt which den ganzen Streifen davor.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Meine Schwester kam zu spät, was unseren Vater ärgerte.
+            target: My sister (was|arrived|came) late, which (annoyed our father|annoyed our dad|annoyed my father|annoyed my dad|made our father angry|made our father cross|made our dad angry|made our dad cross|made my father angry|made my dad angry).
+            mistakes:
+              - answer: My sister was late, that annoyed our father.
+                message: Kein that, nimm which.
+          - source: Das Wetter war schön, was uns freute.
+            target: The weather was (nice|good|lovely|fine|beautiful|great|sunny), which (made us happy|made us very happy|made us feel happy|made us glad|pleased us).
+            mistakes:
+              - answer: The weather was nice, what made us happy.
+                message: Kein what, nimm which.
+          - source: Er sagte nichts, was mich überraschte.
+            target: He (said nothing|did not say anything|didn't say anything|did not say a word|didn't say a word|did not say a thing|didn't say a thing), which (surprised me|was a surprise to me|came as a surprise to me).
+            mistakes:
+              - answer: He said nothing, which it surprised me.
+                message: Hier fällt it weg.
+      - type: language-task
+        id: which-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: our-neighbour-plays-the-piano-at-night-which-annoys-everyone-in-the-street.mp3
+            target: Our neighbour plays the piano at night, which annoys everyone in the street.
+          - audio: my-brother-cooks-every-day-which-i-really-like.mp3
+            target: My brother cooks every day, which I really like.
+          - audio: it-was-sunny-all-week-which-was-great-for-our-trip.mp3
+            target: It was sunny all week, which was great for our trip.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: which-nachsprechen
+        language: en
+        items:
+          - audio: she-never-answers-her-phone-which-worries-her-parents.mp3
+            text: She never answers her phone, which worries her parents.
+          - audio: the-shop-opens-at-six-which-is-too-early-for-me.mp3
+            text: The shop opens at six, which is too early for me.
+          - audio: he-sings-very-well-which-surprised-his-friends.mp3
+            text: He sings very well, which surprised his friends.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: which-entscheidung
+        task: "Sophie hat in Zeile 14 bis 16 drei Pläne für den nächsten Besuch. Wähle einen Plan und schreibe drei englische Sätze für die Gastfamilie: Nenne mit which zwei Gründe aus Zeile 8 bis 16."
+        points:
+          - text: Der Text nennt einen Plan (A, B oder C) und eine Entscheidung.
+            source: /verkuerzen-betonen/which-satzbezug/#lesen
+          - text: Mindestens zwei Sätze haben ein Komma und which, danach folgt kein it.
+            source: /verkuerzen-betonen/which-satzbezug/#neu
+          - text: Die Gründe nennen eine Zahl oder einen Preis aus Zeile 8 bis 16 (Wartezeit, Besucher, £2, Workshop).
+            source: /verkuerzen-betonen/which-satzbezug/#lesen
+        solution: |
+          I think Plan A is the best plan. We pay £8 extra, which is not much for a family. We can join the workshop at 11 am, which is the main reason for the visit.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie hat drei Pläne für den Museumsbesuch, entschieden hat sie noch nichts. Auf der nächsten Seite geht es um etwas anderes: Statt den ganzen Streifen aufzugreifen, hebst du einen einzelnen Satzteil hervor. Wie du mit It is … that betonst, was dir wichtig ist, siehst du auf der nächsten Seite."

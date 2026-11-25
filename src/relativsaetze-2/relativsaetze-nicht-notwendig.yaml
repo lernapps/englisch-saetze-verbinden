@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Das Verb is bleibt stehen.
         explanation: Er sagt, wer gemeint ist.
-        links:
-          - title: Lernlandkarte Englisch · Notwendige Relativsätze
-            url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
       - type: text
         text: "**Das kannst du danach:** Du bildest nicht notwendige Relativsätze mit Kommas und weißt, wann ein Relativsatz notwendig ist und keine Kommas hat."
   - type: section
@@ -142,9 +139,6 @@ blocks:
             correct: true
             info: Eintrag 3 sagt „a hundred years old“.
         explanation: Eintrag 3 beschreibt das Haus.
-        links:
-          - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
-            url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
       - type: number
         id: nn-beleg
         text: In welchem Eintrag spielt Peter mit einem Hund? Gib die Nummer ein.
@@ -152,9 +146,6 @@ blocks:
         hint: Lies den Dienstag.
         tolerance: 0
         explanation: Das steht in Eintrag 4.
-        links:
-          - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
-            url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
       - type: multiple-choice
         id: nn-herausnehmen
         text: "Bei welchen Sätzen kann man den Relativsatz herausnehmen? Wähle alle richtigen."
@@ -172,17 +163,11 @@ blocks:
             correct: false
             info: Welches Fahrrad wäre es ohne den Streifen?
         explanation: Nur Zusatzinfo steht zwischen Kommas.
-        links:
-          - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
-            url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
       - type: true-false
         id: nn-that-komma
         text: "Stimmt das? „The market, that is open on Saturday, is big.“ ist ein richtiger englischer Satz."
         answer: false
         explanation: Zwischen Kommas steht which.
-        links:
-          - title: Lernlandkarte Englisch · Nicht notwendige Relativsätze
-            url: https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/
       - type: language-task
         id: nn-bilden
         languages: { source: de, target: en }

@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Gehört would have in den if-Streifen?
         explanation: Gedachtes über früher steht im if-Streifen im past perfect.
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 3
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-3/
       - type: text
         text: "**Das kannst du danach:** Du drückst mit „I wish …“ und „If only …“ Wünsche und Bedauern aus."
   - type: section
@@ -147,9 +144,6 @@ blocks:
         text: Ellie meint, dass Wünschen allein schon hilft.
         answer: false
         explanation: Ellie sagt, Wünschen ist leicht, aber Ändern ist besser (Absatz 6).
-        links:
-          - title: Lernlandkarte Englisch · Wünsche mit I wish
-            url: https://lernapps.net/apps/map/englisch/c/i-wish/
       - type: number
         id: wish-beleg
         text: In welchem Absatz ärgert sich Amir über seinen kleinen Bruder? Gib die Nummer ein.
@@ -157,9 +151,6 @@ blocks:
         hint: Es geht um Fußballschuhe.
         tolerance: 0
         explanation: Amir ärgert sich über die Fußballschuhe in Absatz 5.
-        links:
-          - title: Lernlandkarte Englisch · Wünsche mit I wish
-            url: https://lernapps.net/apps/map/englisch/c/i-wish/
       - type: single-choice
         id: wish-passt
         text: Die Nachbarn singen jeden Abend laut. Ellie sagt ihrer Mutter, was sie sich wünscht. Welcher Satz passt?
@@ -174,9 +165,6 @@ blocks:
             correct: false
             info: Passt das simple present nach wish?
         explanation: Hier geht es um andere Personen. Nach wish steht dann would plus Verb.
-        links:
-          - title: Lernlandkarte Englisch · Wünsche mit I wish
-            url: https://lernapps.net/apps/map/englisch/c/i-wish/
       - type: language-task
         id: wish-luecken
         languages: { source: de, target: en }

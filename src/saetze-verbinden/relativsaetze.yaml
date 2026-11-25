@@ -31,9 +31,6 @@ blocks:
             correct: true
             info: Der Streifen sagt etwas über den Jungen. So erfährt Peter, welcher Junge gemeint ist.
         explanation: Ein zweiter Streifen kann sagen, welche Person gemeint ist.
-        links:
-          - title: Lernlandkarte Englisch · Notwendige Relativsätze
-            url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
       - type: text
         text: "**Das kannst du danach:** Du sagst genauer, welche Person oder Sache du meinst. Dazu hängst du mit who, which, that oder whose einen zweiten Streifen an."
       - type: vocabulary
@@ -100,9 +97,6 @@ blocks:
           - left: Es geht darum, wem etwas gehört.
             right: whose
         explanation: Jede Karte hat ihre Aufgabe. Nur that passt zu Personen und zu Sachen.
-        links:
-          - title: Lernlandkarte Englisch · Notwendige Relativsätze
-            url: https://lernapps.net/apps/map/englisch/c/relativsaetze/
       - type: language-task
         id: relativ-karte
         languages: { source: de, target: en }

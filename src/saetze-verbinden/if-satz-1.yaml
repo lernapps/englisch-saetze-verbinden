@@ -31,9 +31,6 @@ blocks:
             correct: false
             info: So passt, wenn der Regen schon da ist. Hier ist offen, ob es regnet.
         explanation: Mit if sagst du, was passiert, wenn etwas eintritt.
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 1
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
       - type: text
         text: "**Das kannst du danach:** Du sagst, was passiert, wenn etwas eintritt. Du weißt, welche Zeitform zu welchem Streifen passt."
       - type: vocabulary
@@ -98,9 +95,6 @@ blocks:
             correct: true
             info: Im Streifen mit if steht das simple present (comes), im anderen will plus Verb (will win).
         explanation: Die Weiche stellt das simple present zum if-Streifen.
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 1
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
       - type: language-task
         id: if-formen
         languages: { source: de, target: en }
@@ -153,9 +147,6 @@ blocks:
           - wear
           - jackets
         explanation: Der if-Streifen steht vorn im simple present.
-        links:
-          - title: Lernlandkarte Englisch · If-Sätze Typ 1
-            url: https://lernapps.net/apps/map/englisch/c/if-satz-1/
       - type: language-task
         id: if-bilden
         languages: { source: de, target: en }

@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Fragewörter, Passiv und Gerundium oder Infinitiv noch einmal kurz, bevor es um indirekte Fragen, Betonung und verkürzte Sätze geht.
+recap: [englisch/fragewoerter, englisch/passiv, englisch/gerund-oder-infinitiv]
+scope: Die Seite wiederholt nur, was das Kapitel über Verkürzen, Betonen und indirekte Fragen braucht. Wiederholt werden die Fragewörter mit dem Helfer do (who, what, where, when, why, how, whose), das Passiv im simple present und simple past (be plus 3. Form, by für den Handelnden) und die Wahl zwischen Gerundium und Infinitiv (stop doing, remember to do). Die Seite hat keine Übung und keinen neuen Inhalt. Nicht hier, weil es eigene Seiten sind. Die indirekte Frage, satzbezogenes which, Hervorhebung, Partizipien und die Formen auf -ing.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? In diesem Kapitel baust du Sätze um: Du fragst indirekt, hebst etwas hervor und verkürzt Nebensätze. Dafür brauchst du drei Dinge aus anderen Kapiteln und dazu Wissen aus dieser App. Hier steht nur kurz, wie die Formen aussehen. Eine Übung gibt es nicht. Ist dir etwas neu, lies bei der Lernlandkarte nach (die Links stehen weiter unten)."
+      - type: table
+        caption: Klassenzimmer-Poster · Wiederholung
+        header: [Baustein, Die Form, Beispiel]
+        rows:
+          - [Fragewort mit do, "Fragewort, do, Subjekt, Verb", "Where does the bus stop?"]
+          - [Passiv, "be plus 3. Form, dazu by", "The bridge was built by workers."]
+          - [Gerundium oder Infinitiv, "Verb plus -ing oder to plus Verb", "She stopped talking. He stopped to talk."]
+      - type: vocabulary
+        caption: Klassenzimmer-Poster · Unregelmäßige 3. Formen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "built", source: "gebaut (build)" }
+          - { target: "written", source: "geschrieben (write)" }
+          - { target: "found", source: "gefunden (find)" }
+          - { target: "taken", source: "genommen (take)" }
+  - type: section
+    id: baustein
+    title: Was du dafür können solltest
+    blocks:
+      - type: text
+        text: "**Fragewörter** („Ich kann Fragen mit who, what, where, when, why, how und whose stellen.“): Du brauchst sie für die indirekte Frage. Nachlesen: [Fragewörter](https://lernapps.net/apps/map/englisch/c/fragewoerter/)."
+      - type: text
+        text: "**Passiv** („Ich kann Sätze im Passiv im simple present und simple past bilden und sagen, wer etwas getan hat (by …).“): Du brauchst die 3. Form für das Partizip. Nachlesen: [Passiv](https://lernapps.net/apps/map/englisch/c/passiv/)."
+      - type: text
+        text: "**Gerundium oder Infinitiv** („Ich kann bei Verben wie stop, remember und try zwischen Gerundium und Infinitiv wählen und den Unterschied in der Bedeutung erklären.“): Du brauchst das für die Formen auf -ing. Nachlesen: [Gerundium oder Infinitiv](https://lernapps.net/apps/map/englisch/c/gerund-oder-infinitiv/)."
+      - type: text
+        text: "Aus dieser App brauchst du außerdem die Relativsätze aus Kapitel 1, die Verlaufsform (be plus -ing, zum Beispiel is walking) und die Zeitverschiebung aus Kapitel 4 („Mr Hill sagte, dass …: die Zeit rückt eine Stufe zurück“). Weiter geht es mit „Can you tell me where …?: indirekt fragen“. Danach folgen satzbezogenes which, Hervorhebung mit It is … that, Partizipien statt Relativsatz, Partizipialsätze und die Formen auf -ing."

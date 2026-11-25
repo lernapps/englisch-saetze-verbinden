@@ -1,0 +1,328 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Can you tell me where …?: indirekt fragen"
+description: "Sophie plant einen Museumsbesuch und fragt per E-Mail höflich nach. Du lernst, Fragen indirekt zu stellen und weiterzugeben, und warum do dabei wegfällt."
+competencies: [indirekte-fragen]
+scope: "Die Seite führt die indirekte Frage ein. Eine direkte Frage mit Fragewort und Hilfsverb do (Where does the bus stop?) wird ein Streifen ohne do: Das Subjekt steht vor dem Verb, das Verb bekommt wieder das -s oder die Vergangenheitsform (Could you tell me where the bus stops?). Ja/Nein-Fragen bekommen if oder whether (Do you know if …?). Ist das Fragewort selbst das Subjekt, ändert sich die Form nicht (I wonder who has the key). Am Ende einer indirekten Frage steht kein Fragezeichen, wenn sie ein Bericht ist (She asked where I lived.), bei einer höflichen Bitte (Could you tell me …?) bleibt es. Die Zeit rückt wie in Kapitel 4 eine Stufe zurück, wenn das Fragen vorbei ist. Die Seite arbeitet mit einer E-Mail an ein erfundenes Museum, der Antwort und Sophies Bericht an die Gastfamilie, die Zeilen sind nummeriert. Nicht hier, weil es spätere Seiten sind. Satzbezogenes which, Hervorhebung und Partizipien."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie fragst du höflich?
+    blocks:
+      - type: text
+        text: "Sophie plant einen Museumsbesuch und schreibt dem Museum eine E-Mail. Du liest gleich ihre Fragen, die Antwort und ihren Bericht. Ein Streifen ist ein Satz oder Satzteil auf der Satzstreifen-Wand aus den früheren Kapiteln. Davor eine Frage zu normalen Fragen mit do."
+      - type: single-choice
+        id: ifragen-start
+        text: "Welcher Satz ist eine ganz normale Frage mit Fragewort und do?"
+        options:
+          - text: When the train does leave
+            correct: false
+            info: Hier steht do hinter dem Subjekt, so fragt man nicht.
+          - text: When does the train leave
+            correct: true
+            info: Fragewort, do, Subjekt, Verb.
+          - text: Could you tell me when the train leaves
+            correct: false
+            info: Das ist eine höfliche Frage, sie kommt später.
+        explanation: Fragewort, do, Subjekt, Verb.
+      - type: text
+        text: "**Das kannst du danach:** Du stellst Fragen höflich indirekt (Can you tell me where …?) und gibst wieder, was jemand gefragt hat (He asked where I lived.)."
+  - type: section
+    id: lesen
+    title: E-Mail, Antwort und Bericht
+    blocks:
+      - type: text
+        text: "Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Fragen in Zeile 2 bis 4 und auf dieselben Fragen in Sophies Bericht."
+      - type: table
+        caption: E-Mail an das Museum
+        header: [Nr, Text]
+        rows:
+          - ["1", "Dear Sir or Madam,"]
+          - [
+              "2",
+              "I am planning a visit to your museum with my host family in April. Could you tell me whether the museum is open on Mondays?",
+            ]
+          - [
+              "3",
+              "Do you know if we need to book tickets in advance? I would also like to know how much a family ticket costs.",
+            ]
+          - [
+              "4",
+              "Can you tell me where we can leave our coats? Is there a café in the museum? Thank you very much. Kind regards, Sophie",
+            ]
+      - type: vocabulary
+        caption: Randglossar · E-Mail
+        languages: { source: de, target: en }
+        entries:
+          - { target: "Dear Sir or Madam", source: "Sehr geehrte Damen und Herren" }
+          - { target: "host family", source: "Gastfamilie" }
+          - { target: "book", source: "buchen" }
+          - { target: "in advance", source: "im Voraus" }
+          - { target: "coat", source: "Mantel / Jacke" }
+      - type: table
+        caption: Antwort des Museums
+        header: [Nr, Text]
+        rows:
+          - ["5", "Dear Sophie, thank you for your message."]
+          - ["6", "The museum is closed on Mondays, but it is open from Tuesday to Sunday, from 10 am to 5 pm."]
+          - [
+              "7",
+              "You do not need to book tickets for the main galleries. A family ticket costs £18, and children under five come in for free.",
+            ]
+          - [
+              "8",
+              "There is a cloakroom next to the entrance. The workshop for families takes place on Saturday at 11 am. You must book it by email. The café on the first floor serves lunch from noon. Saturdays are busy between 11 am and 2 pm, so we suggest that you come in the morning. Best wishes, Visitor Services",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Antwort
+        languages: { source: de, target: en }
+        entries:
+          - { target: "gallery", source: "Ausstellungsraum" }
+          - { target: "cloakroom", source: "Garderobe" }
+          - { target: "workshop", source: "Workshop / Mitmachkurs" }
+          - { target: "entrance", source: "Eingang" }
+          - { target: "for free", source: "kostenlos" }
+      - type: table
+        caption: Sophies Bericht an die Gastfamilie
+        header: [Nr, Text]
+        rows:
+          - ["9", "Last week I wrote to the museum and asked whether it was open on Mondays."]
+          - ["10", "They answered that it was closed on Mondays, but open from Tuesday to Sunday."]
+          - [
+              "11",
+              "I asked if we needed to book tickets. They said that we did not need to book for the main galleries.",
+            ]
+          - ["12", "I also asked how much a family ticket cost. It costs £18."]
+          - [
+              "13",
+              "I wanted to know where we could leave our coats. They told me that there was a cloakroom next to the entrance.",
+            ]
+          - [
+              "14",
+              "I also asked whether there was a café. They said that there was one on the first floor, but that Saturdays were busy between 11 am and 2 pm.",
+            ]
+          - [
+              "15",
+              "The workshop is on Saturday, and we must book it by email. So I suggest that we go on Saturday morning, because the museum is open and we can join the workshop. Please tell me if you agree.",
+            ]
+      - type: vocabulary
+        caption: Randglossar · Bericht
+        languages: { source: de, target: en }
+        entries:
+          - { target: "busy", source: "voll / viel los" }
+          - { target: "suggest", source: "vorschlagen" }
+          - { target: "join", source: "mitmachen" }
+  - type: section
+    id: neu
+    title: Die Frage gibt ihren Helfer ab
+    blocks:
+      - type: text
+        text: "Schau in Zeile 2: „Could you tell me whether the museum is open on Mondays?“ Die Frage ist ein Streifen im Satz. Eine direkte Frage hat einen Helfer, ein Hilfsverb: **do**, **does** oder **did**. Als indirekte Frage gibt sie ihn **ab**. Das Subjekt steht jetzt **vor** dem Verb, wie in einem normalen Satz. Ja/Nein-Fragen bekommen **if** oder **whether**."
+      - type: figure
+        image: images/satzstreifen-indirekte-fragen.svg
+        alt: "Oben die direkte Frage in vier Streifen: ein Fragewort-Streifen „When“, „does“, „the shop“ und „close?“ Ein Pfeil zeigt von „does“ nach unten mit dem Hinweis, dass does wegfällt. Darunter die indirekte Frage: „Could you tell me“, eine goldene Karte „when“, „the shop“ und „closes?“ Ganz unten eine Ja/Nein-Frage: „Do you know“, eine blaue Karte „if“ und „the shop opens“. Eine Legende erklärt: goldene Karte = Fragewort, blaue Karte = if oder whether."
+        caption: "Aus „When does the shop close?“ wird „Could you tell me when the shop closes?“ Das does fällt weg, das Verb bekommt wieder das -s. Bei Ja/Nein-Fragen steht if oder whether."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Direkt und indirekt
+        header: [Direkte Frage, Indirekte Frage, "Was ändert sich?"]
+        rows:
+          - ["Where does the bus leave?", "Could you tell me where the bus leaves?", "do fällt weg, -s kommt zurück"]
+          - ["How much is the ticket?", "Do you know how much the ticket is?", "Subjekt vor dem Verb"]
+          - ["What does she want?", "I wonder what she wants.", "do fällt weg"]
+          - ["Is the café open?", "Can you tell me if the café is open?", "if oder whether kommt dazu"]
+          - ["Did he see the film?", "She asked whether he had seen the film.", "did fällt weg, die Zeit rückt zurück"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Die indirekte Frage ist ein Streifen mit Subjekt vor dem Verb und ohne do, does, did.** Ja/Nein-Fragen bekommen if oder whether. Gibst du eine Frage weiter, die vorbei ist, rückt die Zeit eine Stufe zurück wie in Kapitel 4. Ist das Fragewort selbst das Subjekt, bleibt die Form gleich: I wonder who has the key.
+      - type: vocabulary
+        caption: Wörter für die Übungen
+        languages: { source: de, target: en }
+        entries:
+          - { target: "whether", source: "ob" }
+          - { target: "lift", source: "Aufzug" }
+          - { target: "pool", source: "Schwimmbad" }
+          - { target: "station", source: "Bahnhof" }
+          - { target: "toilets", source: "Toiletten" }
+          - { target: "wonder", source: "sich fragen" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: ifragen-verstehen
+        text: An welchem Tag ist das Museum geschlossen?
+        options:
+          - text: Am Samstag
+            correct: false
+            info: Samstags ist der Workshop, das Museum ist offen.
+          - text: Am Sonntag
+            correct: false
+            info: Von Dienstag bis Sonntag ist das Museum offen.
+          - text: Am Montag
+            correct: true
+            info: Zeile 6 sagt, dass das Museum montags geschlossen ist.
+        explanation: Montags ist das Museum geschlossen.
+      - type: number
+        id: ifragen-beleg
+        text: In welcher Zeile steht in der Antwort des Museums, was ein Familienticket kostet? Gib nur die Nummer ein, zum Beispiel 3.
+        answer: 7
+        tolerance: 0
+        explanation: In Zeile 7 steht „A family ticket costs £18“.
+      - type: matching
+        id: ifragen-zuordnen
+        text: Welche indirekte Frage gehört zu welcher direkten Frage? Ordne zu.
+        pairs:
+          - left: Where is the lift?
+            right: Can you tell me where the lift is?
+          - left: What time does the pool open?
+            right: Do you know what time the pool opens?
+          - left: Does the train stop here?
+            right: Could you tell me if the train stops here?
+          - left: Who left this bag?
+            right: I wonder who left this bag.
+        explanation: Bei who als Subjekt bleibt die Form, sonst fällt do weg.
+      - type: language-task
+        id: ifragen-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Wörter passen? Lies zuerst den deutschen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Können Sie mir sagen, wann die Bibliothek öffnet?
+            target: Can you tell me when the library [opens]?
+            distractors: [[open, does open]]
+            mistakes:
+              - answer: Can you tell me when the library open?
+                message: Zu the library gehört opens.
+              - answer: Can you tell me when the library does open?
+                message: Hier fällt does weg.
+          - source: Weißt du, ob der Zug Verspätung hat?
+            target: Do you know [if] the train [is] late?
+            distractors: [[that, what], [does, are]]
+            mistakes:
+              - answer: Do you know that the train is late?
+                message: Hier steht if oder whether.
+              - answer: Do you know if the train does late?
+                message: Hier fehlt is.
+          - source: Sie fragte, wo ich wohnte.
+            target: She asked (|me )where I [lived].
+            distractors: [[live, did live]]
+            mistakes:
+              - answer: She asked where I live.
+                message: Das Fragen ist vorbei, also lived.
+              - answer: She asked where I did live.
+                message: Die Frage gibt did ab.
+      - type: ordering
+        id: ifragen-ordnen
+        text: "Ordne die Wörter zu einer höflichen Frage: Could you tell me where the toilets are?"
+        items:
+          - Could
+          - you
+          - tell
+          - me
+          - where
+          - the
+          - toilets
+          - are
+        explanation: Fragewort, Subjekt, dann das Verb.
+      - type: language-task
+        id: ifragen-bilden
+        languages: { source: de, target: en }
+        task: Mache aus der direkten Frage eine höfliche indirekte Frage. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "Where does the bus stop? · Could you tell me"
+            target: Could you tell me where the bus stops?
+            mistakes:
+              - answer: Could you tell me where does the bus stop?
+                message: Das does fällt weg, das Verb bekommt das -s.
+              - answer: Could you tell me where the bus stop?
+                message: Zu the bus gehört das -s, also stops.
+          - cue: "Is the pool open today? · Do you know"
+            target: Do you know (if|whether) the pool is open today?
+            mistakes:
+              - answer: Do you know is the pool open today?
+                message: Hier fehlen if oder whether.
+          - cue: "What did he say? · I wonder"
+            target: I wonder what he said.
+            mistakes:
+              - answer: I wonder what did he say.
+                message: Das did fällt weg.
+          - cue: "Who has the key? · I would like to know"
+            target: I would like to know who has the key.
+            mistakes:
+              - answer: I would like to know who have the key.
+                message: Who ist hier das Subjekt, darum bleibt has.
+              - answer: I would like to know who does have the key.
+                message: Who ist hier das Subjekt, darum kein does, also who has.
+      - type: language-task
+        id: ifragen-uebersetzen
+        languages: { source: de, target: en }
+        task: Übersetze den Satz.
+        hint: Nach dem Fragewort steht zuerst das Subjekt, dann das Verb.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Weißt du, wo mein Handy ist?
+            target: Do you know where my phone is?
+            mistakes:
+              - answer: Do you know where is my phone?
+                message: Das Subjekt steht vor dem Verb, also my phone is.
+          - source: Sie fragte, ob ich müde war.
+            target: She asked (|me )(if|whether) I was tired.
+            mistakes:
+              - answer: She asked if was I tired.
+                message: Das Subjekt steht vor dem Verb, also I was.
+          - source: Er wollte wissen, wohin wir gingen.
+            target: He wanted to know where we (went|were going|had gone).
+            mistakes:
+              - answer: He wanted to know where did we go.
+                message: Das did fällt weg, das Verb rückt zurück.
+      - type: language-task
+        id: ifragen-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: do-you-know-when-the-concert-starts.mp3
+            target: Do you know when the concert starts?
+          - audio: she-asked-me-whether-i-had-finished-my-homework.mp3
+            target: She asked me whether I had finished my homework.
+          - audio: i-wonder-how-many-people-live-in-this-village.mp3
+            target: I wonder how many people live in this village.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: ifragen-nachsprechen
+        language: en
+        items:
+          - audio: he-asked-me-where-i-had-put-my-keys.mp3
+            text: He asked me where I had put my keys.
+          - audio: can-you-tell-me-which-bus-goes-to-the-station.mp3
+            text: Can you tell me which bus goes to the station?
+          - audio: i-would-like-to-know-when-the-new-shop-opens.mp3
+            text: I would like to know when the new shop opens.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: ifragen-entscheidung
+        task: "Sophie schlägt in Zeile 15 den Samstag vor. Schreibe drei englische Sätze für die Gastfamilie: Gib mit asked oder wanted to know eine Frage aus Zeile 2 bis 4 weiter und wähle mit einem Grund aus der Antwort einen Tag."
+        points:
+          - text: Der Bericht gibt eine Frage aus Zeile 2 bis 4 der E-Mail weiter, mit Subjekt vor dem Verb und ohne do.
+            source: /verkuerzen-betonen/indirekte-fragen/#lesen
+          - text: Das Verb rückt eine Stufe zurück, zum Beispiel is zu was.
+            source: /verkuerzen-betonen/indirekte-fragen/#neu
+          - text: Der Grund nennt eine Angabe aus Zeile 6 bis 8 (Öffnungszeit, Preis, Workshop).
+            source: /verkuerzen-betonen/indirekte-fragen/#lesen
+        solution: |
+          I asked whether children could come in for free. They said that children under five did not pay. So I think that Saturday is a good day, because we can join the workshop.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Der Besuch klappt, aber am Samstag steht vor dem Museum eine lange Schlange, und das ärgert viele Gäste. Wie du mit einem Komma und which den ganzen Satz davor aufgreifst, siehst du auf der nächsten Seite."
