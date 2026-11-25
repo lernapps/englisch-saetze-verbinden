@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -158,14 +158,15 @@ page, which a link. -->
 - [x] Slice 4: Baustein `partizip-statt-relativsatz` (Seite, Figur satzstreifen-partizip-statt-relativsatz.svg, Lesestück, 6 Hörsätze). Ein zweiter Sub-Agent im eigenen Worktree darf diese Seite schreiben.
 - [x] Slice 5: Baustein `partizip-satzverknuepfung` (Seite, Figur satzstreifen-partizip-satzverknuepfung.svg, Lesestück, 6 Hörsätze). Derselbe zweite Sub-Agent wie Slice 4, andere Seitendatei.
 - [x] Slice 6: Baustein `ing-formen` (Seite, Figur satzstreifen-ing-formen.svg, Lesestück, 6 Hörsätze, Rückblick auf alle Karten des Kapitels). Ein dritter Sub-Agent im eigenen Worktree darf diese Seite schreiben.
-- [ ] Slice 7: Zusammenführen: Sub-Agent-Branches einzeln mergen, chapter.yaml mit selbstEinschätzung (selfAssessment) je Seite, app.yaml, Inhaltsführer (Überblick, Quellen mit Datum, Hörliste), audio-texte.json, Dubletten-Skript über alle Seiten, Gesamtcheck der App und Sprachprüfung mit Sub-Agenten. Nur ich.
+- [x] Slice 7: Zusammenführen: Sub-Agent-Branches einzeln mergen, chapter.yaml mit selbstEinschätzung (selfAssessment) je Seite, app.yaml, Inhaltsführer (Überblick, Quellen mit Datum, Hörliste), audio-texte.json, Dubletten-Skript über alle Seiten, Gesamtcheck der App und Sprachprüfung mit Sub-Agenten. Nur ich.
 <!-- tasks: slices (7 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+      Creator: Ja, die übrigen fünf Seiten dürfen nach diesem Muster folgen, mit den drei Sub-Agenten A, B, C, je Worktree. Antwort der Orchestrator-Session in der Rolle der Ersteller:in
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
 
@@ -176,7 +177,7 @@ page, which a link. -->
 
 ### Tasks
 
-- [ ] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
+- [x] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
       as it says. Commit.
 - [ ] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
