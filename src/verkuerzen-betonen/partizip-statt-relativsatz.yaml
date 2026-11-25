@@ -2,7 +2,7 @@
 title: "the boy sitting next to me: Relativsatz verkürzen"
 description: "Sophie schreibt über die neue Stadtbibliothek in einer alten Mühle. Du lernst, einen Relativsatz zu einem Partizip zu verkürzen: -ing für Aktiv, die 3. Form für Passiv."
 competencies: [partizip-statt-relativsatz]
-scope: "Die Seite zeigt, wie ein Relativsatz mit who, which oder that und is, are, was oder were zu einem Partizip hinter dem Nomen wird. Ein Aktivsatz bekommt -ing (the girl who is singing wird the girl singing), ein Passivsatz die 3. Form (a letter that was sent wird a letter sent). Auch ein Relativsatz ohne is, der einen Zustand beschreibt, kann -ing bekommen (the man who lives next door wird the man living next door). Ein Relativsatz mit eigenem Subjekt (the film that we saw) lässt sich nicht verkürzen. Die Seite nutzt das Passiv aus der Wiederholung. Das Lesestück ist ein erfundener Artikel über eine erfundene Bibliothek mit erfundenen Preisen und Zeiten, keine echten Fakten. Nicht hier, weil es spätere Seiten sind. Partizipgruppen am Satzanfang und die Unterschiede der Formen auf -ing."
+scope: "Die Seite zeigt, wie ein Relativsatz mit who, which oder that und is, are, was oder were zu einem Partizip hinter dem Nomen wird. Ein Aktivsatz bekommt -ing (the girl who is singing wird the girl singing), ein Passivsatz die 3. Form (a letter that was sent wird a letter sent). Auch ein Relativsatz ohne is, der einen Zustand beschreibt, kann -ing bekommen (the man who lives next door wird the man living next door). Ein Relativsatz mit eigenem Subjekt (the film that we saw) lässt sich nicht mit einem Partizip verkürzen (the film we saw ist ein Kontaktsatz aus Kapitel 2). -ing braucht eine laufende oder wiederholte Handlung: the man who came yesterday wird nicht the man coming yesterday. Die Seite nutzt das Passiv aus der Wiederholung. Das Lesestück ist ein erfundener Artikel über eine erfundene Bibliothek mit erfundenen Preisen und Zeiten, keine echten Fakten. Nicht hier, weil es spätere Seiten sind: Partizipialsätze am Satzanfang und die Unterschiede der Formen auf -ing."
 blocks:
   - type: section
     id: einstieg
@@ -31,9 +31,9 @@ blocks:
     title: Ein Artikel über die neue Bibliothek
     blocks:
       - type: text
-        text: "Jede Zeile hat eine Nummer. Beim Lesen: Achte auf die Wörter mit -ing und -ed direkt hinter einem Nomen."
+        text: "Jede Zeile hat eine Nummer. Achte beim Lesen auf die Wörter mit -ing und auf die 3. Form (placed, donated) direkt hinter einem Nomen."
       - type: table
-        caption: Artikel · Die Mühle am Fluss
+        caption: Artikel von Sophie · Die Mühle am Fluss
         header: [Nr, Text]
         rows:
           - [
@@ -91,11 +91,11 @@ blocks:
             ]
           - [
               "8",
-              "Young people under 18 pay £5 for a youth card valid for one year. With the card you can borrow eight books and use the computers for free.",
+              "Young people under 18 pay £5 for a youth card valid for one year. People owning a card can borrow eight books and use the computers for free.",
             ]
           - [
               "9",
-              "Visitors without a card pay £2 for each visit. They can read the books in the building, but they cannot take them home. Computers used by visitors without a card cost £1 an hour.",
+              "Visitors without a card pay £2 for each visit. They can read the books kept in the building, but they cannot take them home. Computers used by visitors without a card cost £1 an hour.",
             ]
           - [
               "10",
@@ -114,11 +114,11 @@ blocks:
     title: Die Relativkarte fällt weg
     blocks:
       - type: text
-        text: "Schau in Zeile 1: „The old mill standing next to the bridge …“ Aus „the mill that is standing …“ fallen die Relativkarte und **is** weg. Das **Partizip** steht direkt hinter dem Nomen: **-ing** für Aktiv, die **3. Form** für Passiv, wie im Passiv aus der Wiederholung."
+        text: "Schau in Zeile 1: „The old mill standing next to the bridge …“ Aus „the mill that is standing …“ fallen die Relativkarte (das Relativpronomen who, which, that, im Bild die farbige Karte) und **is** weg. Das **Partizip** steht direkt hinter dem Nomen. Das geht nur, wenn die Relativkarte das Subjekt ersetzt: Mit eigenem Subjekt (the song that I like) kannst du nicht mit einem Partizip verkürzen."
       - type: figure
         image: images/satzstreifen-partizip-statt-relativsatz.svg
-        alt: "Oben ein Relativsatz in Streifen: „the dog“, eine graue Karte „that“, „is“, eine dunkelbraune Karte „sleeping“ und „under the table“. Ein Pfeil zeigt von der braunen Karte nach unten zu einem kurzen Satz aus „the dog“, „sleeping“ und „under the table“. Darunter dasselbe mit einem Passivsatz: „the soup“, eine orangebraune Karte „which“, „was“, eine dunkelbraune Karte „cooked“ und „by my uncle“, nach unten wird daraus „the soup cooked by my uncle“. Eine Legende erklärt: Relativkarten fallen weg, dunkelbraune Karte = Partizip."
-        caption: "Aus „the dog that is sleeping under the table“ wird „the dog sleeping under the table“. Die Relativkarte und das Hilfsverb fallen weg, das Partizip rückt hinter das Nomen."
+        alt: "Oben ein Relativsatz in Streifen: „the dog“, eine graue Karte „that“, „is“, eine dunkelbraune Karte „sleeping“ und „under the table“. Ein Pfeil zeigt von der braunen Karte nach unten zu einem kurzen Satz aus „the dog“, „sleeping“ und „under the table“. Darunter dasselbe mit einem Passivsatz: „the soup“, eine orangebraune Karte „which“, „was“, eine dunkelbraune Karte „cooked“ und „by my uncle“, nach unten wird daraus „the soup cooked by my uncle“. Eine Legende erklärt: die Karten that und which fallen weg, dunkelbraune Karte = Partizip."
+        caption: "Aus „the dog that is sleeping under the table“ wird „the dog sleeping under the table“."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -131,11 +131,6 @@ blocks:
               "a letter sent by a friend",
               "that was fällt weg, die 3. Form bleibt",
             ]
-          - [
-              "the people who are standing near the door",
-              "the people standing near the door",
-              "Mehrere Personen, trotzdem -ing",
-            ]
           - ["the cars that are parked outside", "the cars parked outside", "Passiv, darum die 3. Form"]
           - ["the man who lives next door", "the man living next door", "Auch ohne is: lives wird living"]
       - type: note
@@ -143,7 +138,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Relativkarte und Hilfsverb fallen weg, das Partizip steht hinter dem Nomen.** Aktiv bekommt -ing, Passiv die 3. Form. Hat der Relativsatz ein eigenes Subjekt (the song that I like), kannst du ihn nicht verkürzen.
+              **Aktiv bekommt -ing, Passiv die 3. Form.** -ing passt zu einer Handlung, die läuft oder sich wiederholt. Eine abgeschlossene Handlung geht nicht: „the man who came yesterday“ wird nicht „the man coming yesterday“.
       - type: vocabulary
         caption: Wörter für die Übungen
         languages: { source: de, target: en }
@@ -153,6 +148,7 @@ blocks:
           - { target: "tourist", source: "Tourist / Touristin" }
           - { target: "friendly", source: "freundlich" }
           - { target: "cousin", source: "Cousin / Cousine" }
+          - { target: "football", source: "Fußball (in Großbritannien football, nicht soccer)" }
   - type: section
     id: uebung
     title: Übung
@@ -272,22 +268,24 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Das Haus, das an der Ecke steht, ist sehr alt.
-            target: The house standing on the corner is very old.
+            target: The house (standing|located) (on|at) the corner is (very|really) old.
             mistakes:
               - answer: The house which standing on the corner is very old.
                 message: which fällt mit is weg.
               - answer: The house stood on the corner is very old.
                 message: Aktiv braucht -ing.
           - source: Der Brief, der von meinem Vater geschrieben wurde, ist lang.
-            target: The letter written by my father is long.
+            target: The letter written by my (father|dad) is long.
             mistakes:
               - answer: The letter writing by my father is long.
                 message: Passiv braucht die 3. Form, written.
           - source: Die Jungen, die im Park Fußball spielen, sind laut.
-            target: The boys playing football in the park are loud.
+            target: The boys playing football in the park are (loud|noisy).
             mistakes:
               - answer: The boys who playing football in the park are loud.
                 message: who fällt mit are weg.
+              - answer: The boys playing soccer in the park are loud.
+                message: "Britisches Englisch: Fußball heißt football."
       - type: language-task
         id: partrel-hoeren
         languages: { source: de, target: en }
@@ -296,10 +294,10 @@ blocks:
         items:
           - audio: the-woman-working-in-the-shop-is-very-kind.mp3
             target: The woman working in the shop is very kind.
-          - audio: the-photos-taken-last-summer-are-on-my-phone.mp3
-            target: The photos taken last summer are on my phone.
-          - audio: the-tickets-bought-online-are-cheaper.mp3
-            target: The tickets bought online are cheaper.
+          - audio: the-lemonade-poured-into-the-jug-tastes-sweet.mp3
+            target: The lemonade poured into the jug tastes sweet.
+          - audio: the-tickets-bought-online-are-cheaper-than-the-ones-at-the-door.mp3
+            target: The tickets bought online are cheaper than the ones at the door.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -308,8 +306,8 @@ blocks:
         id: partrel-nachsprechen
         language: en
         items:
-          - audio: the-film-shown-on-friday-was-very-funny.mp3
-            text: The film shown on Friday was very funny.
+          - audio: the-sofa-chosen-last-week-is-very-comfortable.mp3
+            text: The sofa chosen last week is very comfortable.
           - audio: the-people-living-in-this-street-are-friendly.mp3
             text: The people living in this street are friendly.
           - audio: i-like-the-shoes-displayed-in-the-window.mp3
@@ -317,7 +315,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: partrel-entscheidung
-        task: "Sophie muss sich entscheiden: Jugendkarte oder Karte für jeden Besuch? Schreibe drei englische Sätze für sie. Nenne mit einem Partizip nach dem Nomen zwei Preise aus Zeile 8 oder 9 und begründe die Wahl mit Zeile 10."
+        task: "Sophie muss sich entscheiden: Jugendkarte oder Karte für jeden Besuch? Schreibe drei englische Sätze für sie. Nenne mit einem Partizip nach dem Nomen zwei Preise aus Zeile 8 oder 9 und begründe die Wahl mit Zeile 10. Beispiel: People paying for one visit spend £2."
         points:
           - text: Mindestens ein Satz hat ein Partizip statt eines Relativsatzes.
             source: /verkuerzen-betonen/partizip-statt-relativsatz/#neu
@@ -326,7 +324,7 @@ blocks:
           - text: Der Grund nutzt Zeile 10 (jeden Mittwoch, zwei Monate) und vergleicht.
             source: /verkuerzen-betonen/partizip-statt-relativsatz/#lesen
         solution: |
-          Young people buying a youth card pay £5 for one year. Visitors paying for each visit spend £2 every time, so eight Wednesdays cost £16. I think that the youth card is the better choice, because Sophie wants to go every week.
+          Young people buying a youth card pay £5 for one year. Visitors without a card spend £2 every time, so eight Wednesdays cost £16. I think that the youth card is the better choice, because Sophie wants to go every week.
   - type: section
     id: weiter
     title: Wie es weitergeht
